@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   metadataBase: new URL(SITE_URL),
+  verification: {
+    google: "hpIpFYfdgSPl618-Rio88ECx5X5-jpaG3ZrgTgYHzLs",
+  },
   alternates: {
     types: {
       "application/rss+xml": "/rss.xml",
