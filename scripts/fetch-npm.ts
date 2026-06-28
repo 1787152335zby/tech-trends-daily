@@ -60,7 +60,7 @@ async function fetchGitHubStats(repositoryUrl: string): Promise<{ stars: number;
     if (!res.ok) return null;
     const data = await res.json();
     if (res.status === 403 && data.message) {
-      console.error(`  [npm] GitHub API rate-limit likely exceeded for ${owner}/${repo}: ${data.message}`);
+      console.error(`  [npm] GitHub API rate-limit exceeded for ${repositoryUrl}: ${data.message}`);
       return null;
     }
     return {
