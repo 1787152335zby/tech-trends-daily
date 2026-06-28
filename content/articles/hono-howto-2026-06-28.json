@@ -35,17 +35,17 @@
       "nodejs"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T05:33:41.789Z",
-    "updatedAt": "2026-06-28T05:33:41.789Z",
+    "createdAt": "2026-06-28T05:51:04.739Z",
+    "updatedAt": "2026-06-28T05:51:04.739Z",
     "homepage": "https://hono.dev",
     "source": "npm",
     "category": "backend"
   },
   "relatedSlugs": [
     "express",
-    "prisma",
-    "kysely",
-    "fastify"
+    "graphql",
+    "fastify",
+    "elysia"
   ],
   "tags": [
     "hono",

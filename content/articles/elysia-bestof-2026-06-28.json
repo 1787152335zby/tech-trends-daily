@@ -24,8 +24,8 @@
       "server"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T05:33:42.017Z",
-    "updatedAt": "2026-06-28T05:33:42.017Z",
+    "createdAt": "2026-06-28T05:51:05.530Z",
+    "updatedAt": "2026-06-28T05:51:05.530Z",
     "homepage": "https://github.com/elysiajs/elysia",
     "source": "npm",
     "category": "backend"
@@ -33,8 +33,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "prisma",
-    "kysely"
+    "graphql",
+    "fastify"
   ],
   "tags": [
     "bun",

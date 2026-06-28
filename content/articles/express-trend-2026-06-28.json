@@ -30,17 +30,17 @@
       "api"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T05:33:41.432Z",
-    "updatedAt": "2026-06-28T05:33:41.432Z",
+    "createdAt": "2026-06-28T05:51:03.125Z",
+    "updatedAt": "2026-06-28T05:51:03.125Z",
     "homepage": "https://expressjs.com/",
     "source": "npm",
     "category": "backend"
   },
   "relatedSlugs": [
     "hono",
-    "prisma",
-    "kysely",
-    "fastify"
+    "graphql",
+    "fastify",
+    "elysia"
   ],
   "tags": [
     "express",

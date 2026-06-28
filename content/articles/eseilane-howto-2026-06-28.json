@@ -41,8 +41,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "prisma",
-    "kysely"
+    "graphql",
+    "fastify"
   ],
   "tags": [
     "ai",

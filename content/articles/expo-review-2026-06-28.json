@@ -21,17 +21,17 @@
       "expo"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T05:33:47.380Z",
-    "updatedAt": "2026-06-28T05:33:47.380Z",
+    "createdAt": "2026-06-28T05:51:42.859Z",
+    "updatedAt": "2026-06-28T05:51:42.859Z",
     "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
     "source": "npm",
     "category": "mobile"
   },
   "relatedSlugs": [
     "contained-app",
-    "cmux-iphone",
-    "icontainu",
-    "lattecam"
+    "quotalens",
+    "claudemon",
+    "droidmirroring-mac"
   ],
   "tags": [
     "expo"

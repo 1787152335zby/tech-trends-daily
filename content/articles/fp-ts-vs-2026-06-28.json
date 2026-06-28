@@ -23,17 +23,17 @@
       "functional-programming"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T05:33:45.688Z",
-    "updatedAt": "2026-06-28T05:33:45.688Z",
+    "createdAt": "2026-06-28T05:51:25.889Z",
+    "updatedAt": "2026-06-28T05:51:25.889Z",
     "homepage": "https://github.com/gcanti/fp-ts",
     "source": "npm",
     "category": "language"
   },
   "relatedSlugs": [
     "typescript",
-    "zod",
     "tsx",
-    "valibot"
+    "valibot",
+    "bun"
   ],
   "tags": [
     "typescript",

@@ -26,17 +26,17 @@
       "vite"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T05:33:42.081Z",
-    "updatedAt": "2026-06-28T05:33:42.081Z",
+    "createdAt": "2026-06-28T05:51:06.974Z",
+    "updatedAt": "2026-06-28T05:51:06.974Z",
     "homepage": "https://vite.dev",
     "source": "npm",
     "category": "frontend"
   },
   "relatedSlugs": [
     "react",
+    "zustand",
     "next",
-    "preact",
-    "storybook"
+    "cheerio"
   ],
   "tags": [
     "build-tool",

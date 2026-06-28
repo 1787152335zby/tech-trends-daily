@@ -45,6 +45,34 @@ function mapPackageToCategory(pkg: { name: string; keywords?: string[] }): Artic
   return "tools";
 }
 
+/**
+ * Try to extract GitHub owner/repo from npm repository URL and fetch star stats.
+ * Return null silently on any failure (no GitHub repo, rate-limited, network error).
+ */
+async function fetchGitHubStats(repositoryUrl: string): Promise<{ stars: number; forks: number; openIssues: number } | null> {
+  if (!repositoryUrl) return null;
+  const m = repositoryUrl.match(/github\.com[\/:]([^/]+)\/([^/.]+?)(?:\.git)?$/);
+  if (!m) return null;
+  try {
+    const res = await fetch(`https://api.github.com/repos/${m[1]}/${m[2]}`, {
+      headers: { Accept: "application/vnd.github.v3+json" },
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (res.status === 403 && data.message) {
+      console.error(`  [npm] GitHub API rate-limit likely exceeded for ${owner}/${repo}: ${data.message}`);
+      return null;
+    }
+    return {
+      stars: data.stargazers_count || 0,
+      forks: data.forks_count || 0,
+      openIssues: data.open_issues_count || 0,
+    };
+  } catch {
+    return null;
+  }
+}
+
 async function getDownloads(pkgName: string): Promise<number> {
   try {
     const url = `${FETCH_SOURCES.npm.endpoint}/${pkgName}`;
@@ -110,6 +138,19 @@ async function fetchNpmTrending(): Promise<RepoData[]> {
         source: "npm",
         category: mapPackageToCategory(info),
       });
+
+      // Enrich with GitHub star/fork/issue counts when the npm registry links a GitHub repo.
+      const last = results[results.length - 1];
+    if (info.repository) {
+      // Small delay between GitHub API calls to stay under the unauthenticated 60 req/hr limit.
+      await new Promise((r) => setTimeout(r, 200));
+      const ghStats = await fetchGitHubStats(info.repository);
+      if (ghStats) {
+        last.stars = ghStats.stars;
+        last.forks = ghStats.forks;
+        last.openIssues = ghStats.openIssues;
+      }
+    }
     } catch (err) {
       console.error(`  [NPM] ${pkgName}: error:`, err);
     }
