@@ -292,6 +292,31 @@ function generateAll(): void {
   fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2));
 
   console.log(`Generated ${articles.length} new articles; index now has ${merged.length} total`);
+
+  // Backfill star/fork/issue data from newest entries to older entries for the same package.
+  const byPackageId = new Map<string, { stars: number; forks: number; openIssues: number }>();
+  for (const a of merged) {
+    if (a.sourceData.stars > 0) {
+      byPackageId.set(a.sourceData.id, { stars: a.sourceData.stars, forks: a.sourceData.forks, openIssues: a.sourceData.openIssues });
+    }
+  }
+  let enriched = 0;
+  for (const a of merged) {
+    if (a.sourceData.stars === 0) {
+      const latest = byPackageId.get(a.sourceData.id);
+      if (latest) {
+        a.sourceData.stars = latest.stars;
+        a.sourceData.forks = latest.forks;
+        a.sourceData.openIssues = latest.openIssues;
+        fs.writeFileSync(path.join(CONTENT_DIR, `${a.slug}.json`), JSON.stringify(a, null, 2));
+        enriched++;
+      }
+    }
+  }
+  if (enriched > 0) {
+    fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2));
+    console.log(`Backfilled ${enriched} older articles with up-to-date star data`);
+  }
 }
 
 generateAll();
