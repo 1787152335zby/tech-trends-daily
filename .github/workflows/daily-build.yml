@@ -48,5 +48,17 @@ jobs:
             echo "No content changes to commit."
           else
             git commit -m "chore: automated daily content update [skip ci]"
-            git push
+            # Retry with rebase to survive concurrent pushes to master.
+            for attempt in 1 2 3 4 5; do
+              if git push origin HEAD:master; then
+                echo "Push succeeded on attempt $attempt."
+                break
+              fi
+              echo "Push attempt $attempt failed; rebasing on latest remote and retrying..."
+              git pull --rebase origin master
+              if [ "$attempt" = "5" ]; then
+                echo "Push still failing after 5 attempts." >&2
+                exit 1
+              fi
+            done
           fi
