@@ -33,16 +33,16 @@
     ],
     "license": "Apache-2.0",
     "createdAt": "2026-06-22T10:58:05Z",
-    "updatedAt": "2026-06-27T18:37:25Z",
+    "updatedAt": "2026-06-28T08:22:06Z",
     "homepage": "",
     "source": "github",
     "category": "mobile"
   },
   "relatedSlugs": [
     "contained-app",
+    "macos-tskmgr",
     "quotalens",
-    "claudemon",
-    "droidmirroring-mac"
+    "claudemon"
   ],
   "tags": [
     "android",

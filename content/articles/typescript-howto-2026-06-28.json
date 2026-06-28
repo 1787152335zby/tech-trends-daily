@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 109422,
     "starsGrowth": 217818074,
-    "forks": 13451,
+    "forks": 13452,
     "openIssues": 5047,
     "topics": [
       "TypeScript",
@@ -25,8 +25,8 @@
       "javascript"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-28T06:32:58.770Z",
-    "updatedAt": "2026-06-28T06:32:58.770Z",
+    "createdAt": "2026-06-28T08:51:36.163Z",
+    "updatedAt": "2026-06-28T08:51:36.163Z",
     "homepage": "https://www.typescriptlang.org/",
     "source": "npm",
     "category": "language"
@@ -35,7 +35,7 @@
     "zod",
     "tsx",
     "valibot",
-    "fp-ts"
+    "typebox"
   ],
   "tags": [
     "TypeScript",

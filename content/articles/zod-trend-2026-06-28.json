@@ -25,8 +25,8 @@
       "inference"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T06:33:01.775Z",
-    "updatedAt": "2026-06-28T06:33:01.775Z",
+    "createdAt": "2026-06-28T08:51:38.875Z",
+    "updatedAt": "2026-06-28T08:51:38.875Z",
     "homepage": "https://zod.dev",
     "source": "npm",
     "category": "language"
@@ -35,7 +35,7 @@
     "typescript",
     "tsx",
     "valibot",
-    "fp-ts"
+    "typebox"
   ],
   "tags": [
     "typescript",

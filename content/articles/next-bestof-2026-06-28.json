@@ -30,8 +30,8 @@
       "vercel"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T06:32:51.834Z",
-    "updatedAt": "2026-06-28T06:32:51.834Z",
+    "createdAt": "2026-06-28T08:51:29.523Z",
+    "updatedAt": "2026-06-28T08:51:29.523Z",
     "homepage": "https://nextjs.org",
     "source": "npm",
     "category": "frontend"
@@ -39,8 +39,8 @@
   "relatedSlugs": [
     "react",
     "vite",
-    "zustand",
-    "preact"
+    "preact",
+    "storybook"
   ],
   "tags": [
     "react",
