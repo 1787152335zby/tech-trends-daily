@@ -263,17 +263,35 @@ function generateAll(): void {
     return buildArticle(repo, related);
   });
 
-  // Write each article
+  // Write each article file
   for (const article of articles) {
     const fp = path.join(CONTENT_DIR, `${article.slug}.json`);
     fs.writeFileSync(fp, JSON.stringify(article, null, 2));
   }
 
-  // Generate index
+  // Merge with existing index so historical articles (and their URLs) persist.
   const indexPath = path.join(CONTENT_DIR, "index.json");
-  fs.writeFileSync(indexPath, JSON.stringify(articles, null, 2));
+  let existing: Article[] = [];
+  if (fs.existsSync(indexPath)) {
+    try {
+      existing = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
+    } catch {
+      existing = [];
+    }
+  }
 
-  console.log(`Generated ${articles.length} articles in ${CONTENT_DIR}`);
+  const bySlug = new Map<string, Article>();
+  for (const a of existing) bySlug.set(a.slug, a);
+  for (const a of articles) bySlug.set(a.slug, a);
+
+  const MAX_ARTICLES = 2000;
+  const merged = Array.from(bySlug.values())
+    .sort((x, y) => (y.publishedAt > x.publishedAt ? 1 : y.publishedAt < x.publishedAt ? -1 : 0))
+    .slice(0, MAX_ARTICLES);
+
+  fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2));
+
+  console.log(`Generated ${articles.length} new articles; index now has ${merged.length} total`);
 }
 
 generateAll();

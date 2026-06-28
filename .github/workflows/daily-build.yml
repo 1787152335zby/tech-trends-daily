@@ -1,12 +1,21 @@
-name: Daily Build & Deploy
+name: Daily Content Update
 
 on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+# Allow the workflow to push generated content back to the repo.
+permissions:
+  contents: write
+
+# Prevent overlapping runs from racing on the same branch.
+concurrency:
+  group: daily-content-update
+  cancel-in-progress: false
+
 jobs:
-  build-and-deploy:
+  update-content:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -27,13 +36,17 @@ jobs:
       - name: Generate articles
         run: npx tsx scripts/generate-articles.ts
 
-      - name: Build Next.js site
+      - name: Verify build succeeds
         run: npx next build
 
-      - name: Deploy to Vercel
-        uses: amondnet/vercel-action@v25
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          vercel-args: "--prod"
+      - name: Commit and push updated content
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content data public/sitemap*.xml public/robots.txt
+          if git diff --staged --quiet; then
+            echo "No content changes to commit."
+          else
+            git commit -m "chore: automated daily content update [skip ci]"
+            git push
+          fi
