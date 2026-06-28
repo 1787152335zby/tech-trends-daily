@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-28T08:51:47.255Z",
-    "updatedAt": "2026-06-28T08:51:47.255Z",
+    "createdAt": "2026-06-28T13:45:57.252Z",
+    "updatedAt": "2026-06-28T13:45:57.252Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "dspark-speculative-decoding-accelerates-llm-inference-pdf"
+    "the-best-response-to-ai-slop-and-online-noise-is-from-robin-"
   ],
   "tags": [
     "chroma",

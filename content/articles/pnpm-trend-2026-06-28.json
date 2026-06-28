@@ -16,7 +16,7 @@
     "stars": 35636,
     "starsGrowth": 114248218,
     "forks": 1547,
-    "openIssues": 2388,
+    "openIssues": 2390,
     "topics": [
       "pnpm",
       "pnpm11",
@@ -45,8 +45,8 @@
       "workspace"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T08:51:47.871Z",
-    "updatedAt": "2026-06-28T08:51:47.871Z",
+    "createdAt": "2026-06-28T13:45:57.915Z",
+    "updatedAt": "2026-06-28T13:45:57.915Z",
     "homepage": "https://pnpm.io",
     "source": "npm",
     "category": "tools"

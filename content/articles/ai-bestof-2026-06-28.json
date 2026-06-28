@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/ai",
     "description": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
     "language": "JavaScript/TypeScript",
-    "stars": 25196,
+    "stars": 25203,
     "starsGrowth": 15892744,
     "forks": 4671,
-    "openIssues": 1804,
+    "openIssues": 1805,
     "topics": [
       "ai",
       "vercel",
@@ -43,8 +43,8 @@
       "grok"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-28T08:51:46.717Z",
-    "updatedAt": "2026-06-28T08:51:46.717Z",
+    "createdAt": "2026-06-28T13:45:56.723Z",
+    "updatedAt": "2026-06-28T13:45:56.723Z",
     "homepage": "https://ai-sdk.dev/docs",
     "source": "npm",
     "category": "ai-ml"
@@ -53,7 +53,7 @@
     "openai",
     "langchain",
     "chromadb",
-    "dspark-speculative-decoding-accelerates-llm-inference-pdf"
+    "the-best-response-to-ai-slop-and-online-noise-is-from-robin-"
   ],
   "tags": [
     "ai",

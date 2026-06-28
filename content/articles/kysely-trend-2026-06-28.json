@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/kysely",
     "description": "Type safe SQL query builder",
     "language": "JavaScript/TypeScript",
-    "stars": 13981,
+    "stars": 13983,
     "starsGrowth": 9189582,
     "forks": 420,
     "openIssues": 167,
@@ -35,8 +35,8 @@
       "plugins"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T08:51:43.015Z",
-    "updatedAt": "2026-06-28T08:51:43.015Z",
+    "createdAt": "2026-06-28T13:45:53.148Z",
+    "updatedAt": "2026-06-28T13:45:53.148Z",
     "homepage": "https://kysely.dev",
     "source": "npm",
     "category": "backend"

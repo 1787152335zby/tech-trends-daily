@@ -36,10 +36,10 @@
     "category": "mobile"
   },
   "relatedSlugs": [
+    "dialstylepicker",
+    "bringing-swift-to-the-apple",
     "contained-app",
-    "macos-tskmgr",
-    "quotalens",
-    "claudemon"
+    "quotalens"
   ],
   "tags": [
     "adb",

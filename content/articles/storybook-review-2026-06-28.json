@@ -35,8 +35,8 @@
       "web-components"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T08:51:44.744Z",
-    "updatedAt": "2026-06-28T08:51:44.744Z",
+    "createdAt": "2026-06-28T13:45:54.898Z",
+    "updatedAt": "2026-06-28T13:45:54.898Z",
     "homepage": "https://storybook.js.org",
     "source": "npm",
     "category": "frontend"
@@ -45,7 +45,7 @@
     "react",
     "vite",
     "next",
-    "preact"
+    "cheerio"
   ],
   "tags": [
     "storybook",

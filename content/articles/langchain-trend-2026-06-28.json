@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T08:51:45.513Z",
-    "updatedAt": "2026-06-28T08:51:45.513Z",
+    "createdAt": "2026-06-28T13:45:55.625Z",
+    "updatedAt": "2026-06-28T13:45:55.625Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "dspark-speculative-decoding-accelerates-llm-inference-pdf"
+    "the-best-response-to-ai-slop-and-online-noise-is-from-robin-"
   ],
   "tags": [
     "llm",
