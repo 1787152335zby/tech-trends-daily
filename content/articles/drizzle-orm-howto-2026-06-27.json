@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/drizzle-orm",
     "description": "Drizzle ORM package for SQL databases",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 34963,
     "starsGrowth": 11541462,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 1463,
+    "openIssues": 1873,
     "topics": [
       "drizzle",
       "orm",

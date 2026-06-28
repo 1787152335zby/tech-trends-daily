@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/zustand",
     "description": "🐻 Bear necessities for state management in React",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 58409,
     "starsGrowth": 42678307,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 2080,
+    "openIssues": 5,
     "topics": [
       "react",
       "state",

@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/expo",
     "description": "The Expo SDK",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 50315,
     "starsGrowth": 0,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 12894,
+    "openIssues": 643,
     "topics": [
       "expo"
     ],

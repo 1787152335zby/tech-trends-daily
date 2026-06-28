@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/lucide-react",
     "description": "A Lucide icon library package for React applications.",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 23163,
     "starsGrowth": 84373115,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 1436,
+    "openIssues": 536,
     "topics": [
       "Lucide",
       "React",

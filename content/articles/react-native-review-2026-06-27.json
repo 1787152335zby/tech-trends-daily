@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/react-native",
     "description": "A framework for building native apps using React",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 126113,
     "starsGrowth": 10391864,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 25182,
+    "openIssues": 1043,
     "topics": [
       "react",
       "react-native",

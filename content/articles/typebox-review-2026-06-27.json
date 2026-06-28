@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/typebox",
     "description": "Json Schema Type Builder with Static Type Resolution for TypeScript",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 6771,
     "starsGrowth": 4288358,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 206,
+    "openIssues": 5,
     "topics": [
       "typescript",
       "jsonschema"

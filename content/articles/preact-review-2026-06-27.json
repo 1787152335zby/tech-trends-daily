@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/preact",
     "description": "Fast 3kb React-compatible Virtual DOM library.",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 38722,
     "starsGrowth": 23515703,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 2039,
+    "openIssues": 149,
     "topics": [
       "preact",
       "react",

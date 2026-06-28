@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/hono",
     "description": "Web framework built on Web Standards",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 31146,
     "starsGrowth": 49998546,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 1142,
+    "openIssues": 368,
     "topics": [
       "hono",
       "web",

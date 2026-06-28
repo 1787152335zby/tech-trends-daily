@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/luxon",
     "description": "Immutable date wrapper",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 16417,
     "starsGrowth": 0,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 782,
+    "openIssues": 189,
     "topics": [
       "date",
       "immutable"

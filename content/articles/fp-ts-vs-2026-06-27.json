@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/fp-ts",
     "description": "Functional programming in TypeScript",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 11524,
     "starsGrowth": 6036744,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 514,
+    "openIssues": 191,
     "topics": [
       "typescript",
       "algebraic-data-types",

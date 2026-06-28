@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/lucide-svelte",
     "description": "A Lucide icon library package for Svelte applications.",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 23163,
     "starsGrowth": 315846,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 1436,
+    "openIssues": 536,
     "topics": [
       "Lucide",
       "Svelte",

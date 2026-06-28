@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/langchain",
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 17862,
     "starsGrowth": 2493479,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 3222,
+    "openIssues": 362,
     "topics": [
       "llm",
       "ai",

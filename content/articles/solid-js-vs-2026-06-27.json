@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/solid-js",
     "description": "A declarative JavaScript library for building user interfaces.",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 35664,
     "starsGrowth": 2819769,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 1072,
+    "openIssues": 59,
     "topics": [
       "solid",
       "solidjs",

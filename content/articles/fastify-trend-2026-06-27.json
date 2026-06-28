@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/fastify",
     "description": "Fast and low overhead web framework, for Node.js",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 36611,
     "starsGrowth": 8691504,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 2751,
+    "openIssues": 152,
     "topics": [
       "web",
       "framework",

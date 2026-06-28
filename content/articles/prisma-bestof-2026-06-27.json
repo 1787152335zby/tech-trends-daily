@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/prisma",
     "description": "Prisma is an open-source database toolkit. It includes a JavaScript/TypeScript ORM for Node.js, migrations and a modern GUI to view and edit the data in your database. You can use Prisma in new projects or add it to an existing one.",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 46411,
     "starsGrowth": 13273256,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 2252,
+    "openIssues": 2629,
     "topics": [
       "CLI",
       "ORM",

@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/vitest",
     "description": "Next generation testing framework powered by Vite",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 16771,
     "starsGrowth": 69955402,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 1841,
+    "openIssues": 391,
     "topics": [
       "vite",
       "vitest",

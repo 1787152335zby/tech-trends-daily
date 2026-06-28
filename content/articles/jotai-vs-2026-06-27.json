@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/jotai",
     "description": "👻 Primitive and flexible state management for React",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 21213,
     "starsGrowth": 5340274,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 721,
+    "openIssues": 5,
     "topics": [
       "react",
       "state",

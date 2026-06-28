@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/vue",
     "description": "The progressive JavaScript framework for building modern web UI.",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 53886,
     "starsGrowth": 13793459,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 9155,
+    "openIssues": 906,
     "topics": [
       "vue"
     ],

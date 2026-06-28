@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/elysia",
     "description": "Ergonomic Framework for Human",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 18588,
     "starsGrowth": 592518,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 548,
+    "openIssues": 344,
     "topics": [
       "bun",
       "http",

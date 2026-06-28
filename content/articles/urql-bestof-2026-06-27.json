@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/urql",
     "description": "A highly customizable and versatile GraphQL client for React",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 8960,
     "starsGrowth": 1029513,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 477,
+    "openIssues": 27,
     "topics": [
       "graphql client",
       "state management",

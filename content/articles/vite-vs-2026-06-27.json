@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/vite",
     "description": "Native-ESM powered web dev build tool",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 81674,
     "starsGrowth": 139953915,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 8354,
+    "openIssues": 739,
     "topics": [
       "build-tool",
       "dev-server",

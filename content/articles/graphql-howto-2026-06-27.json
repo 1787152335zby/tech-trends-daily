@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/graphql",
     "description": "A Query Language and Runtime which can target any service.",
     "language": "JavaScript/TypeScript",
-    "stars": 0,
+    "stars": 20415,
     "starsGrowth": 41378715,
-    "forks": 0,
-    "openIssues": 0,
+    "forks": 2045,
+    "openIssues": 89,
     "topics": [
       "graphql",
       "graphql-js"
