@@ -4,7 +4,7 @@ import ArticleCard from "@/components/ArticleCard";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-interface Props { params: { slug: string }; }
+interface Props { params: Promise<{ slug: string }>; }
 
 const VALID_SLUGS = Object.keys(CATEGORY_LABELS) as ArticleCategory[];
 
@@ -14,8 +14,8 @@ export async function generateStaticParams() {
 export const dynamicParams = false;
 export const dynamic = "force-static";
 
-export default function CategoryPage({ params }: Props) {
-  const { slug } = params;
+export default async function CategoryPage({ params }: Props) {
+  const { slug } = await params;
   const label = CATEGORY_LABELS[slug as ArticleCategory];
   if (!label) notFound();
 

@@ -5,7 +5,7 @@ import AdUnit from "@/components/AdUnit";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-interface Props { params: { slug: string }; }
+interface Props { params: Promise<{ slug: string }>; }
 
 export async function generateStaticParams() {
   const articles = loadAllArticles();
@@ -16,8 +16,8 @@ export const dynamic = "force-static";
 
 function fmt(n: number): string { return n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n); }
 
-export default function ArticlePage({ params }: Props) {
-  const { slug } = params;
+export default async function ArticlePage({ params }: Props) {
+  const { slug } = await params;
   const article = loadArticle(slug);
   if (!article) notFound();
 
