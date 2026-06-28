@@ -28,17 +28,17 @@
       "typescript"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T05:51:21.011Z",
-    "updatedAt": "2026-06-28T05:51:21.011Z",
+    "createdAt": "2026-06-28T05:33:45.128Z",
+    "updatedAt": "2026-06-28T05:33:45.128Z",
     "homepage": "https://bun.com",
     "source": "npm",
     "category": "language"
   },
   "relatedSlugs": [
     "typescript",
+    "zod",
     "tsx",
-    "valibot",
-    "wal-rus-a-rust-rewrite-of-wal-g-for-postgresql-backups"
+    "valibot"
   ],
   "tags": [
     "bun",
