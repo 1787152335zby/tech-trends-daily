@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/react-native",
     "description": "A framework for building native apps using React",
     "language": "JavaScript/TypeScript",
-    "stars": 126115,
+    "stars": 126117,
     "starsGrowth": 0,
-    "forks": 25185,
-    "openIssues": 1043,
+    "forks": 25184,
+    "openIssues": 1044,
     "topics": [
       "react",
       "react-native",
@@ -28,8 +28,8 @@
       "mobile-development"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T13:46:08.338Z",
-    "updatedAt": "2026-06-28T13:46:08.338Z",
+    "createdAt": "2026-06-28T19:19:41.263Z",
+    "updatedAt": "2026-06-28T19:19:41.263Z",
     "homepage": "https://reactnative.dev/",
     "source": "npm",
     "category": "frontend"
@@ -38,7 +38,7 @@
     "react",
     "vite",
     "next",
-    "cheerio"
+    "preact"
   ],
   "tags": [
     "react",

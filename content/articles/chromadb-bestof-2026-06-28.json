@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-28T13:45:57.252Z",
-    "updatedAt": "2026-06-28T13:45:57.252Z",
+    "createdAt": "2026-06-28T19:19:29.605Z",
+    "updatedAt": "2026-06-28T19:19:29.605Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "the-best-response-to-ai-slop-and-online-noise-is-from-robin-"
+    "a-way-to-exclude-sensitive-files-issue-still-open-for-openai"
   ],
   "tags": [
     "chroma",

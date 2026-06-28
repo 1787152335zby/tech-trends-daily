@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-28T13:45:55.625Z",
-    "updatedAt": "2026-06-28T13:45:55.625Z",
+    "createdAt": "2026-06-28T19:19:27.841Z",
+    "updatedAt": "2026-06-28T19:19:27.841Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "the-best-response-to-ai-slop-and-online-noise-is-from-robin-"
+    "a-way-to-exclude-sensitive-files-issue-still-open-for-openai"
   ],
   "tags": [
     "llm",
