@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 17867,
     "starsGrowth": 2473025,
-    "forks": 3224,
+    "forks": 3225,
     "openIssues": 368,
     "topics": [
       "llm",
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-29T10:59:34.936Z",
-    "updatedAt": "2026-06-29T10:59:34.936Z",
+    "createdAt": "2026-06-29T15:45:48.973Z",
+    "updatedAt": "2026-06-29T15:45:48.973Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "professor-denounces-mass-ai-fraud-on-an-exam-at-brown"
+    "tidal-ai-policy"
   ],
   "tags": [
     "llm",

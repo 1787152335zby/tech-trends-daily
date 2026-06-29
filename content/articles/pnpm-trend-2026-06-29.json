@@ -15,8 +15,8 @@
     "language": "JavaScript/TypeScript",
     "stars": 35649,
     "starsGrowth": 113954193,
-    "forks": 1548,
-    "openIssues": 2399,
+    "forks": 1547,
+    "openIssues": 2404,
     "topics": [
       "pnpm",
       "pnpm11",
@@ -45,8 +45,8 @@
       "workspace"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-29T10:59:37.156Z",
-    "updatedAt": "2026-06-29T10:59:37.156Z",
+    "createdAt": "2026-06-29T15:45:50.826Z",
+    "updatedAt": "2026-06-29T15:45:50.826Z",
     "homepage": "https://pnpm.io",
     "source": "npm",
     "category": "tools"

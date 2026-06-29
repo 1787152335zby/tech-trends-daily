@@ -13,9 +13,9 @@
     "url": "https://www.npmjs.com/package/ai",
     "description": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
     "language": "JavaScript/TypeScript",
-    "stars": 25232,
+    "stars": 25236,
     "starsGrowth": 15752357,
-    "forks": 4678,
+    "forks": 4682,
     "openIssues": 1808,
     "topics": [
       "ai",
@@ -43,8 +43,8 @@
       "grok"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-29T10:59:36.093Z",
-    "updatedAt": "2026-06-29T10:59:36.093Z",
+    "createdAt": "2026-06-29T15:45:49.743Z",
+    "updatedAt": "2026-06-29T15:45:49.743Z",
     "homepage": "https://ai-sdk.dev/docs",
     "source": "npm",
     "category": "ai-ml"
@@ -53,7 +53,7 @@
     "openai",
     "langchain",
     "chromadb",
-    "professor-denounces-mass-ai-fraud-on-an-exam-at-brown"
+    "tidal-ai-policy"
   ],
   "tags": [
     "ai",

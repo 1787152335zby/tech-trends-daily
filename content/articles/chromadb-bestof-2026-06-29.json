@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-29T10:59:36.579Z",
-    "updatedAt": "2026-06-29T10:59:36.579Z",
+    "createdAt": "2026-06-29T15:45:50.397Z",
+    "updatedAt": "2026-06-29T15:45:50.397Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "professor-denounces-mass-ai-fraud-on-an-exam-at-brown"
+    "tidal-ai-policy"
   ],
   "tags": [
     "chroma",

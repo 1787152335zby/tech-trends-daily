@@ -15,14 +15,14 @@
     "language": "JavaScript/TypeScript",
     "stars": 53894,
     "starsGrowth": 13754546,
-    "forks": 9155,
+    "forks": 9156,
     "openIssues": 911,
     "topics": [
       "vue"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-29T10:59:21.038Z",
-    "updatedAt": "2026-06-29T10:59:21.038Z",
+    "createdAt": "2026-06-29T15:45:35.120Z",
+    "updatedAt": "2026-06-29T15:45:35.120Z",
     "homepage": "https://vuejs.org/",
     "source": "npm",
     "category": "frontend"
