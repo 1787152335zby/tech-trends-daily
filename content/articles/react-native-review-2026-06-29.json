@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/react-native",
     "description": "A framework for building native apps using React",
     "language": "JavaScript/TypeScript",
-    "stars": 126117,
+    "stars": 126119,
     "starsGrowth": 0,
-    "forks": 25182,
-    "openIssues": 1045,
+    "forks": 25179,
+    "openIssues": 1042,
     "topics": [
       "react",
       "react-native",
@@ -28,8 +28,8 @@
       "mobile-development"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-29T03:54:28.355Z",
-    "updatedAt": "2026-06-29T03:54:28.355Z",
+    "createdAt": "2026-06-29T10:59:46.979Z",
+    "updatedAt": "2026-06-29T10:59:46.979Z",
     "homepage": "https://reactnative.dev/",
     "source": "npm",
     "category": "frontend"

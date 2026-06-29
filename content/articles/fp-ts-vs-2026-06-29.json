@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/fp-ts",
     "description": "Functional programming in TypeScript",
     "language": "JavaScript/TypeScript",
-    "stars": 11524,
+    "stars": 11527,
     "starsGrowth": 0,
     "forks": 514,
     "openIssues": 191,
@@ -23,8 +23,8 @@
       "functional-programming"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-29T03:54:21.072Z",
-    "updatedAt": "2026-06-29T03:54:21.072Z",
+    "createdAt": "2026-06-29T10:59:39.136Z",
+    "updatedAt": "2026-06-29T10:59:39.136Z",
     "homepage": "https://github.com/gcanti/fp-ts",
     "source": "npm",
     "category": "language"
