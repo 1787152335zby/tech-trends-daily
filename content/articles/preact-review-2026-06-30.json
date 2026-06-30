@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/preact",
     "description": "Fast 3kb React-compatible Virtual DOM library.",
     "language": "JavaScript/TypeScript",
-    "stars": 38728,
+    "stars": 38729,
     "starsGrowth": 23393403,
     "forks": 2039,
     "openIssues": 150,
@@ -30,8 +30,8 @@
       "framework"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T09:35:05.315Z",
-    "updatedAt": "2026-06-30T09:35:05.315Z",
+    "createdAt": "2026-06-30T14:18:38.647Z",
+    "updatedAt": "2026-06-30T14:18:38.647Z",
     "homepage": "https://preactjs.com",
     "source": "npm",
     "category": "frontend"
@@ -39,8 +39,8 @@
   "relatedSlugs": [
     "react",
     "vite",
-    "next",
-    "storybook"
+    "lucide-react",
+    "next"
   ],
   "tags": [
     "preact",

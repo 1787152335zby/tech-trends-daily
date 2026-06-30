@@ -44,8 +44,8 @@
   "relatedSlugs": [
     "react",
     "vite",
-    "next",
-    "preact"
+    "lucide-react",
+    "next"
   ],
   "tags": [
     "ai",

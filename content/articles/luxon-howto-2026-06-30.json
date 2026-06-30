@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/luxon",
     "description": "Immutable date wrapper",
     "language": "JavaScript/TypeScript",
-    "stars": 16419,
+    "stars": 16418,
     "starsGrowth": 0,
     "forks": 783,
     "openIssues": 190,
@@ -22,8 +22,8 @@
       "immutable"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T09:35:31.622Z",
-    "updatedAt": "2026-06-30T09:35:31.622Z",
+    "createdAt": "2026-06-30T14:19:03.886Z",
+    "updatedAt": "2026-06-30T14:19:03.886Z",
     "homepage": "https://github.com/moment/luxon#readme",
     "source": "npm",
     "category": "tools"

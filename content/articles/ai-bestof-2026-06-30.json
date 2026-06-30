@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/ai",
     "description": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
     "language": "JavaScript/TypeScript",
-    "stars": 25250,
+    "stars": 25252,
     "starsGrowth": 15752357,
     "forks": 4690,
-    "openIssues": 1729,
+    "openIssues": 1731,
     "topics": [
       "ai",
       "vercel",
@@ -43,8 +43,8 @@
       "grok"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-30T09:35:21.790Z",
-    "updatedAt": "2026-06-30T09:35:21.790Z",
+    "createdAt": "2026-06-30T14:18:53.298Z",
+    "updatedAt": "2026-06-30T14:18:53.298Z",
     "homepage": "https://ai-sdk.dev/docs",
     "source": "npm",
     "category": "ai-ml"

@@ -26,8 +26,8 @@
       "store"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T09:35:25.699Z",
-    "updatedAt": "2026-06-30T09:35:25.699Z",
+    "createdAt": "2026-06-30T14:18:57.631Z",
+    "updatedAt": "2026-06-30T14:18:57.631Z",
     "homepage": "https://github.com/pmndrs/zustand",
     "source": "npm",
     "category": "frontend"
@@ -35,8 +35,8 @@
   "relatedSlugs": [
     "react",
     "vite",
-    "next",
-    "preact"
+    "lucide-react",
+    "next"
   ],
   "tags": [
     "react",
