@@ -13,7 +13,11 @@
     "url": "https://www.npmjs.com/package/nuxt",
     "description": "Nuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.",
     "language": "JavaScript/TypeScript",
+<<<<<<< Updated upstream
     "stars": 60532,
+=======
+    "stars": 60531,
+>>>>>>> Stashed changes
     "starsGrowth": 1662666,
     "forks": 5676,
     "openIssues": 795,

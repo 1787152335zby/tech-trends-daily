@@ -13,7 +13,11 @@
     "url": "https://www.npmjs.com/package/svelte",
     "description": "Cybernetically enhanced web apps",
     "language": "JavaScript/TypeScript",
+<<<<<<< Updated upstream
     "stars": 87469,
+=======
+    "stars": 87467,
+>>>>>>> Stashed changes
     "starsGrowth": 4831395,
     "forks": 4960,
     "openIssues": 1052,

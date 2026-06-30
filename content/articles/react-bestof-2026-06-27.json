@@ -13,7 +13,11 @@
     "url": "https://www.npmjs.com/package/react",
     "description": "React is a JavaScript library for building user interfaces.",
     "language": "JavaScript/TypeScript",
+<<<<<<< Updated upstream
     "stars": 246184,
+=======
+    "stars": 246181,
+>>>>>>> Stashed changes
     "starsGrowth": 148177253,
     "forks": 51089,
     "openIssues": 1269,
