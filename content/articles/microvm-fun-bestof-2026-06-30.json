@@ -1,0 +1,36 @@
+{
+  "slug": "microvm-fun-bestof-2026-06-30",
+  "title": "Why microvm-fun Is One of the Best Backend Tools in 2026",
+  "description": "Discover why microvm-fun ranks among the best Backend tools. A sample repo showing Kubernetes running on a fleet of AWS Lambda MicroVMs, and the ability to SSH i.",
+  "category": "backend",
+  "type": "bestof",
+  "publishedAt": "2026-06-30",
+  "updatedAt": "2026-06-30",
+  "sourceData": {
+    "id": "gh-1279103477",
+    "name": "microvm-fun",
+    "fullName": "aidansteele/microvm-fun",
+    "url": "https://github.com/aidansteele/microvm-fun",
+    "description": "A sample repo showing Kubernetes running on a fleet of AWS Lambda MicroVMs, and the ability to SSH into MicroVMs",
+    "language": "Go",
+    "stars": 43,
+    "starsGrowth": 0,
+    "forks": 3,
+    "openIssues": 0,
+    "topics": [],
+    "license": "No license",
+    "createdAt": "2026-06-24T11:28:06Z",
+    "updatedAt": "2026-06-29T12:31:43Z",
+    "homepage": "",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "express",
+    "hono",
+    "prisma",
+    "kysely"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><strong>microvm-fun</strong> is making waves in the <em>Backend</em> ecosystem this week, gaining <strong>0 new stars</strong>. With a total of 43 stars on GitHub and 3 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 43</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +0/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 3</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Go</strong> for maximum performance</li>\n  <li>Licensed under <strong>No license</strong> — free to use and modify</li>\n  \n  \n</ul>\n<h2>Why microvm-fun Is Trending</h2>\n<p>The Backend landscape is constantly evolving, and <strong>microvm-fun</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 0 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> A sample repo showing Kubernetes running on a fleet of AWS Lambda MicroVMs, and the ability to SSH into MicroVMs</li>\n</ol>\n<p>If you're working in Backend, this is definitely a project worth watching — and adopting.</p>\n<h2>Practical Use Cases</h2>\n<p>Here are some common scenarios where <strong>microvm-fun</strong> shines:</p>\n<ol>\n  <li><strong>New projects:</strong> Start your next Go project with this tool as a foundation</li>\n  <li><strong>Migration:</strong> Consider switching if your current solution is slowing you down</li>\n  <li><strong>Learning:</strong> Study the source code to understand modern Backend patterns</li>\n</ol>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>microvm-fun</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+}

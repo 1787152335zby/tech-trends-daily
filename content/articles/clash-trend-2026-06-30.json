@@ -1,0 +1,36 @@
+{
+  "slug": "clash-trend-2026-06-30",
+  "title": "clash Is Trending: Here's What Frontend Developers Need to Know",
+  "description": "clash is trending on GitHub with 1 new stars this week. .",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-06-30",
+  "updatedAt": "2026-06-30",
+  "sourceData": {
+    "id": "gh-1281921049",
+    "name": "clash",
+    "fullName": "downclash/clash",
+    "url": "https://github.com/downclash/clash",
+    "description": "",
+    "language": "JavaScript",
+    "stars": 369,
+    "starsGrowth": 1,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "No license",
+    "createdAt": "2026-06-27T04:54:21Z",
+    "updatedAt": "2026-06-30T01:43:53Z",
+    "homepage": "",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "react",
+    "vite",
+    "next",
+    "preact"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><strong>clash</strong> is making waves in the <em>Frontend</em> ecosystem this week, gaining <strong>1 new stars</strong>. With a total of 369 stars on GitHub and 0 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 369</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +1/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 0</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>JavaScript</strong> for maximum performance</li>\n  <li>Licensed under <strong>No license</strong> — free to use and modify</li>\n  \n  \n</ul>\n<h2>Why clash Is Trending</h2>\n<p>The Frontend landscape is constantly evolving, and <strong>clash</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 1 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> It solves a real problem that many developers face daily.</li>\n</ol>\n<p>If you're working in Frontend, this is definitely a project worth watching — and adopting.</p>\n<h2>Quick Start</h2>\n<p>Get started with <strong>clash</strong> in minutes:</p>\n<div class=\"code-block\"><code>\n# Clone the repository\ngit clone https://github.com/downclash/clash\n\n# Navigate to project\ncd clash\n\n# Check the README for detailed setup instructions\n</code></div>\n<p>For full documentation and advanced usage, visit the <a href=\"https://github.com/downclash/clash\" rel=\"nofollow noopener\" target=\"_blank\">official GitHub repository</a>.</p>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>clash</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+}

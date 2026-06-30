@@ -1,0 +1,54 @@
+{
+  "slug": "bun-vs-2026-06-30",
+  "title": "bun vs Alternatives: Which Programming Languages Tool Should You Choose?",
+  "description": "Compare bun with popular Programming Languages alternatives. See features, performance, and community stats.",
+  "category": "language",
+  "type": "vs",
+  "publishedAt": "2026-06-30",
+  "updatedAt": "2026-06-30",
+  "sourceData": {
+    "id": "npm-bun",
+    "name": "bun",
+    "fullName": "npm:bun",
+    "url": "https://www.npmjs.com/package/bun",
+    "description": "Bun is a fast all-in-one JavaScript runtime.",
+    "language": "JavaScript/TypeScript",
+    "stars": 93523,
+    "starsGrowth": 2698341,
+    "forks": 4743,
+    "openIssues": 6827,
+    "topics": [
+      "bun",
+      "bun.js",
+      "node",
+      "node.js",
+      "runtime",
+      "bundler",
+      "transpiler",
+      "typescript"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-06-30T03:37:46.830Z",
+    "updatedAt": "2026-06-30T03:37:46.830Z",
+    "homepage": "https://bun.com",
+    "source": "npm",
+    "category": "language"
+  },
+  "relatedSlugs": [
+    "typescript",
+    "zod",
+    "tsx",
+    "valibot"
+  ],
+  "tags": [
+    "bun",
+    "bun.js",
+    "node",
+    "node.js",
+    "runtime",
+    "bundler",
+    "transpiler",
+    "typescript"
+  ],
+  "bodyHtml": "<p><strong>bun</strong> is making waves in the <em>Programming Languages</em> ecosystem this week, gaining <strong>2698.3k new stars</strong>. With a total of 93.5k stars on GitHub and 4.7k forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 93.5k</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +2698.3k/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 4.7k</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 6.8k</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>JavaScript/TypeScript</strong> for maximum performance</li>\n  <li>Licensed under <strong>MIT</strong> — free to use and modify</li>\n  <li>Official website: <a href=\"https://bun.com\" rel=\"nofollow noopener\" target=\"_blank\">https://bun.com</a></li>\n  <li>🏷️ bun</li>\n<li>🏷️ bun.js</li>\n<li>🏷️ node</li>\n<li>🏷️ node.js</li>\n<li>🏷️ runtime</li>\n</ul>\n<h2>Why bun Is Trending</h2>\n<p>The Programming Languages landscape is constantly evolving, and <strong>bun</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 2698.3k new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> Bun is a fast all-in-one JavaScript runtime.</li>\n</ol>\n<p>If you're working in Programming Languages, this is definitely a project worth watching — and adopting.</p>\n<h2>How It Compares to Alternatives</h2>\n<p>When evaluating <strong>bun</strong>, it's natural to compare it against established alternatives. Here's what sets it apart:</p>\n<ul>\n  <li><strong>Performance:</strong> Built with JavaScript/TypeScript, it leverages modern language features for speed.</li>\n  <li><strong>Community size:</strong> 93.5k stars indicate strong community trust and validation.</li>\n  <li><strong>License:</strong> MIT licensing means no commercial restrictions.</li>\n</ul>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>bun</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+}
