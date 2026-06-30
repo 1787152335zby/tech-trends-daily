@@ -14,7 +14,7 @@ export async function generateStaticParams() {
 export const dynamicParams = false;
 export const dynamic = "force-static";
 
-function fmt(n: number): string { return n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n); }
+function fmt(n: number): string { if (n >= 1000000000) return `${(n / 1000000000).toFixed(1)}B`; if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`; if (n >= 1000) return `${(n / 1000).toFixed(1)}k`; return String(n); }
 
 export default async function ArticlePage({ params }: Props) {
   const { slug } = await params;
@@ -65,7 +65,7 @@ export default async function ArticlePage({ params }: Props) {
             </span>
             <span>{CATEGORY_LABELS[article.category]}</span>
             <span>⭐ {fmt(article.sourceData.stars)}</span>
-            <span>📈 +{fmt(article.sourceData.starsGrowth)}/wk</span>
+            <span>{article.sourceData.source === "npm" ? "⬇" : "📈"} {fmt(article.sourceData.starsGrowth)}/wk</span>
             <span>Published: {new Date(article.publishedAt).toLocaleDateString("en-US")}</span>
           </div>
         </header>

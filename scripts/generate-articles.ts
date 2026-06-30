@@ -35,6 +35,8 @@ function escapeHtml(text: string): string {
 }
 
 function formatNumber(n: number): string {
+  if (n >= 1000000000) return `${(n / 1000000000).toFixed(1)}B`;
+  if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
   if (n >= 1000) return `${(n / 1000).toFixed(1)}k`;
   return String(n);
 }
@@ -52,8 +54,11 @@ function pickArticleType(repo: RepoData): ArticleType {
 
 function generateIntro(repo: RepoData): string {
   const category = CATEGORY_LABELS[repo.category];
+  const growthLabel = repo.source === "npm" ? "M weekly downloads" : "new stars";
+  const starLabel = repo.source === "npm" ? "With" : "With a total of";
+  const githubText = repo.source === "npm" ? `accruing over ${formatNumber(repo.stars)} stars on GitHub` : `With a total of ${formatNumber(repo.stars)} stars on GitHub and ${formatNumber(repo.forks)} forks`;
   return `
-<p><strong>${escapeHtml(repo.name)}</strong> is making waves in the <em>${category}</em> ecosystem this week, gaining <strong>${formatNumber(repo.starsGrowth)} new stars</strong>. With a total of ${formatNumber(repo.stars)} stars on GitHub and ${formatNumber(repo.forks)} forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>
+<p><strong>${escapeHtml(repo.name)}</strong> is making waves in the <em>${category}</em> ecosystem this week, gaining <strong>${formatNumber(repo.starsGrowth)}${growthLabel}</strong>. ${githubText}, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>
   `.trim();
 }
 

@@ -6,6 +6,8 @@ interface ArticleCardProps {
 }
 
 function formatNumber(n: number): string {
+  if (n >= 1000000000) return `${(n / 1000000000).toFixed(1)}B`;
+  if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
   if (n >= 1000) return `${(n / 1000).toFixed(1)}k`;
   return String(n);
 }
@@ -46,7 +48,7 @@ export default function ArticleCard({ article }: ArticleCardProps) {
           {sourceData.language !== "Unknown" && (
             <span>{sourceData.language}</span>
           )}
-          <span>📈 +{formatNumber(sourceData.starsGrowth)}/wk</span>
+          <span>{sourceData.source === "npm" ? "⬇" : "📈"} {sourceData.source === "npm" ? formatNumber(sourceData.starsGrowth) + "/wk" : "+" + formatNumber(sourceData.starsGrowth) + "/wk"}</span>
           {sourceData.source === "github" && (
             <span className="ml-auto">{sourceData.license}</span>
           )}
