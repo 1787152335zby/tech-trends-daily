@@ -6,14 +6,14 @@
     "url": "https://www.npmjs.com/package/esbuild",
     "description": "An extremely fast JavaScript and CSS bundler and minifier.",
     "language": "JavaScript/TypeScript",
-    "stars": 39957,
+    "stars": 39956,
     "starsGrowth": 237969557,
     "forks": 1315,
     "openIssues": 620,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:44.316Z",
-    "updatedAt": "2026-06-30T14:18:44.316Z",
+    "createdAt": "2026-06-30T15:26:23.645Z",
+    "updatedAt": "2026-06-30T15:26:23.645Z",
     "homepage": "https://github.com/evanw/esbuild#readme",
     "source": "npm",
     "category": "tools"
@@ -27,8 +27,8 @@
     "language": "JavaScript/TypeScript",
     "stars": 109437,
     "starsGrowth": 217486890,
-    "forks": 13451,
-    "openIssues": 5047,
+    "forks": 13452,
+    "openIssues": 5048,
     "topics": [
       "TypeScript",
       "Microsoft",
@@ -37,8 +37,8 @@
       "javascript"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-30T14:18:43.784Z",
-    "updatedAt": "2026-06-30T14:18:43.784Z",
+    "createdAt": "2026-06-30T15:26:22.821Z",
+    "updatedAt": "2026-06-30T15:26:22.821Z",
     "homepage": "https://www.typescriptlang.org/",
     "source": "npm",
     "category": "language"
@@ -50,7 +50,7 @@
     "url": "https://www.npmjs.com/package/zod",
     "description": "TypeScript-first schema declaration and validation library with static type inference",
     "language": "JavaScript/TypeScript",
-    "stars": 43076,
+    "stars": 43077,
     "starsGrowth": 209687743,
     "forks": 2044,
     "openIssues": 228,
@@ -62,8 +62,8 @@
       "inference"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:46.876Z",
-    "updatedAt": "2026-06-30T14:18:46.876Z",
+    "createdAt": "2026-06-30T15:26:25.922Z",
+    "updatedAt": "2026-06-30T15:26:25.922Z",
     "homepage": "https://zod.dev",
     "source": "npm",
     "category": "language"
@@ -75,16 +75,16 @@
     "url": "https://www.npmjs.com/package/react",
     "description": "React is a JavaScript library for building user interfaces.",
     "language": "JavaScript/TypeScript",
-    "stars": 246193,
+    "stars": 246195,
     "starsGrowth": 146247311,
     "forks": 51112,
-    "openIssues": 1268,
+    "openIssues": 1266,
     "topics": [
       "react"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:35.373Z",
-    "updatedAt": "2026-06-30T14:18:35.373Z",
+    "createdAt": "2026-06-30T15:26:16.027Z",
+    "updatedAt": "2026-06-30T15:26:16.027Z",
     "homepage": "https://react.dev/",
     "source": "npm",
     "category": "frontend"
@@ -96,10 +96,10 @@
     "url": "https://www.npmjs.com/package/vite",
     "description": "Native-ESM powered web dev build tool",
     "language": "JavaScript/TypeScript",
-    "stars": 81704,
+    "stars": 81703,
     "starsGrowth": 140977733,
     "forks": 8363,
-    "openIssues": 726,
+    "openIssues": 727,
     "topics": [
       "build-tool",
       "dev-server",
@@ -109,8 +109,8 @@
       "vite"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:44.721Z",
-    "updatedAt": "2026-06-30T14:18:44.721Z",
+    "createdAt": "2026-06-30T15:26:24.015Z",
+    "updatedAt": "2026-06-30T15:26:24.015Z",
     "homepage": "https://vite.dev",
     "source": "npm",
     "category": "frontend"
@@ -128,8 +128,8 @@
     "openIssues": 64,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:39.163Z",
-    "updatedAt": "2026-06-30T14:18:39.163Z",
+    "createdAt": "2026-06-30T15:26:19.007Z",
+    "updatedAt": "2026-06-30T15:26:19.007Z",
     "homepage": "https://tailwindcss.com",
     "source": "npm",
     "category": "tools"
@@ -141,10 +141,10 @@
     "url": "https://www.npmjs.com/package/pnpm",
     "description": "Fast, disk space efficient package manager",
     "language": "JavaScript/TypeScript",
-    "stars": 35650,
+    "stars": 35651,
     "starsGrowth": 113954193,
     "forks": 1547,
-    "openIssues": 2405,
+    "openIssues": 2407,
     "topics": [
       "pnpm",
       "pnpm11",
@@ -173,8 +173,8 @@
       "workspace"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:54.611Z",
-    "updatedAt": "2026-06-30T14:18:54.611Z",
+    "createdAt": "2026-06-30T15:26:32.116Z",
+    "updatedAt": "2026-06-30T15:26:32.116Z",
     "homepage": "https://pnpm.io",
     "source": "npm",
     "category": "tools"
@@ -188,7 +188,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 69243,
     "starsGrowth": 109234890,
-    "forks": 23922,
+    "forks": 23925,
     "openIssues": 216,
     "topics": [
       "express",
@@ -203,40 +203,11 @@
       "api"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:41.024Z",
-    "updatedAt": "2026-06-30T14:18:41.024Z",
+    "createdAt": "2026-06-30T15:26:20.695Z",
+    "updatedAt": "2026-06-30T15:26:20.695Z",
     "homepage": "https://expressjs.com/",
     "source": "npm",
     "category": "backend"
-  },
-  {
-    "id": "npm-lucide-react",
-    "name": "lucide-react",
-    "fullName": "npm:lucide-react",
-    "url": "https://www.npmjs.com/package/lucide-react",
-    "description": "A Lucide icon library package for React applications.",
-    "language": "JavaScript/TypeScript",
-    "stars": 23201,
-    "starsGrowth": 83762574,
-    "forks": 1438,
-    "openIssues": 534,
-    "topics": [
-      "Lucide",
-      "React",
-      "Feather",
-      "Icons",
-      "Icon",
-      "SVG",
-      "Feather Icons",
-      "Fontawesome",
-      "Font Awesome"
-    ],
-    "license": "ISC",
-    "createdAt": "2026-06-30T14:19:04.446Z",
-    "updatedAt": "2026-06-30T14:19:04.446Z",
-    "homepage": "https://lucide.dev",
-    "source": "npm",
-    "category": "frontend"
   },
   {
     "id": "npm-vitest",
@@ -256,8 +227,8 @@
       "jest"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:50.778Z",
-    "updatedAt": "2026-06-30T14:18:50.778Z",
+    "createdAt": "2026-06-30T15:26:28.802Z",
+    "updatedAt": "2026-06-30T15:26:28.802Z",
     "homepage": "https://vitest.dev",
     "source": "npm",
     "category": "tools"
@@ -269,14 +240,14 @@
     "url": "https://www.npmjs.com/package/playwright",
     "description": "A high-level API to automate web browsers",
     "language": "JavaScript/TypeScript",
-    "stars": 91952,
+    "stars": 91962,
     "starsGrowth": 61562009,
     "forks": 6002,
-    "openIssues": 174,
+    "openIssues": 175,
     "topics": [],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-30T14:18:50.266Z",
-    "updatedAt": "2026-06-30T14:18:50.266Z",
+    "createdAt": "2026-06-30T15:26:28.438Z",
+    "updatedAt": "2026-06-30T15:26:28.438Z",
     "homepage": "https://playwright.dev",
     "source": "npm",
     "category": "tools"
@@ -303,8 +274,8 @@
       "typescript runner"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:45.834Z",
-    "updatedAt": "2026-06-30T14:18:45.834Z",
+    "createdAt": "2026-06-30T15:26:24.920Z",
+    "updatedAt": "2026-06-30T15:26:24.920Z",
     "homepage": "https://tsx.hirok.io",
     "source": "npm",
     "category": "language"
@@ -338,8 +309,8 @@
       "nodejs"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:42.194Z",
-    "updatedAt": "2026-06-30T14:18:42.194Z",
+    "createdAt": "2026-06-30T15:26:21.683Z",
+    "updatedAt": "2026-06-30T15:26:21.683Z",
     "homepage": "https://hono.dev",
     "source": "npm",
     "category": "backend"
@@ -373,8 +344,8 @@
       "nodejs"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:55.216Z",
-    "updatedAt": "2026-06-30T14:18:55.216Z",
+    "createdAt": "2026-06-30T15:26:32.601Z",
+    "updatedAt": "2026-06-30T15:26:32.601Z",
     "homepage": "https://hono.dev",
     "source": "npm",
     "category": "backend"
@@ -403,8 +374,8 @@
       "vercel"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:36.169Z",
-    "updatedAt": "2026-06-30T14:18:36.169Z",
+    "createdAt": "2026-06-30T15:26:16.543Z",
+    "updatedAt": "2026-06-30T15:26:16.543Z",
     "homepage": "https://nextjs.org",
     "source": "npm",
     "category": "frontend"
@@ -422,8 +393,8 @@
     "openIssues": 565,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:56.131Z",
-    "updatedAt": "2026-06-30T14:18:56.131Z",
+    "createdAt": "2026-06-30T15:26:33.356Z",
+    "updatedAt": "2026-06-30T15:26:33.356Z",
     "homepage": "https://effect.website",
     "source": "npm",
     "category": "tools"
@@ -452,8 +423,8 @@
       "framework"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:38.647Z",
-    "updatedAt": "2026-06-30T14:18:38.647Z",
+    "createdAt": "2026-06-30T15:26:18.662Z",
+    "updatedAt": "2026-06-30T15:26:18.662Z",
     "homepage": "https://preactjs.com",
     "source": "npm",
     "category": "frontend"
@@ -465,14 +436,14 @@
     "url": "https://www.npmjs.com/package/openai",
     "description": "The official TypeScript library for the OpenAI API",
     "language": "JavaScript/TypeScript",
-    "stars": 11004,
+    "stars": 11006,
     "starsGrowth": 21587773,
     "forks": 1526,
     "openIssues": 212,
     "topics": [],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-30T14:18:52.800Z",
-    "updatedAt": "2026-06-30T14:18:52.800Z",
+    "createdAt": "2026-06-30T15:26:30.656Z",
+    "updatedAt": "2026-06-30T15:26:30.656Z",
     "homepage": "https://github.com/openai/openai-node#readme",
     "source": "npm",
     "category": "ai-ml"
@@ -506,8 +477,8 @@
       "web-components"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:51.678Z",
-    "updatedAt": "2026-06-30T14:18:51.678Z",
+    "createdAt": "2026-06-30T15:26:29.585Z",
+    "updatedAt": "2026-06-30T15:26:29.585Z",
     "homepage": "https://storybook.js.org",
     "source": "npm",
     "category": "frontend"
@@ -522,11 +493,11 @@
     "stars": 30624,
     "starsGrowth": 16397790,
     "forks": 2377,
-    "openIssues": 26,
+    "openIssues": 23,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:45.285Z",
-    "updatedAt": "2026-06-30T14:18:45.285Z",
+    "createdAt": "2026-06-30T15:26:24.507Z",
+    "updatedAt": "2026-06-30T15:26:24.507Z",
     "homepage": "https://turborepo.dev",
     "source": "npm",
     "category": "tools"
@@ -538,9 +509,9 @@
     "url": "https://www.npmjs.com/package/ai",
     "description": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
     "language": "JavaScript/TypeScript",
-    "stars": 25252,
+    "stars": 25253,
     "starsGrowth": 15752357,
-    "forks": 4690,
+    "forks": 4691,
     "openIssues": 1731,
     "topics": [
       "ai",
@@ -568,8 +539,8 @@
       "grok"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-30T14:18:53.298Z",
-    "updatedAt": "2026-06-30T14:18:53.298Z",
+    "createdAt": "2026-06-30T15:26:31.043Z",
+    "updatedAt": "2026-06-30T15:26:31.043Z",
     "homepage": "https://ai-sdk.dev/docs",
     "source": "npm",
     "category": "ai-ml"
@@ -589,8 +560,8 @@
       "vue"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:36.487Z",
-    "updatedAt": "2026-06-30T14:18:36.487Z",
+    "createdAt": "2026-06-30T15:26:16.778Z",
+    "updatedAt": "2026-06-30T15:26:16.778Z",
     "homepage": "https://vuejs.org/",
     "source": "npm",
     "category": "frontend"
@@ -602,10 +573,10 @@
     "url": "https://www.npmjs.com/package/prisma",
     "description": "Prisma is an open-source database toolkit. It includes a JavaScript/TypeScript ORM for Node.js, migrations and a modern GUI to view and edit the data in your database. You can use Prisma in new projects or add it to an existing one.",
     "language": "JavaScript/TypeScript",
-    "stars": 46422,
+    "stars": 46423,
     "starsGrowth": 13101726,
-    "forks": 2255,
-    "openIssues": 2631,
+    "forks": 2256,
+    "openIssues": 2632,
     "topics": [
       "CLI",
       "ORM",
@@ -633,8 +604,8 @@
       "MCP"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-30T14:18:48.388Z",
-    "updatedAt": "2026-06-30T14:18:48.388Z",
+    "createdAt": "2026-06-30T15:26:27.082Z",
+    "updatedAt": "2026-06-30T15:26:27.082Z",
     "homepage": "https://www.prisma.io",
     "source": "npm",
     "category": "backend"
@@ -661,8 +632,8 @@
       "runtime"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:47.409Z",
-    "updatedAt": "2026-06-30T14:18:47.409Z",
+    "createdAt": "2026-06-30T15:26:26.264Z",
+    "updatedAt": "2026-06-30T15:26:26.264Z",
     "homepage": "https://valibot.dev",
     "source": "npm",
     "category": "language"
@@ -677,7 +648,7 @@
     "stars": 34991,
     "starsGrowth": 11333091,
     "forks": 1466,
-    "openIssues": 1878,
+    "openIssues": 1879,
     "topics": [
       "drizzle",
       "orm",
@@ -694,35 +665,11 @@
       "drizzle-orm"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-30T14:18:48.808Z",
-    "updatedAt": "2026-06-30T14:18:48.808Z",
+    "createdAt": "2026-06-30T15:26:27.473Z",
+    "updatedAt": "2026-06-30T15:26:27.473Z",
     "homepage": "https://orm.drizzle.team",
     "source": "npm",
     "category": "database"
-  },
-  {
-    "id": "npm-puppeteer",
-    "name": "puppeteer",
-    "fullName": "npm:puppeteer",
-    "url": "https://www.npmjs.com/package/puppeteer",
-    "description": "A high-level API to control headless Chrome over the DevTools Protocol",
-    "language": "JavaScript/TypeScript",
-    "stars": 0,
-    "starsGrowth": 10632713,
-    "forks": 0,
-    "openIssues": 0,
-    "topics": [
-      "puppeteer",
-      "chrome",
-      "headless",
-      "automation"
-    ],
-    "license": "Apache-2.0",
-    "createdAt": "2026-06-30T14:19:02.365Z",
-    "updatedAt": "2026-06-30T14:19:02.365Z",
-    "homepage": "https://github.com/puppeteer/puppeteer/tree/main#readme",
-    "source": "npm",
-    "category": "tools"
   },
   {
     "id": "npm-radix-ui",
@@ -734,11 +681,11 @@
     "stars": 19017,
     "starsGrowth": 9050477,
     "forks": 1197,
-    "openIssues": 411,
+    "openIssues": 408,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:40.489Z",
-    "updatedAt": "2026-06-30T14:18:40.489Z",
+    "createdAt": "2026-06-30T15:26:20.312Z",
+    "updatedAt": "2026-06-30T15:26:20.312Z",
     "homepage": "https://radix-ui.com/primitives",
     "source": "npm",
     "category": "frontend"
@@ -772,8 +719,8 @@
       "plugins"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:49.331Z",
-    "updatedAt": "2026-06-30T14:18:49.331Z",
+    "createdAt": "2026-06-30T15:26:27.823Z",
+    "updatedAt": "2026-06-30T15:26:27.823Z",
     "homepage": "https://kysely.dev",
     "source": "npm",
     "category": "backend"
@@ -785,7 +732,7 @@
     "url": "https://www.npmjs.com/package/fastify",
     "description": "Fast and low overhead web framework, for Node.js",
     "language": "JavaScript/TypeScript",
-    "stars": 36611,
+    "stars": 36612,
     "starsGrowth": 8846595,
     "forks": 2757,
     "openIssues": 152,
@@ -798,32 +745,11 @@
       "api"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:41.586Z",
-    "updatedAt": "2026-06-30T14:18:41.586Z",
+    "createdAt": "2026-06-30T15:26:21.063Z",
+    "updatedAt": "2026-06-30T15:26:21.063Z",
     "homepage": "https://fastify.dev/",
     "source": "npm",
     "category": "backend"
-  },
-  {
-    "id": "npm-expo",
-    "name": "expo",
-    "fullName": "npm:expo",
-    "url": "https://www.npmjs.com/package/expo",
-    "description": "The Expo SDK",
-    "language": "JavaScript/TypeScript",
-    "stars": 50345,
-    "starsGrowth": 6345103,
-    "forks": 12911,
-    "openIssues": 641,
-    "topics": [
-      "expo"
-    ],
-    "license": "MIT",
-    "createdAt": "2026-06-30T14:19:05.702Z",
-    "updatedAt": "2026-06-30T14:19:05.702Z",
-    "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
-    "source": "npm",
-    "category": "mobile"
   },
   {
     "id": "npm-svelte",
@@ -832,7 +758,7 @@
     "url": "https://www.npmjs.com/package/svelte",
     "description": "Cybernetically enhanced web apps",
     "language": "JavaScript/TypeScript",
-    "stars": 87470,
+    "stars": 87471,
     "starsGrowth": 5352935,
     "forks": 4959,
     "openIssues": 1058,
@@ -844,8 +770,8 @@
       "templating"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:37.100Z",
-    "updatedAt": "2026-06-30T14:18:37.100Z",
+    "createdAt": "2026-06-30T15:26:17.307Z",
+    "updatedAt": "2026-06-30T15:26:17.307Z",
     "homepage": "https://svelte.dev",
     "source": "npm",
     "category": "frontend"
@@ -863,8 +789,8 @@
     "openIssues": 402,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:46.354Z",
-    "updatedAt": "2026-06-30T14:18:46.354Z",
+    "createdAt": "2026-06-30T15:26:25.542Z",
+    "updatedAt": "2026-06-30T15:26:25.542Z",
     "homepage": "https://tsup.egoist.dev/",
     "source": "npm",
     "category": "tools"
@@ -885,8 +811,8 @@
       "jsonschema"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:47.974Z",
-    "updatedAt": "2026-06-30T14:18:47.974Z",
+    "createdAt": "2026-06-30T15:26:26.721Z",
+    "updatedAt": "2026-06-30T15:26:26.721Z",
     "homepage": "https://github.com/sinclairzx81/typebox#readme",
     "source": "npm",
     "category": "language"
@@ -898,14 +824,14 @@
     "url": "https://www.npmjs.com/package/astro",
     "description": "Astro is a modern site builder with web best practices, performance, and DX front-of-mind.",
     "language": "JavaScript/TypeScript",
-    "stars": 60619,
+    "stars": 60623,
     "starsGrowth": 3549234,
     "forks": 3580,
-    "openIssues": 120,
+    "openIssues": 117,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:37.645Z",
-    "updatedAt": "2026-06-30T14:18:37.645Z",
+    "createdAt": "2026-06-30T15:26:17.666Z",
+    "updatedAt": "2026-06-30T15:26:17.666Z",
     "homepage": "https://astro.build",
     "source": "npm",
     "category": "tools"
@@ -917,7 +843,7 @@
     "url": "https://www.npmjs.com/package/solid-js",
     "description": "A declarative JavaScript library for building user interfaces.",
     "language": "JavaScript/TypeScript",
-    "stars": 35674,
+    "stars": 35675,
     "starsGrowth": 2700675,
     "forks": 1073,
     "openIssues": 63,
@@ -931,8 +857,8 @@
       "performance"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:38.193Z",
-    "updatedAt": "2026-06-30T14:18:38.193Z",
+    "createdAt": "2026-06-30T15:26:18.039Z",
+    "updatedAt": "2026-06-30T15:26:18.039Z",
     "homepage": "https://solidjs.com",
     "source": "npm",
     "category": "frontend"
@@ -944,7 +870,7 @@
     "url": "https://www.npmjs.com/package/bun",
     "description": "Bun is a fast all-in-one JavaScript runtime.",
     "language": "JavaScript/TypeScript",
-    "stars": 93524,
+    "stars": 93526,
     "starsGrowth": 2698341,
     "forks": 4742,
     "openIssues": 6822,
@@ -959,8 +885,8 @@
       "typescript"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:54.048Z",
-    "updatedAt": "2026-06-30T14:18:54.048Z",
+    "createdAt": "2026-06-30T15:26:31.734Z",
+    "updatedAt": "2026-06-30T15:26:31.734Z",
     "homepage": "https://bun.com",
     "source": "npm",
     "category": "language"
@@ -972,10 +898,10 @@
     "url": "https://www.npmjs.com/package/langchain",
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
-    "stars": 17873,
+    "stars": 17875,
     "starsGrowth": 2473025,
     "forks": 3227,
-    "openIssues": 368,
+    "openIssues": 369,
     "topics": [
       "llm",
       "ai",
@@ -991,8 +917,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:52.219Z",
-    "updatedAt": "2026-06-30T14:18:52.219Z",
+    "createdAt": "2026-06-30T15:26:30.292Z",
+    "updatedAt": "2026-06-30T15:26:30.292Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -1015,8 +941,8 @@
       "server"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:42.968Z",
-    "updatedAt": "2026-06-30T14:18:42.968Z",
+    "createdAt": "2026-06-30T15:26:22.453Z",
+    "updatedAt": "2026-06-30T15:26:22.453Z",
     "homepage": "https://github.com/elysiajs/elysia",
     "source": "npm",
     "category": "backend"
@@ -1039,8 +965,8 @@
       "server"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:55.511Z",
-    "updatedAt": "2026-06-30T14:18:55.511Z",
+    "createdAt": "2026-06-30T15:26:32.835Z",
+    "updatedAt": "2026-06-30T15:26:32.835Z",
     "homepage": "https://github.com/elysiajs/elysia",
     "source": "npm",
     "category": "backend"
@@ -1063,30 +989,11 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-06-30T14:18:53.871Z",
-    "updatedAt": "2026-06-30T14:18:53.871Z",
+    "createdAt": "2026-06-30T15:26:31.441Z",
+    "updatedAt": "2026-06-30T15:26:31.441Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
-  },
-  {
-    "id": "npm-apollo",
-    "name": "apollo",
-    "fullName": "npm:apollo",
-    "url": "https://www.npmjs.com/package/apollo",
-    "description": "Command line tool for Apollo GraphQL",
-    "language": "JavaScript/TypeScript",
-    "stars": 3043,
-    "starsGrowth": 168096,
-    "forks": 461,
-    "openIssues": 367,
-    "topics": [],
-    "license": "MIT",
-    "createdAt": "2026-06-30T14:19:01.247Z",
-    "updatedAt": "2026-06-30T14:19:01.247Z",
-    "homepage": "https://github.com/apollographql/apollo-tooling",
-    "source": "npm",
-    "category": "tools"
   },
   {
     "id": "npm-shadcn-ui",
@@ -1095,7 +1002,7 @@
     "url": "https://www.npmjs.com/package/shadcn-ui",
     "description": "Add components to your apps.",
     "language": "JavaScript/TypeScript",
-    "stars": 117817,
+    "stars": 117820,
     "starsGrowth": 145776,
     "forks": 9203,
     "openIssues": 2076,
@@ -1106,8 +1013,8 @@
       "shadcn"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:39.697Z",
-    "updatedAt": "2026-06-30T14:18:39.697Z",
+    "createdAt": "2026-06-30T15:26:19.666Z",
+    "updatedAt": "2026-06-30T15:26:19.666Z",
     "homepage": "https://github.com/shadcn/ui#readme",
     "source": "npm",
     "category": "frontend"
@@ -1128,8 +1035,8 @@
       "framework"
     ],
     "license": "ISC",
-    "createdAt": "2026-06-30T14:18:42.733Z",
-    "updatedAt": "2026-06-30T14:18:42.733Z",
+    "createdAt": "2026-06-30T15:26:22.145Z",
+    "updatedAt": "2026-06-30T15:26:22.145Z",
     "homepage": "",
     "source": "npm",
     "category": "tools"
@@ -1151,8 +1058,8 @@
       "functional-programming"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:56.636Z",
-    "updatedAt": "2026-06-30T14:18:56.636Z",
+    "createdAt": "2026-06-30T15:26:34.006Z",
+    "updatedAt": "2026-06-30T15:26:34.006Z",
     "homepage": "https://github.com/gcanti/fp-ts",
     "source": "npm",
     "category": "language"
@@ -1186,8 +1093,8 @@
       "playback"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:57.147Z",
-    "updatedAt": "2026-06-30T14:18:57.147Z",
+    "createdAt": "2026-06-30T15:26:34.938Z",
+    "updatedAt": "2026-06-30T15:26:34.938Z",
     "homepage": "https://sh20raj.github.io/tanstack",
     "source": "npm",
     "category": "frontend"
@@ -1201,7 +1108,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 58431,
     "starsGrowth": 0,
-    "forks": 2083,
+    "forks": 2084,
     "openIssues": 5,
     "topics": [
       "react",
@@ -1212,8 +1119,8 @@
       "store"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:57.631Z",
-    "updatedAt": "2026-06-30T14:18:57.631Z",
+    "createdAt": "2026-06-30T15:26:35.232Z",
+    "updatedAt": "2026-06-30T15:26:35.232Z",
     "homepage": "https://github.com/pmndrs/zustand",
     "source": "npm",
     "category": "frontend"
@@ -1238,8 +1145,8 @@
       "store"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:58.413Z",
-    "updatedAt": "2026-06-30T14:18:58.413Z",
+    "createdAt": "2026-06-30T15:26:35.689Z",
+    "updatedAt": "2026-06-30T15:26:35.689Z",
     "homepage": "https://github.com/pmndrs/jotai",
     "source": "npm",
     "category": "frontend"
@@ -1265,8 +1172,8 @@
       "store"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:58.930Z",
-    "updatedAt": "2026-06-30T14:18:58.930Z",
+    "createdAt": "2026-06-30T15:26:36.168Z",
+    "updatedAt": "2026-06-30T15:26:36.168Z",
     "homepage": "https://github.com/pmndrs/valtio",
     "source": "npm",
     "category": "frontend"
@@ -1284,8 +1191,8 @@
     "openIssues": 819,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:59.335Z",
-    "updatedAt": "2026-06-30T14:18:59.335Z",
+    "createdAt": "2026-06-30T15:26:36.508Z",
+    "updatedAt": "2026-06-30T15:26:36.508Z",
     "homepage": "https://nuxt.com",
     "source": "npm",
     "category": "tools"
@@ -1297,14 +1204,14 @@
     "url": "https://www.npmjs.com/package/remix",
     "description": "A framework for building better websites",
     "language": "JavaScript/TypeScript",
-    "stars": 33143,
+    "stars": 33144,
     "starsGrowth": 0,
     "forks": 2780,
-    "openIssues": 63,
+    "openIssues": 65,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:59.946Z",
-    "updatedAt": "2026-06-30T14:18:59.946Z",
+    "createdAt": "2026-06-30T15:26:37.080Z",
+    "updatedAt": "2026-06-30T15:26:37.080Z",
     "homepage": "https://remix.run",
     "source": "npm",
     "category": "tools"
@@ -1325,11 +1232,30 @@
       "graphql-js"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:19:00.633Z",
-    "updatedAt": "2026-06-30T14:19:00.633Z",
+    "createdAt": "2026-06-30T15:26:37.576Z",
+    "updatedAt": "2026-06-30T15:26:37.576Z",
     "homepage": "https://github.com/graphql/graphql-js",
     "source": "npm",
     "category": "backend"
+  },
+  {
+    "id": "npm-apollo",
+    "name": "apollo",
+    "fullName": "npm:apollo",
+    "url": "https://www.npmjs.com/package/apollo",
+    "description": "Command line tool for Apollo GraphQL",
+    "language": "JavaScript/TypeScript",
+    "stars": 3043,
+    "starsGrowth": 0,
+    "forks": 461,
+    "openIssues": 367,
+    "topics": [],
+    "license": "MIT",
+    "createdAt": "2026-06-30T15:26:38.684Z",
+    "updatedAt": "2026-06-30T15:26:38.684Z",
+    "homepage": "https://github.com/apollographql/apollo-tooling",
+    "source": "npm",
+    "category": "tools"
   },
   {
     "id": "npm-urql",
@@ -1351,11 +1277,35 @@
       "react"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:19:01.812Z",
-    "updatedAt": "2026-06-30T14:19:01.812Z",
+    "createdAt": "2026-06-30T15:26:39.249Z",
+    "updatedAt": "2026-06-30T15:26:39.249Z",
     "homepage": "https://formidable.com/open-source/urql/docs/",
     "source": "npm",
     "category": "frontend"
+  },
+  {
+    "id": "npm-puppeteer",
+    "name": "puppeteer",
+    "fullName": "npm:puppeteer",
+    "url": "https://www.npmjs.com/package/puppeteer",
+    "description": "A high-level API to control headless Chrome over the DevTools Protocol",
+    "language": "JavaScript/TypeScript",
+    "stars": 0,
+    "starsGrowth": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [
+      "puppeteer",
+      "chrome",
+      "headless",
+      "automation"
+    ],
+    "license": "Apache-2.0",
+    "createdAt": "2026-06-30T15:26:39.596Z",
+    "updatedAt": "2026-06-30T15:26:39.596Z",
+    "homepage": "https://github.com/puppeteer/puppeteer/tree/main#readme",
+    "source": "npm",
+    "category": "tools"
   },
   {
     "id": "npm-cheerio",
@@ -1379,8 +1329,8 @@
       "html"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:19:02.750Z",
-    "updatedAt": "2026-06-30T14:19:02.750Z",
+    "createdAt": "2026-06-30T15:26:40.146Z",
+    "updatedAt": "2026-06-30T15:26:40.146Z",
     "homepage": "https://cheerio.js.org/",
     "source": "npm",
     "category": "frontend"
@@ -1398,8 +1348,8 @@
     "openIssues": 0,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:19:03.176Z",
-    "updatedAt": "2026-06-30T14:19:03.176Z",
+    "createdAt": "2026-06-30T15:26:40.502Z",
+    "updatedAt": "2026-06-30T15:26:40.502Z",
     "homepage": "",
     "source": "npm",
     "category": "tools"
@@ -1423,8 +1373,8 @@
       "moment"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:19:03.366Z",
-    "updatedAt": "2026-06-30T14:19:03.366Z",
+    "createdAt": "2026-06-30T15:26:40.526Z",
+    "updatedAt": "2026-06-30T15:26:40.526Z",
     "homepage": "https://day.js.org",
     "source": "npm",
     "category": "tools"
@@ -1445,11 +1395,40 @@
       "immutable"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:19:03.886Z",
-    "updatedAt": "2026-06-30T14:19:03.886Z",
+    "createdAt": "2026-06-30T15:26:40.964Z",
+    "updatedAt": "2026-06-30T15:26:40.964Z",
     "homepage": "https://github.com/moment/luxon#readme",
     "source": "npm",
     "category": "tools"
+  },
+  {
+    "id": "npm-lucide-react",
+    "name": "lucide-react",
+    "fullName": "npm:lucide-react",
+    "url": "https://www.npmjs.com/package/lucide-react",
+    "description": "A Lucide icon library package for React applications.",
+    "language": "JavaScript/TypeScript",
+    "stars": 23202,
+    "starsGrowth": 0,
+    "forks": 1438,
+    "openIssues": 535,
+    "topics": [
+      "Lucide",
+      "React",
+      "Feather",
+      "Icons",
+      "Icon",
+      "SVG",
+      "Feather Icons",
+      "Fontawesome",
+      "Font Awesome"
+    ],
+    "license": "ISC",
+    "createdAt": "2026-06-30T15:26:41.306Z",
+    "updatedAt": "2026-06-30T15:26:41.306Z",
+    "homepage": "https://lucide.dev",
+    "source": "npm",
+    "category": "frontend"
   },
   {
     "id": "npm-lucide-svelte",
@@ -1458,10 +1437,10 @@
     "url": "https://www.npmjs.com/package/lucide-svelte",
     "description": "A Lucide icon library package for Svelte applications.",
     "language": "JavaScript/TypeScript",
-    "stars": 23201,
+    "stars": 23202,
     "starsGrowth": 0,
     "forks": 1438,
-    "openIssues": 534,
+    "openIssues": 535,
     "topics": [
       "Lucide",
       "Svelte",
@@ -1474,11 +1453,32 @@
       "Font Awesome"
     ],
     "license": "ISC",
-    "createdAt": "2026-06-30T14:19:05.088Z",
-    "updatedAt": "2026-06-30T14:19:05.088Z",
+    "createdAt": "2026-06-30T15:26:41.885Z",
+    "updatedAt": "2026-06-30T15:26:41.885Z",
     "homepage": "https://lucide.dev",
     "source": "npm",
     "category": "frontend"
+  },
+  {
+    "id": "npm-expo",
+    "name": "expo",
+    "fullName": "npm:expo",
+    "url": "https://www.npmjs.com/package/expo",
+    "description": "The Expo SDK",
+    "language": "JavaScript/TypeScript",
+    "stars": 50348,
+    "starsGrowth": 0,
+    "forks": 12912,
+    "openIssues": 638,
+    "topics": [
+      "expo"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-06-30T15:26:42.301Z",
+    "updatedAt": "2026-06-30T15:26:42.301Z",
+    "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
+    "source": "npm",
+    "category": "mobile"
   },
   {
     "id": "npm-react-native",
@@ -1490,7 +1490,7 @@
     "stars": 126124,
     "starsGrowth": 0,
     "forks": 25179,
-    "openIssues": 1041,
+    "openIssues": 1042,
     "topics": [
       "react",
       "react-native",
@@ -1502,8 +1502,8 @@
       "mobile-development"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:19:06.115Z",
-    "updatedAt": "2026-06-30T14:19:06.115Z",
+    "createdAt": "2026-06-30T15:26:42.664Z",
+    "updatedAt": "2026-06-30T15:26:42.664Z",
     "homepage": "https://reactnative.dev/",
     "source": "npm",
     "category": "frontend"
@@ -1521,8 +1521,8 @@
     "openIssues": 108,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:19:07.060Z",
-    "updatedAt": "2026-06-30T14:19:07.060Z",
+    "createdAt": "2026-06-30T15:26:43.456Z",
+    "updatedAt": "2026-06-30T15:26:43.456Z",
     "homepage": "https://github.com/tamagui/tamagui#readme",
     "source": "npm",
     "category": "tools"

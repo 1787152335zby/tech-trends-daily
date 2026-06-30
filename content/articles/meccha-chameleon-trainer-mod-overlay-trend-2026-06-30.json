@@ -27,7 +27,7 @@
     ],
     "license": "MIT",
     "createdAt": "2026-06-29T21:14:45Z",
-    "updatedAt": "2026-06-30T11:47:34Z",
+    "updatedAt": "2026-06-30T14:29:55Z",
     "homepage": "",
     "source": "github",
     "category": "frontend"
@@ -35,8 +35,8 @@
   "relatedSlugs": [
     "react",
     "vite",
-    "lucide-react",
-    "next"
+    "next",
+    "preact"
   ],
   "tags": [
     "meccha",

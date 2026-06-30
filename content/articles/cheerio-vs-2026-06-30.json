@@ -28,8 +28,8 @@
       "html"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:19:02.750Z",
-    "updatedAt": "2026-06-30T14:19:02.750Z",
+    "createdAt": "2026-06-30T15:26:40.146Z",
+    "updatedAt": "2026-06-30T15:26:40.146Z",
     "homepage": "https://cheerio.js.org/",
     "source": "npm",
     "category": "frontend"
@@ -37,8 +37,8 @@
   "relatedSlugs": [
     "react",
     "vite",
-    "lucide-react",
-    "next"
+    "next",
+    "preact"
   ],
   "tags": [
     "htmlparser",

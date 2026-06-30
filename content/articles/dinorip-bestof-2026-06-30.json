@@ -36,8 +36,8 @@
   "relatedSlugs": [
     "react",
     "vite",
-    "lucide-react",
-    "next"
+    "next",
+    "preact"
   ],
   "tags": [
     "game-development",

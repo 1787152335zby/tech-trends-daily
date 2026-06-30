@@ -16,7 +16,7 @@
     "stars": 126124,
     "starsGrowth": 0,
     "forks": 25179,
-    "openIssues": 1041,
+    "openIssues": 1042,
     "topics": [
       "react",
       "react-native",
@@ -28,8 +28,8 @@
       "mobile-development"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:19:06.115Z",
-    "updatedAt": "2026-06-30T14:19:06.115Z",
+    "createdAt": "2026-06-30T15:26:42.664Z",
+    "updatedAt": "2026-06-30T15:26:42.664Z",
     "homepage": "https://reactnative.dev/",
     "source": "npm",
     "category": "frontend"
@@ -37,8 +37,8 @@
   "relatedSlugs": [
     "react",
     "vite",
-    "lucide-react",
-    "next"
+    "next",
+    "preact"
   ],
   "tags": [
     "react",

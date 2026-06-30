@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 58431,
     "starsGrowth": 0,
-    "forks": 2083,
+    "forks": 2084,
     "openIssues": 5,
     "topics": [
       "react",
@@ -26,8 +26,8 @@
       "store"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T14:18:57.631Z",
-    "updatedAt": "2026-06-30T14:18:57.631Z",
+    "createdAt": "2026-06-30T15:26:35.232Z",
+    "updatedAt": "2026-06-30T15:26:35.232Z",
     "homepage": "https://github.com/pmndrs/zustand",
     "source": "npm",
     "category": "frontend"
@@ -35,8 +35,8 @@
   "relatedSlugs": [
     "react",
     "vite",
-    "lucide-react",
-    "next"
+    "next",
+    "preact"
   ],
   "tags": [
     "react",
