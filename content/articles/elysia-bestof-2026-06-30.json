@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/elysia",
     "description": "Ergonomic Framework for Human",
     "language": "JavaScript/TypeScript",
-    "stars": 18597,
+    "stars": 18598,
     "starsGrowth": 585161,
     "forks": 548,
     "openIssues": 344,
@@ -24,8 +24,8 @@
       "server"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T03:37:36.641Z",
-    "updatedAt": "2026-06-30T03:37:36.641Z",
+    "createdAt": "2026-06-30T09:35:09.576Z",
+    "updatedAt": "2026-06-30T09:35:09.576Z",
     "homepage": "https://github.com/elysiajs/elysia",
     "source": "npm",
     "category": "backend"

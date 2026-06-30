@@ -21,17 +21,17 @@
       "expo"
     ],
     "license": "MIT",
-    "createdAt": "2026-06-30T03:37:55.376Z",
-    "updatedAt": "2026-06-30T03:37:55.376Z",
+    "createdAt": "2026-06-30T09:35:33.075Z",
+    "updatedAt": "2026-06-30T09:35:33.075Z",
     "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
     "source": "npm",
     "category": "mobile"
   },
   "relatedSlugs": [
-    "weathermaster",
     "sim-use",
-    "contained-app",
-    "react-native-better-maps"
+    "weathermaster",
+    "hypernavbar",
+    "film-space"
   ],
   "tags": [
     "expo"
