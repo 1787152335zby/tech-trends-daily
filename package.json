@@ -9,8 +9,7 @@
     "lint": "eslint",
     "fetch-all": "npx tsx scripts/fetch-all.ts",
     "generate": "npx tsx scripts/generate-articles.ts",
-    "pipeline": "npx tsx scripts/build-pipeline.ts",
-    "postbuild": "next-sitemap"
+    "pipeline": "npx tsx scripts/build-pipeline.ts"
   },
   "dependencies": {
     "date-fns": "^4.4.0",
