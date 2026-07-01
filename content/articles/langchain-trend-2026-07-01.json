@@ -13,9 +13,9 @@
     "url": "https://www.npmjs.com/package/langchain",
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
-    "stars": 17877,
+    "stars": 17878,
     "starsGrowth": 2473025,
-    "forks": 3227,
+    "forks": 3229,
     "openIssues": 370,
     "topics": [
       "llm",
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-01T03:52:11.220Z",
-    "updatedAt": "2026-07-01T03:52:11.220Z",
+    "createdAt": "2026-07-01T09:45:21.024Z",
+    "updatedAt": "2026-07-01T09:45:21.024Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -41,7 +41,8 @@
   "relatedSlugs": [
     "openai",
     "ai",
-    "chromadb"
+    "chromadb",
+    "godot-will-no-longer-accept-ai-authored-code-contributions"
   ],
   "tags": [
     "llm",

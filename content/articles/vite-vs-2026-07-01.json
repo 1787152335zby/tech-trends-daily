@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/vite",
     "description": "Native-ESM powered web dev build tool",
     "language": "JavaScript/TypeScript",
-    "stars": 81640,
+    "stars": 81643,
     "starsGrowth": 140977733,
-    "forks": 8366,
-    "openIssues": 726,
+    "forks": 8368,
+    "openIssues": 719,
     "topics": [
       "build-tool",
       "dev-server",
@@ -26,17 +26,17 @@
       "vite"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-01T03:52:02.340Z",
-    "updatedAt": "2026-07-01T03:52:02.340Z",
+    "createdAt": "2026-07-01T09:45:13.937Z",
+    "updatedAt": "2026-07-01T09:45:13.937Z",
     "homepage": "https://vite.dev",
     "source": "npm",
     "category": "frontend"
   },
   "relatedSlugs": [
     "react",
-    "zustand",
     "next",
-    "preact"
+    "preact",
+    "storybook"
   ],
   "tags": [
     "build-tool",
@@ -46,5 +46,5 @@
     "hmr",
     "vite"
   ],
-  "bodyHtml": "<p><strong>vite</strong> is making waves in the <em>Frontend</em> ecosystem this week, gaining <strong>141.0MM weekly downloads</strong>. accruing over 81.6k stars on GitHub, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 81.6k</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +141.0M/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 8.4k</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 726</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>JavaScript/TypeScript</strong> for maximum performance</li>\n  <li>Licensed under <strong>MIT</strong> — free to use and modify</li>\n  <li>Official website: <a href=\"https://vite.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://vite.dev</a></li>\n  <li>🏷️ build-tool</li>\n<li>🏷️ dev-server</li>\n<li>🏷️ framework</li>\n<li>🏷️ frontend</li>\n<li>🏷️ hmr</li>\n</ul>\n<h2>Why vite Is Trending</h2>\n<p>The Frontend landscape is constantly evolving, and <strong>vite</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 141.0M new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> Native-ESM powered web dev build tool</li>\n</ol>\n<p>If you're working in Frontend, this is definitely a project worth watching — and adopting.</p>\n<h2>How It Compares to Alternatives</h2>\n<p>When evaluating <strong>vite</strong>, it's natural to compare it against established alternatives. Here's what sets it apart:</p>\n<ul>\n  <li><strong>Performance:</strong> Built with JavaScript/TypeScript, it leverages modern language features for speed.</li>\n  <li><strong>Community size:</strong> 81.6k stars indicate strong community trust and validation.</li>\n  <li><strong>License:</strong> MIT licensing means no commercial restrictions.</li>\n</ul>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>vite</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+  "bodyHtml": "<p><strong>vite</strong> is making waves in the <em>Frontend</em> ecosystem this week, gaining <strong>141.0MM weekly downloads</strong>. accruing over 81.6k stars on GitHub, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 81.6k</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +141.0M/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 8.4k</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 719</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>JavaScript/TypeScript</strong> for maximum performance</li>\n  <li>Licensed under <strong>MIT</strong> — free to use and modify</li>\n  <li>Official website: <a href=\"https://vite.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://vite.dev</a></li>\n  <li>🏷️ build-tool</li>\n<li>🏷️ dev-server</li>\n<li>🏷️ framework</li>\n<li>🏷️ frontend</li>\n<li>🏷️ hmr</li>\n</ul>\n<h2>Why vite Is Trending</h2>\n<p>The Frontend landscape is constantly evolving, and <strong>vite</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 141.0M new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> Native-ESM powered web dev build tool</li>\n</ol>\n<p>If you're working in Frontend, this is definitely a project worth watching — and adopting.</p>\n<h2>How It Compares to Alternatives</h2>\n<p>When evaluating <strong>vite</strong>, it's natural to compare it against established alternatives. Here's what sets it apart:</p>\n<ul>\n  <li><strong>Performance:</strong> Built with JavaScript/TypeScript, it leverages modern language features for speed.</li>\n  <li><strong>Community size:</strong> 81.6k stars indicate strong community trust and validation.</li>\n  <li><strong>License:</strong> MIT licensing means no commercial restrictions.</li>\n</ul>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>vite</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
 }

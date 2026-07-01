@@ -25,8 +25,8 @@
       "templating"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-01T03:51:56.328Z",
-    "updatedAt": "2026-07-01T03:51:56.328Z",
+    "createdAt": "2026-07-01T09:45:07.664Z",
+    "updatedAt": "2026-07-01T09:45:07.664Z",
     "homepage": "https://svelte.dev",
     "source": "npm",
     "category": "frontend"
@@ -34,8 +34,8 @@
   "relatedSlugs": [
     "react",
     "vite",
-    "zustand",
-    "next"
+    "next",
+    "preact"
   ],
   "tags": [
     "svelte",

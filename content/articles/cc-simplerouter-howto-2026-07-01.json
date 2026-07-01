@@ -1,0 +1,36 @@
+{
+  "slug": "cc-simplerouter-howto-2026-07-01",
+  "title": "Getting Started with cc-simplerouter — A Practical Guide for Backend Developers",
+  "description": "Step-by-step guide to getting started with cc-simplerouter. Learn setup, configuration, and best practices for Backend.",
+  "category": "backend",
+  "type": "howto",
+  "publishedAt": "2026-07-01",
+  "updatedAt": "2026-07-01",
+  "sourceData": {
+    "id": "gh-1283525572",
+    "name": "cc-simplerouter",
+    "fullName": "kdsuomi/cc-simplerouter",
+    "url": "https://github.com/kdsuomi/cc-simplerouter",
+    "description": "Install and setup in 26 seconds. Simplerouter configures Claude Code to use any compatible OpenRouter model in seconds, WITHOUT manual editing of config files, environment variables, or messing with local webservers/webUIs. It also doesn't overwrite your existing Claude Code subscription sign-in!",
+    "language": "Go",
+    "stars": 90,
+    "starsGrowth": 90,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "NOASSERTION",
+    "createdAt": "2026-06-29T02:22:12Z",
+    "updatedAt": "2026-07-01T09:44:49Z",
+    "homepage": "",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "express",
+    "hono",
+    "prisma",
+    "kysely"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><strong>cc-simplerouter</strong> is making waves in the <em>Backend</em> ecosystem this week, gaining <strong>90new stars</strong>. With a total of 90 stars on GitHub and 0 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 90</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +90/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 0</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Go</strong> for maximum performance</li>\n  <li>Licensed under <strong>NOASSERTION</strong> — free to use and modify</li>\n  \n  \n</ul>\n<h2>Why cc-simplerouter Is Trending</h2>\n<p>The Backend landscape is constantly evolving, and <strong>cc-simplerouter</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 90 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> Install and setup in 26 seconds. Simplerouter configures Claude Code to use any compatible OpenRouter model in seconds, WITHOUT manual editing of config files, environment variables, or messing with local webservers/webUIs. It also doesn't overwrite your existing Claude Code subscription sign-in!</li>\n</ol>\n<p>If you're working in Backend, this is definitely a project worth watching — and adopting.</p>\n<h2>Practical Use Cases</h2>\n<p>Here are some common scenarios where <strong>cc-simplerouter</strong> shines:</p>\n<ol>\n  <li><strong>New projects:</strong> Start your next Go project with this tool as a foundation</li>\n  <li><strong>Migration:</strong> Consider switching if your current solution is slowing you down</li>\n  <li><strong>Learning:</strong> Study the source code to understand modern Backend patterns</li>\n</ol>\n<h2>Quick Start</h2>\n<p>Get started with <strong>cc-simplerouter</strong> in minutes:</p>\n<div class=\"code-block\"><code>\n# Clone the repository\ngit clone https://github.com/kdsuomi/cc-simplerouter\n\n# Navigate to project\ncd cc-simplerouter\n\n# Check the README for detailed setup instructions\n</code></div>\n<p>For full documentation and advanced usage, visit the <a href=\"https://github.com/kdsuomi/cc-simplerouter\" rel=\"nofollow noopener\" target=\"_blank\">official GitHub repository</a>.</p>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>cc-simplerouter</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+}

@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-01T03:52:12.629Z",
-    "updatedAt": "2026-07-01T03:52:12.629Z",
+    "createdAt": "2026-07-01T09:45:22.545Z",
+    "updatedAt": "2026-07-01T09:45:22.545Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -33,7 +33,8 @@
   "relatedSlugs": [
     "openai",
     "ai",
-    "langchain"
+    "langchain",
+    "godot-will-no-longer-accept-ai-authored-code-contributions"
   ],
   "tags": [
     "chroma",
