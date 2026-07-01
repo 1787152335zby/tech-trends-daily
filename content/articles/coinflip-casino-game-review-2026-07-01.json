@@ -1,0 +1,56 @@
+{
+  "slug": "coinflip-casino-game-review-2026-07-01",
+  "title": "coinflip-casino-game: A Deep Dive into This Week's Hottest Frontend Repo",
+  "description": "Comprehensive review of coinflip-casino-game. A full-stack, peer-to-peer coinflip betting casino game on Solana. Players connect a wallet, create or join on-chain gam. Stars: 337, Growth: +5/week.",
+  "category": "frontend",
+  "type": "review",
+  "publishedAt": "2026-07-01",
+  "updatedAt": "2026-07-01",
+  "sourceData": {
+    "id": "gh-1281280268",
+    "name": "coinflip-casino-game",
+    "fullName": "xxniiinxx/coinflip-casino-game",
+    "url": "https://github.com/xxniiinxx/coinflip-casino-game",
+    "description": "A full-stack, peer-to-peer coinflip betting casino game on Solana. Players connect a wallet, create or join on-chain game rooms, and compete head-to-head for 2× the stake. The UI updates in real time over WebSockets, outcomes are resolved on-chain with Orao VRF, and the backend tracks rooms, chat, and match history in MongoDB. ",
+    "language": "TypeScript",
+    "stars": 337,
+    "starsGrowth": 5,
+    "forks": 202,
+    "openIssues": 0,
+    "topics": [
+      "anchor",
+      "betting",
+      "blockchain-game",
+      "casino",
+      "coinflip",
+      "cryptocurrency",
+      "defi",
+      "fullstack",
+      "gambling",
+      "mongodb"
+    ],
+    "license": "No license",
+    "createdAt": "2026-06-26T11:52:40Z",
+    "updatedAt": "2026-07-01T02:19:15Z",
+    "homepage": "https://www.flip.is/",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "react",
+    "vite",
+    "zustand",
+    "next"
+  ],
+  "tags": [
+    "anchor",
+    "betting",
+    "blockchain-game",
+    "casino",
+    "coinflip",
+    "cryptocurrency",
+    "defi",
+    "fullstack"
+  ],
+  "bodyHtml": "<p><strong>coinflip-casino-game</strong> is making waves in the <em>Frontend</em> ecosystem this week, gaining <strong>5new stars</strong>. With a total of 337 stars on GitHub and 202 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 337</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +5/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 202</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>TypeScript</strong> for maximum performance</li>\n  <li>Licensed under <strong>No license</strong> — free to use and modify</li>\n  <li>Official website: <a href=\"https://www.flip.is/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.flip.is/</a></li>\n  <li>🏷️ anchor</li>\n<li>🏷️ betting</li>\n<li>🏷️ blockchain-game</li>\n<li>🏷️ casino</li>\n<li>🏷️ coinflip</li>\n</ul>\n<h2>Why coinflip-casino-game Is Trending</h2>\n<p>The Frontend landscape is constantly evolving, and <strong>coinflip-casino-game</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 5 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> A full-stack, peer-to-peer coinflip betting casino game on Solana. Players connect a wallet, create or join on-chain game rooms, and compete head-to-head for 2× the stake. The UI updates in real time over WebSockets, outcomes are resolved on-chain with Orao VRF, and the backend tracks rooms, chat, and match history in MongoDB. </li>\n</ol>\n<p>If you're working in Frontend, this is definitely a project worth watching — and adopting.</p>\n<h2>How It Compares to Alternatives</h2>\n<p>When evaluating <strong>coinflip-casino-game</strong>, it's natural to compare it against established alternatives. Here's what sets it apart:</p>\n<ul>\n  <li><strong>Performance:</strong> Built with TypeScript, it leverages modern language features for speed.</li>\n  <li><strong>Community size:</strong> 337 stars indicate strong community trust and validation.</li>\n  <li><strong>License:</strong> No license licensing means no commercial restrictions.</li>\n</ul>\n<h2>Quick Start</h2>\n<p>Get started with <strong>coinflip-casino-game</strong> in minutes:</p>\n<div class=\"code-block\"><code>\n# Clone the repository\ngit clone https://github.com/xxniiinxx/coinflip-casino-game\n\n# Navigate to project\ncd coinflip-casino-game\n\n# Check the README for detailed setup instructions\n</code></div>\n<p>For full documentation and advanced usage, visit the <a href=\"https://github.com/xxniiinxx/coinflip-casino-game\" rel=\"nofollow noopener\" target=\"_blank\">official GitHub repository</a>.</p>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>coinflip-casino-game</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+}
