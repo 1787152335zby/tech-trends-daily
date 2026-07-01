@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/vitest",
     "description": "Next generation testing framework powered by Vite",
     "language": "JavaScript/TypeScript",
-    "stars": 16785,
+    "stars": 16786,
     "starsGrowth": 68928372,
     "forks": 1841,
     "openIssues": 388,
@@ -24,8 +24,8 @@
       "jest"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-01T09:45:19.401Z",
-    "updatedAt": "2026-07-01T09:45:19.401Z",
+    "createdAt": "2026-07-01T14:34:52.578Z",
+    "updatedAt": "2026-07-01T14:34:52.578Z",
     "homepage": "https://vitest.dev",
     "source": "npm",
     "category": "tools"

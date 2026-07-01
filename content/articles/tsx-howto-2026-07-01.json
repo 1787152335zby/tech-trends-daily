@@ -28,8 +28,8 @@
       "typescript runner"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-01T09:45:14.645Z",
-    "updatedAt": "2026-07-01T09:45:14.645Z",
+    "createdAt": "2026-07-01T14:34:44.048Z",
+    "updatedAt": "2026-07-01T14:34:44.048Z",
     "homepage": "https://tsx.hirok.io",
     "source": "npm",
     "category": "language"
@@ -38,7 +38,7 @@
     "typescript",
     "zod",
     "valibot",
-    "typebox"
+    "fp-ts"
   ],
   "tags": [
     "cli",

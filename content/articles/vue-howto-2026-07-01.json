@@ -21,8 +21,8 @@
       "vue"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-01T09:45:07.281Z",
-    "updatedAt": "2026-07-01T09:45:07.281Z",
+    "createdAt": "2026-07-01T14:34:35.463Z",
+    "updatedAt": "2026-07-01T14:34:35.463Z",
     "homepage": "https://vuejs.org/",
     "source": "npm",
     "category": "frontend"
@@ -30,8 +30,8 @@
   "relatedSlugs": [
     "react",
     "vite",
-    "next",
-    "preact"
+    "zustand",
+    "next"
   ],
   "tags": [
     "vue"
