@@ -1,7 +1,7 @@
 {
   "slug": "surgerelay-macos-trend-2026-07-01",
   "title": "SurgeRelay-macOS Is Trending: Here's What Mobile Developers Need to Know",
-  "description": "SurgeRelay-macOS is trending on GitHub with 70 new stars this week. A macOS Surge module organization/editing/summary app, using Script Hub (https://github.com/Script-H.",
+  "description": "SurgeRelay-macOS is trending on GitHub with 14 new stars this week. A macOS Surge module organization/editing/summary app, using Script Hub (https://github.com/Script-H.",
   "category": "mobile",
   "type": "trend",
   "publishedAt": "2026-07-01",
@@ -13,24 +13,24 @@
     "url": "https://github.com/EEliberto/SurgeRelay-macOS",
     "description": "A macOS Surge module organization/editing/summary app, using Script Hub (https://github.com/Script-Hub-Org) as the upstream.",
     "language": "Swift",
-    "stars": 70,
-    "starsGrowth": 70,
-    "forks": 2,
+    "stars": 84,
+    "starsGrowth": 14,
+    "forks": 3,
     "openIssues": 0,
     "topics": [],
     "license": "Apache-2.0",
     "createdAt": "2026-07-01T06:50:28Z",
-    "updatedAt": "2026-07-01T14:28:51Z",
+    "updatedAt": "2026-07-01T17:19:22Z",
     "homepage": "",
     "source": "github",
     "category": "mobile"
   },
   "relatedSlugs": [
-    "codex-runway",
     "sim-use",
     "hypercopy",
-    "nai64patches"
+    "quotalens",
+    "film-space"
   ],
   "tags": [],
-  "bodyHtml": "<p><strong>SurgeRelay-macOS</strong> is making waves in the <em>Mobile</em> ecosystem this week, gaining <strong>70new stars</strong>. With a total of 70 stars on GitHub and 2 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 70</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +70/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 2</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Swift</strong> for maximum performance</li>\n  <li>Licensed under <strong>Apache-2.0</strong> — free to use and modify</li>\n  \n  \n</ul>\n<h2>Why SurgeRelay-macOS Is Trending</h2>\n<p>The Mobile landscape is constantly evolving, and <strong>SurgeRelay-macOS</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 70 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> A macOS Surge module organization/editing/summary app, using Script Hub (https://github.com/Script-Hub-Org) as the upstream.</li>\n</ol>\n<p>If you're working in Mobile, this is definitely a project worth watching — and adopting.</p>\n<h2>Quick Start</h2>\n<p>Get started with <strong>SurgeRelay-macOS</strong> in minutes:</p>\n<div class=\"code-block\"><code>\n# Clone the repository\ngit clone https://github.com/EEliberto/SurgeRelay-macOS\n\n# Navigate to project\ncd SurgeRelay-macOS\n\n# Check the README for detailed setup instructions\n</code></div>\n<p>For full documentation and advanced usage, visit the <a href=\"https://github.com/EEliberto/SurgeRelay-macOS\" rel=\"nofollow noopener\" target=\"_blank\">official GitHub repository</a>.</p>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>SurgeRelay-macOS</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+  "bodyHtml": "<p><strong>SurgeRelay-macOS</strong> is making waves in the <em>Mobile</em> ecosystem this week, gaining <strong>14new stars</strong>. With a total of 84 stars on GitHub and 3 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 84</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +14/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 3</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Swift</strong> for maximum performance</li>\n  <li>Licensed under <strong>Apache-2.0</strong> — free to use and modify</li>\n  \n  \n</ul>\n<h2>Why SurgeRelay-macOS Is Trending</h2>\n<p>The Mobile landscape is constantly evolving, and <strong>SurgeRelay-macOS</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 14 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> A macOS Surge module organization/editing/summary app, using Script Hub (https://github.com/Script-Hub-Org) as the upstream.</li>\n</ol>\n<p>If you're working in Mobile, this is definitely a project worth watching — and adopting.</p>\n<h2>Quick Start</h2>\n<p>Get started with <strong>SurgeRelay-macOS</strong> in minutes:</p>\n<div class=\"code-block\"><code>\n# Clone the repository\ngit clone https://github.com/EEliberto/SurgeRelay-macOS\n\n# Navigate to project\ncd SurgeRelay-macOS\n\n# Check the README for detailed setup instructions\n</code></div>\n<p>For full documentation and advanced usage, visit the <a href=\"https://github.com/EEliberto/SurgeRelay-macOS\" rel=\"nofollow noopener\" target=\"_blank\">official GitHub repository</a>.</p>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>SurgeRelay-macOS</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
 }

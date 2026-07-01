@@ -21,17 +21,17 @@
       "expo"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-01T14:35:10.465Z",
-    "updatedAt": "2026-07-01T14:35:10.465Z",
+    "createdAt": "2026-07-01T19:55:31.670Z",
+    "updatedAt": "2026-07-01T19:55:31.670Z",
     "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
     "source": "npm",
     "category": "mobile"
   },
   "relatedSlugs": [
     "surgerelay-macos",
-    "codex-runway",
     "sim-use",
-    "hypercopy"
+    "hypercopy",
+    "quotalens"
   ],
   "tags": [
     "expo"

@@ -1,0 +1,36 @@
+{
+  "slug": "box3d-an-open-source-3d-physics-engine-trend-2026-07-01",
+  "title": "Box3D, an open source 3D physics engine Is Trending: Here's What Tools Developers Need to Know",
+  "description": "Box3D, an open source 3D physics engine is trending on GitHub with 317 new stars this week. Box3D, an open source 3D physics engine.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-07-01",
+  "updatedAt": "2026-07-01",
+  "sourceData": {
+    "id": "hn-48745445",
+    "name": "Box3D, an open source 3D physics engine",
+    "fullName": "hn:box3d-an-open-source-3d-physics-engine",
+    "url": "https://box2d.org/posts/2026/06/announcing-box3d/",
+    "description": "Box3D, an open source 3D physics engine",
+    "language": "Various",
+    "stars": 317,
+    "starsGrowth": 317,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-07-01T12:12:17.000Z",
+    "updatedAt": "2026-07-01T12:12:17.000Z",
+    "homepage": "https://box2d.org/posts/2026/06/announcing-box3d/",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "esbuild",
+    "tailwindcss",
+    "pnpm",
+    "vitest"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><strong>Box3D, an open source 3D physics engine</strong> is making waves in the <em>Tools</em> ecosystem this week, gaining <strong>317new stars</strong>. With a total of 317 stars on GitHub and 0 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 317</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +317/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 0</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Various</strong> for maximum performance</li>\n  <li>Licensed under <strong>N/A</strong> — free to use and modify</li>\n  <li>Official website: <a href=\"https://box2d.org/posts/2026/06/announcing-box3d/\" rel=\"nofollow noopener\" target=\"_blank\">https://box2d.org/posts/2026/06/announcing-box3d/</a></li>\n  \n</ul>\n<h2>Why Box3D, an open source 3D physics engine Is Trending</h2>\n<p>The Tools landscape is constantly evolving, and <strong>Box3D, an open source 3D physics engine</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 317 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> Box3D, an open source 3D physics engine</li>\n</ol>\n<p>If you're working in Tools, this is definitely a project worth watching — and adopting.</p>\n<h2>Quick Start</h2>\n<p>Get started with <strong>Box3D, an open source 3D physics engine</strong> in minutes:</p>\n<div class=\"code-block\"><code>\n# Clone the repository\ngit clone https://box2d.org/posts/2026/06/announcing-box3d/\n\n# Navigate to project\ncd Box3D, an open source 3D physics engine\n\n# Check the README for detailed setup instructions\n</code></div>\n<p>For full documentation and advanced usage, visit the <a href=\"https://box2d.org/posts/2026/06/announcing-box3d/\" rel=\"nofollow noopener\" target=\"_blank\">official GitHub repository</a>.</p>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>Box3D, an open source 3D physics engine</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+}

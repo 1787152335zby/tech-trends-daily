@@ -16,7 +16,7 @@
     "stars": 46309,
     "starsGrowth": 13101726,
     "forks": 2256,
-    "openIssues": 2633,
+    "openIssues": 2634,
     "topics": [
       "CLI",
       "ORM",
@@ -44,8 +44,8 @@
       "MCP"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-01T14:34:49.691Z",
-    "updatedAt": "2026-07-01T14:34:49.691Z",
+    "createdAt": "2026-07-01T19:55:13.785Z",
+    "updatedAt": "2026-07-01T19:55:13.785Z",
     "homepage": "https://www.prisma.io",
     "source": "npm",
     "category": "backend"
