@@ -1,0 +1,56 @@
+{
+  "slug": "helix-trend-2026-07-02",
+  "title": "helix Is Trending: Here's What Backend Developers Need to Know",
+  "description": "helix is trending on GitHub with 24 new stars this week. Helix — a private, local-first, anti-hallucination Personal Health Intelligence platform on the ruvn.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-02",
+  "updatedAt": "2026-07-02",
+  "sourceData": {
+    "id": "gh-1280870466",
+    "name": "helix",
+    "fullName": "ruvnet/helix",
+    "url": "https://github.com/ruvnet/helix",
+    "description": "Helix — a private, local-first, anti-hallucination Personal Health Intelligence platform on the ruvnet stack (Ruflo + RuVector + Cognitum Seed + MetaHarness/Darwin).",
+    "language": "Rust",
+    "stars": 24,
+    "starsGrowth": 24,
+    "forks": 3,
+    "openIssues": 0,
+    "topics": [
+      "adr",
+      "anti-hallucination",
+      "graphrag",
+      "health-intelligence",
+      "local-first",
+      "personal-health",
+      "privacy",
+      "rust",
+      "ruvnet",
+      "wasm"
+    ],
+    "license": "No license",
+    "createdAt": "2026-06-26T02:40:13Z",
+    "updatedAt": "2026-07-01T22:08:46Z",
+    "homepage": "https://ruvnet.github.io/helix/",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "express",
+    "hono",
+    "prisma",
+    "kysely"
+  ],
+  "tags": [
+    "adr",
+    "anti-hallucination",
+    "graphrag",
+    "health-intelligence",
+    "local-first",
+    "personal-health",
+    "privacy",
+    "rust"
+  ],
+  "bodyHtml": "<p><strong>helix</strong> is making waves in the <em>Backend</em> ecosystem this week, gaining <strong>24new stars</strong>. With a total of 24 stars on GitHub and 3 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 24</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +24/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 3</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Rust</strong> for maximum performance</li>\n  <li>Licensed under <strong>No license</strong> — free to use and modify</li>\n  <li>Official website: <a href=\"https://ruvnet.github.io/helix/\" rel=\"nofollow noopener\" target=\"_blank\">https://ruvnet.github.io/helix/</a></li>\n  <li>🏷️ adr</li>\n<li>🏷️ anti-hallucination</li>\n<li>🏷️ graphrag</li>\n<li>🏷️ health-intelligence</li>\n<li>🏷️ local-first</li>\n</ul>\n<h2>Why helix Is Trending</h2>\n<p>The Backend landscape is constantly evolving, and <strong>helix</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 24 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> Helix — a private, local-first, anti-hallucination Personal Health Intelligence platform on the ruvnet stack (Ruflo + RuVector + Cognitum Seed + MetaHarness/Darwin).</li>\n</ol>\n<p>If you're working in Backend, this is definitely a project worth watching — and adopting.</p>\n<h2>Quick Start</h2>\n<p>Get started with <strong>helix</strong> in minutes:</p>\n<div class=\"code-block\"><code>\n# Clone the repository\ngit clone https://github.com/ruvnet/helix\n\n# Navigate to project\ncd helix\n\n# Check the README for detailed setup instructions\n</code></div>\n<p>For full documentation and advanced usage, visit the <a href=\"https://github.com/ruvnet/helix\" rel=\"nofollow noopener\" target=\"_blank\">official GitHub repository</a>.</p>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>helix</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+}
