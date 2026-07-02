@@ -13,16 +13,16 @@
     "url": "https://www.npmjs.com/package/react",
     "description": "React is a JavaScript library for building user interfaces.",
     "language": "JavaScript/TypeScript",
-    "stars": 246166,
+    "stars": 246170,
     "starsGrowth": 146247311,
-    "forks": 51135,
-    "openIssues": 1254,
+    "forks": 51136,
+    "openIssues": 1250,
     "topics": [
       "react"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-02T13:59:58.439Z",
-    "updatedAt": "2026-07-02T13:59:58.439Z",
+    "createdAt": "2026-07-02T19:24:06.338Z",
+    "updatedAt": "2026-07-02T19:24:06.338Z",
     "homepage": "https://react.dev/",
     "source": "npm",
     "category": "frontend"
