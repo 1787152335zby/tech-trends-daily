@@ -13,25 +13,25 @@
     "url": "https://www.npmjs.com/package/expo",
     "description": "The Expo SDK",
     "language": "JavaScript/TypeScript",
-    "stars": 50378,
+    "stars": 50381,
     "starsGrowth": 0,
-    "forks": 12930,
+    "forks": 12931,
     "openIssues": 641,
     "topics": [
       "expo"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-02T03:34:07.754Z",
-    "updatedAt": "2026-07-02T03:34:07.754Z",
+    "createdAt": "2026-07-02T08:56:30.526Z",
+    "updatedAt": "2026-07-02T08:56:30.526Z",
     "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
     "source": "npm",
     "category": "mobile"
   },
   "relatedSlugs": [
-    "berth",
-    "bugu",
-    "surgerelay-macos",
-    "sim-use"
+    "a-new-android-malware-from-google",
+    "sim-use",
+    "codexu",
+    "surgerelay-macos"
   ],
   "tags": [
     "expo"

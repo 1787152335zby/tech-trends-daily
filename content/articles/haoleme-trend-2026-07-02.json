@@ -1,0 +1,50 @@
+{
+  "slug": "haoleme-trend-2026-07-02",
+  "title": "Haoleme Is Trending: Here's What Backend Developers Need to Know",
+  "description": "Haoleme is trending on GitHub with 13 new stars this week. 在手机上监控电脑和服务器里的命令运行状态。用 hao 启动命令，App 实时查看输出、设备状态和结束通知。.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-02",
+  "updatedAt": "2026-07-02",
+  "sourceData": {
+    "id": "gh-1286753096",
+    "name": "Haoleme",
+    "fullName": "HaolemeApp/Haoleme",
+    "url": "https://github.com/HaolemeApp/Haoleme",
+    "description": "在手机上监控电脑和服务器里的命令运行状态。用 hao 启动命令，App 实时查看输出、设备状态和结束通知。",
+    "language": "Java",
+    "stars": 13,
+    "starsGrowth": 13,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [
+      "android",
+      "cli",
+      "command-monitor",
+      "python",
+      "remote-monitoring",
+      "terminal"
+    ],
+    "license": "AGPL-3.0",
+    "createdAt": "2026-07-02T04:21:42Z",
+    "updatedAt": "2026-07-02T08:28:48Z",
+    "homepage": "https://pypi.org/project/haoleme/",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "express",
+    "hono",
+    "prisma",
+    "kysely"
+  ],
+  "tags": [
+    "android",
+    "cli",
+    "command-monitor",
+    "python",
+    "remote-monitoring",
+    "terminal"
+  ],
+  "bodyHtml": "<p><strong>Haoleme</strong> is making waves in the <em>Backend</em> ecosystem this week, gaining <strong>13new stars</strong>. With a total of 13 stars on GitHub and 0 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 13</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +13/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 0</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Java</strong> for maximum performance</li>\n  <li>Licensed under <strong>AGPL-3.0</strong> — free to use and modify</li>\n  <li>Official website: <a href=\"https://pypi.org/project/haoleme/\" rel=\"nofollow noopener\" target=\"_blank\">https://pypi.org/project/haoleme/</a></li>\n  <li>🏷️ android</li>\n<li>🏷️ cli</li>\n<li>🏷️ command-monitor</li>\n<li>🏷️ python</li>\n<li>🏷️ remote-monitoring</li>\n</ul>\n<h2>Why Haoleme Is Trending</h2>\n<p>The Backend landscape is constantly evolving, and <strong>Haoleme</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 13 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> 在手机上监控电脑和服务器里的命令运行状态。用 hao 启动命令，App 实时查看输出、设备状态和结束通知。</li>\n</ol>\n<p>If you're working in Backend, this is definitely a project worth watching — and adopting.</p>\n<h2>Quick Start</h2>\n<p>Get started with <strong>Haoleme</strong> in minutes:</p>\n<div class=\"code-block\"><code>\n# Clone the repository\ngit clone https://github.com/HaolemeApp/Haoleme\n\n# Navigate to project\ncd Haoleme\n\n# Check the README for detailed setup instructions\n</code></div>\n<p>For full documentation and advanced usage, visit the <a href=\"https://github.com/HaolemeApp/Haoleme\" rel=\"nofollow noopener\" target=\"_blank\">official GitHub repository</a>.</p>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>Haoleme</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+}
