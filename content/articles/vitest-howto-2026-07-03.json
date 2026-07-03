@@ -24,8 +24,8 @@
       "jest"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-03T14:03:35.021Z",
-    "updatedAt": "2026-07-03T14:03:35.021Z",
+    "createdAt": "2026-07-03T19:21:59.147Z",
+    "updatedAt": "2026-07-03T19:21:59.147Z",
     "homepage": "https://vitest.dev",
     "source": "npm",
     "category": "tools"
@@ -34,7 +34,7 @@
     "esbuild",
     "tailwindcss",
     "pnpm",
-    "playwright"
+    "date-fns"
   ],
   "tags": [
     "vite",

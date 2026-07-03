@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-03T14:03:38.369Z",
-    "updatedAt": "2026-07-03T14:03:38.369Z",
+    "createdAt": "2026-07-03T19:22:02.037Z",
+    "updatedAt": "2026-07-03T19:22:02.037Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "the-short-leash-ai-coding-method-for-beating-fable"
+    "instead-of-banning-ai-i-made-a-classroom-contract-with-my-st"
   ],
   "tags": [
     "chroma",

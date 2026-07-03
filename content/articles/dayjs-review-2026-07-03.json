@@ -16,7 +16,7 @@
     "stars": 48666,
     "starsGrowth": 0,
     "forks": 2452,
-    "openIssues": 1278,
+    "openIssues": 1280,
     "topics": [
       "dayjs",
       "date",
@@ -25,8 +25,8 @@
       "moment"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-03T14:03:49.376Z",
-    "updatedAt": "2026-07-03T14:03:49.376Z",
+    "createdAt": "2026-07-03T19:22:12.169Z",
+    "updatedAt": "2026-07-03T19:22:12.169Z",
     "homepage": "https://day.js.org",
     "source": "npm",
     "category": "tools"
@@ -35,7 +35,7 @@
     "esbuild",
     "tailwindcss",
     "pnpm",
-    "vitest"
+    "date-fns"
   ],
   "tags": [
     "dayjs",

@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 69235,
     "starsGrowth": 109089346,
-    "forks": 23978,
+    "forks": 23988,
     "openIssues": 225,
     "topics": [
       "express",
@@ -30,8 +30,8 @@
       "api"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-03T14:03:22.497Z",
-    "updatedAt": "2026-07-03T14:03:22.497Z",
+    "createdAt": "2026-07-03T19:21:50.118Z",
+    "updatedAt": "2026-07-03T19:21:50.118Z",
     "homepage": "https://expressjs.com/",
     "source": "npm",
     "category": "backend"

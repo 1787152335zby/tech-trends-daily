@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 38733,
     "starsGrowth": 23153911,
-    "forks": 2040,
+    "forks": 2042,
     "openIssues": 150,
     "topics": [
       "preact",
@@ -30,8 +30,8 @@
       "framework"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-03T14:03:20.270Z",
-    "updatedAt": "2026-07-03T14:03:20.270Z",
+    "createdAt": "2026-07-03T19:21:48.118Z",
+    "updatedAt": "2026-07-03T19:21:48.118Z",
     "homepage": "https://preactjs.com",
     "source": "npm",
     "category": "frontend"
@@ -39,8 +39,8 @@
   "relatedSlugs": [
     "vite",
     "react",
-    "next",
-    "storybook"
+    "zustand",
+    "next"
   ],
   "tags": [
     "preact",
