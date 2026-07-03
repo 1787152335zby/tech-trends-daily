@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://techtrends-daily.vercel.app/</loc><lastmod>2026-07-03T09:18:48.414Z</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://techtrends-daily.vercel.app/category/tools/</loc><lastmod>2026-07-03T09:18:48.414Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://techtrends-daily.vercel.app/category/language/</loc><lastmod>2026-07-03T09:18:48.414Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://techtrends-daily.vercel.app/category/frontend/</loc><lastmod>2026-07-03T09:18:48.414Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://techtrends-daily.vercel.app/category/backend/</loc><lastmod>2026-07-03T09:18:48.414Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://techtrends-daily.vercel.app/category/ai-ml/</loc><lastmod>2026-07-03T09:18:48.414Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://techtrends-daily.vercel.app/category/database/</loc><lastmod>2026-07-03T09:18:48.414Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://techtrends-daily.vercel.app/category/mobile/</loc><lastmod>2026-07-03T09:18:48.414Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://techtrends-daily.vercel.app/category/devops/</loc><lastmod>2026-07-03T09:18:48.414Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://techtrends-daily.vercel.app/category/security/</loc><lastmod>2026-07-03T09:18:48.414Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/</loc><lastmod>2026-07-03T14:04:30.356Z</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/category/tools/</loc><lastmod>2026-07-03T14:04:30.356Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/category/language/</loc><lastmod>2026-07-03T14:04:30.356Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/category/frontend/</loc><lastmod>2026-07-03T14:04:30.356Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/category/backend/</loc><lastmod>2026-07-03T14:04:30.356Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/category/ai-ml/</loc><lastmod>2026-07-03T14:04:30.356Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/category/database/</loc><lastmod>2026-07-03T14:04:30.356Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/category/mobile/</loc><lastmod>2026-07-03T14:04:30.356Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/category/devops/</loc><lastmod>2026-07-03T14:04:30.356Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/category/security/</loc><lastmod>2026-07-03T14:04:30.356Z</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
   <url><loc>https://techtrends-daily.vercel.app/article/esbuild-review-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://techtrends-daily.vercel.app/article/typescript-howto-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://techtrends-daily.vercel.app/article/zod-trend-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -204,6 +204,20 @@
   <url><loc>https://techtrends-daily.vercel.app/article/how-working-with-a-blind-client-revealed-invisible-accessibi-trend-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://techtrends-daily.vercel.app/article/hotwire-club-toolbox-review-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://techtrends-daily.vercel.app/article/half-baked-product-review-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/wordgard-the-new-in-browser-rich-text-editor-from-the-creato-vs-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/please-stop-the-ai-confidence-theater-howto-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/zuckerberg-admits-meta-s-layoffs-were-ineffective-vs-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/valve-open-source-the-steam-machine-e-ink-screen-so-you-can--howto-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/fluxdown-howto-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/postgresql-and-the-oom-killer-why-you-must-use-strict-memory-howto-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/commodore-64-basic-for-postgresql-vs-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/airfoil-review-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/q-a-with-micron-s-vp-and-gm-of-memory-bestof-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/gemini-code-assist-will-be-shut-down-on-july-17-bestof-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/the-beauty-of-tautologies-review-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/local-reasoning-for-global-properties-trend-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/goodebye-forever-probably-why-i-m-leaving-developer-relation-bestof-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://techtrends-daily.vercel.app/article/hackers-shoveled-snow-for-company-were-rewarded-with-network-trend-2026-07-03/</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://techtrends-daily.vercel.app/article/esbuild-review-2026-07-02/</loc><lastmod>2026-07-02</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://techtrends-daily.vercel.app/article/typescript-howto-2026-07-02/</loc><lastmod>2026-07-02</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://techtrends-daily.vercel.app/article/zod-trend-2026-07-02/</loc><lastmod>2026-07-02</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>

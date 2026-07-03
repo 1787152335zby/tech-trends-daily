@@ -47,7 +47,7 @@
     "express",
     "hono",
     "prisma",
-    "kysely"
+    "fastify"
   ],
   "tags": [
     "agent-os",

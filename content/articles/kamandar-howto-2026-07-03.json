@@ -33,7 +33,7 @@
     "express",
     "hono",
     "prisma",
-    "kysely"
+    "fastify"
   ],
   "tags": [
     "command-center",

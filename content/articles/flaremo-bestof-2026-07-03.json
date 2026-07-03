@@ -47,10 +47,10 @@
     "category": "frontend"
   },
   "relatedSlugs": [
-    "react",
     "vite",
-    "lucide-react",
-    "next"
+    "react",
+    "next",
+    "preact"
   ],
   "tags": [
     "build-in-public",
