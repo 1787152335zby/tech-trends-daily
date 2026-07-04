@@ -39,8 +39,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "prisma",
-    "fastify"
+    "graphql",
+    "prisma"
   ],
   "tags": [
     "ai-agents",

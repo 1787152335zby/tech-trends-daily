@@ -35,8 +35,8 @@
       "plugins"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-04T02:52:33.862Z",
-    "updatedAt": "2026-07-04T02:52:33.862Z",
+    "createdAt": "2026-07-04T08:36:53.376Z",
+    "updatedAt": "2026-07-04T08:36:53.376Z",
     "homepage": "https://kysely.dev",
     "source": "npm",
     "category": "backend"
@@ -44,8 +44,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "prisma",
-    "fastify"
+    "graphql",
+    "prisma"
   ],
   "tags": [
     "query",

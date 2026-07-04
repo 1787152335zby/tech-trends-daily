@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/expo",
     "description": "The Expo SDK",
     "language": "JavaScript/TypeScript",
-    "stars": 50419,
+    "stars": 50424,
     "starsGrowth": 0,
     "forks": 12956,
     "openIssues": 651,
@@ -21,8 +21,8 @@
       "expo"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-04T02:52:47.963Z",
-    "updatedAt": "2026-07-04T02:52:47.963Z",
+    "createdAt": "2026-07-04T08:37:08.911Z",
+    "updatedAt": "2026-07-04T08:37:08.911Z",
     "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
     "source": "npm",
     "category": "mobile"
@@ -30,8 +30,8 @@
   "relatedSlugs": [
     "chromeless",
     "hermex",
-    "pookify",
-    "mirage"
+    "mclean",
+    "spotui"
   ],
   "tags": [
     "expo"

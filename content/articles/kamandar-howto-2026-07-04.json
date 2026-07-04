@@ -32,8 +32,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "prisma",
-    "fastify"
+    "graphql",
+    "prisma"
   ],
   "tags": [
     "command-center",
