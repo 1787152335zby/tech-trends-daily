@@ -49,8 +49,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "graphql",
-    "prisma"
+    "prisma",
+    "fastify"
   ],
   "tags": [
     "fabric-api",

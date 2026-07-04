@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/zustand",
     "description": "🐻 Bear necessities for state management in React",
     "language": "JavaScript/TypeScript",
-    "stars": 58418,
+    "stars": 58423,
     "starsGrowth": 41185971,
     "forks": 2086,
     "openIssues": 5,
@@ -26,8 +26,8 @@
       "store"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-04T08:37:01.469Z",
-    "updatedAt": "2026-07-04T08:37:01.469Z",
+    "createdAt": "2026-07-04T13:25:06.794Z",
+    "updatedAt": "2026-07-04T13:25:06.794Z",
     "homepage": "https://github.com/pmndrs/zustand",
     "source": "npm",
     "category": "frontend"

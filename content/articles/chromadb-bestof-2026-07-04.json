@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-04T08:36:57.810Z",
-    "updatedAt": "2026-07-04T08:36:57.810Z",
+    "createdAt": "2026-07-04T13:25:03.324Z",
+    "updatedAt": "2026-07-04T13:25:03.324Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -33,7 +33,8 @@
   "relatedSlugs": [
     "openai",
     "ai",
-    "langchain"
+    "langchain",
+    "2026-unslop-ai-written-fiction-contest-results"
   ],
   "tags": [
     "chroma",

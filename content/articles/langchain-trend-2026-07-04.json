@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/langchain",
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
-    "stars": 17887,
+    "stars": 17889,
     "starsGrowth": 2431211,
     "forks": 3239,
     "openIssues": 383,
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-04T08:36:56.194Z",
-    "updatedAt": "2026-07-04T08:36:56.194Z",
+    "createdAt": "2026-07-04T13:25:01.614Z",
+    "updatedAt": "2026-07-04T13:25:01.614Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -41,7 +41,8 @@
   "relatedSlugs": [
     "openai",
     "ai",
-    "chromadb"
+    "chromadb",
+    "2026-unslop-ai-written-fiction-contest-results"
   ],
   "tags": [
     "llm",

@@ -44,8 +44,8 @@
       "MCP"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-04T08:36:50.630Z",
-    "updatedAt": "2026-07-04T08:36:50.630Z",
+    "createdAt": "2026-07-04T13:24:57.493Z",
+    "updatedAt": "2026-07-04T13:24:57.493Z",
     "homepage": "https://www.prisma.io",
     "source": "npm",
     "category": "backend"
@@ -53,8 +53,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "graphql",
-    "fastify"
+    "fastify",
+    "kysely"
   ],
   "tags": [
     "CLI",

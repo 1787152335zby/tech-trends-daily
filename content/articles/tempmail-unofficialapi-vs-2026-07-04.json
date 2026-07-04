@@ -35,8 +35,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "graphql",
-    "prisma"
+    "prisma",
+    "fastify"
   ],
   "tags": [
     "disposable-email",
