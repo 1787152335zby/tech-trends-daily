@@ -28,8 +28,8 @@
       "runtime"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-04T13:24:56.370Z",
-    "updatedAt": "2026-07-04T13:24:56.370Z",
+    "createdAt": "2026-07-04T19:12:41.887Z",
+    "updatedAt": "2026-07-04T19:12:41.887Z",
     "homepage": "https://valibot.dev",
     "source": "npm",
     "category": "language"
@@ -38,7 +38,7 @@
     "typescript",
     "zod",
     "tsx",
-    "fp-ts"
+    "typebox"
   ],
   "tags": [
     "modular",

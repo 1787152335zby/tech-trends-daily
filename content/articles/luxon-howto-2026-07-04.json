@@ -22,8 +22,8 @@
       "immutable"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-04T13:25:12.730Z",
-    "updatedAt": "2026-07-04T13:25:12.730Z",
+    "createdAt": "2026-07-04T19:12:59.415Z",
+    "updatedAt": "2026-07-04T19:12:59.415Z",
     "homepage": "https://github.com/moment/luxon#readme",
     "source": "npm",
     "category": "tools"
@@ -32,7 +32,7 @@
     "esbuild",
     "tailwindcss",
     "pnpm",
-    "date-fns"
+    "vitest"
   ],
   "tags": [
     "date",

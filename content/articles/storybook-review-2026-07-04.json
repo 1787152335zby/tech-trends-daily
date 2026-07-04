@@ -15,8 +15,8 @@
     "language": "JavaScript/TypeScript",
     "stars": 90484,
     "starsGrowth": 17696323,
-    "forks": 10173,
-    "openIssues": 1756,
+    "forks": 10174,
+    "openIssues": 1758,
     "topics": [
       "storybook",
       "component",
@@ -35,8 +35,8 @@
       "web-components"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-04T13:25:01.253Z",
-    "updatedAt": "2026-07-04T13:25:01.253Z",
+    "createdAt": "2026-07-04T19:12:48.135Z",
+    "updatedAt": "2026-07-04T19:12:48.135Z",
     "homepage": "https://storybook.js.org",
     "source": "npm",
     "category": "frontend"
@@ -44,8 +44,8 @@
   "relatedSlugs": [
     "vite",
     "react",
-    "zustand",
-    "next"
+    "next",
+    "preact"
   ],
   "tags": [
     "storybook",
