@@ -40,7 +40,7 @@
     "express",
     "hono",
     "prisma",
-    "fastify"
+    "kysely"
   ],
   "tags": [
     "ai-agents",

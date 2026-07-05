@@ -50,7 +50,7 @@
     "express",
     "hono",
     "prisma",
-    "fastify"
+    "kysely"
   ],
   "tags": [
     "ai-coding",
