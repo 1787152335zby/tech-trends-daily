@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/langchain",
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
-    "stars": 17890,
+    "stars": 17893,
     "starsGrowth": 2373902,
     "forks": 3238,
     "openIssues": 384,
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-05T08:52:30.410Z",
-    "updatedAt": "2026-07-05T08:52:30.410Z",
+    "createdAt": "2026-07-05T13:38:24.543Z",
+    "updatedAt": "2026-07-05T13:38:24.543Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"

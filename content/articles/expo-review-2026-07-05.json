@@ -13,25 +13,25 @@
     "url": "https://www.npmjs.com/package/expo",
     "description": "The Expo SDK",
     "language": "JavaScript/TypeScript",
-    "stars": 50438,
+    "stars": 50443,
     "starsGrowth": 0,
-    "forks": 12970,
+    "forks": 12973,
     "openIssues": 653,
     "topics": [
       "expo"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-05T08:52:42.155Z",
-    "updatedAt": "2026-07-05T08:52:42.155Z",
+    "createdAt": "2026-07-05T13:38:36.630Z",
+    "updatedAt": "2026-07-05T13:38:36.630Z",
     "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
     "source": "npm",
     "category": "mobile"
   },
   "relatedSlugs": [
-    "lianyu-app",
+    "spotui",
     "hermex",
-    "groute",
-    "spotui"
+    "polyglotyt",
+    "matrix-swift"
   ],
   "tags": [
     "expo"
