@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/lucide-react",
     "description": "A Lucide icon library package for React applications.",
     "language": "JavaScript/TypeScript",
-    "stars": 23280,
+    "stars": 23283,
     "starsGrowth": 0,
     "forks": 1446,
     "openIssues": 537,
@@ -29,8 +29,8 @@
       "Font Awesome"
     ],
     "license": "ISC",
-    "createdAt": "2026-07-05T13:38:35.699Z",
-    "updatedAt": "2026-07-05T13:38:35.699Z",
+    "createdAt": "2026-07-05T19:17:52.399Z",
+    "updatedAt": "2026-07-05T19:17:52.399Z",
     "homepage": "https://lucide.dev",
     "source": "npm",
     "category": "frontend"

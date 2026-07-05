@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/langchain",
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
-    "stars": 17893,
+    "stars": 17894,
     "starsGrowth": 2373902,
     "forks": 3238,
     "openIssues": 384,
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-05T13:38:24.543Z",
-    "updatedAt": "2026-07-05T13:38:24.543Z",
+    "createdAt": "2026-07-05T19:17:41.977Z",
+    "updatedAt": "2026-07-05T19:17:41.977Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "gpt-5-5-codex-reasoning-token-clustering-may-be-leading-to-d"
+    "new-ai-tutor-achieves-0-71-1-30-sd-effect-size-in-dartmouth-"
   ],
   "tags": [
     "llm",

@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-05T13:38:25.980Z",
-    "updatedAt": "2026-07-05T13:38:25.980Z",
+    "createdAt": "2026-07-05T19:17:43.475Z",
+    "updatedAt": "2026-07-05T19:17:43.475Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "gpt-5-5-codex-reasoning-token-clustering-may-be-leading-to-d"
+    "new-ai-tutor-achieves-0-71-1-30-sd-effect-size-in-dartmouth-"
   ],
   "tags": [
     "chroma",
