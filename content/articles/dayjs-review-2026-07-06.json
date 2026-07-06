@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/dayjs",
     "description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
     "language": "JavaScript/TypeScript",
-    "stars": 48669,
+    "stars": 48670,
     "starsGrowth": 0,
-    "forks": 2452,
-    "openIssues": 1280,
+    "forks": 2453,
+    "openIssues": 1281,
     "topics": [
       "dayjs",
       "date",
@@ -25,8 +25,8 @@
       "moment"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-06T15:32:25.840Z",
-    "updatedAt": "2026-07-06T15:32:25.840Z",
+    "createdAt": "2026-07-06T19:56:57.219Z",
+    "updatedAt": "2026-07-06T19:56:57.219Z",
     "homepage": "https://day.js.org",
     "source": "npm",
     "category": "tools"

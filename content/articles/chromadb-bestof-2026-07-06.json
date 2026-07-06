@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-06T15:32:17.291Z",
-    "updatedAt": "2026-07-06T15:32:17.291Z",
+    "createdAt": "2026-07-06T19:56:48.447Z",
+    "updatedAt": "2026-07-06T19:56:48.447Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "gpt-5-6-sol-ultra-will-be-in-codex"
+    "amd-ryzen-ai-halo-4k-ai-dev-kit"
   ],
   "tags": [
     "chroma",

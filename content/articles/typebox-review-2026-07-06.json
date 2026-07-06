@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/typebox",
     "description": "Json Schema Type Builder with Static Type Resolution for TypeScript",
     "language": "JavaScript/TypeScript",
-    "stars": 6787,
+    "stars": 6788,
     "starsGrowth": 4268108,
     "forks": 207,
     "openIssues": 6,
@@ -22,8 +22,8 @@
       "jsonschema"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-06T15:32:10.819Z",
-    "updatedAt": "2026-07-06T15:32:10.819Z",
+    "createdAt": "2026-07-06T19:56:42.223Z",
+    "updatedAt": "2026-07-06T19:56:42.223Z",
     "homepage": "https://github.com/sinclairzx81/typebox#readme",
     "source": "npm",
     "category": "language"

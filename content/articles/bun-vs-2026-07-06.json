@@ -15,8 +15,8 @@
     "language": "JavaScript/TypeScript",
     "stars": 93602,
     "starsGrowth": 2417449,
-    "forks": 4752,
-    "openIssues": 6997,
+    "forks": 4751,
+    "openIssues": 7027,
     "topics": [
       "bun",
       "bun.js",
@@ -28,8 +28,8 @@
       "typescript"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-06T15:32:17.337Z",
-    "updatedAt": "2026-07-06T15:32:17.337Z",
+    "createdAt": "2026-07-06T19:56:48.577Z",
+    "updatedAt": "2026-07-06T19:56:48.577Z",
     "homepage": "https://bun.com",
     "source": "npm",
     "category": "language"
