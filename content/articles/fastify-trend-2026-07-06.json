@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 36616,
     "starsGrowth": 8692877,
-    "forks": 2763,
+    "forks": 2764,
     "openIssues": 134,
     "topics": [
       "web",
@@ -26,8 +26,8 @@
       "api"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-06T10:20:44.125Z",
-    "updatedAt": "2026-07-06T10:20:44.125Z",
+    "createdAt": "2026-07-06T15:32:04.736Z",
+    "updatedAt": "2026-07-06T15:32:04.736Z",
     "homepage": "https://fastify.dev/",
     "source": "npm",
     "category": "backend"

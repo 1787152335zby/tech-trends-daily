@@ -16,7 +16,7 @@
     "stars": 90496,
     "starsGrowth": 16967619,
     "forks": 10177,
-    "openIssues": 1758,
+    "openIssues": 1759,
     "topics": [
       "storybook",
       "component",
@@ -35,8 +35,8 @@
       "web-components"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-06T10:20:53.361Z",
-    "updatedAt": "2026-07-06T10:20:53.361Z",
+    "createdAt": "2026-07-06T15:32:14.199Z",
+    "updatedAt": "2026-07-06T15:32:14.199Z",
     "homepage": "https://storybook.js.org",
     "source": "npm",
     "category": "frontend"
