@@ -39,16 +39,16 @@
     ],
     "license": "MIT",
     "createdAt": "2026-06-30T06:47:15Z",
-    "updatedAt": "2026-07-05T10:36:17Z",
+    "updatedAt": "2026-07-06T08:25:10Z",
     "homepage": "https://github.com/shanggqm/codexU/releases/latest",
     "source": "github",
     "category": "mobile"
   },
   "relatedSlugs": [
-    "dmt",
-    "cfpanel",
-    "spotui",
-    "hermex"
+    "chromeless",
+    "hermex",
+    "matrix-swift",
+    "macos-window-styler"
   ],
   "tags": [
     "chatgpt",

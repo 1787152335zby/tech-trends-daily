@@ -40,10 +40,10 @@
     "category": "mobile"
   },
   "relatedSlugs": [
-    "dmt",
-    "cfpanel",
-    "spotui",
-    "hermex"
+    "chromeless",
+    "hermex",
+    "matrix-swift",
+    "macos-window-styler"
   ],
   "tags": [
     "accessibility",

@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/jotai",
     "description": "👻 Primitive and flexible state management for React",
     "language": "JavaScript/TypeScript",
-    "stars": 21209,
+    "stars": 21210,
     "starsGrowth": 0,
     "forks": 723,
     "openIssues": 5,
@@ -26,8 +26,8 @@
       "store"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-06T03:30:20.286Z",
-    "updatedAt": "2026-07-06T03:30:20.286Z",
+    "createdAt": "2026-07-06T10:20:59.577Z",
+    "updatedAt": "2026-07-06T10:20:59.577Z",
     "homepage": "https://github.com/pmndrs/jotai",
     "source": "npm",
     "category": "frontend"

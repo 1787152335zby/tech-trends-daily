@@ -21,17 +21,17 @@
       "expo"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-06T03:30:25.497Z",
-    "updatedAt": "2026-07-06T03:30:25.497Z",
+    "createdAt": "2026-07-06T10:21:05.572Z",
+    "updatedAt": "2026-07-06T10:21:05.572Z",
     "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
     "source": "npm",
     "category": "mobile"
   },
   "relatedSlugs": [
-    "dmt",
-    "cfpanel",
-    "spotui",
-    "hermex"
+    "chromeless",
+    "hermex",
+    "matrix-swift",
+    "macos-window-styler"
   ],
   "tags": [
     "expo"
