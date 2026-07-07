@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-07T03:20:49.314Z",
-    "updatedAt": "2026-07-07T03:20:49.314Z",
+    "createdAt": "2026-07-07T09:40:37.805Z",
+    "updatedAt": "2026-07-07T09:40:37.805Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "amd-ryzen-ai-halo-4k-ai-dev-kit"
+    "glm-5-2-and-the-coming-ai-margin-collapse"
   ],
   "tags": [
     "chroma",

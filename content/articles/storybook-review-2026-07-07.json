@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 90501,
     "starsGrowth": 16967619,
-    "forks": 10174,
+    "forks": 10173,
     "openIssues": 1761,
     "topics": [
       "storybook",
@@ -35,8 +35,8 @@
       "web-components"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-07T03:20:47.479Z",
-    "updatedAt": "2026-07-07T03:20:47.479Z",
+    "createdAt": "2026-07-07T09:40:35.843Z",
+    "updatedAt": "2026-07-07T09:40:35.843Z",
     "homepage": "https://storybook.js.org",
     "source": "npm",
     "category": "frontend"
