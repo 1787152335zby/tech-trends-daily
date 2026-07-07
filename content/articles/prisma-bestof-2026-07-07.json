@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 46362,
     "starsGrowth": 13051591,
-    "forks": 2262,
+    "forks": 2263,
     "openIssues": 2642,
     "topics": [
       "CLI",
@@ -44,8 +44,8 @@
       "MCP"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-07T09:40:33.932Z",
-    "updatedAt": "2026-07-07T09:40:33.932Z",
+    "createdAt": "2026-07-07T14:32:53.967Z",
+    "updatedAt": "2026-07-07T14:32:53.967Z",
     "homepage": "https://www.prisma.io",
     "source": "npm",
     "category": "backend"
