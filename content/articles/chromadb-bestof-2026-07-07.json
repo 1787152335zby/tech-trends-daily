@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-07T14:33:00.096Z",
-    "updatedAt": "2026-07-07T14:33:00.096Z",
+    "createdAt": "2026-07-07T19:55:02.949Z",
+    "updatedAt": "2026-07-07T19:55:02.949Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "glm-5-2-and-the-coming-ai-margin-collapse"
+    "30papers-com-ilya-s-30-essential-ml-papers-in-a-beginner-fri"
   ],
   "tags": [
     "chroma",

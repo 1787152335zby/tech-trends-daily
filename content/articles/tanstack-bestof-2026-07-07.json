@@ -35,8 +35,8 @@
       "playback"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-07T14:33:03.373Z",
-    "updatedAt": "2026-07-07T14:33:03.373Z",
+    "createdAt": "2026-07-07T19:55:06.520Z",
+    "updatedAt": "2026-07-07T19:55:06.520Z",
     "homepage": "https://sh20raj.github.io/tanstack",
     "source": "npm",
     "category": "frontend"
@@ -44,8 +44,8 @@
   "relatedSlugs": [
     "vite",
     "react",
-    "next",
-    "cheerio"
+    "lucide-react",
+    "zustand"
   ],
   "tags": [
     "tanstack",

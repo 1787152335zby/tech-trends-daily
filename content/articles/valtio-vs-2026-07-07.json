@@ -27,8 +27,8 @@
       "store"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-07T14:33:04.752Z",
-    "updatedAt": "2026-07-07T14:33:04.752Z",
+    "createdAt": "2026-07-07T19:55:08.091Z",
+    "updatedAt": "2026-07-07T19:55:08.091Z",
     "homepage": "https://github.com/pmndrs/valtio",
     "source": "npm",
     "category": "frontend"
@@ -36,8 +36,8 @@
   "relatedSlugs": [
     "vite",
     "react",
-    "next",
-    "cheerio"
+    "lucide-react",
+    "zustand"
   ],
   "tags": [
     "react",

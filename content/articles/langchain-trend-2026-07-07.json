@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/langchain",
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
-    "stars": 17907,
+    "stars": 17908,
     "starsGrowth": 2379301,
     "forks": 3245,
     "openIssues": 393,
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-07T14:32:58.765Z",
-    "updatedAt": "2026-07-07T14:32:58.765Z",
+    "createdAt": "2026-07-07T19:55:01.214Z",
+    "updatedAt": "2026-07-07T19:55:01.214Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "glm-5-2-and-the-coming-ai-margin-collapse"
+    "30papers-com-ilya-s-30-essential-ml-papers-in-a-beginner-fri"
   ],
   "tags": [
     "llm",
