@@ -13,9 +13,9 @@
     "url": "https://www.npmjs.com/package/lucide-svelte",
     "description": "A Lucide icon library package for Svelte applications.",
     "language": "JavaScript/TypeScript",
-    "stars": 23337,
+    "stars": 23338,
     "starsGrowth": 0,
-    "forks": 1452,
+    "forks": 1451,
     "openIssues": 537,
     "topics": [
       "Lucide",
@@ -29,8 +29,8 @@
       "Font Awesome"
     ],
     "license": "ISC",
-    "createdAt": "2026-07-08T08:27:56.742Z",
-    "updatedAt": "2026-07-08T08:27:56.742Z",
+    "createdAt": "2026-07-08T14:05:39.773Z",
+    "updatedAt": "2026-07-08T14:05:39.773Z",
     "homepage": "https://lucide.dev",
     "source": "npm",
     "category": "frontend"

@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/storybook",
     "description": "Storybook: Develop, document, and test UI components in isolation",
     "language": "JavaScript/TypeScript",
-    "stars": 90512,
+    "stars": 90515,
     "starsGrowth": 16967619,
-    "forks": 10187,
-    "openIssues": 1771,
+    "forks": 10189,
+    "openIssues": 1776,
     "topics": [
       "storybook",
       "component",
@@ -35,8 +35,8 @@
       "web-components"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-08T08:27:45.313Z",
-    "updatedAt": "2026-07-08T08:27:45.313Z",
+    "createdAt": "2026-07-08T14:05:27.822Z",
+    "updatedAt": "2026-07-08T14:05:27.822Z",
     "homepage": "https://storybook.js.org",
     "source": "npm",
     "category": "frontend"
