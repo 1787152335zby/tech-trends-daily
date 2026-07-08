@@ -16,7 +16,7 @@
     "stars": 35073,
     "starsGrowth": 11988046,
     "forks": 1474,
-    "openIssues": 1883,
+    "openIssues": 1884,
     "topics": [
       "drizzle",
       "orm",
@@ -33,8 +33,8 @@
       "drizzle-orm"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-08T14:05:25.564Z",
-    "updatedAt": "2026-07-08T14:05:25.564Z",
+    "createdAt": "2026-07-08T19:25:08.184Z",
+    "updatedAt": "2026-07-08T19:25:08.184Z",
     "homepage": "https://orm.drizzle.team",
     "source": "npm",
     "category": "database"

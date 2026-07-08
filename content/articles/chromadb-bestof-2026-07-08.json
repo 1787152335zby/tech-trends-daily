@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-08T14:05:29.886Z",
-    "updatedAt": "2026-07-08T14:05:29.886Z",
+    "createdAt": "2026-07-08T19:25:11.542Z",
+    "updatedAt": "2026-07-08T19:25:11.542Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "30papers-com-ilya-s-30-essential-ml-papers-in-a-beginner-fri"
+    "gitlost-we-tricked-github-s-ai-agent-into-leaking-private-re"
   ],
   "tags": [
     "chroma",

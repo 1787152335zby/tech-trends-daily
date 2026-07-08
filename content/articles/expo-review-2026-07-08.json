@@ -21,17 +21,17 @@
       "expo"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-08T14:05:40.020Z",
-    "updatedAt": "2026-07-08T14:05:40.020Z",
+    "createdAt": "2026-07-08T19:25:19.150Z",
+    "updatedAt": "2026-07-08T19:25:19.150Z",
     "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
     "source": "npm",
     "category": "mobile"
   },
   "relatedSlugs": [
     "davit",
-    "ktm-nav-gen3",
-    "hermex",
-    "nameplate"
+    "lianyu-app",
+    "spotui",
+    "mirage"
   ],
   "tags": [
     "expo"
