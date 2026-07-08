@@ -32,16 +32,16 @@
     ],
     "license": "Apache-2.0",
     "createdAt": "2026-07-02T07:02:38Z",
-    "updatedAt": "2026-07-07T18:56:45Z",
+    "updatedAt": "2026-07-08T08:22:14Z",
     "homepage": "",
     "source": "github",
     "category": "mobile"
   },
   "relatedSlugs": [
     "davit",
-    "nameplate",
     "hypervault-crypto",
-    "playtube"
+    "expenso",
+    "matrix-swift"
   ],
   "tags": [
     "android",
