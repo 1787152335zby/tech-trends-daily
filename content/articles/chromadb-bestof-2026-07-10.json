@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-10T14:25:53.829Z",
-    "updatedAt": "2026-07-10T14:25:53.829Z",
+    "createdAt": "2026-07-10T19:26:55.261Z",
+    "updatedAt": "2026-07-10T19:26:55.261Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "gpt-5-6"
+    "apple-silicon-exec-explains-mac-mini-ai-demand-and-on-device"
   ],
   "tags": [
     "chroma",

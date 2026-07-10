@@ -13,9 +13,9 @@
     "url": "https://www.npmjs.com/package/zod",
     "description": "TypeScript-first schema declaration and validation library with static type inference",
     "language": "JavaScript/TypeScript",
-    "stars": 43229,
+    "stars": 43232,
     "starsGrowth": 215734444,
-    "forks": 2063,
+    "forks": 2065,
     "openIssues": 252,
     "topics": [
       "typescript",
@@ -25,8 +25,8 @@
       "inference"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-10T14:25:46.652Z",
-    "updatedAt": "2026-07-10T14:25:46.652Z",
+    "createdAt": "2026-07-10T19:26:47.864Z",
+    "updatedAt": "2026-07-10T19:26:47.864Z",
     "homepage": "https://zod.dev",
     "source": "npm",
     "category": "language"
