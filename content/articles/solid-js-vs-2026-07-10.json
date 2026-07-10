@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/solid-js",
     "description": "A declarative JavaScript library for building user interfaces.",
     "language": "JavaScript/TypeScript",
-    "stars": 35708,
+    "stars": 35709,
     "starsGrowth": 2773535,
     "forks": 1076,
     "openIssues": 29,
@@ -27,8 +27,8 @@
       "performance"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-10T09:34:16.350Z",
-    "updatedAt": "2026-07-10T09:34:16.350Z",
+    "createdAt": "2026-07-10T14:25:38.851Z",
+    "updatedAt": "2026-07-10T14:25:38.851Z",
     "homepage": "https://solidjs.com",
     "source": "npm",
     "category": "frontend"

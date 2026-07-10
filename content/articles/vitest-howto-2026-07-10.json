@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 16828,
     "starsGrowth": 71761884,
-    "forks": 1851,
+    "forks": 1850,
     "openIssues": 417,
     "topics": [
       "vite",
@@ -24,8 +24,8 @@
       "jest"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-10T09:34:29.862Z",
-    "updatedAt": "2026-07-10T09:34:29.862Z",
+    "createdAt": "2026-07-10T14:25:51.581Z",
+    "updatedAt": "2026-07-10T14:25:51.581Z",
     "homepage": "https://vitest.dev",
     "source": "npm",
     "category": "tools"
@@ -34,7 +34,7 @@
     "esbuild",
     "tailwindcss",
     "pnpm",
-    "playwright"
+    "date-fns"
   ],
   "tags": [
     "vite",

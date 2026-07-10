@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/vite",
     "description": "Native-ESM powered web dev build tool",
     "language": "JavaScript/TypeScript",
-    "stars": 81965,
+    "stars": 81970,
     "starsGrowth": 152644713,
     "forks": 8566,
     "openIssues": 715,
@@ -26,8 +26,8 @@
       "vite"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-10T09:34:22.383Z",
-    "updatedAt": "2026-07-10T09:34:22.384Z",
+    "createdAt": "2026-07-10T14:25:44.886Z",
+    "updatedAt": "2026-07-10T14:25:44.886Z",
     "homepage": "https://vite.dev",
     "source": "npm",
     "category": "frontend"
