@@ -13,9 +13,9 @@
     "url": "https://www.npmjs.com/package/svelte",
     "description": "Cybernetically enhanced web apps",
     "language": "JavaScript/TypeScript",
-    "stars": 87553,
+    "stars": 87568,
     "starsGrowth": 4916123,
-    "forks": 5107,
+    "forks": 5115,
     "openIssues": 1077,
     "topics": [
       "svelte",
@@ -25,8 +25,8 @@
       "templating"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-11T02:35:27.479Z",
-    "updatedAt": "2026-07-11T02:35:27.479Z",
+    "createdAt": "2026-07-11T07:55:01.230Z",
+    "updatedAt": "2026-07-11T07:55:01.230Z",
     "homepage": "https://svelte.dev",
     "source": "npm",
     "category": "frontend"

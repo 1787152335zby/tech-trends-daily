@@ -15,23 +15,23 @@
     "language": "JavaScript/TypeScript",
     "stars": 50569,
     "starsGrowth": 0,
-    "forks": 13038,
+    "forks": 13040,
     "openIssues": 662,
     "topics": [
       "expo"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-11T02:35:53.595Z",
-    "updatedAt": "2026-07-11T02:35:53.595Z",
+    "createdAt": "2026-07-11T07:55:34.188Z",
+    "updatedAt": "2026-07-11T07:55:34.188Z",
     "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
     "source": "npm",
     "category": "mobile"
   },
   "relatedSlugs": [
-    "awesome-on-device-ai-apps",
     "uninstally",
     "app-monitor",
-    "nameplate"
+    "qq-revived",
+    "mpvrx-cn"
   ],
   "tags": [
     "expo"
