@@ -39,7 +39,7 @@
     "express",
     "hono",
     "prisma",
-    "kysely"
+    "fastify"
   ],
   "tags": [
     "ai-security",

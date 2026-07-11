@@ -30,7 +30,7 @@
     ],
     "license": "No license",
     "createdAt": "2026-07-08T15:22:14Z",
-    "updatedAt": "2026-07-11T01:13:23Z",
+    "updatedAt": "2026-07-11T11:21:32Z",
     "homepage": "",
     "source": "github",
     "category": "backend"
@@ -39,7 +39,7 @@
     "express",
     "hono",
     "prisma",
-    "kysely"
+    "fastify"
   ],
   "tags": [
     "mecca-chameleon",
