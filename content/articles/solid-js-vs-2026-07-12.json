@@ -14,7 +14,7 @@
     "description": "A declarative JavaScript library for building user interfaces.",
     "language": "JavaScript/TypeScript",
     "stars": 35728,
-    "starsGrowth": 2381803,
+    "starsGrowth": 2438166,
     "forks": 1078,
     "openIssues": 27,
     "topics": [
@@ -27,8 +27,8 @@
       "performance"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-12T02:43:14.817Z",
-    "updatedAt": "2026-07-12T02:43:14.817Z",
+    "createdAt": "2026-07-12T08:16:17.099Z",
+    "updatedAt": "2026-07-12T08:16:17.099Z",
     "homepage": "https://solidjs.com",
     "source": "npm",
     "category": "frontend"
