@@ -25,8 +25,8 @@
       "moment"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-13T14:33:17.757Z",
-    "updatedAt": "2026-07-13T14:33:17.757Z",
+    "createdAt": "2026-07-13T19:23:13.907Z",
+    "updatedAt": "2026-07-13T19:23:13.907Z",
     "homepage": "https://day.js.org",
     "source": "npm",
     "category": "tools"
@@ -35,7 +35,7 @@
     "esbuild",
     "pnpm",
     "tailwindcss",
-    "date-fns"
+    "vitest"
   ],
   "tags": [
     "dayjs",

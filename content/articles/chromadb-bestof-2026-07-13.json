@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-13T14:33:06.866Z",
-    "updatedAt": "2026-07-13T14:33:06.866Z",
+    "createdAt": "2026-07-13T19:23:05.175Z",
+    "updatedAt": "2026-07-13T19:23:05.175Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "ask-hn-add-flag-for-ai-generated-articles"
+    "show-hn-billai-bass-an-ai-powered-big-mouth-billy-bass-using"
   ],
   "tags": [
     "chroma",
