@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-13T02:44:28.094Z",
-    "updatedAt": "2026-07-13T02:44:28.094Z",
+    "createdAt": "2026-07-13T09:26:11.062Z",
+    "updatedAt": "2026-07-13T09:26:11.062Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "migrating-a-production-ai-agent-to-gpt-5-6-2-2x-faster-27-ch"
+    "ask-hn-add-flag-for-ai-generated-articles"
   ],
   "tags": [
     "chroma",
