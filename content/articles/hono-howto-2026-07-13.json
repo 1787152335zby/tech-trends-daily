@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/hono",
     "description": "Web framework built on Web Standards",
     "language": "JavaScript/TypeScript",
-    "stars": 31339,
+    "stars": 31341,
     "starsGrowth": 48711917,
     "forks": 1164,
     "openIssues": 359,
@@ -35,8 +35,8 @@
       "nodejs"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-13T09:26:00.424Z",
-    "updatedAt": "2026-07-13T09:26:00.424Z",
+    "createdAt": "2026-07-13T14:32:52.573Z",
+    "updatedAt": "2026-07-13T14:32:52.573Z",
     "homepage": "https://hono.dev",
     "source": "npm",
     "category": "backend"

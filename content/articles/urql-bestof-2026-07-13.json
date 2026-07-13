@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/urql",
     "description": "A highly customizable and versatile GraphQL client for React",
     "language": "JavaScript/TypeScript",
-    "stars": 8963,
+    "stars": 8965,
     "starsGrowth": 0,
     "forks": 477,
     "openIssues": 29,
@@ -26,8 +26,8 @@
       "react"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-13T09:26:19.071Z",
-    "updatedAt": "2026-07-13T09:26:19.071Z",
+    "createdAt": "2026-07-13T14:33:15.962Z",
+    "updatedAt": "2026-07-13T14:33:15.962Z",
     "homepage": "https://formidable.com/open-source/urql/docs/",
     "source": "npm",
     "category": "frontend"
