@@ -15,15 +15,15 @@
     "language": "JavaScript/TypeScript",
     "stars": 20483,
     "starsGrowth": 0,
-    "forks": 2188,
+    "forks": 2190,
     "openIssues": 90,
     "topics": [
       "graphql",
       "graphql-js"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-14T02:27:44.792Z",
-    "updatedAt": "2026-07-14T02:27:44.792Z",
+    "createdAt": "2026-07-14T08:04:01.611Z",
+    "updatedAt": "2026-07-14T08:04:01.611Z",
     "homepage": "https://github.com/graphql/graphql-js",
     "source": "npm",
     "category": "backend"
