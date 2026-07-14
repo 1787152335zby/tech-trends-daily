@@ -16,13 +16,13 @@
     "stars": 246468,
     "starsGrowth": 143867154,
     "forks": 51211,
-    "openIssues": 1205,
+    "openIssues": 1204,
     "topics": [
       "react"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-14T13:42:03.123Z",
-    "updatedAt": "2026-07-14T13:42:03.123Z",
+    "createdAt": "2026-07-14T19:18:59.922Z",
+    "updatedAt": "2026-07-14T19:18:59.922Z",
     "homepage": "https://react.dev/",
     "source": "npm",
     "category": "frontend"
