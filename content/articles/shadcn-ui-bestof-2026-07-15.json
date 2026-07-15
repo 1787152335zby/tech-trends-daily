@@ -13,9 +13,9 @@
     "url": "https://www.npmjs.com/package/shadcn-ui",
     "description": "Add components to your apps.",
     "language": "JavaScript/TypeScript",
-    "stars": 119117,
+    "stars": 119141,
     "starsGrowth": 154856,
-    "forks": 9506,
+    "forks": 9508,
     "openIssues": 2123,
     "topics": [
       "components",
@@ -24,8 +24,8 @@
       "shadcn"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-15T02:25:18.613Z",
-    "updatedAt": "2026-07-15T02:25:18.613Z",
+    "createdAt": "2026-07-15T08:09:03.167Z",
+    "updatedAt": "2026-07-15T08:09:03.167Z",
     "homepage": "https://github.com/shadcn/ui#readme",
     "source": "npm",
     "category": "frontend"
