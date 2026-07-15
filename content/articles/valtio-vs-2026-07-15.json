@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/valtio",
     "description": "🧙 Valtio makes proxy-state simple for React and Vanilla",
     "language": "JavaScript/TypeScript",
-    "stars": 10208,
+    "stars": 10207,
     "starsGrowth": 0,
     "forks": 288,
     "openIssues": 5,
@@ -27,8 +27,8 @@
       "store"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-15T13:42:47.331Z",
-    "updatedAt": "2026-07-15T13:42:47.331Z",
+    "createdAt": "2026-07-15T19:10:21.002Z",
+    "updatedAt": "2026-07-15T19:10:21.002Z",
     "homepage": "https://github.com/pmndrs/valtio",
     "source": "npm",
     "category": "frontend"

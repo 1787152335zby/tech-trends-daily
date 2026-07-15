@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-15T13:42:42.869Z",
-    "updatedAt": "2026-07-15T13:42:42.869Z",
+    "createdAt": "2026-07-15T19:10:16.821Z",
+    "updatedAt": "2026-07-15T19:10:16.821Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "the-three-second-theft-why-ai-voice-fraud-outruns-every-defe"
+    "openai-loses-trademark-dispute-at-eu-court"
   ],
   "tags": [
     "chroma",
