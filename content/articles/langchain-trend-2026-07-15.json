@@ -13,8 +13,8 @@
     "url": "https://www.npmjs.com/package/langchain",
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
-    "stars": 17945,
-    "starsGrowth": 2467415,
+    "stars": 17948,
+    "starsGrowth": 2480565,
     "forks": 3257,
     "openIssues": 416,
     "topics": [
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-15T08:09:14.302Z",
-    "updatedAt": "2026-07-15T08:09:14.302Z",
+    "createdAt": "2026-07-15T13:42:41.400Z",
+    "updatedAt": "2026-07-15T13:42:41.400Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "are-we-offloading-too-much-of-our-thinking-to-ai"
+    "the-three-second-theft-why-ai-voice-fraud-outruns-every-defe"
   ],
   "tags": [
     "llm",
