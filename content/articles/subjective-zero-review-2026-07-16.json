@@ -31,16 +31,16 @@
     ],
     "license": "AGPL-3.0",
     "createdAt": "2026-07-10T02:34:18Z",
-    "updatedAt": "2026-07-15T11:59:53Z",
+    "updatedAt": "2026-07-16T18:03:13Z",
     "homepage": "https://sxp.studio/apps/subjectivezero",
     "source": "github",
     "category": "mobile"
   },
   "relatedSlugs": [
     "maccheck",
-    "nimclip",
     "ntfsmac",
-    "inference-school"
+    "inference-school",
+    "react-native-system-thumbnails"
   ],
   "tags": [
     "ai-agents",

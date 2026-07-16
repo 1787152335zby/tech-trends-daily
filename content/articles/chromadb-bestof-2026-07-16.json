@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-16T13:49:20.392Z",
-    "updatedAt": "2026-07-16T13:49:20.392Z",
+    "createdAt": "2026-07-16T19:09:49.605Z",
+    "updatedAt": "2026-07-16T19:09:49.605Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "governments-companies-nonprofits-should-invest-in-free-open-"
+    "detecting-llm-generated-texts-with-classical-machine-learnin"
   ],
   "tags": [
     "chroma",
