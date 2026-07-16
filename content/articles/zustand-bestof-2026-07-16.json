@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 58589,
     "starsGrowth": 0,
-    "forks": 2260,
+    "forks": 2257,
     "openIssues": 4,
     "topics": [
       "react",
@@ -26,8 +26,8 @@
       "store"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-16T08:12:46.908Z",
-    "updatedAt": "2026-07-16T08:12:46.908Z",
+    "createdAt": "2026-07-16T13:49:23.888Z",
+    "updatedAt": "2026-07-16T13:49:23.888Z",
     "homepage": "https://github.com/pmndrs/zustand",
     "source": "npm",
     "category": "frontend"

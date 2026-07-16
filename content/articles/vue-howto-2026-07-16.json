@@ -13,16 +13,16 @@
     "url": "https://www.npmjs.com/package/vue",
     "description": "The progressive JavaScript framework for building modern web UI.",
     "language": "JavaScript/TypeScript",
-    "stars": 53957,
-    "starsGrowth": 12736618,
+    "stars": 53959,
+    "starsGrowth": 12746745,
     "forks": 9165,
     "openIssues": 901,
     "topics": [
       "vue"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-16T08:12:24.337Z",
-    "updatedAt": "2026-07-16T08:12:24.337Z",
+    "createdAt": "2026-07-16T13:49:01.977Z",
+    "updatedAt": "2026-07-16T13:49:01.977Z",
     "homepage": "https://vuejs.org/",
     "source": "npm",
     "category": "frontend"

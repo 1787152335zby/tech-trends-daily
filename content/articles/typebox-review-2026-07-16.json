@@ -14,7 +14,7 @@
     "description": "Json Schema Type Builder with Static Type Resolution for TypeScript",
     "language": "JavaScript/TypeScript",
     "stars": 6805,
-    "starsGrowth": 3665541,
+    "starsGrowth": 3738694,
     "forks": 206,
     "openIssues": 6,
     "topics": [
@@ -22,8 +22,8 @@
       "jsonschema"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-16T08:12:35.476Z",
-    "updatedAt": "2026-07-16T08:12:35.476Z",
+    "createdAt": "2026-07-16T13:49:13.317Z",
+    "updatedAt": "2026-07-16T13:49:13.317Z",
     "homepage": "https://github.com/sinclairzx81/typebox#readme",
     "source": "npm",
     "category": "language"
