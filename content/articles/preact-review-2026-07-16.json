@@ -30,8 +30,8 @@
       "framework"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-16T02:33:00.307Z",
-    "updatedAt": "2026-07-16T02:33:00.307Z",
+    "createdAt": "2026-07-16T08:12:26.538Z",
+    "updatedAt": "2026-07-16T08:12:26.538Z",
     "homepage": "https://preactjs.com",
     "source": "npm",
     "category": "frontend"
@@ -40,7 +40,7 @@
     "react",
     "vite",
     "next",
-    "zustand"
+    "storybook"
   ],
   "tags": [
     "preact",

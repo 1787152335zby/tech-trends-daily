@@ -15,14 +15,14 @@
     "language": "JavaScript/TypeScript",
     "stars": 246506,
     "starsGrowth": 144886784,
-    "forks": 51227,
-    "openIssues": 1209,
+    "forks": 51221,
+    "openIssues": 1214,
     "topics": [
       "react"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-16T02:32:56.413Z",
-    "updatedAt": "2026-07-16T02:32:56.413Z",
+    "createdAt": "2026-07-16T08:12:23.566Z",
+    "updatedAt": "2026-07-16T08:12:23.566Z",
     "homepage": "https://react.dev/",
     "source": "npm",
     "category": "frontend"
@@ -30,8 +30,8 @@
   "relatedSlugs": [
     "vite",
     "next",
-    "zustand",
-    "preact"
+    "preact",
+    "storybook"
   ],
   "tags": [
     "react"

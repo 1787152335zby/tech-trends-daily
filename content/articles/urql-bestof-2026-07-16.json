@@ -26,8 +26,8 @@
       "react"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-16T02:33:24.958Z",
-    "updatedAt": "2026-07-16T02:33:24.958Z",
+    "createdAt": "2026-07-16T08:12:50.387Z",
+    "updatedAt": "2026-07-16T08:12:50.387Z",
     "homepage": "https://formidable.com/open-source/urql/docs/",
     "source": "npm",
     "category": "frontend"
@@ -36,7 +36,7 @@
     "react",
     "vite",
     "next",
-    "zustand"
+    "preact"
   ],
   "tags": [
     "graphql client",

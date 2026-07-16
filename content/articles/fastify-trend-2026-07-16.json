@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/fastify",
     "description": "Fast and low overhead web framework, for Node.js",
     "language": "JavaScript/TypeScript",
-    "stars": 36818,
+    "stars": 36822,
     "starsGrowth": 8994634,
     "forks": 2943,
     "openIssues": 139,
@@ -26,8 +26,8 @@
       "api"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-16T02:33:03.325Z",
-    "updatedAt": "2026-07-16T02:33:03.325Z",
+    "createdAt": "2026-07-16T08:12:28.791Z",
+    "updatedAt": "2026-07-16T08:12:28.791Z",
     "homepage": "https://fastify.dev/",
     "source": "npm",
     "category": "backend"
