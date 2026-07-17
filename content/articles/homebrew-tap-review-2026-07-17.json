@@ -34,7 +34,7 @@
     "express",
     "hono",
     "prisma",
-    "fastify"
+    "kysely"
   ],
   "tags": [
     "hacktoberfest",

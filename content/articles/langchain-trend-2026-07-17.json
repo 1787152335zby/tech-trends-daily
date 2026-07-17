@@ -14,7 +14,7 @@
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
     "stars": 17958,
-    "starsGrowth": 2480986,
+    "starsGrowth": 2523679,
     "forks": 3259,
     "openIssues": 420,
     "topics": [
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-17T08:09:20.357Z",
-    "updatedAt": "2026-07-17T08:09:20.357Z",
+    "createdAt": "2026-07-17T13:27:15.327Z",
+    "updatedAt": "2026-07-17T13:27:15.327Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"

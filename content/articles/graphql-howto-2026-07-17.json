@@ -22,8 +22,8 @@
       "graphql-js"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-17T08:09:27.430Z",
-    "updatedAt": "2026-07-17T08:09:27.430Z",
+    "createdAt": "2026-07-17T13:27:23.331Z",
+    "updatedAt": "2026-07-17T13:27:23.331Z",
     "homepage": "https://github.com/graphql/graphql-js",
     "source": "npm",
     "category": "backend"
@@ -32,7 +32,7 @@
     "express",
     "hono",
     "prisma",
-    "fastify"
+    "kysely"
   ],
   "tags": [
     "graphql",

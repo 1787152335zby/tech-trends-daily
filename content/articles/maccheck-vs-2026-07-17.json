@@ -13,8 +13,8 @@
     "url": "https://github.com/andyhuo520/MacCheck",
     "description": "MacCheck 验机宝：本地 Mac 硬件检测、交互验机与 PDF/PNG 报告导出工具",
     "language": "Swift",
-    "stars": 149,
-    "starsGrowth": 20,
+    "stars": 155,
+    "starsGrowth": 6,
     "forks": 16,
     "openIssues": 1,
     "topics": [
@@ -26,16 +26,16 @@
     ],
     "license": "No license",
     "createdAt": "2026-07-14T14:37:23Z",
-    "updatedAt": "2026-07-17T06:48:20Z",
+    "updatedAt": "2026-07-17T13:09:46Z",
     "homepage": "",
     "source": "github",
     "category": "mobile"
   },
   "relatedSlugs": [
+    "nothing-launcher",
     "destinationcompass",
-    "meeting-scribe",
     "smartisanclock-revived",
-    "nimclip"
+    "ntfsmac"
   ],
   "tags": [
     "hardware-diagnostics",
@@ -44,5 +44,5 @@
     "second-hand-mac",
     "swiftui"
   ],
-  "bodyHtml": "<p><strong>MacCheck</strong> is making waves in the <em>Mobile</em> ecosystem this week, gaining <strong>20new stars</strong>. With a total of 149 stars on GitHub and 16 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 149</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +20/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 16</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Swift</strong> for maximum performance</li>\n  <li>Licensed under <strong>No license</strong> — free to use and modify</li>\n  \n  <li>🏷️ hardware-diagnostics</li>\n<li>🏷️ mac-check</li>\n<li>🏷️ macos</li>\n<li>🏷️ second-hand-mac</li>\n<li>🏷️ swiftui</li>\n</ul>\n<h2>Why MacCheck Is Trending</h2>\n<p>The Mobile landscape is constantly evolving, and <strong>MacCheck</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 20 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> MacCheck 验机宝：本地 Mac 硬件检测、交互验机与 PDF/PNG 报告导出工具</li>\n</ol>\n<p>If you're working in Mobile, this is definitely a project worth watching — and adopting.</p>\n<h2>How It Compares to Alternatives</h2>\n<p>When evaluating <strong>MacCheck</strong>, it's natural to compare it against established alternatives. Here's what sets it apart:</p>\n<ul>\n  <li><strong>Performance:</strong> Built with Swift, it leverages modern language features for speed.</li>\n  <li><strong>Community size:</strong> 149 stars indicate strong community trust and validation.</li>\n  <li><strong>License:</strong> No license licensing means no commercial restrictions.</li>\n</ul>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>MacCheck</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+  "bodyHtml": "<p><strong>MacCheck</strong> is making waves in the <em>Mobile</em> ecosystem this week, gaining <strong>6new stars</strong>. With a total of 155 stars on GitHub and 16 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 155</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +6/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 16</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Swift</strong> for maximum performance</li>\n  <li>Licensed under <strong>No license</strong> — free to use and modify</li>\n  \n  <li>🏷️ hardware-diagnostics</li>\n<li>🏷️ mac-check</li>\n<li>🏷️ macos</li>\n<li>🏷️ second-hand-mac</li>\n<li>🏷️ swiftui</li>\n</ul>\n<h2>Why MacCheck Is Trending</h2>\n<p>The Mobile landscape is constantly evolving, and <strong>MacCheck</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 6 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> MacCheck 验机宝：本地 Mac 硬件检测、交互验机与 PDF/PNG 报告导出工具</li>\n</ol>\n<p>If you're working in Mobile, this is definitely a project worth watching — and adopting.</p>\n<h2>How It Compares to Alternatives</h2>\n<p>When evaluating <strong>MacCheck</strong>, it's natural to compare it against established alternatives. Here's what sets it apart:</p>\n<ul>\n  <li><strong>Performance:</strong> Built with Swift, it leverages modern language features for speed.</li>\n  <li><strong>Community size:</strong> 155 stars indicate strong community trust and validation.</li>\n  <li><strong>License:</strong> No license licensing means no commercial restrictions.</li>\n</ul>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>MacCheck</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
 }
