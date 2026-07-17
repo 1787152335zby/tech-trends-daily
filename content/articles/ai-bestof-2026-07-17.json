@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/ai",
     "description": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
     "language": "JavaScript/TypeScript",
-    "stars": 25608,
+    "stars": 25612,
     "starsGrowth": 16163027,
-    "forks": 4791,
-    "openIssues": 1700,
+    "forks": 4796,
+    "openIssues": 1695,
     "topics": [
       "ai",
       "vercel",
@@ -43,8 +43,8 @@
       "grok"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-17T13:27:16.403Z",
-    "updatedAt": "2026-07-17T13:27:16.403Z",
+    "createdAt": "2026-07-17T19:07:35.628Z",
+    "updatedAt": "2026-07-17T19:07:35.628Z",
     "homepage": "https://ai-sdk.dev/docs",
     "source": "npm",
     "category": "ai-ml"
@@ -53,7 +53,7 @@
     "openai",
     "langchain",
     "chromadb",
-    "100-ai-music-video-claude-fable-5-vs-gpt-5-6-sol"
+    "apple-targets-dozens-of-openai-employees-with-legal-letters"
   ],
   "tags": [
     "ai",
