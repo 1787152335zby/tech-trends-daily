@@ -24,17 +24,17 @@
       "automation"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-17T02:35:33.056Z",
-    "updatedAt": "2026-07-17T02:35:33.056Z",
+    "createdAt": "2026-07-17T08:09:29.373Z",
+    "updatedAt": "2026-07-17T08:09:29.373Z",
     "homepage": "https://github.com/puppeteer/puppeteer/tree/main#readme",
     "source": "npm",
     "category": "tools"
   },
   "relatedSlugs": [
     "esbuild",
-    "pnpm",
     "tailwindcss",
-    "vitest"
+    "vitest",
+    "playwright"
   ],
   "tags": [
     "puppeteer",

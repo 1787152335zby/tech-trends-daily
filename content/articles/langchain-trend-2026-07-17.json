@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/langchain",
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
-    "stars": 17956,
+    "stars": 17958,
     "starsGrowth": 2480986,
     "forks": 3259,
     "openIssues": 420,
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-17T02:35:24.805Z",
-    "updatedAt": "2026-07-17T02:35:24.805Z",
+    "createdAt": "2026-07-17T08:09:20.357Z",
+    "updatedAt": "2026-07-17T08:09:20.357Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "lm-studio-bionic-the-ai-agent-for-open-models"
+    "100-ai-music-video-claude-fable-5-vs-gpt-5-6-sol"
   ],
   "tags": [
     "llm",
