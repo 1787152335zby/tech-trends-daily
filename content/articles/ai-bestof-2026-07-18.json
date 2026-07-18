@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/ai",
     "description": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
     "language": "JavaScript/TypeScript",
-    "stars": 25625,
+    "stars": 25632,
     "starsGrowth": 16266264,
-    "forks": 4803,
-    "openIssues": 1702,
+    "forks": 4804,
+    "openIssues": 1701,
     "topics": [
       "ai",
       "vercel",
@@ -43,8 +43,8 @@
       "grok"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-18T13:14:10.416Z",
-    "updatedAt": "2026-07-18T13:14:10.416Z",
+    "createdAt": "2026-07-18T19:02:57.750Z",
+    "updatedAt": "2026-07-18T19:02:57.750Z",
     "homepage": "https://ai-sdk.dev/docs",
     "source": "npm",
     "category": "ai-ml"
@@ -53,7 +53,7 @@
     "openai",
     "langchain",
     "chromadb",
-    "why-do-ai-company-logos-look-like-buttholes-2025"
+    "gpt-5-6-used-a-prompt-to-close-a-30-year-gap-in-convex-optim"
   ],
   "tags": [
     "ai",

@@ -31,8 +31,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "prisma",
-    "kysely"
+    "graphql",
+    "prisma"
   ],
   "tags": [
     "agent-skills",

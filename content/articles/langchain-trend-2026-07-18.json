@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 17961,
     "starsGrowth": 2536698,
-    "forks": 3261,
+    "forks": 3260,
     "openIssues": 425,
     "topics": [
       "llm",
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-18T13:14:09.424Z",
-    "updatedAt": "2026-07-18T13:14:09.424Z",
+    "createdAt": "2026-07-18T19:02:56.584Z",
+    "updatedAt": "2026-07-18T19:02:56.584Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "why-do-ai-company-logos-look-like-buttholes-2025"
+    "gpt-5-6-used-a-prompt-to-close-a-30-year-gap-in-convex-optim"
   ],
   "tags": [
     "llm",

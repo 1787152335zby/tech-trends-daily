@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/bun",
     "description": "Bun is a fast all-in-one JavaScript runtime.",
     "language": "JavaScript/TypeScript",
-    "stars": 94822,
+    "stars": 94830,
     "starsGrowth": 2642293,
-    "forks": 4887,
-    "openIssues": 7653,
+    "forks": 4888,
+    "openIssues": 7662,
     "topics": [
       "bun",
       "bun.js",
@@ -28,8 +28,8 @@
       "typescript"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-18T13:14:11.022Z",
-    "updatedAt": "2026-07-18T13:14:11.022Z",
+    "createdAt": "2026-07-18T19:02:58.500Z",
+    "updatedAt": "2026-07-18T19:02:58.500Z",
     "homepage": "https://bun.com",
     "source": "npm",
     "category": "language"

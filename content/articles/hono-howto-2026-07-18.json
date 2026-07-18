@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/hono",
     "description": "Web framework built on Web Standards",
     "language": "JavaScript/TypeScript",
-    "stars": 31389,
+    "stars": 31392,
     "starsGrowth": 46275418,
     "forks": 1172,
     "openIssues": 370,
@@ -35,17 +35,17 @@
       "nodejs"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-18T13:13:58.695Z",
-    "updatedAt": "2026-07-18T13:13:58.695Z",
+    "createdAt": "2026-07-18T19:02:46.617Z",
+    "updatedAt": "2026-07-18T19:02:46.617Z",
     "homepage": "https://hono.dev",
     "source": "npm",
     "category": "backend"
   },
   "relatedSlugs": [
     "express",
+    "graphql",
     "prisma",
-    "kysely",
-    "fastify"
+    "kysely"
   ],
   "tags": [
     "hono",

@@ -36,8 +36,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "prisma",
-    "kysely"
+    "graphql",
+    "prisma"
   ],
   "tags": [
     "bytecode-instrumentation",

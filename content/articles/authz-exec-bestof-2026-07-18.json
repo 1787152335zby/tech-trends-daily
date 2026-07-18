@@ -30,8 +30,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "prisma",
-    "kysely"
+    "graphql",
+    "prisma"
   ],
   "tags": [
     "burp-extensions"
