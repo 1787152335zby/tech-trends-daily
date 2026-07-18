@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-18T02:26:25.271Z",
-    "updatedAt": "2026-07-18T02:26:25.271Z",
+    "createdAt": "2026-07-18T07:48:53.563Z",
+    "updatedAt": "2026-07-18T07:48:53.563Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "the-state-of-open-source-ai"
+    "kaiser-nurses-say-ai-surveillance-are-making-their-jobs-and-"
   ],
   "tags": [
     "llm",
