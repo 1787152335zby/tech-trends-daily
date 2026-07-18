@@ -13,8 +13,8 @@
     "url": "https://www.npmjs.com/package/langchain",
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
-    "stars": 17959,
-    "starsGrowth": 2523679,
+    "stars": 17961,
+    "starsGrowth": 2536698,
     "forks": 3261,
     "openIssues": 425,
     "topics": [
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-18T07:48:53.563Z",
-    "updatedAt": "2026-07-18T07:48:53.563Z",
+    "createdAt": "2026-07-18T13:14:09.424Z",
+    "updatedAt": "2026-07-18T13:14:09.424Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "kaiser-nurses-say-ai-surveillance-are-making-their-jobs-and-"
+    "why-do-ai-company-logos-look-like-buttholes-2025"
   ],
   "tags": [
     "llm",
