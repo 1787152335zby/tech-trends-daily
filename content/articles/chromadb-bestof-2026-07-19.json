@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-19T13:16:38.037Z",
-    "updatedAt": "2026-07-19T13:16:38.037Z",
+    "createdAt": "2026-07-19T19:05:32.020Z",
+    "updatedAt": "2026-07-19T19:05:32.020Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "nyc-may-require-landlords-and-realtors-to-disclose-the-use-o"
+    "openai-reduces-codex-model-context-size-from-372k-to-272k"
   ],
   "tags": [
     "chroma",

@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/ai",
     "description": "AI SDK by Vercel - build apps like ChatGPT, Claude, Gemini, and more with a single interface for any model using the Vercel AI Gateway or go direct to OpenAI, Anthropic, Google, or any other model provider.",
     "language": "JavaScript/TypeScript",
-    "stars": 25651,
+    "stars": 25658,
     "starsGrowth": 16342916,
-    "forks": 4811,
-    "openIssues": 1706,
+    "forks": 4813,
+    "openIssues": 1704,
     "topics": [
       "ai",
       "vercel",
@@ -43,8 +43,8 @@
       "grok"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-19T13:16:37.619Z",
-    "updatedAt": "2026-07-19T13:16:37.619Z",
+    "createdAt": "2026-07-19T19:05:31.512Z",
+    "updatedAt": "2026-07-19T19:05:31.512Z",
     "homepage": "https://ai-sdk.dev/docs",
     "source": "npm",
     "category": "ai-ml"
@@ -53,7 +53,7 @@
     "openai",
     "langchain",
     "chromadb",
-    "nyc-may-require-landlords-and-realtors-to-disclose-the-use-o"
+    "openai-reduces-codex-model-context-size-from-372k-to-272k"
   ],
   "tags": [
     "ai",

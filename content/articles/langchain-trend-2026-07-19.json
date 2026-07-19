@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-19T13:16:36.814Z",
-    "updatedAt": "2026-07-19T13:16:36.814Z",
+    "createdAt": "2026-07-19T19:05:30.547Z",
+    "updatedAt": "2026-07-19T19:05:30.547Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "nyc-may-require-landlords-and-realtors-to-disclose-the-use-o"
+    "openai-reduces-codex-model-context-size-from-372k-to-272k"
   ],
   "tags": [
     "llm",

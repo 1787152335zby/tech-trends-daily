@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 35742,
     "starsGrowth": 2858356,
-    "forks": 1079,
+    "forks": 1080,
     "openIssues": 25,
     "topics": [
       "solid",
@@ -27,8 +27,8 @@
       "performance"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-19T13:16:25.100Z",
-    "updatedAt": "2026-07-19T13:16:25.100Z",
+    "createdAt": "2026-07-19T19:05:16.646Z",
+    "updatedAt": "2026-07-19T19:05:16.646Z",
     "homepage": "https://solidjs.com",
     "source": "npm",
     "category": "frontend"

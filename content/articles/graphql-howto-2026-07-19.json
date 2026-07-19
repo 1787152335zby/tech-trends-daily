@@ -13,17 +13,17 @@
     "url": "https://www.npmjs.com/package/graphql",
     "description": "A Query Language and Runtime which can target any service.",
     "language": "JavaScript/TypeScript",
-    "stars": 20350,
+    "stars": 20351,
     "starsGrowth": 0,
-    "forks": 2103,
+    "forks": 2104,
     "openIssues": 90,
     "topics": [
       "graphql",
       "graphql-js"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-19T13:16:43.846Z",
-    "updatedAt": "2026-07-19T13:16:43.846Z",
+    "createdAt": "2026-07-19T19:05:37.444Z",
+    "updatedAt": "2026-07-19T19:05:37.444Z",
     "homepage": "https://github.com/graphql/graphql-js",
     "source": "npm",
     "category": "backend"

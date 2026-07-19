@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/express",
     "description": "Fast, unopinionated, minimalist web framework",
     "language": "JavaScript/TypeScript",
-    "stars": 69223,
+    "stars": 69224,
     "starsGrowth": 109598090,
     "forks": 24256,
     "openIssues": 221,
@@ -30,8 +30,8 @@
       "api"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-19T13:16:27.527Z",
-    "updatedAt": "2026-07-19T13:16:27.527Z",
+    "createdAt": "2026-07-19T19:05:19.530Z",
+    "updatedAt": "2026-07-19T19:05:19.530Z",
     "homepage": "https://expressjs.com/",
     "source": "npm",
     "category": "backend"
