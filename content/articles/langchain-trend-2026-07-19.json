@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 17964,
     "starsGrowth": 2540272,
-    "forks": 3261,
+    "forks": 3262,
     "openIssues": 427,
     "topics": [
       "llm",
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-19T08:17:04.121Z",
-    "updatedAt": "2026-07-19T08:17:04.121Z",
+    "createdAt": "2026-07-19T13:16:36.814Z",
+    "updatedAt": "2026-07-19T13:16:36.814Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -42,7 +42,7 @@
     "openai",
     "ai",
     "chromadb",
-    "gpt-5-6-used-a-prompt-to-close-a-30-year-gap-in-convex-optim"
+    "nyc-may-require-landlords-and-realtors-to-disclose-the-use-o"
   ],
   "tags": [
     "llm",

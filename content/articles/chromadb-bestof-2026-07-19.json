@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-19T08:17:05.120Z",
-    "updatedAt": "2026-07-19T08:17:05.120Z",
+    "createdAt": "2026-07-19T13:16:38.037Z",
+    "updatedAt": "2026-07-19T13:16:38.037Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "gpt-5-6-used-a-prompt-to-close-a-30-year-gap-in-convex-optim"
+    "nyc-may-require-landlords-and-realtors-to-disclose-the-use-o"
   ],
   "tags": [
     "chroma",

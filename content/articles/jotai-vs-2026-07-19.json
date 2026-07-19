@@ -26,8 +26,8 @@
       "store"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-19T08:17:08.574Z",
-    "updatedAt": "2026-07-19T08:17:08.574Z",
+    "createdAt": "2026-07-19T13:16:41.743Z",
+    "updatedAt": "2026-07-19T13:16:41.743Z",
     "homepage": "https://github.com/pmndrs/jotai",
     "source": "npm",
     "category": "frontend"
@@ -36,7 +36,7 @@
     "react",
     "vite",
     "next",
-    "zustand"
+    "preact"
   ],
   "tags": [
     "react",

@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/valibot",
     "description": "The modular and type safe schema library for validating structural data",
     "language": "JavaScript/TypeScript",
-    "stars": 8830,
+    "stars": 8831,
     "starsGrowth": 13819107,
     "forks": 363,
     "openIssues": 157,
@@ -28,8 +28,8 @@
       "runtime"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-19T08:17:00.456Z",
-    "updatedAt": "2026-07-19T08:17:00.456Z",
+    "createdAt": "2026-07-19T13:16:32.872Z",
+    "updatedAt": "2026-07-19T13:16:32.872Z",
     "homepage": "https://valibot.dev",
     "source": "npm",
     "category": "language"
