@@ -40,7 +40,7 @@
     "react",
     "vite",
     "next",
-    "preact"
+    "zustand"
   ],
   "tags": [
     "agentic",

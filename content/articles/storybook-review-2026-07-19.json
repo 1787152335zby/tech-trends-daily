@@ -14,7 +14,7 @@
     "description": "Storybook: Develop, document, and test UI components in isolation",
     "language": "JavaScript/TypeScript",
     "stars": 90622,
-    "starsGrowth": 18058871,
+    "starsGrowth": 18125164,
     "forks": 10219,
     "openIssues": 1728,
     "topics": [
@@ -35,8 +35,8 @@
       "web-components"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-19T02:39:45.667Z",
-    "updatedAt": "2026-07-19T02:39:45.667Z",
+    "createdAt": "2026-07-19T08:17:03.486Z",
+    "updatedAt": "2026-07-19T08:17:03.486Z",
     "homepage": "https://storybook.js.org",
     "source": "npm",
     "category": "frontend"
@@ -45,7 +45,7 @@
     "react",
     "vite",
     "next",
-    "preact"
+    "zustand"
   ],
   "tags": [
     "storybook",

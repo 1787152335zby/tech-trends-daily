@@ -29,8 +29,8 @@
       "Font Awesome"
     ],
     "license": "ISC",
-    "createdAt": "2026-07-19T02:39:56.085Z",
-    "updatedAt": "2026-07-19T02:39:56.085Z",
+    "createdAt": "2026-07-19T08:17:14.142Z",
+    "updatedAt": "2026-07-19T08:17:14.142Z",
     "homepage": "https://lucide.dev",
     "source": "npm",
     "category": "frontend"
@@ -39,7 +39,7 @@
     "react",
     "vite",
     "next",
-    "preact"
+    "zustand"
   ],
   "tags": [
     "Lucide",
