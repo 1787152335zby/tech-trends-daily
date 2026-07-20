@@ -41,16 +41,16 @@
     ],
     "license": "AGPL-3.0",
     "createdAt": "2026-07-16T08:58:27Z",
-    "updatedAt": "2026-07-20T12:43:22Z",
+    "updatedAt": "2026-07-20T14:09:07Z",
     "homepage": "",
     "source": "github",
     "category": "mobile"
   },
   "relatedSlugs": [
-    "wloc",
-    "maccheck",
-    "holo",
-    "superdictate"
+    "nativ",
+    "murmur",
+    "aethery",
+    "maccheck"
   ],
   "tags": [
     "apple",

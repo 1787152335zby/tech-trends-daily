@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/cheerio",
     "description": "The fast, flexible & elegant library for parsing and manipulating HTML and XML.",
     "language": "JavaScript/TypeScript",
-    "stars": 30420,
+    "stars": 30421,
     "starsGrowth": 0,
     "forks": 1703,
     "openIssues": 60,
@@ -28,8 +28,8 @@
       "html"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-20T14:04:59.188Z",
-    "updatedAt": "2026-07-20T14:04:59.188Z",
+    "createdAt": "2026-07-20T19:43:26.077Z",
+    "updatedAt": "2026-07-20T19:43:26.077Z",
     "homepage": "https://cheerio.js.org/",
     "source": "npm",
     "category": "frontend"

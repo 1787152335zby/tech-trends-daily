@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-20T14:04:50.316Z",
-    "updatedAt": "2026-07-20T14:04:50.316Z",
+    "createdAt": "2026-07-20T19:43:18.724Z",
+    "updatedAt": "2026-07-20T19:43:18.724Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "1-bit-llm-in-the-browser"
+    "china-s-open-weights-ai-strategy-is-winning"
   ],
   "tags": [
     "chroma",

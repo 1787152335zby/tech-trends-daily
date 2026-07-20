@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/typescript",
     "description": "TypeScript is a language for application scale JavaScript development",
     "language": "JavaScript/TypeScript",
-    "stars": 109892,
+    "stars": 109900,
     "starsGrowth": 239596637,
-    "forks": 13556,
-    "openIssues": 5069,
+    "forks": 13557,
+    "openIssues": 5063,
     "topics": [
       "TypeScript",
       "Microsoft",
@@ -25,8 +25,8 @@
       "javascript"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-20T14:04:31.909Z",
-    "updatedAt": "2026-07-20T14:04:31.909Z",
+    "createdAt": "2026-07-20T19:43:08.760Z",
+    "updatedAt": "2026-07-20T19:43:08.760Z",
     "homepage": "https://www.typescriptlang.org/",
     "source": "npm",
     "category": "language"
