@@ -1,7 +1,7 @@
 {
   "slug": "mirrorproxy-trend-2026-07-20",
   "title": "MirrorProxy Is Trending: Here's What Backend Developers Need to Know",
-  "description": "MirrorProxy is trending on GitHub with 5 new stars this week. All-in-one mirror acceleration.",
+  "description": "MirrorProxy is trending on GitHub with 9 new stars this week. All-in-one mirror acceleration,The project uses an adapter-based proxy core and already ships adapte.",
   "category": "backend",
   "type": "trend",
   "publishedAt": "2026-07-20",
@@ -11,16 +11,21 @@
     "name": "MirrorProxy",
     "fullName": "inbjo/MirrorProxy",
     "url": "https://github.com/inbjo/MirrorProxy",
-    "description": "All-in-one mirror acceleration",
+    "description": "All-in-one mirror acceleration,The project uses an adapter-based proxy core and already ships adapters for GitHub, Docker/OCI, Composer, npm, PyPI, Cargo, Go modules, major language repositories, developer-tool distribution services, and operating system mirrors. ",
     "language": "Rust",
-    "stars": 171,
-    "starsGrowth": 5,
-    "forks": 9,
+    "stars": 180,
+    "starsGrowth": 9,
+    "forks": 10,
     "openIssues": 1,
-    "topics": [],
+    "topics": [
+      "mirror",
+      "proxy",
+      "rust",
+      "self-hosted"
+    ],
     "license": "MIT",
     "createdAt": "2026-07-15T05:51:24Z",
-    "updatedAt": "2026-07-20T03:13:13Z",
+    "updatedAt": "2026-07-20T08:07:24Z",
     "homepage": "https://sina.dev",
     "source": "github",
     "category": "backend"
@@ -31,6 +36,11 @@
     "prisma",
     "kysely"
   ],
-  "tags": [],
-  "bodyHtml": "<p><strong>MirrorProxy</strong> is making waves in the <em>Backend</em> ecosystem this week, gaining <strong>5new stars</strong>. With a total of 171 stars on GitHub and 9 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 171</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +5/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 9</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Rust</strong> for maximum performance</li>\n  <li>Licensed under <strong>MIT</strong> — free to use and modify</li>\n  <li>Official website: <a href=\"https://sina.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://sina.dev</a></li>\n  \n</ul>\n<h2>Why MirrorProxy Is Trending</h2>\n<p>The Backend landscape is constantly evolving, and <strong>MirrorProxy</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 5 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> All-in-one mirror acceleration</li>\n</ol>\n<p>If you're working in Backend, this is definitely a project worth watching — and adopting.</p>\n<h2>Quick Start</h2>\n<p>Get started with <strong>MirrorProxy</strong> in minutes:</p>\n<div class=\"code-block\"><code>\n# Clone the repository\ngit clone https://github.com/inbjo/MirrorProxy\n\n# Navigate to project\ncd MirrorProxy\n\n# Check the README for detailed setup instructions\n</code></div>\n<p>For full documentation and advanced usage, visit the <a href=\"https://github.com/inbjo/MirrorProxy\" rel=\"nofollow noopener\" target=\"_blank\">official GitHub repository</a>.</p>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>MirrorProxy</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+  "tags": [
+    "mirror",
+    "proxy",
+    "rust",
+    "self-hosted"
+  ],
+  "bodyHtml": "<p><strong>MirrorProxy</strong> is making waves in the <em>Backend</em> ecosystem this week, gaining <strong>9new stars</strong>. With a total of 180 stars on GitHub and 10 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 180</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +9/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 10</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Rust</strong> for maximum performance</li>\n  <li>Licensed under <strong>MIT</strong> — free to use and modify</li>\n  <li>Official website: <a href=\"https://sina.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://sina.dev</a></li>\n  <li>🏷️ mirror</li>\n<li>🏷️ proxy</li>\n<li>🏷️ rust</li>\n<li>🏷️ self-hosted</li>\n</ul>\n<h2>Why MirrorProxy Is Trending</h2>\n<p>The Backend landscape is constantly evolving, and <strong>MirrorProxy</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 9 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> All-in-one mirror acceleration,The project uses an adapter-based proxy core and already ships adapters for GitHub, Docker/OCI, Composer, npm, PyPI, Cargo, Go modules, major language repositories, developer-tool distribution services, and operating system mirrors. </li>\n</ol>\n<p>If you're working in Backend, this is definitely a project worth watching — and adopting.</p>\n<h2>Quick Start</h2>\n<p>Get started with <strong>MirrorProxy</strong> in minutes:</p>\n<div class=\"code-block\"><code>\n# Clone the repository\ngit clone https://github.com/inbjo/MirrorProxy\n\n# Navigate to project\ncd MirrorProxy\n\n# Check the README for detailed setup instructions\n</code></div>\n<p>For full documentation and advanced usage, visit the <a href=\"https://github.com/inbjo/MirrorProxy\" rel=\"nofollow noopener\" target=\"_blank\">official GitHub repository</a>.</p>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>MirrorProxy</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
 }

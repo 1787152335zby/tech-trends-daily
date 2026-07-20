@@ -13,23 +13,23 @@
     "url": "https://www.npmjs.com/package/expo",
     "description": "The Expo SDK",
     "language": "JavaScript/TypeScript",
-    "stars": 50761,
+    "stars": 50766,
     "starsGrowth": 0,
-    "forks": 13113,
+    "forks": 13114,
     "openIssues": 692,
     "topics": [
       "expo"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-20T03:21:14.616Z",
-    "updatedAt": "2026-07-20T03:21:14.616Z",
+    "createdAt": "2026-07-20T08:57:41.132Z",
+    "updatedAt": "2026-07-20T08:57:41.132Z",
     "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
     "source": "npm",
     "category": "mobile"
   },
   "relatedSlugs": [
-    "dock-lift",
-    "root-my-galaxy",
+    "somcp",
+    "wloc",
     "maccheck",
     "loophole"
   ],
