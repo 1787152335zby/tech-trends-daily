@@ -29,7 +29,7 @@
     ],
     "license": "No license",
     "createdAt": "2026-07-16T05:41:33Z",
-    "updatedAt": "2026-07-20T17:58:03Z",
+    "updatedAt": "2026-07-21T04:39:28Z",
     "homepage": "",
     "source": "github",
     "category": "frontend"
@@ -38,7 +38,7 @@
     "react",
     "vite",
     "next",
-    "preact"
+    "zustand"
   ],
   "tags": [
     "bot",

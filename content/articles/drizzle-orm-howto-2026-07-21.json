@@ -13,9 +13,9 @@
     "url": "https://www.npmjs.com/package/drizzle-orm",
     "description": "Drizzle ORM package for SQL databases",
     "language": "JavaScript/TypeScript",
-    "stars": 35200,
+    "stars": 35205,
     "starsGrowth": 15270563,
-    "forks": 1486,
+    "forks": 1487,
     "openIssues": 1914,
     "topics": [
       "drizzle",
@@ -33,8 +33,8 @@
       "drizzle-orm"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-21T02:37:21.088Z",
-    "updatedAt": "2026-07-21T02:37:21.088Z",
+    "createdAt": "2026-07-21T08:27:58.537Z",
+    "updatedAt": "2026-07-21T08:27:58.537Z",
     "homepage": "https://orm.drizzle.team",
     "source": "npm",
     "category": "database"

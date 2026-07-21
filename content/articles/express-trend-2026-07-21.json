@@ -15,7 +15,7 @@
     "language": "JavaScript/TypeScript",
     "stars": 69226,
     "starsGrowth": 119146190,
-    "forks": 24270,
+    "forks": 24275,
     "openIssues": 222,
     "topics": [
       "express",
@@ -30,17 +30,17 @@
       "api"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-21T02:37:12.577Z",
-    "updatedAt": "2026-07-21T02:37:12.577Z",
+    "createdAt": "2026-07-21T08:27:39.172Z",
+    "updatedAt": "2026-07-21T08:27:39.172Z",
     "homepage": "https://expressjs.com/",
     "source": "npm",
     "category": "backend"
   },
   "relatedSlugs": [
     "hono",
+    "graphql",
     "prisma",
-    "kysely",
-    "fastify"
+    "kysely"
   ],
   "tags": [
     "express",

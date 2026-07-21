@@ -27,8 +27,8 @@
       "performance"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-21T02:37:10.051Z",
-    "updatedAt": "2026-07-21T02:37:10.051Z",
+    "createdAt": "2026-07-21T08:27:36.885Z",
+    "updatedAt": "2026-07-21T08:27:36.885Z",
     "homepage": "https://solidjs.com",
     "source": "npm",
     "category": "frontend"
@@ -37,7 +37,7 @@
     "react",
     "vite",
     "next",
-    "preact"
+    "zustand"
   ],
   "tags": [
     "solid",
