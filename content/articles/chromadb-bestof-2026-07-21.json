@@ -24,8 +24,8 @@
       "vector"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-21T13:48:51.235Z",
-    "updatedAt": "2026-07-21T13:48:51.235Z",
+    "createdAt": "2026-07-21T19:21:23.841Z",
+    "updatedAt": "2026-07-21T19:21:23.841Z",
     "homepage": "",
     "source": "npm",
     "category": "ai-ml"
@@ -34,7 +34,7 @@
     "openai",
     "ai",
     "langchain",
-    "china-s-open-weights-ai-strategy-is-winning"
+    "jack-dorsey-launches-buzz-to-combine-team-chat-ai-agents-and"
   ],
   "tags": [
     "chroma",

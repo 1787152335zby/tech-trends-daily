@@ -1,0 +1,48 @@
+{
+  "slug": "vertick-ime-howto-2026-07-21",
+  "title": "Getting Started with Vertick-IME — A Practical Guide for Mobile Developers",
+  "description": "Step-by-step guide to getting started with Vertick-IME. Learn setup, configuration, and best practices for Mobile.",
+  "category": "mobile",
+  "type": "howto",
+  "publishedAt": "2026-07-21",
+  "updatedAt": "2026-07-21",
+  "sourceData": {
+    "id": "gh-1301208032",
+    "name": "Vertick-IME",
+    "fullName": "BurgerK1ng16/Vertick-IME",
+    "url": "https://github.com/BurgerK1ng16/Vertick-IME",
+    "description": "Open-source voice, offline Pinyin and intelligent polishing input method开源的语音、离线拼音与智能润色输入法",
+    "language": "Kotlin",
+    "stars": 18,
+    "starsGrowth": 18,
+    "forks": 0,
+    "openIssues": 3,
+    "topics": [
+      "android",
+      "asr",
+      "kotlin",
+      "speech-to-text",
+      "typeless"
+    ],
+    "license": "GPL-3.0",
+    "createdAt": "2026-07-15T04:48:39Z",
+    "updatedAt": "2026-07-21T16:46:28Z",
+    "homepage": "https://www.vertick.cn",
+    "source": "github",
+    "category": "mobile"
+  },
+  "relatedSlugs": [
+    "nativ",
+    "agent-notch",
+    "turbo-fieldfare",
+    "aether"
+  ],
+  "tags": [
+    "android",
+    "asr",
+    "kotlin",
+    "speech-to-text",
+    "typeless"
+  ],
+  "bodyHtml": "<p><strong>Vertick-IME</strong> is making waves in the <em>Mobile</em> ecosystem this week, gaining <strong>18new stars</strong>. With a total of 18 stars on GitHub and 0 forks, this open-source project is rapidly becoming a go-to tool for developers worldwide.</p>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 18</span><span class=\"stat-label\">Stars</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +18/wk</span><span class=\"stat-label\">Growth</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 0</span><span class=\"stat-label\">Forks</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 3</span><span class=\"stat-label\">Open Issues</span></div>\n</div>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Key Features</h2>\n<ul>\n  <li>Written in <strong>Kotlin</strong> for maximum performance</li>\n  <li>Licensed under <strong>GPL-3.0</strong> — free to use and modify</li>\n  <li>Official website: <a href=\"https://www.vertick.cn\" rel=\"nofollow noopener\" target=\"_blank\">https://www.vertick.cn</a></li>\n  <li>🏷️ android</li>\n<li>🏷️ asr</li>\n<li>🏷️ kotlin</li>\n<li>🏷️ speech-to-text</li>\n<li>🏷️ typeless</li>\n</ul>\n<h2>Why Vertick-IME Is Trending</h2>\n<p>The Mobile landscape is constantly evolving, and <strong>Vertick-IME</strong> has emerged as one of the fastest-growing projects this week. Several factors contribute to its momentum:</p>\n<ol>\n  <li><strong>Growing community:</strong> With 18 new stars this week alone, developer adoption is accelerating rapidly.</li>\n  <li><strong>Active maintenance:</strong> The project sees regular updates, ensuring compatibility with the latest ecosystem changes.</li>\n  <li><strong>Practical utility:</strong> Open-source voice, offline Pinyin and intelligent polishing input method开源的语音、离线拼音与智能润色输入法</li>\n</ol>\n<p>If you're working in Mobile, this is definitely a project worth watching — and adopting.</p>\n<h2>Practical Use Cases</h2>\n<p>Here are some common scenarios where <strong>Vertick-IME</strong> shines:</p>\n<ol>\n  <li><strong>New projects:</strong> Start your next Kotlin project with this tool as a foundation</li>\n  <li><strong>Migration:</strong> Consider switching if your current solution is slowing you down</li>\n  <li><strong>Learning:</strong> Study the source code to understand modern Mobile patterns</li>\n</ol>\n<h2>Quick Start</h2>\n<p>Get started with <strong>Vertick-IME</strong> in minutes:</p>\n<div class=\"code-block\"><code>\n# Clone the repository\ngit clone https://github.com/BurgerK1ng16/Vertick-IME\n\n# Navigate to project\ncd Vertick-IME\n\n# Check the README for detailed setup instructions\n</code></div>\n<p>For full documentation and advanced usage, visit the <a href=\"https://github.com/BurgerK1ng16/Vertick-IME\" rel=\"nofollow noopener\" target=\"_blank\">official GitHub repository</a>.</p>\n<div class=\"ad-container\">\n  <ins class=\"adsbygoogle\"\n    style=\"display:block; text-align:center;\"\n    data-ad-layout=\"in-article\"\n    data-ad-format=\"fluid\"\n    data-ad-client=\"ca-pub-XXXXXXXXXXXXXXXX\"\n    data-ad-slot=\"1234567890\"></ins>\n</div>\n<h2>Final Thoughts</h2>\n<p><strong>Vertick-IME</strong> is a solid addition to any developer's toolkit. With its growing community, active development, and practical design, it's well worth your time to evaluate. Star it on GitHub, try it in a side project, and see if it fits your workflow.</p>\n<p class=\"disclosure\"><em>Disclosure: This site may contain affiliate links. We may earn a commission if you make a purchase through these links, at no additional cost to you.</em></p>"
+}

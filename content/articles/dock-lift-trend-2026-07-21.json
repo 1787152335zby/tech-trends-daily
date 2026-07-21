@@ -31,16 +31,16 @@
     ],
     "license": "MIT",
     "createdAt": "2026-07-16T16:00:23Z",
-    "updatedAt": "2026-07-21T08:15:52Z",
+    "updatedAt": "2026-07-21T15:42:54Z",
     "homepage": "https://wangchujiang.com/dock-lift/",
     "source": "github",
     "category": "mobile"
   },
   "relatedSlugs": [
-    "agent-notch",
     "nativ",
-    "turbo-fieldfare",
-    "bossconsole"
+    "agent-notch",
+    "vertick-ime",
+    "turbo-fieldfare"
   ],
   "tags": [
     "application",

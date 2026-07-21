@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/pnpm",
     "description": "Fast, disk space efficient package manager",
     "language": "JavaScript/TypeScript",
-    "stars": 35835,
+    "stars": 35840,
     "starsGrowth": 136650386,
     "forks": 1590,
-    "openIssues": 2461,
+    "openIssues": 2463,
     "topics": [
       "pnpm",
       "pnpm11",
@@ -45,8 +45,8 @@
       "workspace"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-21T13:48:54.180Z",
-    "updatedAt": "2026-07-21T13:48:54.180Z",
+    "createdAt": "2026-07-21T19:21:24.388Z",
+    "updatedAt": "2026-07-21T19:21:24.388Z",
     "homepage": "https://pnpm.io",
     "source": "npm",
     "category": "tools"
@@ -54,8 +54,8 @@
   "relatedSlugs": [
     "esbuild",
     "tailwindcss",
-    "date-fns",
-    "vitest"
+    "vitest",
+    "playwright"
   ],
   "tags": [
     "pnpm",
