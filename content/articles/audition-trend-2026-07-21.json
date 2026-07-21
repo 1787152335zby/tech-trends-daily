@@ -38,8 +38,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "graphql",
-    "prisma"
+    "prisma",
+    "kysely"
   ],
   "tags": [
     "analysis",

@@ -13,9 +13,9 @@
     "url": "https://www.npmjs.com/package/express",
     "description": "Fast, unopinionated, minimalist web framework",
     "language": "JavaScript/TypeScript",
-    "stars": 69226,
-    "starsGrowth": 119146190,
-    "forks": 24275,
+    "stars": 69227,
+    "starsGrowth": 119137564,
+    "forks": 24274,
     "openIssues": 222,
     "topics": [
       "express",
@@ -30,17 +30,17 @@
       "api"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-21T08:27:39.172Z",
-    "updatedAt": "2026-07-21T08:27:39.172Z",
+    "createdAt": "2026-07-21T13:48:33.605Z",
+    "updatedAt": "2026-07-21T13:48:33.605Z",
     "homepage": "https://expressjs.com/",
     "source": "npm",
     "category": "backend"
   },
   "relatedSlugs": [
     "hono",
-    "graphql",
     "prisma",
-    "kysely"
+    "kysely",
+    "fastify"
   ],
   "tags": [
     "express",
