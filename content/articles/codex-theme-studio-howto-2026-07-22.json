@@ -42,7 +42,7 @@
     "react",
     "vite",
     "next",
-    "zustand"
+    "preact"
   ],
   "tags": [
     "cdp",

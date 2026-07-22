@@ -15,8 +15,8 @@
     "language": "JavaScript/TypeScript",
     "stars": 109923,
     "starsGrowth": 239877049,
-    "forks": 13559,
-    "openIssues": 5068,
+    "forks": 13560,
+    "openIssues": 5058,
     "topics": [
       "TypeScript",
       "Microsoft",
@@ -25,8 +25,8 @@
       "javascript"
     ],
     "license": "Apache-2.0",
-    "createdAt": "2026-07-22T13:51:49.919Z",
-    "updatedAt": "2026-07-22T13:51:49.919Z",
+    "createdAt": "2026-07-22T19:18:12.744Z",
+    "updatedAt": "2026-07-22T19:18:12.744Z",
     "homepage": "https://www.typescriptlang.org/",
     "source": "npm",
     "category": "language"

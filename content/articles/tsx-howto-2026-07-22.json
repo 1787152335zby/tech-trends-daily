@@ -13,7 +13,7 @@
     "url": "https://www.npmjs.com/package/tsx",
     "description": "TypeScript Execute (tsx): Node.js enhanced with esbuild to run TypeScript & ESM files",
     "language": "JavaScript/TypeScript",
-    "stars": 12053,
+    "stars": 12054,
     "starsGrowth": 80420150,
     "forks": 246,
     "openIssues": 129,
@@ -28,8 +28,8 @@
       "typescript runner"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-22T13:51:52.114Z",
-    "updatedAt": "2026-07-22T13:51:52.114Z",
+    "createdAt": "2026-07-22T19:18:15.108Z",
+    "updatedAt": "2026-07-22T19:18:15.108Z",
     "homepage": "https://tsx.hirok.io",
     "source": "npm",
     "category": "language"
