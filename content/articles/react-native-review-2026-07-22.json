@@ -28,8 +28,8 @@
       "mobile-development"
     ],
     "license": "MIT",
-    "createdAt": "2026-07-22T08:28:35.026Z",
-    "updatedAt": "2026-07-22T08:28:35.026Z",
+    "createdAt": "2026-07-22T13:52:18.884Z",
+    "updatedAt": "2026-07-22T13:52:18.884Z",
     "homepage": "https://reactnative.dev/",
     "source": "npm",
     "category": "frontend"
@@ -38,7 +38,7 @@
     "react",
     "vite",
     "next",
-    "preact"
+    "zustand"
   ],
   "tags": [
     "react",
