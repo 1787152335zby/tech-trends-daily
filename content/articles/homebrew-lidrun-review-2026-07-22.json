@@ -43,8 +43,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "graphql",
-    "prisma"
+    "prisma",
+    "kysely"
   ],
   "tags": [
     "caffeinate",

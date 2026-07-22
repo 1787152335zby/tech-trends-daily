@@ -30,8 +30,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "graphql",
-    "prisma"
+    "prisma",
+    "kysely"
   ],
   "tags": [
     "pddikti-api"

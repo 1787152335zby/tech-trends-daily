@@ -41,8 +41,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "graphql",
-    "prisma"
+    "prisma",
+    "kysely"
   ],
   "tags": [
     "modding-game",

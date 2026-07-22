@@ -37,8 +37,8 @@
   "relatedSlugs": [
     "express",
     "hono",
-    "graphql",
-    "prisma"
+    "prisma",
+    "kysely"
   ],
   "tags": [
     "apple-silicon",

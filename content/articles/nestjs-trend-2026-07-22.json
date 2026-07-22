@@ -22,8 +22,8 @@
       "framework"
     ],
     "license": "ISC",
-    "createdAt": "2026-07-22T02:35:44.643Z",
-    "updatedAt": "2026-07-22T02:35:44.643Z",
+    "createdAt": "2026-07-22T08:28:17.089Z",
+    "updatedAt": "2026-07-22T08:28:17.089Z",
     "homepage": "",
     "source": "npm",
     "category": "tools"
@@ -32,7 +32,7 @@
     "esbuild",
     "pnpm",
     "tailwindcss",
-    "date-fns"
+    "vitest"
   ],
   "tags": [
     "web",
