@@ -2,7 +2,7 @@
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || "https://tech-trends-daily.vercel.app";
 export const SITE_DESCRIPTION =
-  "Evidence-backed coverage of open-source tools and developer discussions, with every published claim linked to its official source.";
+  "Practical guides to trending developer tools: what they do, who they help, how to start, and what official project signals reveal.";
 
 export const DATA_DIR = "data";
 export const CONTENT_DIR = "content/articles";

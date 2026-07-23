@@ -47,7 +47,7 @@ Use real AdSense values only after the site has been added to AdSense. Invalid o
 
 ## Evidence and AI review
 
-New evidence-driven articles retain the official URLs and observed values used to support their claims. Every editorial claim must cite a URL contained in that article's evidence pack. Indexable articles must pass the configured evidence and editorial quality thresholds; rejected drafts stay non-indexable.
+New evidence-driven articles retain the official URLs and observed values used to support their claims. Every editorial claim must cite a URL contained in that article's evidence pack. Reader-facing copy starts with the project's purpose, intended audience, attention signal, evaluation path, and bottom line; raw supporting records are kept in a collapsible source section. Indexable articles must pass the configured evidence and editorial quality thresholds. Older or rejected pages remain reachable but are excluded from discovery surfaces and marked `noindex` until they pass the current standard.
 
 AI editing is optional. When `OPENAI_API_KEY` is unavailable or the AI service cannot provide an acceptable result, the workflow safely falls back to deterministic, source-backed copy and records the review as `not-configured` or `fallback`. It does not invent a successful AI review, and it may publish zero new articles if candidates do not pass the normal quality gates.
 

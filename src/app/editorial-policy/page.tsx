@@ -44,6 +44,14 @@ export default function EditorialPolicyPage() {
           licensing, security, and current project status with the original
           source linked from each article.
         </p>
+        <p>
+          Searchable guides are organized around reader questions: what a
+          project does, who it may help, why it is receiving attention, how to
+          evaluate it, and which limitations matter. Raw records remain
+          available in a supporting source section. Pages that have not passed
+          the current evidence and editorial thresholds are excluded from
+          discovery pages and marked not to be indexed by search engines.
+        </p>
 
         <h2>Selection and ranking</h2>
         <p>

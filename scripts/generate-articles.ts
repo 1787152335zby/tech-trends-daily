@@ -148,7 +148,7 @@ function generateMetrics(repo: RepoData): string {
   <div class="stat"><span class="stat-value">🔀 ${formatNumber(repo.forks)}</span><span class="stat-label">Linked GitHub Forks (total)</span></div>`
       : "";
     return `
-<h2>Recorded Metrics</h2>
+<h2>At a glance</h2>
 <div class="stats-box">
   <div class="stat"><span class="stat-value">📦 ${formatNumber(repo.starsGrowth)}</span><span class="stat-label">Weekly NPM Downloads</span></div>
   <div class="stat"><span class="stat-value">NPM</span><span class="stat-label">Package Registry</span></div>${linkedRepositoryMetrics}
@@ -159,7 +159,7 @@ function generateMetrics(repo: RepoData): string {
 
   if (repo.source === "hackernews") {
     return `
-<h2>Recorded Metrics</h2>
+<h2>At a glance</h2>
 <div class="stats-box">
   <div class="stat"><span class="stat-value">▲ ${formatNumber(repo.starsGrowth)}</span><span class="stat-label">Hacker News Points</span></div>
 </div>
@@ -168,7 +168,7 @@ function generateMetrics(repo: RepoData): string {
   }
 
   return `
-<h2>Recorded Metrics</h2>
+<h2>At a glance</h2>
 <div class="stats-box">
   <div class="stat"><span class="stat-value">⭐ ${formatNumber(repo.stars)}</span><span class="stat-label">GitHub Stars (total)</span></div>
   <div class="stat"><span class="stat-value">📈 +${formatNumber(repo.starsGrowth)}</span><span class="stat-label">New GitHub Stars (weekly window)</span></div>
@@ -226,9 +226,9 @@ function generateSourceActions(repo: RepoData): string {
       ? `<div class="code-block"><code>npm install ${escapeHtml(repo.name)}</code></div>`
       : "";
     return `
-<h2>Verify Before Adoption</h2>
+<h2>Try it safely</h2>
 ${command}
-<p>Check the <a href="${escapeHtml(repo.url)}" rel="nofollow noopener" target="_blank">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>
+<p>Use the <a href="${escapeHtml(repo.url)}" rel="nofollow noopener" target="_blank">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>
     `.trim();
   }
 
@@ -238,14 +238,14 @@ ${command}
       ? `<div class="code-block"><code>git clone ${escapeHtml(cloneUrl)}</code></div>`
       : "";
     return `
-<h2>Verify Before Adoption</h2>
+<h2>Start with the official repository</h2>
 ${command}
-<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>
+<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project. Try it in a disposable or non-production environment first.</p>
     `.trim();
   }
 
   return `
-<h2>Read in Context</h2>
+<h2>Read the original discussion</h2>
 <p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>
   `.trim();
 }
@@ -293,11 +293,19 @@ ${sections.join("\n")}
 }
 
 function generateEvidenceRecord(pack: EvidencePack): string {
+  const displayValue = (value: string) => {
+    if (/^\d{4}-\d{2}-\d{2}T/.test(value)) return value.slice(0, 10);
+    const numeric = Number(value);
+    if (Number.isFinite(numeric) && /^\d+(?:\.\d+)?$/.test(value)) {
+      return formatNumber(numeric);
+    }
+    return value;
+  };
   const evidenceItems = pack.evidence
     .map(
       (item) => `
   <li>
-    <strong>${escapeHtml(item.label)}:</strong> ${escapeHtml(item.value)}
+    <strong>${escapeHtml(item.label)}:</strong> ${escapeHtml(displayValue(item.value))}
     — <a href="${escapeHtml(item.url)}" rel="nofollow noopener" target="_blank">official record</a>
   </li>`.trim(),
     )
@@ -313,12 +321,15 @@ function generateEvidenceRecord(pack: EvidencePack): string {
     .join("\n  ");
 
   return `
-<h2>Evidence Record</h2>
-<p>This page cites public records collected on ${escapeHtml(pack.fetchedAt.slice(0, 10))}. Its evidence-completeness score is ${pack.score}/100; this is not a product-quality rating.</p>
+<h2>Sources and methodology</h2>
+<p>This guide uses public records collected on ${escapeHtml(pack.fetchedAt.slice(0, 10))}. The ${pack.score}/100 score below measures evidence completeness, not whether the project is good or suitable for you.</p>
+<details class="evidence-details">
+<summary>View the supporting source data</summary>
 <ul>
   ${evidenceItems}
 </ul>
 ${warnings ? `<h3>Evidence limitations</h3>\n<ul>\n  ${warnings}\n</ul>` : ""}
+</details>
   `.trim();
 }
 
@@ -371,13 +382,12 @@ export function buildArticle(repo: RepoData, options: BuildArticleOptions = {}):
     relatedSlugs: options.relatedSlugs ?? [],
     tags: repo.topics.slice(0, 8),
     bodyHtml: [
-      generateDataNote(repo, updatedAt),
       editorialDraft ? generateEditorialContent(editorialDraft) : generateSummary(repo),
       generateMetrics(repo),
-      generateMetadata(repo),
-      evidencePack ? generateEvidenceRecord(evidencePack) : "",
-      generateEvaluationChecklist(repo),
       generateSourceActions(repo),
+      evidencePack ? generateEvidenceRecord(evidencePack) : generateMetadata(repo),
+      editorialDraft ? "" : generateEvaluationChecklist(repo),
+      generateDataNote(repo, updatedAt),
     ].filter(Boolean).join("\n"),
   };
 
@@ -488,6 +498,35 @@ function rankedEvidenceScore(repo: RepoData, pack: EvidencePack): number {
   return pack.score * 100 + sourceQualityScore(repo);
 }
 
+function storedEvidencePack(article: Article): EvidencePack | null {
+  if (!article.evidence) return null;
+  return {
+    sourceId: article.evidence.sourceId,
+    source: article.sourceData.source,
+    fetchedAt: article.evidence.fetchedAt,
+    summary:
+      article.sourceData.description.trim()
+      || article.description
+      || `${article.sourceData.name} official source guide.`,
+    officialUrls: article.evidence.officialUrls,
+    evidence: article.evidence.items,
+    score: article.evidence.score,
+    warnings: article.evidence.warnings,
+  };
+}
+
+function articlePassesPolicy(
+  article: Article,
+  policy: ReturnType<typeof loadContentPolicy>,
+): boolean {
+  if (!article.evidence || !article.editorial) return false;
+  if (article.evidence.score < policy.minEvidenceScore) return false;
+  if (article.editorial.qualityScore < policy.minEditorialScore) return false;
+  if (article.editorial.review.status === "rejected") return false;
+  return article.editorial.mode !== "ai"
+    || article.editorial.review.status === "passed";
+}
+
 export async function generateAll(): Promise<void> {
   const dataPath = path.join(DATA_DIR, "all-trending.json");
   if (!fs.existsSync(dataPath)) {
@@ -530,6 +569,13 @@ export async function generateAll(): Promise<void> {
   const evidenceBySourceId = new Map(
     evidencePacks.map((pack) => [pack.sourceId, pack]),
   );
+  for (const article of existing) {
+    const stored = storedEvidencePack(article);
+    const fresh = evidenceBySourceId.get(article.sourceData.id);
+    if (stored && (!fresh || stored.score > fresh.score)) {
+      evidenceBySourceId.set(article.sourceData.id, stored);
+    }
+  }
 
   const today = todayUtc();
   const currentExistingRepos = repos.filter((repo) =>
@@ -636,7 +682,8 @@ export async function generateAll(): Promise<void> {
         .filter(
           (candidate) =>
             candidate.category === article.category
-            && candidate.slug !== article.slug,
+            && candidate.slug !== article.slug
+            && articlePassesPolicy(candidate, policy),
         )
         .slice(0, 4)
         .map((candidate) => candidate.slug),
@@ -644,15 +691,19 @@ export async function generateAll(): Promise<void> {
   const selectedCurrentBySlug = new Map(
     selectedCurrent.map((article) => [article.slug, article]),
   );
-  const selectedWithRelations = selected.map(
-    (article) => selectedCurrentBySlug.get(article.slug) ?? article,
-  );
+  const selectedWithRelations = selected.map((article) => {
+    const selectedArticle = selectedCurrentBySlug.get(article.slug) ?? article;
+    return {
+      ...selectedArticle,
+      indexable: articlePassesPolicy(selectedArticle, policy),
+    };
+  });
   const merged = selectedWithRelations.sort((left, right) => (
     right.updatedAt.localeCompare(left.updatedAt)
     || left.title.localeCompare(right.title)
   ));
 
-  for (const article of selectedCurrent) {
+  for (const article of merged) {
     fs.writeFileSync(
       path.join(CONTENT_DIR, `${article.slug}.json`),
       JSON.stringify(article, null, 2),
@@ -670,6 +721,7 @@ export async function generateAll(): Promise<void> {
       `rejected by evidence=${rejectedByEvidence}`,
       `rejected by editorial=${rejectedByEditorial}`,
       `daily limit=${policy.dailyNewArticleLimit}`,
+      `indexable=${merged.filter((article) => article.indexable).length}`,
       `index size=${merged.length}`,
     ].join("; "),
   );

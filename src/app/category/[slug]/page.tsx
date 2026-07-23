@@ -3,10 +3,25 @@ import { CATEGORY_LABELS, ArticleCategory } from "@/lib/types";
 import ArticleCard from "@/components/ArticleCard";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 
 interface Props { params: Promise<{ slug: string }>; }
 
 const VALID_SLUGS = Object.keys(CATEGORY_LABELS) as ArticleCategory[];
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const label = CATEGORY_LABELS[slug as ArticleCategory];
+  if (!label) return {};
+
+  return {
+    title: `${label} Developer Tools and Project Guides`,
+    description: `Practical, source-backed guides to ${label.toLowerCase()} projects, including intended uses, setup paths, activity signals, and adoption checks.`,
+    alternates: {
+      canonical: `/category/${slug}`,
+    },
+  };
+}
 
 export async function generateStaticParams() {
   return VALID_SLUGS.map((slug) => ({ slug }));
@@ -19,7 +34,9 @@ export default async function CategoryPage({ params }: Props) {
   const label = CATEGORY_LABELS[slug as ArticleCategory];
   if (!label) notFound();
 
-  const articles = loadAllArticles().filter(a => a.category === slug);
+  const articles = loadAllArticles().filter(
+    (article) => article.indexable !== false && article.category === slug,
+  );
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -30,7 +47,8 @@ export default async function CategoryPage({ params }: Props) {
       </nav>
       <h1 className="text-3xl font-bold mb-4">{label}</h1>
       <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
-        Trending {label.toLowerCase()} open-source projects, updated daily.
+        Practical, source-backed guides to {label.toLowerCase()} projects:
+        what they do, who they help, and what to check before adoption.
       </p>
       {articles.length === 0 ? (
         <p className="text-gray-500">No articles yet. Check back soon!</p>

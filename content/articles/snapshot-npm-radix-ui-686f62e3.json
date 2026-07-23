@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-radix-ui-686f62e3",
-  "title": "radix-ui: NPM Package Evidence Snapshot",
-  "description": "radix-ui npm package; no registry description was supplied.",
+  "title": "radix-ui: What It Does, Installation, and Package Health",
+  "description": "radix-ui explained: Unstyled, accessible, open source React primitives for high-quality web apps and design systems. See who it may help, how to get started, and what to verify before adopting it.",
   "category": "frontend",
   "type": "trend",
   "publishedAt": "2026-07-23",
@@ -32,10 +32,10 @@
     "snapshot-npm-vite-fa41aaeb"
   ],
   "tags": [],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of radix-ui, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>radix-ui npm package; no registry description was supplied.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Maintainers listed: 2 (observed 2026-07-23)</p>\n<p>Registry modified: 2026-07-22T21:55:31.644Z (observed 2026-07-23)</p>\n<p>Direct dependencies: 55 (observed 2026-07-23)</p>\n<p>License: MIT (observed 2026-07-23)</p>\n<p>Package: radix-ui (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://radix-ui.com/primitives\" rel=\"nofollow noopener\" target=\"_blank\">radix-ui.com</a>, <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a>, <a href=\"https://github.com/radix-ui/primitives\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 10.2M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 19.1k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1.2k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/radix-ui</a></li>\n  <li>Homepage supplied by source: <a href=\"https://radix-ui.com/primitives\" rel=\"nofollow noopener\" target=\"_blank\">https://radix-ui.com/primitives</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Maintainers listed:</strong> 2\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-22T21:55:31.644Z\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 55\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> radix-ui\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-16 to 2026-07-22\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 10414474\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 1.6.5\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-07-22T21:55:31.363Z\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install radix-ui</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "bodyHtml": "<p class=\"article-dek\"><strong>Use this guide to decide whether radix-ui belongs on your shortlist: start with its stated purpose, then check setup, activity signals, maintenance clues, and adoption risks.</strong></p>\n<h2>What is radix-ui?</h2>\n<p>Unstyled, accessible, open source React primitives for high-quality web apps and design systems.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Who should consider it?</h2>\n<p>This guide is most relevant to frontend developers evaluating tools in the JavaScript/TypeScript ecosystem. Treat it as a starting point for a shortlist, then compare the official documentation with your own requirements.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Why is it getting attention?</h2>\n<p>The package appeared in this feed because its recorded weekly npm activity made it notable at collection time. Download totals include automated requests and do not equal unique users, satisfaction, or product quality.</p>\n<p>At collection time, the official source recorded 10.4M weekly downloads, latest version 1.6.5, and that version published on 2026-07-22.</p>\n<p><small>Evidence: <a href=\"https://api.npmjs.org/downloads/point/last-week/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a>, <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a></small></p>\n<h2>How to evaluate it</h2>\n<p>Start with the official package documentation and current release notes. Before adding radix-ui to a project, check runtime compatibility, dependency impact, license terms, and whether the package's documented purpose matches your use case.</p>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://radix-ui.com/primitives\" rel=\"nofollow noopener\" target=\"_blank\">radix-ui.com</a>, <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a>, <a href=\"https://github.com/radix-ui/primitives\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Bottom line</h2>\n<p>radix-ui has enough public source information to warrant a closer look, but the available activity signals are not a recommendation. The useful next step is to verify fit against the official documentation and test the project for your own constraints.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 10.2M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 19.1k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1.2k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install radix-ui</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-23. The 100/100 score below measures evidence completeness, not whether the project is good or suitable for you.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Official package summary:</strong> Unstyled, accessible, open source React primitives for high-quality web apps and design systems.\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 2\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-22\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 55\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> radix-ui\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-16 to 2026-07-22\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 10.4M\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 1.6.5\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-07-22\n    — <a href=\"https://registry.npmjs.org/radix-ui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
   "evidence": {
     "sourceId": "npm-radix-ui",
-    "fetchedAt": "2026-07-23T10:59:16.553Z",
+    "fetchedAt": "2026-07-23T11:28:11.199Z",
     "score": 100,
     "officialUrls": [
       "https://www.npmjs.com/package/radix-ui",
@@ -46,77 +46,90 @@
     ],
     "items": [
       {
+        "label": "Official package summary",
+        "value": "Unstyled, accessible, open source React primitives for high-quality web apps and design systems.",
+        "url": "https://registry.npmjs.org/radix-ui",
+        "observedAt": "2026-07-23T11:28:11.199Z",
+        "kind": "documentation"
+      },
+      {
         "label": "Maintainers listed",
         "value": "2",
         "url": "https://registry.npmjs.org/radix-ui",
-        "observedAt": "2026-07-23T10:59:16.553Z",
+        "observedAt": "2026-07-23T11:28:11.199Z",
         "kind": "maintenance"
       },
       {
         "label": "Registry modified",
         "value": "2026-07-22T21:55:31.644Z",
         "url": "https://registry.npmjs.org/radix-ui",
-        "observedAt": "2026-07-23T10:59:16.553Z",
+        "observedAt": "2026-07-23T11:28:11.199Z",
         "kind": "maintenance"
       },
       {
         "label": "Direct dependencies",
         "value": "55",
         "url": "https://registry.npmjs.org/radix-ui",
-        "observedAt": "2026-07-23T10:59:16.553Z",
+        "observedAt": "2026-07-23T11:28:11.199Z",
         "kind": "package-metadata"
       },
       {
         "label": "License",
         "value": "MIT",
         "url": "https://registry.npmjs.org/radix-ui",
-        "observedAt": "2026-07-23T10:59:16.553Z",
+        "observedAt": "2026-07-23T11:28:11.199Z",
         "kind": "package-metadata"
       },
       {
         "label": "Package",
         "value": "radix-ui",
         "url": "https://registry.npmjs.org/radix-ui",
-        "observedAt": "2026-07-23T10:59:16.553Z",
+        "observedAt": "2026-07-23T11:28:11.199Z",
         "kind": "registry"
       },
       {
         "label": "Download window",
         "value": "2026-07-16 to 2026-07-22",
         "url": "https://api.npmjs.org/downloads/point/last-week/radix-ui",
-        "observedAt": "2026-07-23T10:59:16.553Z",
+        "observedAt": "2026-07-23T11:28:11.199Z",
         "kind": "registry-metric"
       },
       {
         "label": "Weekly downloads",
         "value": "10414474",
         "url": "https://api.npmjs.org/downloads/point/last-week/radix-ui",
-        "observedAt": "2026-07-23T10:59:16.553Z",
+        "observedAt": "2026-07-23T11:28:11.199Z",
         "kind": "registry-metric"
       },
       {
         "label": "Latest version",
         "value": "1.6.5",
         "url": "https://registry.npmjs.org/radix-ui",
-        "observedAt": "2026-07-23T10:59:16.553Z",
+        "observedAt": "2026-07-23T11:28:11.199Z",
         "kind": "release"
       },
       {
         "label": "Latest version published",
         "value": "2026-07-22T21:55:31.363Z",
         "url": "https://registry.npmjs.org/radix-ui",
-        "observedAt": "2026-07-23T10:59:16.553Z",
+        "observedAt": "2026-07-23T11:28:11.199Z",
         "kind": "release"
       }
     ],
     "warnings": [
-      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
     ]
   },
   "editorial": {
     "mode": "deterministic",
     "qualityScore": 100,
     "claims": [
+      {
+        "text": "Official package summary: Unstyled, accessible, open source React primitives for high-quality web apps and design systems. (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/radix-ui"
+        ]
+      },
       {
         "text": "Maintainers listed: 2 (observed 2026-07-23)",
         "evidenceUrls": [
@@ -158,20 +171,14 @@
         "evidenceUrls": [
           "https://api.npmjs.org/downloads/point/last-week/radix-ui"
         ]
-      },
-      {
-        "text": "Latest version: 1.6.5 (observed 2026-07-23)",
-        "evidenceUrls": [
-          "https://registry.npmjs.org/radix-ui"
-        ]
       }
     ],
     "review": {
       "status": "not-configured",
       "issues": [],
-      "reviewedAt": "2026-07-23T10:59:16.553Z"
+      "reviewedAt": "2026-07-23T11:28:11.199Z"
     },
-    "generatedAt": "2026-07-23T10:59:16.553Z"
+    "generatedAt": "2026-07-23T11:28:11.199Z"
   },
   "indexable": true
 }

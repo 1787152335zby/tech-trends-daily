@@ -25,6 +25,32 @@
   line-height: 1.75;
 }
 
+.article-dek {
+  border-left: 4px solid #2563eb;
+  border-radius: 0.25rem;
+  background: #eff6ff;
+  padding: 1rem 1.25rem;
+  color: #1e3a8a;
+}
+
+.evidence-details {
+  margin: 1rem 0 2rem;
+  border: 1px solid #dbeafe;
+  border-radius: 0.75rem;
+  background: #f8fafc;
+  padding: 1rem 1.25rem;
+}
+
+.evidence-details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #1d4ed8;
+}
+
+.evidence-details[open] summary {
+  margin-bottom: 1rem;
+}
+
 .article-body ul, .article-body ol {
   margin-bottom: 1rem;
   padding-left: 1.5rem;
@@ -106,6 +132,9 @@
   .ad-container { border-color: #374151; }
   .article-body a { color: #60a5fa; }
   .article-body a:hover { color: #93bbfd; }
+  .article-dek { background: #172554; color: #dbeafe; }
+  .evidence-details { background: #111827; border-color: #1e3a8a; }
+  .evidence-details summary { color: #93c5fd; }
 }
 
 .disclosure {

@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-lucide-react-7673c40a",
-  "title": "lucide-react: NPM Package Evidence Snapshot",
-  "description": "A Lucide icon library package for React applications.",
+  "title": "lucide-react: What It Does, Installation, and Package Health",
+  "description": "lucide-react explained: A Lucide icon library package for React applications. See who it may help, how to get started, and what to verify before adopting it.",
   "category": "frontend",
   "type": "trend",
   "publishedAt": "2026-06-27",
@@ -51,10 +51,10 @@
     "Feather Icons",
     "Fontawesome"
   ],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of lucide-react, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>A Lucide icon library package for React applications.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Maintainers listed: 1 (observed 2026-07-23)</p>\n<p>Registry modified: 2026-07-23T06:13:36.132Z (observed 2026-07-23)</p>\n<p>License: ISC (observed 2026-07-23)</p>\n<p>Package: lucide-react (observed 2026-07-23)</p>\n<p>Latest version: 1.26.0 (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://lucide.dev/\" rel=\"nofollow noopener\" target=\"_blank\">lucide.dev</a>, <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://github.com/lucide-icons/lucide\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 0</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 23.6k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1.5k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>ISC</strong></li>\n  <li>Source topics: Lucide, React, Feather, Icons, Icon, SVG, Feather Icons, Fontawesome</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/lucide-react</a></li>\n  <li>Homepage supplied by source: <a href=\"https://lucide.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://lucide.dev</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Maintainers listed:</strong> 1\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-23T06:13:36.132Z\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> ISC\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> lucide-react\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 1.26.0\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-07-23T06:13:35.807Z\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Weekly npm download evidence was unavailable: HTTP 429 from api.npmjs.org</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install lucide-react</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "bodyHtml": "<p class=\"article-dek\"><strong>Use this guide to decide whether lucide-react belongs on your shortlist: start with its stated purpose, then check setup, activity signals, maintenance clues, and adoption risks.</strong></p>\n<h2>What is lucide-react?</h2>\n<p>A Lucide icon library package for React applications.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Who should consider it?</h2>\n<p>This guide is most relevant to frontend developers evaluating tools in the JavaScript/TypeScript ecosystem. The source associates the project with Lucide, React, Feather, Icons. Treat it as a starting point for a shortlist, then compare the official documentation with your own requirements.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Why is it getting attention?</h2>\n<p>The package appeared in this feed because its recorded weekly npm activity made it notable at collection time. Download totals include automated requests and do not equal unique users, satisfaction, or product quality.</p>\n<p>At collection time, the official source recorded latest version 1.26.0, and that version published on 2026-07-23.</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a></small></p>\n<h2>How to evaluate it</h2>\n<p>Start with the official package documentation and current release notes. Before adding lucide-react to a project, check runtime compatibility, dependency impact, license terms, and whether the package's documented purpose matches your use case.</p>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://lucide.dev/\" rel=\"nofollow noopener\" target=\"_blank\">lucide.dev</a>, <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://github.com/lucide-icons/lucide\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Bottom line</h2>\n<p>lucide-react has enough public source information to warrant a closer look, but the available activity signals are not a recommendation. The useful next step is to verify fit against the official documentation and test the project for your own constraints.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 0</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 23.6k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1.5k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install lucide-react</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-23. The 100/100 score below measures evidence completeness, not whether the project is good or suitable for you.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Official package summary:</strong> A Lucide icon library package for React applications.\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package keywords:</strong> Lucide, React, Feather, Icons, Icon, SVG, Feather Icons, Fontawesome, Font Awesome\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 1\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-23\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> ISC\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> lucide-react\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 1.26.0\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-07-23\n    — <a href=\"https://registry.npmjs.org/lucide-react\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Weekly npm download evidence was unavailable: HTTP 429 from api.npmjs.org</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
   "evidence": {
     "sourceId": "npm-lucide-react",
-    "fetchedAt": "2026-07-23T10:58:44.417Z",
+    "fetchedAt": "2026-07-23T11:28:20.773Z",
     "score": 100,
     "officialUrls": [
       "https://www.npmjs.com/package/lucide-react",
@@ -64,57 +64,83 @@
     ],
     "items": [
       {
+        "label": "Official package summary",
+        "value": "A Lucide icon library package for React applications.",
+        "url": "https://registry.npmjs.org/lucide-react",
+        "observedAt": "2026-07-23T11:28:20.773Z",
+        "kind": "documentation"
+      },
+      {
+        "label": "Package keywords",
+        "value": "Lucide, React, Feather, Icons, Icon, SVG, Feather Icons, Fontawesome, Font Awesome",
+        "url": "https://registry.npmjs.org/lucide-react",
+        "observedAt": "2026-07-23T11:28:20.773Z",
+        "kind": "documentation"
+      },
+      {
         "label": "Maintainers listed",
         "value": "1",
         "url": "https://registry.npmjs.org/lucide-react",
-        "observedAt": "2026-07-23T10:58:44.417Z",
+        "observedAt": "2026-07-23T11:28:20.773Z",
         "kind": "maintenance"
       },
       {
         "label": "Registry modified",
         "value": "2026-07-23T06:13:36.132Z",
         "url": "https://registry.npmjs.org/lucide-react",
-        "observedAt": "2026-07-23T10:58:44.417Z",
+        "observedAt": "2026-07-23T11:28:20.773Z",
         "kind": "maintenance"
       },
       {
         "label": "License",
         "value": "ISC",
         "url": "https://registry.npmjs.org/lucide-react",
-        "observedAt": "2026-07-23T10:58:44.417Z",
+        "observedAt": "2026-07-23T11:28:20.773Z",
         "kind": "package-metadata"
       },
       {
         "label": "Package",
         "value": "lucide-react",
         "url": "https://registry.npmjs.org/lucide-react",
-        "observedAt": "2026-07-23T10:58:44.417Z",
+        "observedAt": "2026-07-23T11:28:20.773Z",
         "kind": "registry"
       },
       {
         "label": "Latest version",
         "value": "1.26.0",
         "url": "https://registry.npmjs.org/lucide-react",
-        "observedAt": "2026-07-23T10:58:44.417Z",
+        "observedAt": "2026-07-23T11:28:20.773Z",
         "kind": "release"
       },
       {
         "label": "Latest version published",
         "value": "2026-07-23T06:13:35.807Z",
         "url": "https://registry.npmjs.org/lucide-react",
-        "observedAt": "2026-07-23T10:58:44.417Z",
+        "observedAt": "2026-07-23T11:28:20.773Z",
         "kind": "release"
       }
     ],
     "warnings": [
       "Weekly npm download evidence was unavailable: HTTP 429 from api.npmjs.org",
-      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
     ]
   },
   "editorial": {
     "mode": "deterministic",
     "qualityScore": 100,
     "claims": [
+      {
+        "text": "Official package summary: A Lucide icon library package for React applications. (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/lucide-react"
+        ]
+      },
+      {
+        "text": "Package keywords: Lucide, React, Feather, Icons, Icon, SVG, Feather Icons, Fontawesome, Font Awesome (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/lucide-react"
+        ]
+      },
       {
         "text": "Maintainers listed: 1 (observed 2026-07-23)",
         "evidenceUrls": [
@@ -155,9 +181,9 @@
     "review": {
       "status": "not-configured",
       "issues": [],
-      "reviewedAt": "2026-07-23T10:58:44.417Z"
+      "reviewedAt": "2026-07-23T11:28:20.773Z"
     },
-    "generatedAt": "2026-07-23T10:58:44.417Z"
+    "generatedAt": "2026-07-23T11:28:20.773Z"
   },
   "indexable": true
 }

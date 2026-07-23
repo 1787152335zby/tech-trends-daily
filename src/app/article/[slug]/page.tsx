@@ -97,6 +97,7 @@ export default async function ArticlePage({ params }: Props) {
   const related = deduplicateArticlesBySource(
     allArticles.filter(
       (candidate) =>
+        candidate.indexable !== false &&
         candidate.category === article.category &&
         candidate.slug !== article.slug,
     ),
@@ -157,18 +158,20 @@ export default async function ArticlePage({ params }: Props) {
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4">
             {article.title}
           </h1>
+          <p className="mb-5 max-w-3xl text-lg leading-8 text-gray-600 dark:text-gray-300">
+            {article.description}
+          </p>
           <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
             <SourceBadge source={article.sourceData.source} />
             <span>{CATEGORY_LABELS[article.category]}</span>
-            <span>
-              {article.sourceData.source === "hackernews" ? "▲" : "⭐"}{" "}
-              {fmt(article.sourceData.stars)}
-            </span>
             {article.sourceData.source === "npm" && (
-              <span>⬇ {fmt(article.sourceData.starsGrowth)}/wk</span>
+              <span>{fmt(article.sourceData.starsGrowth)} weekly downloads</span>
             )}
             {article.sourceData.source === "github" && (
-              <span>📈 +{fmt(article.sourceData.starsGrowth)}/wk</span>
+              <span>+{fmt(article.sourceData.starsGrowth)} weekly stars</span>
+            )}
+            {article.sourceData.source === "hackernews" && (
+              <span>{fmt(article.sourceData.starsGrowth)} discussion points</span>
             )}
             <span>
               Published:{" "}
@@ -203,9 +206,10 @@ export default async function ArticlePage({ params }: Props) {
         />
 
         <aside className="mb-8 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-950 dark:border-amber-900 dark:bg-amber-950/30 dark:text-amber-100">
-          This article was drafted through an automated workflow using public
-          source data and is covered by our validation and human spot-check
-          process. This does not mean the project was personally tested. See
+          This guide was drafted through an automated workflow using public
+          source data and must pass evidence and editorial validation before
+          appearing in our searchable catalog. It remains eligible for human
+          spot checks, but the project was not personally tested. See
           our{" "}
           <Link href="/editorial-policy" className="font-medium underline">
             Editorial Policy

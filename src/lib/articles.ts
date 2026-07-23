@@ -67,6 +67,15 @@ export function loadAllArticles(): Article[] {
 }
 
 /**
+ * Public discovery surfaces only show pages that passed the current content
+ * policy. Older canonical pages remain available with noindex metadata while
+ * they wait for a stronger evidence refresh.
+ */
+export function loadIndexableArticles(): Article[] {
+  return loadAllArticles().filter((article) => article.indexable !== false);
+}
+
+/**
  * Load a single article by slug.
  */
 export function loadArticle(slug: string): Article | null {
@@ -122,7 +131,7 @@ export function deduplicateArticlesBySource(
  * Get articles grouped by category for navigation.
  */
 export function getArticlesByCategory(): Record<ArticleCategory, Article[]> {
-  const articles = loadAllArticles();
+  const articles = loadIndexableArticles();
   const grouped: Record<string, Article[]> = {};
 
   for (const article of articles) {
@@ -139,7 +148,7 @@ export function getArticlesByCategory(): Record<ArticleCategory, Article[]> {
  * Get trending articles (top by starsGrowth).
  */
 export function getTrendingArticles(limit = 10): Article[] {
-  const articles = [...loadAllArticles()];
+  const articles = [...loadIndexableArticles()];
   return deduplicateArticlesBySource(
     articles.sort((a, b) => b.sourceData.starsGrowth - a.sourceData.starsGrowth),
   ).slice(0, limit);

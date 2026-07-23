@@ -94,6 +94,8 @@ interface GitHubReleaseResponse {
 interface NpmRegistryResponse {
   name?: string;
   description?: string;
+  readme?: string;
+  keywords?: string[];
   homepage?: string;
   repository?: string | { type?: string; url?: string };
   license?: string | { type?: string };
@@ -175,6 +177,34 @@ function cleanText(value: unknown, maxLength = 500): string {
     .replace(/\s+/g, " ")
     .trim()
     .slice(0, maxLength);
+}
+
+function readmeSummary(value: unknown): string {
+  const text = nonEmptyString(value);
+  if (!text) return "";
+
+  const paragraphs = text
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/<[^>]*>/g, " ")
+    .split(/\n\s*\n/)
+    .map((paragraph) =>
+      paragraph
+        .replace(/^\s{0,3}#{1,6}\s+/gm, "")
+        .replace(/^\s*[-*+>]\s+/gm, "")
+        .replace(/[`*_~|]/g, "")
+        .replace(/\s+/g, " ")
+        .trim(),
+    )
+    .filter(
+      (paragraph) =>
+        paragraph.length >= 45
+        && !/^(?:install(?:ation)?|usage|license|contributing|documentation)\b/i.test(paragraph)
+        && !/\b(?:build status|coverage|npm version|downloads?)\b.*\b(?:badge|shield)\b/i.test(paragraph),
+    );
+
+  return cleanText(paragraphs[0], 500);
 }
 
 function valueText(value: unknown): string | undefined {
@@ -422,6 +452,46 @@ async function fetchJson<T>(
   }
 }
 
+async function fetchText(
+  url: string,
+  options: {
+    fetchImpl: typeof fetch;
+    timeoutMs: number;
+    headers?: Record<string, string>;
+  },
+): Promise<string> {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), options.timeoutMs);
+  try {
+    const response = await options.fetchImpl(url, {
+      headers: options.headers,
+      signal: controller.signal,
+    });
+    if (!response.ok) {
+      throw new HttpStatusError(
+        response.status,
+        `HTTP ${response.status} from ${new URL(url).hostname}`,
+      );
+    }
+    return (await response.text()).slice(0, 250_000);
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function htmlDescription(html: string): string {
+  const metaTags = html.match(/<meta\b[^>]*>/gi) ?? [];
+  for (const tag of metaTags) {
+    if (!/(?:name|property)\s*=\s*["'](?:description|og:description|twitter:description)["']/i.test(tag)) {
+      continue;
+    }
+    const content = tag.match(/\bcontent\s*=\s*["']([^"']+)["']/i)?.[1];
+    const description = cleanText(content, 500);
+    if (description.length >= 40) return description;
+  }
+  return "";
+}
+
 function safeErrorMessage(error: unknown): string {
   if (error instanceof HttpStatusError) return error.message;
   if (error instanceof Error && error.name === "AbortError") {
@@ -635,6 +705,28 @@ async function collectNpmEvidence(
     ? nonEmptyString(registry.time?.[latestTag])
     : undefined;
   const modifiedAt = nonEmptyString(registry.time?.modified ?? latestPublishedAt);
+  let homepageSummary = "";
+  if (!cleanText(registry.description) && !readmeSummary(registry.readme) && homepage) {
+    try {
+      homepageSummary = htmlDescription(
+        await fetchText(homepage, {
+          fetchImpl,
+          timeoutMs,
+          headers: {
+            Accept: "text/html",
+            "User-Agent": "TechTrends-Daily-Evidence-Collector",
+          },
+        }),
+      );
+    } catch {
+      // Homepage metadata is an optional enrichment. Registry evidence remains
+      // sufficient when the site is unavailable or blocks automated requests.
+    }
+  }
+  const documentationSummary =
+    cleanText(registry.description)
+    || readmeSummary(registry.readme)
+    || homepageSummary;
   const evidence: EvidenceItem[] = [];
   addEvidence(
     evidence,
@@ -643,6 +735,22 @@ async function collectNpmEvidence(
     registryUrl,
     fetchedAt,
     "registry",
+  );
+  addEvidence(
+    evidence,
+    "Official package summary",
+    documentationSummary,
+    registryUrl,
+    fetchedAt,
+    "documentation",
+  );
+  addEvidence(
+    evidence,
+    "Package keywords",
+    registry.keywords?.slice(0, 12).join(", "),
+    registryUrl,
+    fetchedAt,
+    "documentation",
   );
   addEvidence(
     evidence,
@@ -738,7 +846,7 @@ async function collectNpmEvidence(
     source: repo.source,
     fetchedAt,
     summary:
-      cleanText(registry.description) ||
+      documentationSummary ||
       `${registry.name ?? repo.name} npm package; no registry description was supplied.`,
     officialUrls: uniqueStrings([
       packagePage,
@@ -856,7 +964,7 @@ function cachePath(cacheDir: string, repo: RepoData): string {
     .update(`${repo.source}:${repo.id}`)
     .digest("hex")
     .slice(0, 24);
-  return path.join(cacheDir, `${repo.source}-${digest}.json`);
+  return path.join(cacheDir, `v3-${repo.source}-${digest}.json`);
 }
 
 function isEvidencePack(value: unknown): value is EvidencePack {
