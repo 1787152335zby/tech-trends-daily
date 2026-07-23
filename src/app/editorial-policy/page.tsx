@@ -30,12 +30,14 @@ export default function EditorialPolicyPage() {
 
         <h2>Automation and editorial checks</h2>
         <p>
-          Automated workflows collect public signals and prepare article
-          drafts from GitHub, npm, and Hacker News data. Automation helps us
-          monitor many projects, but it can misread data or miss important
-          context. We use validation rules and human spot checks to improve
-          accuracy; this does not mean every project has been personally
-          installed, benchmarked, or security-audited.
+          Automated workflows collect public signals and source evidence from
+          GitHub, npm, and Hacker News. Drafts must link factual claims to that
+          evidence and pass a separate editorial validation step before they
+          can enter the searchable catalog. When AI editing is enabled, a
+          second pass checks the draft for unsupported claims, repetition, and
+          promotional language. Human spot checks may also be performed.
+          These checks do not mean every project has been personally installed,
+          benchmarked, or security-audited.
         </p>
         <p>
           Readers should confirm installation commands, version compatibility,
@@ -46,9 +48,11 @@ export default function EditorialPolicyPage() {
         <h2>Selection and ranking</h2>
         <p>
           Coverage is based on public activity signals, relevance to software
-          practitioners, and category fit. Trend figures are a point-in-time
-          snapshot and may change after publication. Inclusion is not an
-          endorsement.
+          practitioners, category fit, source completeness, and the amount of
+          verifiable evidence available. The workflow may publish fewer items
+          than its configured daily limit when candidates do not meet the
+          quality threshold. Trend figures are a point-in-time snapshot and may
+          change after publication. Inclusion is not an endorsement.
         </p>
 
         <h2>Updates and corrections</h2>

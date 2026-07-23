@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-playwright-0cdcf84f",
-  "title": "playwright — NPM Package Data Snapshot",
-  "description": "playwright NPM package data snapshot: 70.8M downloads in the recorded weekly NPM window. A high-level API to automate web browsers.",
+  "title": "playwright: NPM Package Evidence Snapshot",
+  "description": "A high-level API to automate web browsers",
   "category": "tools",
   "type": "trend",
   "publishedAt": "2026-06-27",
@@ -32,5 +32,153 @@
     "snapshot-npm-dayjs-98193aad"
   ],
   "tags": [],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>playwright</strong> is listed in our <em>Tools</em> feed. The source describes it as: A high-level API to automate web browsers.</p>\n<p>The principal source-specific signal in this snapshot is <strong>70.8M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 70.8M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 93.3k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 6.1k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/playwright\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/playwright</a></li>\n  <li>Homepage supplied by source: <a href=\"https://playwright.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://playwright.dev</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install playwright</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of playwright, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>A high-level API to automate web browsers</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/playwright\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Node.js engine: &gt;=18 (observed 2026-07-23)</p>\n<p>Maintainers listed: 4 (observed 2026-07-23)</p>\n<p>Registry modified: 2026-07-23T06:09:19.960Z (observed 2026-07-23)</p>\n<p>Direct dependencies: 1 (observed 2026-07-23)</p>\n<p>License: Apache-2.0 (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/playwright\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/playwright\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/playwright\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://playwright.dev/\" rel=\"nofollow noopener\" target=\"_blank\">playwright.dev</a>, <a href=\"https://registry.npmjs.org/playwright\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/playwright\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a>, <a href=\"https://github.com/microsoft/playwright\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 70.8M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 93.3k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 6.1k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/playwright\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/playwright</a></li>\n  <li>Homepage supplied by source: <a href=\"https://playwright.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://playwright.dev</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=18\n    — <a href=\"https://registry.npmjs.org/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 4\n    — <a href=\"https://registry.npmjs.org/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-23T06:09:19.960Z\n    — <a href=\"https://registry.npmjs.org/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 1\n    — <a href=\"https://registry.npmjs.org/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> Apache-2.0\n    — <a href=\"https://registry.npmjs.org/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> playwright\n    — <a href=\"https://registry.npmjs.org/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-15 to 2026-07-21\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 70791554\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 1.61.1\n    — <a href=\"https://registry.npmjs.org/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-06-23T19:49:00.061Z\n    — <a href=\"https://registry.npmjs.org/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install playwright</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/playwright\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "evidence": {
+    "sourceId": "npm-playwright",
+    "fetchedAt": "2026-07-23T10:58:23.102Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/playwright",
+      "https://registry.npmjs.org/playwright",
+      "https://api.npmjs.org/downloads/point/last-week/playwright",
+      "https://github.com/microsoft/playwright",
+      "https://playwright.dev/"
+    ],
+    "items": [
+      {
+        "label": "Node.js engine",
+        "value": ">=18",
+        "url": "https://registry.npmjs.org/playwright",
+        "observedAt": "2026-07-23T10:58:23.102Z",
+        "kind": "compatibility"
+      },
+      {
+        "label": "Maintainers listed",
+        "value": "4",
+        "url": "https://registry.npmjs.org/playwright",
+        "observedAt": "2026-07-23T10:58:23.102Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2026-07-23T06:09:19.960Z",
+        "url": "https://registry.npmjs.org/playwright",
+        "observedAt": "2026-07-23T10:58:23.102Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Direct dependencies",
+        "value": "1",
+        "url": "https://registry.npmjs.org/playwright",
+        "observedAt": "2026-07-23T10:58:23.102Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "License",
+        "value": "Apache-2.0",
+        "url": "https://registry.npmjs.org/playwright",
+        "observedAt": "2026-07-23T10:58:23.102Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "playwright",
+        "url": "https://registry.npmjs.org/playwright",
+        "observedAt": "2026-07-23T10:58:23.102Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Download window",
+        "value": "2026-07-15 to 2026-07-21",
+        "url": "https://api.npmjs.org/downloads/point/last-week/playwright",
+        "observedAt": "2026-07-23T10:58:23.102Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Weekly downloads",
+        "value": "70791554",
+        "url": "https://api.npmjs.org/downloads/point/last-week/playwright",
+        "observedAt": "2026-07-23T10:58:23.102Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Latest version",
+        "value": "1.61.1",
+        "url": "https://registry.npmjs.org/playwright",
+        "observedAt": "2026-07-23T10:58:23.102Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2026-06-23T19:49:00.061Z",
+        "url": "https://registry.npmjs.org/playwright",
+        "observedAt": "2026-07-23T10:58:23.102Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 100,
+    "claims": [
+      {
+        "text": "Node.js engine: >=18 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/playwright"
+        ]
+      },
+      {
+        "text": "Maintainers listed: 4 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/playwright"
+        ]
+      },
+      {
+        "text": "Registry modified: 2026-07-23T06:09:19.960Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/playwright"
+        ]
+      },
+      {
+        "text": "Direct dependencies: 1 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/playwright"
+        ]
+      },
+      {
+        "text": "License: Apache-2.0 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/playwright"
+        ]
+      },
+      {
+        "text": "Package: playwright (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/playwright"
+        ]
+      },
+      {
+        "text": "Download window: 2026-07-15 to 2026-07-21 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/playwright"
+        ]
+      },
+      {
+        "text": "Weekly downloads: 70791554 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/playwright"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:23.102Z"
+    },
+    "generatedAt": "2026-07-23T10:58:23.102Z"
+  },
+  "indexable": true
 }

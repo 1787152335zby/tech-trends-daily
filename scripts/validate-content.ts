@@ -6,6 +6,7 @@
 import fs from "fs";
 import path from "path";
 import { CONTENT_DIR } from "../src/lib/constants";
+import { loadContentPolicy } from "./lib/content-policy";
 
 type JsonObject = Record<string, unknown>;
 
@@ -22,7 +23,12 @@ const ARTICLE_CATEGORIES = new Set([
   "language",
 ]);
 const SOURCES = new Set(["github", "npm", "hackernews"]);
+const EDITORIAL_MODES = new Set(["deterministic", "ai"]);
+const REVIEW_STATUSES = new Set(["passed", "fallback", "rejected", "not-configured"]);
 const MAX_REPORTED_ERRORS = 50;
+const CONTENT_POLICY = loadContentPolicy();
+const MIN_INDEXABLE_EVIDENCE_SCORE = CONTENT_POLICY.minEvidenceScore;
+const MIN_INDEXABLE_QUALITY_SCORE = CONTENT_POLICY.minEditorialScore;
 const BANNED_CONTENT: Array<[RegExp, string]> = [
   [/\b\d+(?:\.\d+)?MM\b/i, "contains malformed MM number formatting"],
   [/\bgit clone\s+https?:\/\/(?:www\.)?npmjs\.com\b/i, "tries to git clone an NPM page"],
@@ -89,6 +95,44 @@ function validateNonNegativeNumber(value: unknown, location: string): void {
   }
 }
 
+function validateScore(value: unknown, location: string): value is number {
+  if (typeof value !== "number" || !Number.isFinite(value) || value < 0 || value > 100) {
+    reportError(`${location} must be a finite number from 0 to 100`);
+    return false;
+  }
+  return true;
+}
+
+function validateHttpUrlArray(
+  value: unknown,
+  location: string,
+  requireNonEmpty = false,
+): string[] {
+  if (!Array.isArray(value) || value.some((item) => !isHttpUrl(item))) {
+    reportError(`${location} must be an array of HTTP(S) URLs`);
+    return [];
+  }
+  const urls = value as string[];
+  if (requireNonEmpty && urls.length === 0) {
+    reportError(`${location} must contain at least one evidence URL`);
+  }
+  if (new Set(urls).size !== urls.length) {
+    reportError(`${location} must not contain duplicate URLs`);
+  }
+  return urls;
+}
+
+function normalizeEvidenceUrl(value: string): string {
+  try {
+    const parsed = new URL(value);
+    parsed.hash = "";
+    if (parsed.pathname !== "/") parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    return parsed.toString();
+  } catch {
+    return value;
+  }
+}
+
 function normalizedGitHubRepository(value: unknown): string | null {
   const parsed = parseHttpUrl(value);
   if (!parsed || parsed.protocol !== "https:" || parsed.hostname.toLowerCase() !== "github.com") {
@@ -144,6 +188,146 @@ function validateContentClaims(
     const sourceRepository = normalizedGitHubRepository(source.url);
     if (sourceType !== "github" || !cloneRepository || cloneRepository !== sourceRepository) {
       reportError(`${location}.bodyHtml contains a git clone command that does not match its GitHub source`);
+    }
+  }
+}
+
+function validateEvidenceEditorial(value: JsonObject, location: string): void {
+  const hasEvidence = value.evidence !== undefined;
+  const hasEditorial = value.editorial !== undefined;
+  if (!hasEvidence && !hasEditorial) return;
+  if (!hasEvidence || !hasEditorial) {
+    reportError(`${location} evidence-driven articles must include both evidence and editorial`);
+    return;
+  }
+  if (!isObject(value.evidence) || !isObject(value.editorial)) {
+    reportError(`${location}.evidence and ${location}.editorial must be objects`);
+    return;
+  }
+  if (typeof value.indexable !== "boolean") {
+    reportError(`${location}.indexable must be explicitly true or false for evidence-driven articles`);
+  }
+
+  const evidence = value.evidence;
+  const editorial = value.editorial;
+  const source = isObject(value.sourceData) ? value.sourceData : {};
+
+  if (!isNonEmptyString(evidence.sourceId)) {
+    reportError(`${location}.evidence.sourceId must be a non-empty string`);
+  } else if (evidence.sourceId !== source.id) {
+    reportError(`${location}.evidence.sourceId must match sourceData.id`);
+  }
+  if (!isIsoDate(evidence.fetchedAt)) {
+    reportError(`${location}.evidence.fetchedAt must be a valid date`);
+  }
+  const evidenceScoreValid = validateScore(evidence.score, `${location}.evidence.score`);
+  const officialUrls = validateHttpUrlArray(
+    evidence.officialUrls,
+    `${location}.evidence.officialUrls`,
+    true,
+  );
+  validateStringArray(evidence.warnings, `${location}.evidence.warnings`);
+
+  const evidenceUrls = new Set(officialUrls.map(normalizeEvidenceUrl));
+  if (!Array.isArray(evidence.items) || evidence.items.length === 0) {
+    reportError(`${location}.evidence.items must contain at least one evidence item`);
+  } else {
+    evidence.items.forEach((item, position) => {
+      const itemLocation = `${location}.evidence.items[${position}]`;
+      if (!isObject(item)) {
+        reportError(`${itemLocation} must be an object`);
+        return;
+      }
+      for (const field of ["label", "value", "kind"] as const) {
+        if (!isNonEmptyString(item[field])) {
+          reportError(`${itemLocation}.${field} must be a non-empty string`);
+        }
+      }
+      if (!isNonEmptyString(item.url) || !isHttpUrl(item.url)) {
+        reportError(`${itemLocation}.url must be an HTTP(S) evidence URL`);
+      } else {
+        evidenceUrls.add(normalizeEvidenceUrl(item.url));
+      }
+      if (!isIsoDate(item.observedAt)) {
+        reportError(`${itemLocation}.observedAt must be a valid date`);
+      }
+    });
+  }
+
+  if (!EDITORIAL_MODES.has(String(editorial.mode))) {
+    reportError(`${location}.editorial.mode must be deterministic or ai`);
+  }
+  const qualityScoreValid = validateScore(
+    editorial.qualityScore,
+    `${location}.editorial.qualityScore`,
+  );
+  if (!isIsoDate(editorial.generatedAt)) {
+    reportError(`${location}.editorial.generatedAt must be a valid date`);
+  }
+
+  if (!Array.isArray(editorial.claims) || editorial.claims.length === 0) {
+    reportError(`${location}.editorial.claims must contain at least one cited claim`);
+  } else {
+    const claimTexts = new Set<string>();
+    editorial.claims.forEach((claim, position) => {
+      const claimLocation = `${location}.editorial.claims[${position}]`;
+      if (!isObject(claim)) {
+        reportError(`${claimLocation} must be an object`);
+        return;
+      }
+      if (!isNonEmptyString(claim.text)) {
+        reportError(`${claimLocation}.text must be a non-empty string`);
+      } else {
+        const normalizedText = claim.text.replace(/\s+/g, " ").trim().toLocaleLowerCase("en-US");
+        if (claimTexts.has(normalizedText)) {
+          reportError(`${claimLocation}.text duplicates another editorial claim`);
+        }
+        claimTexts.add(normalizedText);
+      }
+      const claimUrls = validateHttpUrlArray(
+        claim.evidenceUrls,
+        `${claimLocation}.evidenceUrls`,
+        true,
+      );
+      for (const claimUrl of claimUrls) {
+        if (!evidenceUrls.has(normalizeEvidenceUrl(claimUrl))) {
+          reportError(`${claimLocation}.evidenceUrls references URL outside the evidence pack: ${claimUrl}`);
+        }
+      }
+    });
+  }
+
+  if (!isObject(editorial.review)) {
+    reportError(`${location}.editorial.review must be an object`);
+    return;
+  }
+  const review = editorial.review;
+  const reviewStatus = String(review.status);
+  if (!REVIEW_STATUSES.has(reviewStatus)) {
+    reportError(`${location}.editorial.review.status is invalid`);
+  }
+  validateStringArray(review.issues, `${location}.editorial.review.issues`);
+  if (!isIsoDate(review.reviewedAt)) {
+    reportError(`${location}.editorial.review.reviewedAt must be a valid date`);
+  }
+  if (editorial.mode === "ai" && !["passed", "rejected"].includes(reviewStatus)) {
+    reportError(`${location}.editorial AI mode must have a passed or rejected review`);
+  }
+  if (value.indexable === true) {
+    if (reviewStatus === "rejected") {
+      reportError(`${location} cannot be indexable after a rejected editorial review`);
+    }
+    if (
+      evidenceScoreValid
+      && (evidence.score as number) < MIN_INDEXABLE_EVIDENCE_SCORE
+    ) {
+      reportError(`${location}.evidence.score is below the indexable threshold of ${MIN_INDEXABLE_EVIDENCE_SCORE}`);
+    }
+    if (
+      qualityScoreValid
+      && (editorial.qualityScore as number) < MIN_INDEXABLE_QUALITY_SCORE
+    ) {
+      reportError(`${location}.editorial.qualityScore is below the indexable threshold of ${MIN_INDEXABLE_QUALITY_SCORE}`);
     }
   }
 }
@@ -230,6 +414,7 @@ function validateArticle(value: unknown, location: string, expectedSlug?: string
   }
 
   validateContentClaims(value.bodyHtml, source, location);
+  validateEvidenceEditorial(value, location);
 }
 
 function readJson(filePath: string, location: string): unknown {

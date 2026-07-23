@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-express-a29cb872",
-  "title": "express — NPM Package Data Snapshot",
-  "description": "express NPM package data snapshot: 120.1M downloads in the recorded weekly NPM window. Fast, unopinionated, minimalist web framework.",
+  "title": "express: NPM Package Evidence Snapshot",
+  "description": "Fast, unopinionated, minimalist web framework",
   "category": "backend",
   "type": "trend",
   "publishedAt": "2026-06-28",
@@ -38,9 +38,9 @@
   },
   "relatedSlugs": [
     "snapshot-npm-fastify-73779c1b",
-    "snapshot-gh-1301140808-7937a8dd",
-    "snapshot-gh-1304937849-3f1610e5",
-    "snapshot-gh-1304027771-29a48573"
+    "snapshot-npm-hono-d48d61e5",
+    "snapshot-npm-prisma-0f99c6b7",
+    "snapshot-npm-kysely-841e6078"
   ],
   "tags": [
     "express",
@@ -52,5 +52,153 @@
     "restful",
     "router"
   ],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>express</strong> is listed in our <em>Backend</em> feed. The source describes it as: Fast, unopinionated, minimalist web framework.</p>\n<p>The principal source-specific signal in this snapshot is <strong>120.1M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 120.1M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 69.2k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 24.3k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: express, framework, sinatra, web, http, rest, restful, router</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/express\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/express</a></li>\n  <li>Homepage supplied by source: <a href=\"https://expressjs.com/\" rel=\"nofollow noopener\" target=\"_blank\">https://expressjs.com/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install express</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/express\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of express, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>Fast, unopinionated, minimalist web framework</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/express\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Node.js engine: &gt;= 18 (observed 2026-07-23)</p>\n<p>Maintainers listed: 5 (observed 2026-07-23)</p>\n<p>Registry modified: 2026-07-14T18:49:18.499Z (observed 2026-07-23)</p>\n<p>Direct dependencies: 28 (observed 2026-07-23)</p>\n<p>License: MIT (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/express\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/express\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/express\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://expressjs.com/\" rel=\"nofollow noopener\" target=\"_blank\">expressjs.com</a>, <a href=\"https://registry.npmjs.org/express\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/express\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a>, <a href=\"https://github.com/expressjs/express\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 120.1M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 69.2k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 24.3k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: express, framework, sinatra, web, http, rest, restful, router</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/express\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/express</a></li>\n  <li>Homepage supplied by source: <a href=\"https://expressjs.com/\" rel=\"nofollow noopener\" target=\"_blank\">https://expressjs.com/</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;= 18\n    — <a href=\"https://registry.npmjs.org/express\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 5\n    — <a href=\"https://registry.npmjs.org/express\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-14T18:49:18.499Z\n    — <a href=\"https://registry.npmjs.org/express\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 28\n    — <a href=\"https://registry.npmjs.org/express\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/express\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> express\n    — <a href=\"https://registry.npmjs.org/express\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-15 to 2026-07-21\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/express\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 120063937\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/express\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 5.2.1\n    — <a href=\"https://registry.npmjs.org/express\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2025-12-01T20:49:43.268Z\n    — <a href=\"https://registry.npmjs.org/express\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install express</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/express\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "evidence": {
+    "sourceId": "npm-express",
+    "fetchedAt": "2026-07-23T10:58:22.290Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/express",
+      "https://registry.npmjs.org/express",
+      "https://api.npmjs.org/downloads/point/last-week/express",
+      "https://github.com/expressjs/express",
+      "https://expressjs.com/"
+    ],
+    "items": [
+      {
+        "label": "Node.js engine",
+        "value": ">= 18",
+        "url": "https://registry.npmjs.org/express",
+        "observedAt": "2026-07-23T10:58:22.290Z",
+        "kind": "compatibility"
+      },
+      {
+        "label": "Maintainers listed",
+        "value": "5",
+        "url": "https://registry.npmjs.org/express",
+        "observedAt": "2026-07-23T10:58:22.290Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2026-07-14T18:49:18.499Z",
+        "url": "https://registry.npmjs.org/express",
+        "observedAt": "2026-07-23T10:58:22.290Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Direct dependencies",
+        "value": "28",
+        "url": "https://registry.npmjs.org/express",
+        "observedAt": "2026-07-23T10:58:22.290Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://registry.npmjs.org/express",
+        "observedAt": "2026-07-23T10:58:22.290Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "express",
+        "url": "https://registry.npmjs.org/express",
+        "observedAt": "2026-07-23T10:58:22.290Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Download window",
+        "value": "2026-07-15 to 2026-07-21",
+        "url": "https://api.npmjs.org/downloads/point/last-week/express",
+        "observedAt": "2026-07-23T10:58:22.290Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Weekly downloads",
+        "value": "120063937",
+        "url": "https://api.npmjs.org/downloads/point/last-week/express",
+        "observedAt": "2026-07-23T10:58:22.290Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Latest version",
+        "value": "5.2.1",
+        "url": "https://registry.npmjs.org/express",
+        "observedAt": "2026-07-23T10:58:22.290Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2025-12-01T20:49:43.268Z",
+        "url": "https://registry.npmjs.org/express",
+        "observedAt": "2026-07-23T10:58:22.290Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 100,
+    "claims": [
+      {
+        "text": "Node.js engine: >= 18 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/express"
+        ]
+      },
+      {
+        "text": "Maintainers listed: 5 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/express"
+        ]
+      },
+      {
+        "text": "Registry modified: 2026-07-14T18:49:18.499Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/express"
+        ]
+      },
+      {
+        "text": "Direct dependencies: 28 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/express"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/express"
+        ]
+      },
+      {
+        "text": "Package: express (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/express"
+        ]
+      },
+      {
+        "text": "Download window: 2026-07-15 to 2026-07-21 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/express"
+        ]
+      },
+      {
+        "text": "Weekly downloads: 120063937 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/express"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:22.290Z"
+    },
+    "generatedAt": "2026-07-23T10:58:22.290Z"
+  },
+  "indexable": true
 }

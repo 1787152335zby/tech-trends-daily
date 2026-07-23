@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-elysia-2b644658",
-  "title": "elysia — NPM Package Data Snapshot",
-  "description": "elysia NPM package data snapshot: 709.4k downloads in the recorded weekly NPM window. Ergonomic Framework for Human.",
+  "title": "elysia: NPM Package Evidence Snapshot",
+  "description": "Ergonomic Framework for Human This evidence-limited snapshot summarizes public metadata for the NPM package elysia.",
   "category": "backend",
   "type": "trend",
   "publishedAt": "2026-06-27",
@@ -32,9 +32,9 @@
   },
   "relatedSlugs": [
     "snapshot-npm-fastify-73779c1b",
-    "snapshot-gh-1301140808-7937a8dd",
-    "snapshot-gh-1304937849-3f1610e5",
-    "snapshot-gh-1304027771-29a48573"
+    "snapshot-npm-express-a29cb872",
+    "snapshot-npm-hono-d48d61e5",
+    "snapshot-npm-prisma-0f99c6b7"
   ],
   "tags": [
     "bun",
@@ -42,5 +42,145 @@
     "web",
     "server"
   ],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>elysia</strong> is listed in our <em>Backend</em> feed. The source describes it as: Ergonomic Framework for Human.</p>\n<p>The principal source-specific signal in this snapshot is <strong>709.4k downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 709.4k</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 18.7k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 556</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: bun, http, web, server</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/elysia\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/elysia</a></li>\n  <li>Homepage supplied by source: <a href=\"https://github.com/elysiajs/elysia\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/elysiajs/elysia</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install elysia</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/elysia\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of elysia, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>Ergonomic Framework for Human</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/elysia\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Maintainers listed: 1 (observed 2026-07-23)</p>\n<p>Registry modified: 2026-07-17T18:35:17.987Z (observed 2026-07-23)</p>\n<p>Direct dependencies: 4 (observed 2026-07-23)</p>\n<p>License: MIT (observed 2026-07-23)</p>\n<p>Package: elysia (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/elysia\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/elysia\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/elysia\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://github.com/elysiajs/elysia\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a>, <a href=\"https://registry.npmjs.org/elysia\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/elysia\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 709.4k</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 18.7k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 556</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: bun, http, web, server</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/elysia\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/elysia</a></li>\n  <li>Homepage supplied by source: <a href=\"https://github.com/elysiajs/elysia\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/elysiajs/elysia</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Maintainers listed:</strong> 1\n    — <a href=\"https://registry.npmjs.org/elysia\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-17T18:35:17.987Z\n    — <a href=\"https://registry.npmjs.org/elysia\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 4\n    — <a href=\"https://registry.npmjs.org/elysia\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/elysia\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> elysia\n    — <a href=\"https://registry.npmjs.org/elysia\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-16 to 2026-07-22\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/elysia\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 728908\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/elysia\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 1.4.29\n    — <a href=\"https://registry.npmjs.org/elysia\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-06-16T22:28:07.079Z\n    — <a href=\"https://registry.npmjs.org/elysia\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install elysia</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/elysia\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "evidence": {
+    "sourceId": "npm-elysia",
+    "fetchedAt": "2026-07-23T10:58:31.062Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/elysia",
+      "https://registry.npmjs.org/elysia",
+      "https://api.npmjs.org/downloads/point/last-week/elysia",
+      "https://github.com/elysiajs/elysia"
+    ],
+    "items": [
+      {
+        "label": "Maintainers listed",
+        "value": "1",
+        "url": "https://registry.npmjs.org/elysia",
+        "observedAt": "2026-07-23T10:58:31.062Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2026-07-17T18:35:17.987Z",
+        "url": "https://registry.npmjs.org/elysia",
+        "observedAt": "2026-07-23T10:58:31.062Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Direct dependencies",
+        "value": "4",
+        "url": "https://registry.npmjs.org/elysia",
+        "observedAt": "2026-07-23T10:58:31.062Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://registry.npmjs.org/elysia",
+        "observedAt": "2026-07-23T10:58:31.062Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "elysia",
+        "url": "https://registry.npmjs.org/elysia",
+        "observedAt": "2026-07-23T10:58:31.062Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Download window",
+        "value": "2026-07-16 to 2026-07-22",
+        "url": "https://api.npmjs.org/downloads/point/last-week/elysia",
+        "observedAt": "2026-07-23T10:58:31.062Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Weekly downloads",
+        "value": "728908",
+        "url": "https://api.npmjs.org/downloads/point/last-week/elysia",
+        "observedAt": "2026-07-23T10:58:31.062Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Latest version",
+        "value": "1.4.29",
+        "url": "https://registry.npmjs.org/elysia",
+        "observedAt": "2026-07-23T10:58:31.062Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2026-06-16T22:28:07.079Z",
+        "url": "https://registry.npmjs.org/elysia",
+        "observedAt": "2026-07-23T10:58:31.062Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 100,
+    "claims": [
+      {
+        "text": "Maintainers listed: 1 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/elysia"
+        ]
+      },
+      {
+        "text": "Registry modified: 2026-07-17T18:35:17.987Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/elysia"
+        ]
+      },
+      {
+        "text": "Direct dependencies: 4 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/elysia"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/elysia"
+        ]
+      },
+      {
+        "text": "Package: elysia (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/elysia"
+        ]
+      },
+      {
+        "text": "Download window: 2026-07-16 to 2026-07-22 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/elysia"
+        ]
+      },
+      {
+        "text": "Weekly downloads: 728908 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/elysia"
+        ]
+      },
+      {
+        "text": "Latest version: 1.4.29 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/elysia"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:31.062Z"
+    },
+    "generatedAt": "2026-07-23T10:58:31.062Z"
+  },
+  "indexable": true
 }

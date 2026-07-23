@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-gh-1305248057-a84bd21e",
-  "title": "finnmckenty/NTSCRT — GitHub Project Data Snapshot",
-  "description": "NTSCRT GitHub project data snapshot: 13 new GitHub stars in the recorded weekly window. Vintage analog TV/VHS image tool for macOS: ntsc-rs signal emulation + RetroArch CRT shaders (librashader), glued together….",
+  "title": "NTSCRT: GitHub Repository Evidence Snapshot",
+  "description": "Vintage analog TV/VHS image tool for macOS: ntsc-rs signal emulation + RetroArch CRT shaders (librashader), glued together with SwiftUI/Metal",
   "category": "mobile",
   "type": "trend",
   "publishedAt": "2026-07-22",
@@ -26,11 +26,117 @@
     "category": "mobile"
   },
   "relatedSlugs": [
-    "snapshot-gh-1299986310-e781ce18",
-    "snapshot-gh-1307136587-13ebbecb",
-    "snapshot-gh-1295073265-56a7d482",
-    "snapshot-gh-1303646079-1efc86b4"
+    "snapshot-npm-expo-d6d7a069",
+    "snapshot-gh-1306542918-78e52df3",
+    "snapshot-gh-1306758289-4a36c7fb",
+    "snapshot-gh-1303692775-591fa4eb"
   ],
   "tags": [],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>NTSCRT</strong> is listed in our <em>Mobile</em> feed. The source describes it as: Vintage analog TV/VHS image tool for macOS: ntsc-rs signal emulation + RetroArch CRT shaders (librashader), glued together with SwiftUI/Metal.</p>\n<p>The principal source-specific signal in this snapshot is <strong>13 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 56</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +13</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 4</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Swift</strong></li>\n  <li>Reported license: <strong>No license</strong></li>\n  <li>Primary source: <a href=\"https://github.com/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/finnmckenty/NTSCRT</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/finnmckenty/NTSCRT</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of NTSCRT, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>Vintage analog TV/VHS image tool for macOS: ntsc-rs signal emulation + RetroArch CRT shaders (librashader), glued together with SwiftUI/Metal</p>\n<p><small>Evidence: <a href=\"https://github.com/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Archived: false (observed 2026-07-23)</p>\n<p>Last source push: 2026-07-23T02:33:40Z (observed 2026-07-23)</p>\n<p>Repository: finnmckenty/NTSCRT (observed 2026-07-23)</p>\n<p>Forks: 6 (observed 2026-07-23)</p>\n<p>GitHub stars: 68 (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://api.github.com/repos/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">api.github.com</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat stars, forks, and issue counts as repository signals rather than proof of quality, security, maintenance, or suitability. Review documentation, releases, issues, security policy, and license.</p>\n<p><small>Evidence: <a href=\"https://github.com/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a>, <a href=\"https://github.com/finnmckenty/NTSCRT/releases/tag/v0.1.2\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a>, <a href=\"https://api.github.com/repos/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">api.github.com</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 56</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +13</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 4</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Swift</strong></li>\n  <li>Reported license: <strong>No license</strong></li>\n  <li>Primary source: <a href=\"https://github.com/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/finnmckenty/NTSCRT</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 95/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Archived:</strong> false\n    — <a href=\"https://api.github.com/repos/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Last source push:</strong> 2026-07-23T02:33:40Z\n    — <a href=\"https://api.github.com/repos/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository:</strong> finnmckenty/NTSCRT\n    — <a href=\"https://api.github.com/repos/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Forks:</strong> 6\n    — <a href=\"https://api.github.com/repos/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>GitHub stars:</strong> 68\n    — <a href=\"https://api.github.com/repos/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Open issues:</strong> 1\n    — <a href=\"https://api.github.com/repos/finnmckenty/NTSCRT\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>The GitHub API did not report an SPDX license identifier.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/finnmckenty/NTSCRT</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "evidence": {
+    "sourceId": "gh-1305248057",
+    "fetchedAt": "2026-07-23T10:58:39.267Z",
+    "score": 95,
+    "officialUrls": [
+      "https://github.com/finnmckenty/NTSCRT",
+      "https://github.com/finnmckenty/NTSCRT/releases/tag/v0.1.2"
+    ],
+    "items": [
+      {
+        "label": "Archived",
+        "value": "false",
+        "url": "https://api.github.com/repos/finnmckenty/NTSCRT",
+        "observedAt": "2026-07-23T10:58:39.267Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Last source push",
+        "value": "2026-07-23T02:33:40Z",
+        "url": "https://api.github.com/repos/finnmckenty/NTSCRT",
+        "observedAt": "2026-07-23T10:58:39.267Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Repository",
+        "value": "finnmckenty/NTSCRT",
+        "url": "https://api.github.com/repos/finnmckenty/NTSCRT",
+        "observedAt": "2026-07-23T10:58:39.267Z",
+        "kind": "repository"
+      },
+      {
+        "label": "Forks",
+        "value": "6",
+        "url": "https://api.github.com/repos/finnmckenty/NTSCRT",
+        "observedAt": "2026-07-23T10:58:39.267Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "GitHub stars",
+        "value": "68",
+        "url": "https://api.github.com/repos/finnmckenty/NTSCRT",
+        "observedAt": "2026-07-23T10:58:39.267Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "Open issues",
+        "value": "1",
+        "url": "https://api.github.com/repos/finnmckenty/NTSCRT",
+        "observedAt": "2026-07-23T10:58:39.267Z",
+        "kind": "repository-metric"
+      }
+    ],
+    "warnings": [
+      "The GitHub API did not report an SPDX license identifier.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 95,
+    "claims": [
+      {
+        "text": "Archived: false (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/finnmckenty/NTSCRT"
+        ]
+      },
+      {
+        "text": "Last source push: 2026-07-23T02:33:40Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/finnmckenty/NTSCRT"
+        ]
+      },
+      {
+        "text": "Repository: finnmckenty/NTSCRT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/finnmckenty/NTSCRT"
+        ]
+      },
+      {
+        "text": "Forks: 6 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/finnmckenty/NTSCRT"
+        ]
+      },
+      {
+        "text": "GitHub stars: 68 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/finnmckenty/NTSCRT"
+        ]
+      },
+      {
+        "text": "Open issues: 1 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/finnmckenty/NTSCRT"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:39.267Z"
+    },
+    "generatedAt": "2026-07-23T10:58:39.267Z"
+  },
+  "indexable": true
 }

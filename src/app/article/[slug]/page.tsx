@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!article) notFound();
 
   const canonicalPath = `/article/${article.slug}`;
+  const indexable = article.indexable !== false;
 
   return {
     title: article.title,
@@ -46,6 +47,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     ],
     publisher: SITE_NAME,
+    robots: {
+      index: indexable,
+      follow: true,
+      googleBot: {
+        index: indexable,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
     alternates: {
       canonical: canonicalPath,
     },

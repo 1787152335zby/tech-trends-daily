@@ -20,6 +20,9 @@
 # production
 /build
 
+# generated evidence cache
+/data/evidence-cache/
+
 # misc
 .DS_Store
 *.pem

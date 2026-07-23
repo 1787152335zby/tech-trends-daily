@@ -18,6 +18,16 @@ concurrency:
 jobs:
   update-content:
     runs-on: ubuntu-latest
+    env:
+      # Repository variable may set this to any value from 0 through 20.
+      DAILY_NEW_ARTICLE_LIMIT: ${{ vars.DAILY_NEW_ARTICLE_LIMIT || '5' }}
+      MAX_INDEXED_ARTICLES: ${{ vars.MAX_INDEXED_ARTICLES || '500' }}
+      MIN_EVIDENCE_SCORE: ${{ vars.MIN_EVIDENCE_SCORE || '50' }}
+      MIN_EDITORIAL_SCORE: ${{ vars.MIN_EDITORIAL_SCORE || '70' }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      AI_EDITORIAL_MODEL: ${{ vars.AI_EDITORIAL_MODEL || '' }}
+      AI_EDITORIAL_REVIEW_MODEL: ${{ vars.AI_EDITORIAL_REVIEW_MODEL || '' }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -34,28 +44,67 @@ jobs:
       - name: Fetch data sources
         run: npx tsx scripts/fetch-all.ts
 
-      - name: Generate articles
+      - name: Collect source evidence
+        run: npx tsx scripts/collect-evidence.ts
+
+      - name: Generate and review articles
         run: npx tsx scripts/generate-articles.ts
 
-      - name: Validate generated content
-        run: npm run validate-content
+      - name: Audit article additions and updates
+        id: audit
+        shell: bash
+        run: |
+          case "$DAILY_NEW_ARTICLE_LIMIT" in
+            ''|*[!0-9]*)
+              echo "DAILY_NEW_ARTICLE_LIMIT must be an integer from 0 through 20." >&2
+              exit 1
+              ;;
+          esac
+          if [ "$DAILY_NEW_ARTICLE_LIMIT" -gt 20 ]; then
+            echo "DAILY_NEW_ARTICLE_LIMIT must not exceed 20." >&2
+            exit 1
+          fi
+
+          new_count=$(git ls-files --others --exclude-standard -- 'content/articles/*.json' |
+            awk '$0 != "content/articles/index.json" { count++ } END { print count+0 }')
+          updated_count=$(git diff --name-only --diff-filter=M -- 'content/articles/*.json' |
+            awk '$0 != "content/articles/index.json" { count++ } END { print count+0 }')
+          removed_count=$(git diff --name-only --diff-filter=D -- 'content/articles/*.json' |
+            awk '$0 != "content/articles/index.json" { count++ } END { print count+0 }')
+
+          echo "new_count=$new_count" >> "$GITHUB_OUTPUT"
+          echo "updated_count=$updated_count" >> "$GITHUB_OUTPUT"
+          echo "removed_count=$removed_count" >> "$GITHUB_OUTPUT"
+          echo "Daily content audit: new=$new_count updated=$updated_count removed=$removed_count limit=$DAILY_NEW_ARTICLE_LIMIT"
+          {
+            echo "### Daily content audit"
+            echo "- New canonical articles: $new_count"
+            echo "- Updated canonical articles: $updated_count"
+            echo "- Removed article files: $removed_count"
+            echo "- Configured new-article limit: $DAILY_NEW_ARTICLE_LIMIT"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          if [ "$new_count" -gt "$DAILY_NEW_ARTICLE_LIMIT" ]; then
+            echo "Generated $new_count new articles, exceeding the configured limit of $DAILY_NEW_ARTICLE_LIMIT." >&2
+            exit 1
+          fi
 
       - name: Run static checks
         run: |
           npm run lint
           npx tsc --noEmit
 
+      - name: Validate evidence and generated content
+        run: npm run validate-content
+
       - name: Verify build succeeds
         run: npx next build
-
-      - name: Generate sitemap
-        run: node scripts/generate-sitemap.cjs
 
       - name: Commit and push updated content
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content data public/sitemap*.xml public/robots.txt
+          git add content data
           if git diff --staged --quiet; then
             echo "No content changes to commit."
           else

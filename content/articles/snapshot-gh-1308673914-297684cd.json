@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-gh-1308673914-297684cd",
-  "title": "steelbrain/metal2vulkan — GitHub Project Data Snapshot",
-  "description": "metal2vulkan GitHub project data snapshot: 31 new GitHub stars in the recorded weekly window. Translate Metal AIR / LLVM IR to Vulkan SPIR-V with a native Rust emitter.",
+  "title": "metal2vulkan: GitHub Repository Evidence Snapshot",
+  "description": "Translate Metal AIR / LLVM IR to Vulkan SPIR-V with a native Rust emitter",
   "category": "backend",
   "type": "trend",
   "publishedAt": "2026-07-22",
@@ -27,10 +27,128 @@
   },
   "relatedSlugs": [
     "snapshot-npm-fastify-73779c1b",
-    "snapshot-gh-1301140808-7937a8dd",
-    "snapshot-gh-1304937849-3f1610e5",
-    "snapshot-gh-1304027771-29a48573"
+    "snapshot-npm-express-a29cb872",
+    "snapshot-npm-hono-d48d61e5",
+    "snapshot-npm-prisma-0f99c6b7"
   ],
   "tags": [],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>metal2vulkan</strong> is listed in our <em>Backend</em> feed. The source describes it as: Translate Metal AIR / LLVM IR to Vulkan SPIR-V with a native Rust emitter.</p>\n<p>The principal source-specific signal in this snapshot is <strong>31 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 90</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +31</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 2</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Rust</strong></li>\n  <li>Reported license: <strong>LGPL-3.0</strong></li>\n  <li>Primary source: <a href=\"https://github.com/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/steelbrain/metal2vulkan</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/steelbrain/metal2vulkan</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of metal2vulkan, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>Translate Metal AIR / LLVM IR to Vulkan SPIR-V with a native Rust emitter</p>\n<p><small>Evidence: <a href=\"https://github.com/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Archived: false (observed 2026-07-23)</p>\n<p>Last source push: 2026-07-22T10:18:33Z (observed 2026-07-23)</p>\n<p>Repository: steelbrain/metal2vulkan (observed 2026-07-23)</p>\n<p>License: LGPL-3.0 (observed 2026-07-23)</p>\n<p>Forks: 3 (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://api.github.com/repos/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">api.github.com</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat stars, forks, and issue counts as repository signals rather than proof of quality, security, maintenance, or suitability. Review documentation, releases, issues, security policy, and license.</p>\n<p><small>Evidence: <a href=\"https://github.com/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a>, <a href=\"https://github.com/steelbrain/metal2vulkan/releases/tag/v0.1.0\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a>, <a href=\"https://api.github.com/repos/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">api.github.com</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 90</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +31</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 2</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Rust</strong></li>\n  <li>Reported license: <strong>LGPL-3.0</strong></li>\n  <li>Primary source: <a href=\"https://github.com/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/steelbrain/metal2vulkan</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 95/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Archived:</strong> false\n    — <a href=\"https://api.github.com/repos/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Last source push:</strong> 2026-07-22T10:18:33Z\n    — <a href=\"https://api.github.com/repos/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository:</strong> steelbrain/metal2vulkan\n    — <a href=\"https://api.github.com/repos/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> LGPL-3.0\n    — <a href=\"https://api.github.com/repos/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Forks:</strong> 3\n    — <a href=\"https://api.github.com/repos/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>GitHub stars:</strong> 108\n    — <a href=\"https://api.github.com/repos/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Open issues:</strong> 0\n    — <a href=\"https://api.github.com/repos/steelbrain/metal2vulkan\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/steelbrain/metal2vulkan</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "evidence": {
+    "sourceId": "gh-1308673914",
+    "fetchedAt": "2026-07-23T10:58:36.806Z",
+    "score": 95,
+    "officialUrls": [
+      "https://github.com/steelbrain/metal2vulkan",
+      "https://github.com/steelbrain/metal2vulkan/releases/tag/v0.1.0"
+    ],
+    "items": [
+      {
+        "label": "Archived",
+        "value": "false",
+        "url": "https://api.github.com/repos/steelbrain/metal2vulkan",
+        "observedAt": "2026-07-23T10:58:36.806Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Last source push",
+        "value": "2026-07-22T10:18:33Z",
+        "url": "https://api.github.com/repos/steelbrain/metal2vulkan",
+        "observedAt": "2026-07-23T10:58:36.806Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Repository",
+        "value": "steelbrain/metal2vulkan",
+        "url": "https://api.github.com/repos/steelbrain/metal2vulkan",
+        "observedAt": "2026-07-23T10:58:36.806Z",
+        "kind": "repository"
+      },
+      {
+        "label": "License",
+        "value": "LGPL-3.0",
+        "url": "https://api.github.com/repos/steelbrain/metal2vulkan",
+        "observedAt": "2026-07-23T10:58:36.806Z",
+        "kind": "repository-metadata"
+      },
+      {
+        "label": "Forks",
+        "value": "3",
+        "url": "https://api.github.com/repos/steelbrain/metal2vulkan",
+        "observedAt": "2026-07-23T10:58:36.806Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "GitHub stars",
+        "value": "108",
+        "url": "https://api.github.com/repos/steelbrain/metal2vulkan",
+        "observedAt": "2026-07-23T10:58:36.806Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "Open issues",
+        "value": "0",
+        "url": "https://api.github.com/repos/steelbrain/metal2vulkan",
+        "observedAt": "2026-07-23T10:58:36.806Z",
+        "kind": "repository-metric"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 95,
+    "claims": [
+      {
+        "text": "Archived: false (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/steelbrain/metal2vulkan"
+        ]
+      },
+      {
+        "text": "Last source push: 2026-07-22T10:18:33Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/steelbrain/metal2vulkan"
+        ]
+      },
+      {
+        "text": "Repository: steelbrain/metal2vulkan (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/steelbrain/metal2vulkan"
+        ]
+      },
+      {
+        "text": "License: LGPL-3.0 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/steelbrain/metal2vulkan"
+        ]
+      },
+      {
+        "text": "Forks: 3 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/steelbrain/metal2vulkan"
+        ]
+      },
+      {
+        "text": "GitHub stars: 108 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/steelbrain/metal2vulkan"
+        ]
+      },
+      {
+        "text": "Open issues: 0 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/steelbrain/metal2vulkan"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:36.806Z"
+    },
+    "generatedAt": "2026-07-23T10:58:36.806Z"
+  },
+  "indexable": true
 }

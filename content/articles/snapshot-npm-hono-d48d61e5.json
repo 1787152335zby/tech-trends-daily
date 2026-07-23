@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-hono-d48d61e5",
-  "title": "hono — NPM Package Data Snapshot",
-  "description": "hono NPM package data snapshot: 51.6M downloads in the recorded weekly NPM window. Web framework built on Web Standards.",
+  "title": "hono: NPM Package Evidence Snapshot",
+  "description": "Web framework built on Web Standards This evidence-limited snapshot summarizes public metadata for the NPM package hono.",
   "category": "backend",
   "type": "trend",
   "publishedAt": "2026-06-27",
@@ -43,9 +43,9 @@
   },
   "relatedSlugs": [
     "snapshot-npm-fastify-73779c1b",
-    "snapshot-gh-1301140808-7937a8dd",
-    "snapshot-gh-1304937849-3f1610e5",
-    "snapshot-gh-1304027771-29a48573"
+    "snapshot-npm-express-a29cb872",
+    "snapshot-npm-prisma-0f99c6b7",
+    "snapshot-npm-kysely-841e6078"
   ],
   "tags": [
     "hono",
@@ -57,5 +57,146 @@
     "router",
     "cloudflare"
   ],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>hono</strong> is listed in our <em>Backend</em> feed. The source describes it as: Web framework built on Web Standards.</p>\n<p>The principal source-specific signal in this snapshot is <strong>51.6M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 51.6M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 31.4k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1.2k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: hono, web, app, http, application, framework, router, cloudflare</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/hono\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/hono</a></li>\n  <li>Homepage supplied by source: <a href=\"https://hono.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://hono.dev</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install hono</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/hono\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of hono, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>Web framework built on Web Standards</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/hono\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Node.js engine: &gt;=16.9.0 (observed 2026-07-23)</p>\n<p>Maintainers listed: 1 (observed 2026-07-23)</p>\n<p>Registry modified: 2026-07-18T23:16:05.941Z (observed 2026-07-23)</p>\n<p>License: MIT (observed 2026-07-23)</p>\n<p>Package: hono (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/hono\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/hono\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://hono.dev/\" rel=\"nofollow noopener\" target=\"_blank\">hono.dev</a>, <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/hono\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a>, <a href=\"https://github.com/honojs/hono\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 51.6M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 31.4k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1.2k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: hono, web, app, http, application, framework, router, cloudflare</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/hono\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/hono</a></li>\n  <li>Homepage supplied by source: <a href=\"https://hono.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://hono.dev</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=16.9.0\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 1\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-18T23:16:05.941Z\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> hono\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-16 to 2026-07-22\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 52154285\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 4.12.31\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-07-18T23:16:05.588Z\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install hono</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/hono\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "evidence": {
+    "sourceId": "npm-hono",
+    "fetchedAt": "2026-07-23T10:58:23.395Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/hono",
+      "https://registry.npmjs.org/hono",
+      "https://api.npmjs.org/downloads/point/last-week/hono",
+      "https://github.com/honojs/hono",
+      "https://hono.dev/"
+    ],
+    "items": [
+      {
+        "label": "Node.js engine",
+        "value": ">=16.9.0",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T10:58:23.395Z",
+        "kind": "compatibility"
+      },
+      {
+        "label": "Maintainers listed",
+        "value": "1",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T10:58:23.395Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2026-07-18T23:16:05.941Z",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T10:58:23.395Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T10:58:23.395Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "hono",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T10:58:23.395Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Download window",
+        "value": "2026-07-16 to 2026-07-22",
+        "url": "https://api.npmjs.org/downloads/point/last-week/hono",
+        "observedAt": "2026-07-23T10:58:23.395Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Weekly downloads",
+        "value": "52154285",
+        "url": "https://api.npmjs.org/downloads/point/last-week/hono",
+        "observedAt": "2026-07-23T10:58:23.395Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Latest version",
+        "value": "4.12.31",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T10:58:23.395Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2026-07-18T23:16:05.588Z",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T10:58:23.395Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 100,
+    "claims": [
+      {
+        "text": "Node.js engine: >=16.9.0 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "Maintainers listed: 1 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "Registry modified: 2026-07-18T23:16:05.941Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "Package: hono (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "Download window: 2026-07-16 to 2026-07-22 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/hono"
+        ]
+      },
+      {
+        "text": "Weekly downloads: 52154285 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/hono"
+        ]
+      },
+      {
+        "text": "Latest version: 4.12.31 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:23.395Z"
+    },
+    "generatedAt": "2026-07-23T10:58:23.395Z"
+  },
+  "indexable": true
 }

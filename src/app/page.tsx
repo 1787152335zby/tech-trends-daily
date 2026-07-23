@@ -1,10 +1,18 @@
 ﻿import { loadAllArticles, getTrendingArticles } from "@/lib/articles";
-import { SITE_NAME } from "@/lib/constants";
+import type { Metadata } from "next";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/constants";
 import { deduplicateArticlesBySource } from "@/lib/articles";
 import { CATEGORY_LABELS } from "@/lib/types";
 import ArticleCard from "@/components/ArticleCard";
 import AdUnit from "@/components/AdUnit";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  description: SITE_DESCRIPTION,
+  alternates: {
+    canonical: SITE_URL,
+  },
+};
 
 export default function HomePage() {
   const articles = loadAllArticles();
@@ -25,7 +33,9 @@ export default function HomePage() {
           {SITE_NAME}
         </h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-          Daily curated open-source tools, libraries, and frameworks. Stay ahead with trending GitHub repos, NPM packages, and Hacker News picks.
+          Evidence-backed coverage of open-source tools, libraries, and
+          developer discussions, with direct links to the official sources
+          behind every published claim.
         </p>
       </section>
 

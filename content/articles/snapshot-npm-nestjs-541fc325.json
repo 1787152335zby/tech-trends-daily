@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-nestjs-541fc325",
-  "title": "nestjs — NPM Package Data Snapshot",
-  "description": "nestjs NPM package data snapshot: 17.6k downloads in the recorded weekly NPM window. web framework.",
+  "title": "nestjs: NPM Package Evidence Snapshot",
+  "description": "web framework This evidence-limited snapshot summarizes public metadata for the NPM package nestjs.",
   "category": "tools",
   "type": "trend",
   "publishedAt": "2026-06-27",
@@ -38,5 +38,112 @@
     "web",
     "framework"
   ],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>nestjs</strong> is listed in our <em>Tools</em> feed. The source describes it as: web framework.</p>\n<p>The principal source-specific signal in this snapshot is <strong>17.6k downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 17.6k</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>ISC</strong></li>\n  <li>Source topics: web, framework</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/nestjs</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install nestjs</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of nestjs, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>web framework The public source identifies nestjs as a NPM package. Verify current details at the linked source.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Maintainers listed: 1 (observed 2026-07-23)</p>\n<p>Registry modified: 2023-03-24T02:49:32.959Z (observed 2026-07-23)</p>\n<p>License: ISC (observed 2026-07-23)</p>\n<p>Package: nestjs (observed 2026-07-23)</p>\n<p>Latest version: 0.0.1 (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://registry.npmjs.org/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 17.6k</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>ISC</strong></li>\n  <li>Source topics: web, framework</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/nestjs</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Maintainers listed:</strong> 1\n    — <a href=\"https://registry.npmjs.org/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2023-03-24T02:49:32.959Z\n    — <a href=\"https://registry.npmjs.org/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> ISC\n    — <a href=\"https://registry.npmjs.org/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> nestjs\n    — <a href=\"https://registry.npmjs.org/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 0.0.1\n    — <a href=\"https://registry.npmjs.org/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2015-12-27T09:20:59.203Z\n    — <a href=\"https://registry.npmjs.org/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Weekly npm download evidence was unavailable: HTTP 429 from api.npmjs.org</li>\n  <li>The latest recorded source update was more than one year old at collection time (1217 days).</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install nestjs</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/nestjs\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "evidence": {
+    "sourceId": "npm-nestjs",
+    "fetchedAt": "2026-07-23T10:58:31.997Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/nestjs",
+      "https://registry.npmjs.org/nestjs"
+    ],
+    "items": [
+      {
+        "label": "Maintainers listed",
+        "value": "1",
+        "url": "https://registry.npmjs.org/nestjs",
+        "observedAt": "2026-07-23T10:58:31.997Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2023-03-24T02:49:32.959Z",
+        "url": "https://registry.npmjs.org/nestjs",
+        "observedAt": "2026-07-23T10:58:31.997Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "License",
+        "value": "ISC",
+        "url": "https://registry.npmjs.org/nestjs",
+        "observedAt": "2026-07-23T10:58:31.997Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "nestjs",
+        "url": "https://registry.npmjs.org/nestjs",
+        "observedAt": "2026-07-23T10:58:31.997Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Latest version",
+        "value": "0.0.1",
+        "url": "https://registry.npmjs.org/nestjs",
+        "observedAt": "2026-07-23T10:58:31.997Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2015-12-27T09:20:59.203Z",
+        "url": "https://registry.npmjs.org/nestjs",
+        "observedAt": "2026-07-23T10:58:31.997Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Weekly npm download evidence was unavailable: HTTP 429 from api.npmjs.org",
+      "The latest recorded source update was more than one year old at collection time (1217 days).",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 100,
+    "claims": [
+      {
+        "text": "Maintainers listed: 1 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/nestjs"
+        ]
+      },
+      {
+        "text": "Registry modified: 2023-03-24T02:49:32.959Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/nestjs"
+        ]
+      },
+      {
+        "text": "License: ISC (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/nestjs"
+        ]
+      },
+      {
+        "text": "Package: nestjs (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/nestjs"
+        ]
+      },
+      {
+        "text": "Latest version: 0.0.1 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/nestjs"
+        ]
+      },
+      {
+        "text": "Latest version published: 2015-12-27T09:20:59.203Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/nestjs"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:31.997Z"
+    },
+    "generatedAt": "2026-07-23T10:58:31.997Z"
+  },
+  "indexable": true
 }

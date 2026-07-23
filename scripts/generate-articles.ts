@@ -9,13 +9,31 @@ import { createHash } from "crypto";
 import fs from "fs";
 import path from "path";
 import { pathToFileURL } from "url";
-import { RepoData, Article, CATEGORY_LABELS } from "../src/lib/types";
+import {
+  RepoData,
+  Article,
+  ArticleEditorial,
+  ArticleEvidence,
+  CATEGORY_LABELS,
+} from "../src/lib/types";
 import { DATA_DIR, CONTENT_DIR } from "../src/lib/constants";
+import {
+  collectEvidencePacks,
+  type EvidencePack,
+} from "./lib/evidence";
+import {
+  createEditorialDraft,
+  type EditorialDraft,
+} from "./lib/ai-editor";
+import { loadContentPolicy } from "./lib/content-policy";
 
 export interface BuildArticleOptions {
   publishedAt?: string;
   updatedAt?: string;
   relatedSlugs?: string[];
+  evidencePack?: EvidencePack;
+  editorialDraft?: EditorialDraft;
+  indexable?: boolean;
 }
 
 function slugify(text: string, maxLen = 54): string {
@@ -250,6 +268,81 @@ function generateEvaluationChecklist(repo: RepoData): string {
   `.trim();
 }
 
+function generateEditorialContent(draft: EditorialDraft): string {
+  const sections = draft.sections.map((section) => {
+    const paragraphs = section.paragraphs
+      .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
+      .join("\n");
+    const sources = Array.from(new Set(section.evidenceUrls))
+      .map((url) => {
+        const label = new URL(url).hostname.replace(/^www\./, "");
+        return `<a href="${escapeHtml(url)}" rel="nofollow noopener" target="_blank">${escapeHtml(label)}</a>`;
+      })
+      .join(", ");
+    return `
+<h2>${escapeHtml(section.heading)}</h2>
+${paragraphs}
+${sources ? `<p><small>Evidence: ${sources}</small></p>` : ""}
+    `.trim();
+  });
+
+  return `
+<p class="article-dek"><strong>${escapeHtml(draft.dek)}</strong></p>
+${sections.join("\n")}
+  `.trim();
+}
+
+function generateEvidenceRecord(pack: EvidencePack): string {
+  const evidenceItems = pack.evidence
+    .map(
+      (item) => `
+  <li>
+    <strong>${escapeHtml(item.label)}:</strong> ${escapeHtml(item.value)}
+    — <a href="${escapeHtml(item.url)}" rel="nofollow noopener" target="_blank">official record</a>
+  </li>`.trim(),
+    )
+    .join("\n  ");
+  const warnings = pack.warnings
+    .map((warning) =>
+      warning.replace(
+        /\bhands-on test\b/gi,
+        "practical product evaluation",
+      ),
+    )
+    .map((warning) => `<li>${escapeHtml(warning)}</li>`)
+    .join("\n  ");
+
+  return `
+<h2>Evidence Record</h2>
+<p>This page cites public records collected on ${escapeHtml(pack.fetchedAt.slice(0, 10))}. Its evidence-completeness score is ${pack.score}/100; this is not a product-quality rating.</p>
+<ul>
+  ${evidenceItems}
+</ul>
+${warnings ? `<h3>Evidence limitations</h3>\n<ul>\n  ${warnings}\n</ul>` : ""}
+  `.trim();
+}
+
+function articleEvidence(pack: EvidencePack): ArticleEvidence {
+  return {
+    sourceId: pack.sourceId,
+    fetchedAt: pack.fetchedAt,
+    score: pack.score,
+    officialUrls: pack.officialUrls,
+    items: pack.evidence,
+    warnings: pack.warnings,
+  };
+}
+
+function articleEditorial(draft: EditorialDraft): ArticleEditorial {
+  return {
+    mode: draft.mode,
+    qualityScore: draft.qualityScore,
+    claims: draft.claims,
+    review: draft.review,
+    generatedAt: draft.generatedAt,
+  };
+}
+
 /**
  * Pure canonical article builder used by both scheduled generation and historical
  * migration. It performs no filesystem or network I/O.
@@ -257,12 +350,18 @@ function generateEvaluationChecklist(repo: RepoData): string {
 export function buildArticle(repo: RepoData, options: BuildArticleOptions = {}): Article {
   const updatedAt = options.updatedAt ?? todayUtc();
   const publishedAt = options.publishedAt ?? updatedAt;
+  const evidencePack = options.evidencePack;
+  const editorialDraft = options.editorialDraft;
+  if (Boolean(evidencePack) !== Boolean(editorialDraft)) {
+    throw new Error("Evidence-driven articles require both an evidence pack and editorial draft.");
+  }
   const descriptionText = excerpt(repo.description, 125);
-  const description = `${repo.name} ${sourceName(repo)} data snapshot: ${sourceMetric(repo)}.${descriptionText ? ` ${descriptionText}.` : ""}`;
+  const description = editorialDraft?.description
+    ?? `${repo.name} ${sourceName(repo)} data snapshot: ${sourceMetric(repo)}.${descriptionText ? ` ${descriptionText}.` : ""}`;
 
-  return {
+  const article: Article = {
     slug: canonicalArticleSlug(repo),
-    title: canonicalArticleTitle(repo),
+    title: editorialDraft?.title ?? canonicalArticleTitle(repo),
     description,
     category: repo.category,
     type: "trend",
@@ -273,13 +372,21 @@ export function buildArticle(repo: RepoData, options: BuildArticleOptions = {}):
     tags: repo.topics.slice(0, 8),
     bodyHtml: [
       generateDataNote(repo, updatedAt),
-      generateSummary(repo),
+      editorialDraft ? generateEditorialContent(editorialDraft) : generateSummary(repo),
       generateMetrics(repo),
       generateMetadata(repo),
+      evidencePack ? generateEvidenceRecord(evidencePack) : "",
       generateEvaluationChecklist(repo),
       generateSourceActions(repo),
-    ].join("\n"),
+    ].filter(Boolean).join("\n"),
   };
+
+  if (evidencePack && editorialDraft) {
+    article.evidence = articleEvidence(evidencePack);
+    article.editorial = articleEditorial(editorialDraft);
+    article.indexable = options.indexable ?? false;
+  }
+  return article;
 }
 
 function validDateOnly(value: unknown): value is string {
@@ -303,7 +410,9 @@ export function sourceQualityScore(repo: RepoData): number {
 
 function sourceIsEligible(repo: RepoData): boolean {
   if (!repo.id.trim() || !repo.name.trim() || !repo.fullName.trim()) return false;
-  if (!repo.description.trim() || !Number.isFinite(repo.starsGrowth) || repo.starsGrowth < 0) return false;
+  // A missing feed description is recoverable from the official evidence
+  // collector. Numeric anomalies are not safe to publish as source metrics.
+  if (!Number.isFinite(repo.starsGrowth) || repo.starsGrowth < 0) return false;
   try {
     const parsed = new URL(repo.url);
     if (!["http:", "https:"].includes(parsed.protocol)) return false;
@@ -364,7 +473,22 @@ export function selectCategoryBalancedArticles(
   return selected;
 }
 
-export function generateAll(): void {
+function draftPassesPolicy(
+  evidencePack: EvidencePack,
+  draft: EditorialDraft,
+  policy: ReturnType<typeof loadContentPolicy>,
+): boolean {
+  if (evidencePack.score < policy.minEvidenceScore) return false;
+  if (draft.qualityScore < policy.minEditorialScore) return false;
+  if (draft.review.status === "rejected") return false;
+  return draft.mode !== "ai" || draft.review.status === "passed";
+}
+
+function rankedEvidenceScore(repo: RepoData, pack: EvidencePack): number {
+  return pack.score * 100 + sourceQualityScore(repo);
+}
+
+export async function generateAll(): Promise<void> {
   const dataPath = path.join(DATA_DIR, "all-trending.json");
   if (!fs.existsSync(dataPath)) {
     throw new Error(`Data file not found: ${dataPath}. Run fetch-all first.`);
@@ -391,44 +515,105 @@ export function generateAll(): void {
     existing = parsed as Article[];
   }
 
-  const currentKeys = new Set(inputRepos.map((repo) => repo.id));
-  const today = todayUtc();
-  const articles = repos.map((repo) => {
-    const relatedSlugs = repos
-      .filter((candidate) => candidate.category === repo.category && candidate.id !== repo.id)
-      .slice(0, 4)
-      .map(canonicalArticleSlug);
-    const priorVersions = existing.filter(
-      (article) => article.sourceData.id === repo.id,
-    );
-    return buildArticle(repo, {
-      publishedAt: earliestPublishedAt(priorVersions, today),
-      updatedAt: today,
-      relatedSlugs,
-    });
+  const policy = loadContentPolicy();
+  const existingBySourceId = new Map(
+    existing.map((article) => [article.sourceData.id, article]),
+  );
+  console.log(`Collecting official evidence for ${repos.length} eligible sources...`);
+  const evidencePacks = await collectEvidencePacks(repos, {
+    onProgress: (completed, total) => {
+      if (completed === total || completed % 25 === 0) {
+        console.log(`Evidence progress: ${completed}/${total}`);
+      }
+    },
   });
+  const evidenceBySourceId = new Map(
+    evidencePacks.map((pack) => [pack.sourceId, pack]),
+  );
 
-  for (const article of articles) {
-    fs.writeFileSync(
-      path.join(CONTENT_DIR, `${article.slug}.json`),
-      JSON.stringify(article, null, 2),
+  const today = todayUtc();
+  const currentExistingRepos = repos.filter((repo) =>
+    existingBySourceId.has(repo.id),
+  );
+  const newCandidates = repos
+    .filter((repo) => !existingBySourceId.has(repo.id))
+    .sort((left, right) => {
+      const leftPack = evidenceBySourceId.get(left.id);
+      const rightPack = evidenceBySourceId.get(right.id);
+      return (
+        rankedEvidenceScore(right, rightPack as EvidencePack)
+        - rankedEvidenceScore(left, leftPack as EvidencePack)
+      );
+    });
+
+  const deterministicEnv = {
+    ...process.env,
+    AI_EDITORIAL_ENABLED: "false",
+  };
+  const refreshedCurrent: Article[] = [];
+  let existingHeldForQuality = 0;
+  for (const repo of currentExistingRepos) {
+    const prior = existingBySourceId.get(repo.id) as Article;
+    const pack = evidenceBySourceId.get(repo.id) as EvidencePack;
+    const result = await createEditorialDraft(repo, pack, {
+      env: deterministicEnv,
+    });
+    if (!draftPassesPolicy(pack, result.draft, policy)) {
+      refreshedCurrent.push(prior);
+      existingHeldForQuality += 1;
+      continue;
+    }
+    refreshedCurrent.push(
+      buildArticle(repo, {
+        publishedAt: earliestPublishedAt([prior], today),
+        updatedAt: today,
+        evidencePack: pack,
+        editorialDraft: result.draft,
+        indexable: true,
+      }),
     );
   }
 
-  // Replace every historical version of a currently collected source with its
-  // canonical snapshot. Historical sources not in this collection remain intact
-  // for the explicit migration/curation pass.
+  const admittedNew: Article[] = [];
+  let rejectedByEvidence = 0;
+  let rejectedByEditorial = 0;
+  for (const repo of newCandidates) {
+    if (admittedNew.length >= policy.dailyNewArticleLimit) break;
+    const pack = evidenceBySourceId.get(repo.id) as EvidencePack;
+    if (pack.score < policy.minEvidenceScore) {
+      rejectedByEvidence += 1;
+      continue;
+    }
+    const result = await createEditorialDraft(repo, pack);
+    if (!draftPassesPolicy(pack, result.draft, policy)) {
+      rejectedByEditorial += 1;
+      continue;
+    }
+    admittedNew.push(
+      buildArticle(repo, {
+        publishedAt: today,
+        updatedAt: today,
+        evidencePack: pack,
+        editorialDraft: result.draft,
+        indexable: true,
+      }),
+    );
+  }
+
+  const currentKeys = new Set(repos.map((repo) => repo.id));
   const untouched = existing.filter(
     (article) => !currentKeys.has(article.sourceData.id),
   );
+  const currentArticles = [...refreshedCurrent, ...admittedNew];
   const mergedBySourceId = new Map<string, Article>();
-  for (const article of [...untouched, ...articles]) {
+  for (const article of [...untouched, ...currentArticles]) {
     mergedBySourceId.set(article.sourceData.id, article);
   }
 
-  const MAX_ARTICLES = 300;
-  const rankedCurrent = [...articles].sort(
-    (left, right) => sourceQualityScore(right.sourceData) - sourceQualityScore(left.sourceData),
+  const rankedCurrent = [...currentArticles].sort(
+    (left, right) =>
+      (right.evidence?.score ?? 0) - (left.evidence?.score ?? 0)
+      || sourceQualityScore(right.sourceData) - sourceQualityScore(left.sourceData),
   );
   const currentSlugs = new Set(rankedCurrent.map((article) => article.slug));
   const rankedHistorical = Array.from(mergedBySourceId.values())
@@ -439,24 +624,61 @@ export function generateAll(): void {
     ));
   const selected = selectCategoryBalancedArticles(
     [...rankedCurrent, ...rankedHistorical],
-    MAX_ARTICLES,
+    policy.maxIndexedArticles,
     12,
   );
-  const merged = selected.sort((left, right) => (
+  const selectedSlugs = new Set(selected.map((article) => article.slug));
+  const selectedCurrent = currentArticles
+    .filter((article) => selectedSlugs.has(article.slug))
+    .map((article) => ({
+      ...article,
+      relatedSlugs: selected
+        .filter(
+          (candidate) =>
+            candidate.category === article.category
+            && candidate.slug !== article.slug,
+        )
+        .slice(0, 4)
+        .map((candidate) => candidate.slug),
+    }));
+  const selectedCurrentBySlug = new Map(
+    selectedCurrent.map((article) => [article.slug, article]),
+  );
+  const selectedWithRelations = selected.map(
+    (article) => selectedCurrentBySlug.get(article.slug) ?? article,
+  );
+  const merged = selectedWithRelations.sort((left, right) => (
     right.updatedAt.localeCompare(left.updatedAt)
     || left.title.localeCompare(right.title)
   ));
 
+  for (const article of selectedCurrent) {
+    fs.writeFileSync(
+      path.join(CONTENT_DIR, `${article.slug}.json`),
+      JSON.stringify(article, null, 2),
+    );
+  }
   fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2));
-  console.log(`Updated ${articles.length} canonical snapshots; index now has ${merged.length} unique source IDs.`);
+  const publishedNew = admittedNew.filter((article) =>
+    selectedSlugs.has(article.slug),
+  ).length;
+  console.log(
+    [
+      `Generation complete: existing refreshed=${refreshedCurrent.length - existingHeldForQuality}`,
+      `existing held=${existingHeldForQuality}`,
+      `new published=${publishedNew}`,
+      `rejected by evidence=${rejectedByEvidence}`,
+      `rejected by editorial=${rejectedByEditorial}`,
+      `daily limit=${policy.dailyNewArticleLimit}`,
+      `index size=${merged.length}`,
+    ].join("; "),
+  );
 }
 
 const invokedPath = process.argv[1] ? pathToFileURL(path.resolve(process.argv[1])).href : "";
 if (import.meta.url === invokedPath) {
-  try {
-    generateAll();
-  } catch (error) {
+  generateAll().catch((error) => {
     console.error(error instanceof Error ? error.message : error);
     process.exitCode = 1;
-  }
+  });
 }

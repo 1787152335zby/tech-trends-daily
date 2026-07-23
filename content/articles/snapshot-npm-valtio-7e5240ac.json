@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-valtio-7e5240ac",
-  "title": "valtio — NPM Package Data Snapshot",
-  "description": "valtio NPM package data snapshot: 0 downloads in the recorded weekly NPM window. 🧙 Valtio makes proxy-state simple for React and Vanilla.",
+  "title": "valtio: NPM Package Evidence Snapshot",
+  "description": "🧙 Valtio makes proxy-state simple for React and Vanilla",
   "category": "frontend",
   "type": "trend",
   "publishedAt": "2026-06-27",
@@ -36,8 +36,8 @@
   "relatedSlugs": [
     "snapshot-npm-zustand-40e2e8fd",
     "snapshot-npm-vue-056515e9",
-    "snapshot-gh-1305383508-d5a1c10d",
-    "snapshot-gh-1305663861-3494cae0"
+    "snapshot-npm-react-221b20a2",
+    "snapshot-npm-vite-fa41aaeb"
   ],
   "tags": [
     "react",
@@ -48,5 +48,138 @@
     "proxy",
     "store"
   ],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>valtio</strong> is listed in our <em>Frontend</em> feed. The source describes it as: 🧙 Valtio makes proxy-state simple for React and Vanilla.</p>\n<p>The principal source-specific signal in this snapshot is <strong>0 downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 0</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 10.2k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 289</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: react, state, manager, management, mobx, proxy, store</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/valtio\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/valtio</a></li>\n  <li>Homepage supplied by source: <a href=\"https://github.com/pmndrs/valtio\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/pmndrs/valtio</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install valtio</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/valtio\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of valtio, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>🧙 Valtio makes proxy-state simple for React and Vanilla</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/valtio\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Node.js engine: &gt;=12.20.0 (observed 2026-07-23)</p>\n<p>Maintainers listed: 2 (observed 2026-07-23)</p>\n<p>Registry modified: 2026-05-01T06:28:50.148Z (observed 2026-07-23)</p>\n<p>Direct dependencies: 1 (observed 2026-07-23)</p>\n<p>License: MIT (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/valtio\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/valtio\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://github.com/pmndrs/valtio\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a>, <a href=\"https://registry.npmjs.org/valtio\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 0</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 10.2k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 289</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: react, state, manager, management, mobx, proxy, store</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/valtio\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/valtio</a></li>\n  <li>Homepage supplied by source: <a href=\"https://github.com/pmndrs/valtio\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/pmndrs/valtio</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=12.20.0\n    — <a href=\"https://registry.npmjs.org/valtio\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 2\n    — <a href=\"https://registry.npmjs.org/valtio\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-05-01T06:28:50.148Z\n    — <a href=\"https://registry.npmjs.org/valtio\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 1\n    — <a href=\"https://registry.npmjs.org/valtio\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/valtio\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> valtio\n    — <a href=\"https://registry.npmjs.org/valtio\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 2.3.2\n    — <a href=\"https://registry.npmjs.org/valtio\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-05-01T06:28:49.830Z\n    — <a href=\"https://registry.npmjs.org/valtio\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Weekly npm download evidence was unavailable: HTTP 429 from api.npmjs.org</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install valtio</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/valtio\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "evidence": {
+    "sourceId": "npm-valtio",
+    "fetchedAt": "2026-07-23T10:58:43.215Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/valtio",
+      "https://registry.npmjs.org/valtio",
+      "https://github.com/pmndrs/valtio"
+    ],
+    "items": [
+      {
+        "label": "Node.js engine",
+        "value": ">=12.20.0",
+        "url": "https://registry.npmjs.org/valtio",
+        "observedAt": "2026-07-23T10:58:43.215Z",
+        "kind": "compatibility"
+      },
+      {
+        "label": "Maintainers listed",
+        "value": "2",
+        "url": "https://registry.npmjs.org/valtio",
+        "observedAt": "2026-07-23T10:58:43.215Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2026-05-01T06:28:50.148Z",
+        "url": "https://registry.npmjs.org/valtio",
+        "observedAt": "2026-07-23T10:58:43.215Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Direct dependencies",
+        "value": "1",
+        "url": "https://registry.npmjs.org/valtio",
+        "observedAt": "2026-07-23T10:58:43.215Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://registry.npmjs.org/valtio",
+        "observedAt": "2026-07-23T10:58:43.215Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "valtio",
+        "url": "https://registry.npmjs.org/valtio",
+        "observedAt": "2026-07-23T10:58:43.215Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Latest version",
+        "value": "2.3.2",
+        "url": "https://registry.npmjs.org/valtio",
+        "observedAt": "2026-07-23T10:58:43.215Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2026-05-01T06:28:49.830Z",
+        "url": "https://registry.npmjs.org/valtio",
+        "observedAt": "2026-07-23T10:58:43.215Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Weekly npm download evidence was unavailable: HTTP 429 from api.npmjs.org",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 100,
+    "claims": [
+      {
+        "text": "Node.js engine: >=12.20.0 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/valtio"
+        ]
+      },
+      {
+        "text": "Maintainers listed: 2 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/valtio"
+        ]
+      },
+      {
+        "text": "Registry modified: 2026-05-01T06:28:50.148Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/valtio"
+        ]
+      },
+      {
+        "text": "Direct dependencies: 1 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/valtio"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/valtio"
+        ]
+      },
+      {
+        "text": "Package: valtio (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/valtio"
+        ]
+      },
+      {
+        "text": "Latest version: 2.3.2 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/valtio"
+        ]
+      },
+      {
+        "text": "Latest version published: 2026-05-01T06:28:49.830Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/valtio"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:43.215Z"
+    },
+    "generatedAt": "2026-07-23T10:58:43.215Z"
+  },
+  "indexable": true
 }

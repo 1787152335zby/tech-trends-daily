@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-svelte-dd295d10",
-  "title": "svelte — NPM Package Data Snapshot",
-  "description": "svelte NPM package data snapshot: 5.2M downloads in the recorded weekly NPM window. Cybernetically enhanced web apps.",
+  "title": "svelte: NPM Package Evidence Snapshot",
+  "description": "Cybernetically enhanced web apps This evidence-limited snapshot summarizes public metadata for the NPM package svelte.",
   "category": "frontend",
   "type": "trend",
   "publishedAt": "2026-06-28",
@@ -34,8 +34,8 @@
   "relatedSlugs": [
     "snapshot-npm-zustand-40e2e8fd",
     "snapshot-npm-vue-056515e9",
-    "snapshot-gh-1305383508-d5a1c10d",
-    "snapshot-gh-1305663861-3494cae0"
+    "snapshot-npm-react-221b20a2",
+    "snapshot-npm-vite-fa41aaeb"
   ],
   "tags": [
     "svelte",
@@ -44,5 +44,153 @@
     "templates",
     "templating"
   ],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>svelte</strong> is listed in our <em>Frontend</em> feed. The source describes it as: Cybernetically enhanced web apps.</p>\n<p>The principal source-specific signal in this snapshot is <strong>5.2M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 5.2M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 87.7k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 5.1k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: svelte, UI, framework, templates, templating</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/svelte\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/svelte</a></li>\n  <li>Homepage supplied by source: <a href=\"https://svelte.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://svelte.dev</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install svelte</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of svelte, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>Cybernetically enhanced web apps</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/svelte\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Node.js engine: &gt;=18 (observed 2026-07-23)</p>\n<p>Maintainers listed: 3 (observed 2026-07-23)</p>\n<p>Registry modified: 2026-07-20T19:30:59.704Z (observed 2026-07-23)</p>\n<p>Direct dependencies: 16 (observed 2026-07-23)</p>\n<p>License: MIT (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/svelte\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/svelte\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/svelte\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://svelte.dev/\" rel=\"nofollow noopener\" target=\"_blank\">svelte.dev</a>, <a href=\"https://registry.npmjs.org/svelte\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/svelte\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a>, <a href=\"https://github.com/sveltejs/svelte\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 5.2M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 87.7k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 5.1k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: svelte, UI, framework, templates, templating</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/svelte\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/svelte</a></li>\n  <li>Homepage supplied by source: <a href=\"https://svelte.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://svelte.dev</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=18\n    — <a href=\"https://registry.npmjs.org/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 3\n    — <a href=\"https://registry.npmjs.org/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-20T19:30:59.704Z\n    — <a href=\"https://registry.npmjs.org/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 16\n    — <a href=\"https://registry.npmjs.org/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> svelte\n    — <a href=\"https://registry.npmjs.org/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-16 to 2026-07-22\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 5247148\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 5.56.7\n    — <a href=\"https://registry.npmjs.org/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-07-20T19:30:59.368Z\n    — <a href=\"https://registry.npmjs.org/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install svelte</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "evidence": {
+    "sourceId": "npm-svelte",
+    "fetchedAt": "2026-07-23T10:58:28.821Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/svelte",
+      "https://registry.npmjs.org/svelte",
+      "https://api.npmjs.org/downloads/point/last-week/svelte",
+      "https://github.com/sveltejs/svelte",
+      "https://svelte.dev/"
+    ],
+    "items": [
+      {
+        "label": "Node.js engine",
+        "value": ">=18",
+        "url": "https://registry.npmjs.org/svelte",
+        "observedAt": "2026-07-23T10:58:28.821Z",
+        "kind": "compatibility"
+      },
+      {
+        "label": "Maintainers listed",
+        "value": "3",
+        "url": "https://registry.npmjs.org/svelte",
+        "observedAt": "2026-07-23T10:58:28.821Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2026-07-20T19:30:59.704Z",
+        "url": "https://registry.npmjs.org/svelte",
+        "observedAt": "2026-07-23T10:58:28.821Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Direct dependencies",
+        "value": "16",
+        "url": "https://registry.npmjs.org/svelte",
+        "observedAt": "2026-07-23T10:58:28.821Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://registry.npmjs.org/svelte",
+        "observedAt": "2026-07-23T10:58:28.821Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "svelte",
+        "url": "https://registry.npmjs.org/svelte",
+        "observedAt": "2026-07-23T10:58:28.821Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Download window",
+        "value": "2026-07-16 to 2026-07-22",
+        "url": "https://api.npmjs.org/downloads/point/last-week/svelte",
+        "observedAt": "2026-07-23T10:58:28.821Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Weekly downloads",
+        "value": "5247148",
+        "url": "https://api.npmjs.org/downloads/point/last-week/svelte",
+        "observedAt": "2026-07-23T10:58:28.821Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Latest version",
+        "value": "5.56.7",
+        "url": "https://registry.npmjs.org/svelte",
+        "observedAt": "2026-07-23T10:58:28.821Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2026-07-20T19:30:59.368Z",
+        "url": "https://registry.npmjs.org/svelte",
+        "observedAt": "2026-07-23T10:58:28.821Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 100,
+    "claims": [
+      {
+        "text": "Node.js engine: >=18 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/svelte"
+        ]
+      },
+      {
+        "text": "Maintainers listed: 3 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/svelte"
+        ]
+      },
+      {
+        "text": "Registry modified: 2026-07-20T19:30:59.704Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/svelte"
+        ]
+      },
+      {
+        "text": "Direct dependencies: 16 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/svelte"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/svelte"
+        ]
+      },
+      {
+        "text": "Package: svelte (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/svelte"
+        ]
+      },
+      {
+        "text": "Download window: 2026-07-16 to 2026-07-22 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/svelte"
+        ]
+      },
+      {
+        "text": "Weekly downloads: 5247148 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/svelte"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:28.821Z"
+    },
+    "generatedAt": "2026-07-23T10:58:28.821Z"
+  },
+  "indexable": true
 }

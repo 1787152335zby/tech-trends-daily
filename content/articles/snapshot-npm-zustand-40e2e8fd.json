@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-zustand-40e2e8fd",
-  "title": "zustand — NPM Package Data Snapshot",
-  "description": "zustand NPM package data snapshot: 45.9M downloads in the recorded weekly NPM window. 🐻 Bear necessities for state management in React.",
+  "title": "zustand: NPM Package Evidence Snapshot",
+  "description": "🐻 Bear necessities for state management in React",
   "category": "frontend",
   "type": "trend",
   "publishedAt": "2026-06-27",
@@ -34,9 +34,9 @@
   },
   "relatedSlugs": [
     "snapshot-npm-vue-056515e9",
-    "snapshot-gh-1305383508-d5a1c10d",
-    "snapshot-gh-1305663861-3494cae0",
-    "snapshot-gh-1302409680-a59b7212"
+    "snapshot-npm-react-221b20a2",
+    "snapshot-npm-vite-fa41aaeb",
+    "snapshot-npm-next-0c3057da"
   ],
   "tags": [
     "react",
@@ -46,5 +46,145 @@
     "redux",
     "store"
   ],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>zustand</strong> is listed in our <em>Frontend</em> feed. The source describes it as: 🐻 Bear necessities for state management in React.</p>\n<p>The principal source-specific signal in this snapshot is <strong>45.9M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 45.9M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 58.5k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 2.2k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: react, state, manager, management, redux, store</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/zustand\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/zustand</a></li>\n  <li>Homepage supplied by source: <a href=\"https://github.com/pmndrs/zustand\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/pmndrs/zustand</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install zustand</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/zustand\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of zustand, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>🐻 Bear necessities for state management in React</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/zustand\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Node.js engine: &gt;=12.20.0 (observed 2026-07-23)</p>\n<p>Maintainers listed: 3 (observed 2026-07-23)</p>\n<p>Registry modified: 2026-05-28T10:17:58.503Z (observed 2026-07-23)</p>\n<p>License: MIT (observed 2026-07-23)</p>\n<p>Package: zustand (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/zustand\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/zustand\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/zustand\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://github.com/pmndrs/zustand\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a>, <a href=\"https://registry.npmjs.org/zustand\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/zustand\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 45.9M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 58.5k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 2.2k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: react, state, manager, management, redux, store</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/zustand\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/zustand</a></li>\n  <li>Homepage supplied by source: <a href=\"https://github.com/pmndrs/zustand\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/pmndrs/zustand</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=12.20.0\n    — <a href=\"https://registry.npmjs.org/zustand\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 3\n    — <a href=\"https://registry.npmjs.org/zustand\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-05-28T10:17:58.503Z\n    — <a href=\"https://registry.npmjs.org/zustand\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/zustand\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> zustand\n    — <a href=\"https://registry.npmjs.org/zustand\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-16 to 2026-07-22\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/zustand\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 46510678\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/zustand\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 5.0.14\n    — <a href=\"https://registry.npmjs.org/zustand\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-05-28T10:17:58.249Z\n    — <a href=\"https://registry.npmjs.org/zustand\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install zustand</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/zustand\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "evidence": {
+    "sourceId": "npm-zustand",
+    "fetchedAt": "2026-07-23T10:58:23.976Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/zustand",
+      "https://registry.npmjs.org/zustand",
+      "https://api.npmjs.org/downloads/point/last-week/zustand",
+      "https://github.com/pmndrs/zustand"
+    ],
+    "items": [
+      {
+        "label": "Node.js engine",
+        "value": ">=12.20.0",
+        "url": "https://registry.npmjs.org/zustand",
+        "observedAt": "2026-07-23T10:58:23.976Z",
+        "kind": "compatibility"
+      },
+      {
+        "label": "Maintainers listed",
+        "value": "3",
+        "url": "https://registry.npmjs.org/zustand",
+        "observedAt": "2026-07-23T10:58:23.976Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2026-05-28T10:17:58.503Z",
+        "url": "https://registry.npmjs.org/zustand",
+        "observedAt": "2026-07-23T10:58:23.976Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://registry.npmjs.org/zustand",
+        "observedAt": "2026-07-23T10:58:23.976Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "zustand",
+        "url": "https://registry.npmjs.org/zustand",
+        "observedAt": "2026-07-23T10:58:23.976Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Download window",
+        "value": "2026-07-16 to 2026-07-22",
+        "url": "https://api.npmjs.org/downloads/point/last-week/zustand",
+        "observedAt": "2026-07-23T10:58:23.976Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Weekly downloads",
+        "value": "46510678",
+        "url": "https://api.npmjs.org/downloads/point/last-week/zustand",
+        "observedAt": "2026-07-23T10:58:23.976Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Latest version",
+        "value": "5.0.14",
+        "url": "https://registry.npmjs.org/zustand",
+        "observedAt": "2026-07-23T10:58:23.976Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2026-05-28T10:17:58.249Z",
+        "url": "https://registry.npmjs.org/zustand",
+        "observedAt": "2026-07-23T10:58:23.976Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 100,
+    "claims": [
+      {
+        "text": "Node.js engine: >=12.20.0 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/zustand"
+        ]
+      },
+      {
+        "text": "Maintainers listed: 3 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/zustand"
+        ]
+      },
+      {
+        "text": "Registry modified: 2026-05-28T10:17:58.503Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/zustand"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/zustand"
+        ]
+      },
+      {
+        "text": "Package: zustand (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/zustand"
+        ]
+      },
+      {
+        "text": "Download window: 2026-07-16 to 2026-07-22 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/zustand"
+        ]
+      },
+      {
+        "text": "Weekly downloads: 46510678 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/zustand"
+        ]
+      },
+      {
+        "text": "Latest version: 5.0.14 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/zustand"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:23.976Z"
+    },
+    "generatedAt": "2026-07-23T10:58:23.976Z"
+  },
+  "indexable": true
 }

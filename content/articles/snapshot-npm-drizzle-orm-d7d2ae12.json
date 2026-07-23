@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-drizzle-orm-d7d2ae12",
-  "title": "drizzle-orm — NPM Package Data Snapshot",
-  "description": "drizzle-orm NPM package data snapshot: 15.5M downloads in the recorded weekly NPM window. Drizzle ORM package for SQL databases.",
+  "title": "drizzle-orm: NPM Package Evidence Snapshot",
+  "description": "Drizzle ORM package for SQL databases This evidence-limited snapshot summarizes public metadata for the NPM package drizzle-orm.",
   "category": "database",
   "type": "trend",
   "publishedAt": "2026-06-27",
@@ -50,5 +50,113 @@
     "postgres",
     "sqlite"
   ],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>drizzle-orm</strong> is listed in our <em>Database</em> feed. The source describes it as: Drizzle ORM package for SQL databases.</p>\n<p>The principal source-specific signal in this snapshot is <strong>15.5M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 15.5M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 35.2k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1.5k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Source topics: drizzle, orm, pg, mysql, singlestore, postgresql, postgres, sqlite</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/drizzle-orm</a></li>\n  <li>Homepage supplied by source: <a href=\"https://orm.drizzle.team\" rel=\"nofollow noopener\" target=\"_blank\">https://orm.drizzle.team</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install drizzle-orm</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of drizzle-orm, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>Drizzle ORM package for SQL databases</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Maintainers listed: 4 (observed 2026-07-23)</p>\n<p>Registry modified: 2026-07-22T23:13:50.574Z (observed 2026-07-23)</p>\n<p>License: Apache-2.0 (observed 2026-07-23)</p>\n<p>Package: drizzle-orm (observed 2026-07-23)</p>\n<p>Latest version: 0.45.2 (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://orm.drizzle.team/\" rel=\"nofollow noopener\" target=\"_blank\">orm.drizzle.team</a>, <a href=\"https://registry.npmjs.org/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://github.com/drizzle-team/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 15.5M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 35.2k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1.5k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Source topics: drizzle, orm, pg, mysql, singlestore, postgresql, postgres, sqlite</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/drizzle-orm</a></li>\n  <li>Homepage supplied by source: <a href=\"https://orm.drizzle.team\" rel=\"nofollow noopener\" target=\"_blank\">https://orm.drizzle.team</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Maintainers listed:</strong> 4\n    — <a href=\"https://registry.npmjs.org/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-22T23:13:50.574Z\n    — <a href=\"https://registry.npmjs.org/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> Apache-2.0\n    — <a href=\"https://registry.npmjs.org/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> drizzle-orm\n    — <a href=\"https://registry.npmjs.org/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 0.45.2\n    — <a href=\"https://registry.npmjs.org/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-03-27T17:06:27.140Z\n    — <a href=\"https://registry.npmjs.org/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Weekly npm download evidence was unavailable: HTTP 429 from api.npmjs.org</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install drizzle-orm</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/drizzle-orm\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "evidence": {
+    "sourceId": "npm-drizzle-orm",
+    "fetchedAt": "2026-07-23T10:58:29.043Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/drizzle-orm",
+      "https://registry.npmjs.org/drizzle-orm",
+      "https://github.com/drizzle-team/drizzle-orm",
+      "https://orm.drizzle.team/"
+    ],
+    "items": [
+      {
+        "label": "Maintainers listed",
+        "value": "4",
+        "url": "https://registry.npmjs.org/drizzle-orm",
+        "observedAt": "2026-07-23T10:58:29.043Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2026-07-22T23:13:50.574Z",
+        "url": "https://registry.npmjs.org/drizzle-orm",
+        "observedAt": "2026-07-23T10:58:29.043Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "License",
+        "value": "Apache-2.0",
+        "url": "https://registry.npmjs.org/drizzle-orm",
+        "observedAt": "2026-07-23T10:58:29.043Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "drizzle-orm",
+        "url": "https://registry.npmjs.org/drizzle-orm",
+        "observedAt": "2026-07-23T10:58:29.043Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Latest version",
+        "value": "0.45.2",
+        "url": "https://registry.npmjs.org/drizzle-orm",
+        "observedAt": "2026-07-23T10:58:29.043Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2026-03-27T17:06:27.140Z",
+        "url": "https://registry.npmjs.org/drizzle-orm",
+        "observedAt": "2026-07-23T10:58:29.043Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Weekly npm download evidence was unavailable: HTTP 429 from api.npmjs.org",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 100,
+    "claims": [
+      {
+        "text": "Maintainers listed: 4 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/drizzle-orm"
+        ]
+      },
+      {
+        "text": "Registry modified: 2026-07-22T23:13:50.574Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/drizzle-orm"
+        ]
+      },
+      {
+        "text": "License: Apache-2.0 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/drizzle-orm"
+        ]
+      },
+      {
+        "text": "Package: drizzle-orm (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/drizzle-orm"
+        ]
+      },
+      {
+        "text": "Latest version: 0.45.2 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/drizzle-orm"
+        ]
+      },
+      {
+        "text": "Latest version published: 2026-03-27T17:06:27.140Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/drizzle-orm"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:29.043Z"
+    },
+    "generatedAt": "2026-07-23T10:58:29.043Z"
+  },
+  "indexable": true
 }

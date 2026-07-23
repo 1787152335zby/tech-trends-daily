@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-npm-effect-3af47942",
-  "title": "effect — NPM Package Data Snapshot",
-  "description": "effect NPM package data snapshot: 25.2M downloads in the recorded weekly NPM window. The missing standard library for TypeScript, for writing production-grade software.",
+  "title": "effect: NPM Package Evidence Snapshot",
+  "description": "The missing standard library for TypeScript, for writing production-grade software.",
   "category": "tools",
   "type": "trend",
   "publishedAt": "2026-06-27",
@@ -32,5 +32,146 @@
     "snapshot-npm-dayjs-98193aad"
   ],
   "tags": [],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>effect</strong> is listed in our <em>Tools</em> feed. The source describes it as: The missing standard library for TypeScript, for writing production-grade software.</p>\n<p>The principal source-specific signal in this snapshot is <strong>25.2M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 25.2M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 15.0k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 625</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/effect\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/effect</a></li>\n  <li>Homepage supplied by source: <a href=\"https://effect.website\" rel=\"nofollow noopener\" target=\"_blank\">https://effect.website</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install effect</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/effect\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of effect, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>The missing standard library for TypeScript, for writing production-grade software.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/effect\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Maintainers listed: 2 (observed 2026-07-23)</p>\n<p>Registry modified: 2026-07-23T02:53:36.877Z (observed 2026-07-23)</p>\n<p>Direct dependencies: 2 (observed 2026-07-23)</p>\n<p>License: MIT (observed 2026-07-23)</p>\n<p>Package: effect (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://registry.npmjs.org/effect\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/effect\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat weekly registry downloads as request volume, not unique users or GitHub star growth. Check current versions, dependencies, provenance, and compatibility before adoption.</p>\n<p><small>Evidence: <a href=\"https://www.npmjs.com/package/effect\" rel=\"nofollow noopener\" target=\"_blank\">npmjs.com</a>, <a href=\"https://effect.website/\" rel=\"nofollow noopener\" target=\"_blank\">effect.website</a>, <a href=\"https://registry.npmjs.org/effect\" rel=\"nofollow noopener\" target=\"_blank\">registry.npmjs.org</a>, <a href=\"https://api.npmjs.org/downloads/point/last-week/effect\" rel=\"nofollow noopener\" target=\"_blank\">api.npmjs.org</a>, <a href=\"https://github.com/Effect-TS/effect\" rel=\"nofollow noopener\" target=\"_blank\">github.com</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 25.2M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 15.0k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 625</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/effect\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/effect</a></li>\n  <li>Homepage supplied by source: <a href=\"https://effect.website\" rel=\"nofollow noopener\" target=\"_blank\">https://effect.website</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Maintainers listed:</strong> 2\n    — <a href=\"https://registry.npmjs.org/effect\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-23T02:53:36.877Z\n    — <a href=\"https://registry.npmjs.org/effect\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 2\n    — <a href=\"https://registry.npmjs.org/effect\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/effect\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> effect\n    — <a href=\"https://registry.npmjs.org/effect\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-16 to 2026-07-22\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/effect\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 25735803\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/effect\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 3.22.0\n    — <a href=\"https://registry.npmjs.org/effect\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-07-13T15:33:51.752Z\n    — <a href=\"https://registry.npmjs.org/effect\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install effect</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/effect\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>",
+  "evidence": {
+    "sourceId": "npm-effect",
+    "fetchedAt": "2026-07-23T10:58:24.714Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/effect",
+      "https://registry.npmjs.org/effect",
+      "https://api.npmjs.org/downloads/point/last-week/effect",
+      "https://github.com/Effect-TS/effect",
+      "https://effect.website/"
+    ],
+    "items": [
+      {
+        "label": "Maintainers listed",
+        "value": "2",
+        "url": "https://registry.npmjs.org/effect",
+        "observedAt": "2026-07-23T10:58:24.714Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2026-07-23T02:53:36.877Z",
+        "url": "https://registry.npmjs.org/effect",
+        "observedAt": "2026-07-23T10:58:24.714Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Direct dependencies",
+        "value": "2",
+        "url": "https://registry.npmjs.org/effect",
+        "observedAt": "2026-07-23T10:58:24.714Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://registry.npmjs.org/effect",
+        "observedAt": "2026-07-23T10:58:24.714Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "effect",
+        "url": "https://registry.npmjs.org/effect",
+        "observedAt": "2026-07-23T10:58:24.714Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Download window",
+        "value": "2026-07-16 to 2026-07-22",
+        "url": "https://api.npmjs.org/downloads/point/last-week/effect",
+        "observedAt": "2026-07-23T10:58:24.714Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Weekly downloads",
+        "value": "25735803",
+        "url": "https://api.npmjs.org/downloads/point/last-week/effect",
+        "observedAt": "2026-07-23T10:58:24.714Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Latest version",
+        "value": "3.22.0",
+        "url": "https://registry.npmjs.org/effect",
+        "observedAt": "2026-07-23T10:58:24.714Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2026-07-13T15:33:51.752Z",
+        "url": "https://registry.npmjs.org/effect",
+        "observedAt": "2026-07-23T10:58:24.714Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 100,
+    "claims": [
+      {
+        "text": "Maintainers listed: 2 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/effect"
+        ]
+      },
+      {
+        "text": "Registry modified: 2026-07-23T02:53:36.877Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/effect"
+        ]
+      },
+      {
+        "text": "Direct dependencies: 2 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/effect"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/effect"
+        ]
+      },
+      {
+        "text": "Package: effect (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/effect"
+        ]
+      },
+      {
+        "text": "Download window: 2026-07-16 to 2026-07-22 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/effect"
+        ]
+      },
+      {
+        "text": "Weekly downloads: 25735803 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/effect"
+        ]
+      },
+      {
+        "text": "Latest version: 3.22.0 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/effect"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:24.714Z"
+    },
+    "generatedAt": "2026-07-23T10:58:24.714Z"
+  },
+  "indexable": true
 }

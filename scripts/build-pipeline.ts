@@ -1,10 +1,11 @@
 ﻿/**
  * Master build pipeline script.
  * 1. Fetch all data sources
- * 2. Generate articles from data
- * 3. Validate generated content
- * 4. Run static quality checks
- * 5. Build the Next.js site
+ * 2. Collect official source evidence
+ * 3. Generate articles from data
+ * 4. Validate generated content
+ * 5. Run static quality checks
+ * 6. Build the Next.js site
  */
 
 import { execSync } from "child_process";
@@ -20,11 +21,12 @@ async function main() {
   console.log("========== TechTrends Daily Build Pipeline ==========\n");
 
   run("npm run fetch-all", "Step 1: Fetch Data");
-  run("npm run generate", "Step 2: Update Canonical Snapshots");
-  run("npm run validate-content", "Step 3: Validate Content");
-  run("npm run lint", "Step 4a: Lint");
-  run("npx tsc --noEmit", "Step 4b: Type Check");
-  run("npm run build", "Step 5: Build Next.js Site");
+  run("npm run collect-evidence", "Step 2: Collect Official Evidence");
+  run("npm run generate", "Step 3: Generate and Review Articles");
+  run("npm run validate-content", "Step 4: Validate Content");
+  run("npm run lint", "Step 5a: Lint");
+  run("npx tsc --noEmit", "Step 5b: Type Check");
+  run("npm run build", "Step 6: Build Next.js Site");
 
   console.log("\n========== Build Complete ==========");
 }

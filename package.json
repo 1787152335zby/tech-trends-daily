@@ -8,8 +8,10 @@
     "start": "next start",
     "lint": "eslint",
     "fetch-all": "npx tsx scripts/fetch-all.ts",
+    "collect-evidence": "npx tsx scripts/collect-evidence.ts",
     "generate": "npx tsx scripts/generate-articles.ts",
     "migrate-content": "npx tsx scripts/migrate-content-quality.ts",
+    "test:ai-editor": "npx tsx scripts/lib/ai-editor.test.ts",
     "validate-content": "npx tsx scripts/validate-content.ts",
     "pipeline": "npx tsx scripts/build-pipeline.ts"
   },

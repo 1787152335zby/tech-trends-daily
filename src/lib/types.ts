@@ -54,6 +54,42 @@ export type ArticleCategory =
 
 export type ArticleType = "review" | "vs" | "howto" | "bestof" | "trend";
 
+export interface ArticleEvidenceItem {
+  label: string;
+  value: string;
+  url: string;
+  observedAt: string;
+  kind: string;
+}
+
+export interface ArticleEvidence {
+  sourceId: string;
+  fetchedAt: string;
+  score: number;
+  officialUrls: string[];
+  items: ArticleEvidenceItem[];
+  warnings: string[];
+}
+
+export interface ArticleEditorialClaim {
+  text: string;
+  evidenceUrls: string[];
+}
+
+export interface ArticleEditorialReview {
+  status: "passed" | "fallback" | "rejected" | "not-configured";
+  issues: string[];
+  reviewedAt: string;
+}
+
+export interface ArticleEditorial {
+  mode: "deterministic" | "ai";
+  qualityScore: number;
+  claims: ArticleEditorialClaim[];
+  review: ArticleEditorialReview;
+  generatedAt: string;
+}
+
 export interface Article {
   slug: string;
   title: string;
@@ -66,6 +102,9 @@ export interface Article {
   relatedSlugs: string[];
   tags: string[];
   bodyHtml: string;
+  evidence?: ArticleEvidence;
+  editorial?: ArticleEditorial;
+  indexable?: boolean;
 }
 
 export const CATEGORY_SLUGS: Record<ArticleCategory, string> = {

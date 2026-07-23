@@ -7,7 +7,7 @@ export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = SITE_URL.replace(/\/$/, "");
-  const articles = loadAllArticles();
+  const articles = loadAllArticles().filter((article) => article.indexable !== false);
   const latestUpdate = articles
     .map((article) => article.updatedAt || article.publishedAt)
     .sort()

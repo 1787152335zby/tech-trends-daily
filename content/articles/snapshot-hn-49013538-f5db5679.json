@@ -1,7 +1,7 @@
 {
   "slug": "snapshot-hn-49013538-f5db5679",
-  "title": "Malleable Computing, Emacs, and You (hn-49013538) — Hacker News Data Snapshot",
-  "description": "Malleable Computing, Emacs, and You Hacker News story data snapshot: 72 Hacker News points at collection time. Malleable Computing, Emacs, and You.",
+  "title": "Malleable Computing, Emacs, and You: Hacker News Source Snapshot",
+  "description": "Malleable Computing, Emacs, and You This evidence-limited snapshot summarizes public metadata for the Hacker News story Malleable Computing, Emacs, and You.",
   "category": "tools",
   "type": "trend",
   "publishedAt": "2026-07-23",
@@ -32,5 +32,99 @@
     "snapshot-npm-dayjs-98193aad"
   ],
   "tags": [],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public Hacker News story metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>Malleable Computing, Emacs, and You</strong> is listed in our <em>Tools</em> feed. The source describes it as: Malleable Computing, Emacs, and You.</p>\n<p>The principal source-specific signal in this snapshot is <strong>72 Hacker News points at collection time</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 72</span><span class=\"stat-label\">Hacker News Points</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Various</strong></li>\n  <li>Primary source: <a href=\"http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html\" rel=\"nofollow noopener\" target=\"_blank\">http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html</a></li>\n  <li>Homepage supplied by source: <a href=\"http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html\" rel=\"nofollow noopener\" target=\"_blank\">http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat the recorded score as attention at collection time, not a product ranking.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Read in Context</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>"
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public Hacker News story metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<p class=\"article-dek\"><strong>A source-grounded overview of Malleable Computing, Emacs, and You, based only on the supplied evidence and public metadata.</strong></p>\n<h2>What the source says</h2>\n<p>Malleable Computing, Emacs, and You</p>\n<p><small>Evidence: <a href=\"http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html\" rel=\"nofollow noopener\" target=\"_blank\">yummymelon.com</a></small></p>\n<h2>Recorded evidence</h2>\n<p>Comments at collection: 31 (observed 2026-07-23)</p>\n<p>Points at collection: 115 (observed 2026-07-23)</p>\n<p>Author: kickingvegas (observed 2026-07-23)</p>\n<p>Hacker News item: 49013538 (observed 2026-07-23)</p>\n<p>Published: 2026-07-22T21:15:26.000Z (observed 2026-07-23)</p>\n<p><small>Evidence: <a href=\"https://hacker-news.firebaseio.com/v0/item/49013538.json\" rel=\"nofollow noopener\" target=\"_blank\">hacker-news.firebaseio.com</a></small></p>\n<h2>How to evaluate this snapshot</h2>\n<p>Treat Hacker News points as a time-specific attention signal, not proof that a story is correct or that a linked technology is suitable. Read the original source and discussion in context.</p>\n<p><small>Evidence: <a href=\"http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html\" rel=\"nofollow noopener\" target=\"_blank\">yummymelon.com</a>, <a href=\"https://news.ycombinator.com/item?id=49013538\" rel=\"nofollow noopener\" target=\"_blank\">news.ycombinator.com</a>, <a href=\"https://hacker-news.firebaseio.com/v0/item/49013538.json\" rel=\"nofollow noopener\" target=\"_blank\">hacker-news.firebaseio.com</a></small></p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 72</span><span class=\"stat-label\">Hacker News Points</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Various</strong></li>\n  <li>Primary source: <a href=\"http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html\" rel=\"nofollow noopener\" target=\"_blank\">http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html</a></li>\n  <li>Homepage supplied by source: <a href=\"http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html\" rel=\"nofollow noopener\" target=\"_blank\">http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html</a></li>\n</ul>\n<h2>Evidence Record</h2>\n<p>This page cites public records collected on 2026-07-23. Its evidence-completeness score is 100/100; this is not a product-quality rating.</p>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 31\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49013538.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 115\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49013538.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> kickingvegas\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49013538.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49013538\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49013538.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-07-22T21:15:26.000Z\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49013538.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat the recorded score as attention at collection time, not a product ranking.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Read in Context</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>",
+  "evidence": {
+    "sourceId": "hn-49013538",
+    "fetchedAt": "2026-07-23T10:58:35.663Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49013538",
+      "https://hacker-news.firebaseio.com/v0/item/49013538.json",
+      "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "31",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49013538.json",
+        "observedAt": "2026-07-23T10:58:35.663Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "115",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49013538.json",
+        "observedAt": "2026-07-23T10:58:35.663Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "kickingvegas",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49013538.json",
+        "observedAt": "2026-07-23T10:58:35.663Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49013538",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49013538.json",
+        "observedAt": "2026-07-23T10:58:35.663Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-07-22T21:15:26.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49013538.json",
+        "observedAt": "2026-07-23T10:58:35.663Z",
+        "kind": "discussion"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 100,
+    "claims": [
+      {
+        "text": "Comments at collection: 31 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49013538.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 115 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49013538.json"
+        ]
+      },
+      {
+        "text": "Author: kickingvegas (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49013538.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49013538 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49013538.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-07-22T21:15:26.000Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49013538.json"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:35.663Z"
+    },
+    "generatedAt": "2026-07-23T10:58:35.663Z"
+  },
+  "indexable": true
 }

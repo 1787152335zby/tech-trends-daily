@@ -18,7 +18,9 @@ function toRfc822(value: string): string | null {
 }
 
 export function GET() {
-  const articles = loadAllArticles().slice(0, 50);
+  const articles = loadAllArticles()
+    .filter((article) => article.indexable !== false)
+    .slice(0, 50);
   const siteUrl = SITE_URL.replace(/\/$/, "");
   const latestDate = articles
     .map((article) => toRfc822(article.updatedAt || article.publishedAt))

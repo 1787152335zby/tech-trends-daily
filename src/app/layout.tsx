@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE_NAME} — Daily Trending Open-Source Tools`,
+    default: `${SITE_NAME} — Evidence-Backed Developer Trends`,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
