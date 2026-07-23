@@ -1,0 +1,36 @@
+{
+  "slug": "snapshot-hn-49005787-59bce7f1",
+  "title": "The startup's Postgres survival guide (hn-49005787) — Hacker News Data Snapshot",
+  "description": "The startup's Postgres survival guide Hacker News story data snapshot: 325 Hacker News points at collection time. The startup's Postgres survival guide.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-22",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "hn-49005787",
+    "name": "The startup's Postgres survival guide",
+    "fullName": "hn:the-startup-s-postgres-survival-guide",
+    "url": "https://hatchet.run/blog/postgres-survival-guide",
+    "description": "The startup's Postgres survival guide",
+    "language": "Various",
+    "stars": 325,
+    "starsGrowth": 325,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-07-22T12:36:08.000Z",
+    "updatedAt": "2026-07-22T12:36:08.000Z",
+    "homepage": "https://hatchet.run/blog/postgres-survival-guide",
+    "source": "hackernews",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-fastify-73779c1b",
+    "snapshot-gh-1301140808-7937a8dd",
+    "snapshot-gh-1304937849-3f1610e5",
+    "snapshot-gh-1304027771-29a48573"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public Hacker News story metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>The startup's Postgres survival guide</strong> is listed in our <em>Backend</em> feed. The source describes it as: The startup's Postgres survival guide.</p>\n<p>The principal source-specific signal in this snapshot is <strong>325 Hacker News points at collection time</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 325</span><span class=\"stat-label\">Hacker News Points</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Various</strong></li>\n  <li>Primary source: <a href=\"https://hatchet.run/blog/postgres-survival-guide\" rel=\"nofollow noopener\" target=\"_blank\">https://hatchet.run/blog/postgres-survival-guide</a></li>\n  <li>Homepage supplied by source: <a href=\"https://hatchet.run/blog/postgres-survival-guide\" rel=\"nofollow noopener\" target=\"_blank\">https://hatchet.run/blog/postgres-survival-guide</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat the recorded score as attention at collection time, not a product ranking.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Read in Context</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>"
+}

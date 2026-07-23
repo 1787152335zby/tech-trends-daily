@@ -1,0 +1,36 @@
+{
+  "slug": "snapshot-hn-49014007-032d5632",
+  "title": "Medici family mystery may be solved after more than 400 years (hn-49014007) — Hacker News Data Snapshot",
+  "description": "Medici family mystery may be solved after more than 400 years Hacker News story data snapshot: 82 Hacker News points at collection time. Medici family mystery may be solved after more than 400 years.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-07-23",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "hn-49014007",
+    "name": "Medici family mystery may be solved after more than 400 years",
+    "fullName": "hn:medici-family-mystery-may-be-solved-after-more-than-400-years",
+    "url": "https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria",
+    "description": "Medici family mystery may be solved after more than 400 years",
+    "language": "Various",
+    "stars": 82,
+    "starsGrowth": 82,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-07-22T21:55:34.000Z",
+    "updatedAt": "2026-07-22T21:55:34.000Z",
+    "homepage": "https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-astro-c7c0f5a3",
+    "snapshot-npm-pnpm-a24f2661",
+    "snapshot-npm-vitest-31b3b9a9",
+    "snapshot-npm-dayjs-98193aad"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public Hacker News story metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>Medici family mystery may be solved after more than 400 years</strong> is listed in our <em>Tools</em> feed. The source describes it as: Medici family mystery may be solved after more than 400 years.</p>\n<p>The principal source-specific signal in this snapshot is <strong>82 Hacker News points at collection time</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 82</span><span class=\"stat-label\">Hacker News Points</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Various</strong></li>\n  <li>Primary source: <a href=\"https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria\" rel=\"nofollow noopener\" target=\"_blank\">https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria</a></li>\n  <li>Homepage supplied by source: <a href=\"https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria\" rel=\"nofollow noopener\" target=\"_blank\">https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat the recorded score as attention at collection time, not a product ranking.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Read in Context</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>"
+}

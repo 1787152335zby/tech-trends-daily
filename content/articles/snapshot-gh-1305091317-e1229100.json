@@ -1,0 +1,56 @@
+{
+  "slug": "snapshot-gh-1305091317-e1229100",
+  "title": "Audreator/Simlect-AI-Mall — GitHub Project Data Snapshot",
+  "description": "Simlect-AI-Mall GitHub project data snapshot: 0 new GitHub stars in the recorded weekly window. 把对话导购和智能客服融入到传统电商中：Spring Cloud 微服务 + Python Agent，支持搜商品、查订单、售后提案确认。在线体验 www.simlect.com.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1305091317",
+    "name": "Simlect-AI-Mall",
+    "fullName": "Audreator/Simlect-AI-Mall",
+    "url": "https://github.com/Audreator/Simlect-AI-Mall",
+    "description": "把对话导购和智能客服融入到传统电商中：Spring Cloud 微服务 + Python Agent，支持搜商品、查订单、售后提案确认。在线体验 www.simlect.com",
+    "language": "Java",
+    "stars": 24,
+    "starsGrowth": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [
+      "elasticsearch",
+      "langchain",
+      "langgraph",
+      "mysql",
+      "pythonagent",
+      "rabbitmq",
+      "redis",
+      "springboot",
+      "springcloud",
+      "vue"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-18T17:16:26Z",
+    "updatedAt": "2026-07-22T06:59:07Z",
+    "homepage": "https://www.simlect.com",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-fastify-73779c1b",
+    "snapshot-gh-1301140808-7937a8dd",
+    "snapshot-gh-1304937849-3f1610e5",
+    "snapshot-gh-1304027771-29a48573"
+  ],
+  "tags": [
+    "elasticsearch",
+    "langchain",
+    "langgraph",
+    "mysql",
+    "pythonagent",
+    "rabbitmq",
+    "redis",
+    "springboot"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>Simlect-AI-Mall</strong> is listed in our <em>Backend</em> feed. The source describes it as: 把对话导购和智能客服融入到传统电商中：Spring Cloud 微服务 + Python Agent，支持搜商品、查订单、售后提案确认。在线体验 www.simlect.com.</p>\n<p>The principal source-specific signal in this snapshot is <strong>0 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 24</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +0</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 0</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Java</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: elasticsearch, langchain, langgraph, mysql, pythonagent, rabbitmq, redis, springboot</li>\n  <li>Primary source: <a href=\"https://github.com/Audreator/Simlect-AI-Mall\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/Audreator/Simlect-AI-Mall</a></li>\n  <li>Homepage supplied by source: <a href=\"https://www.simlect.com\" rel=\"nofollow noopener\" target=\"_blank\">https://www.simlect.com</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/Audreator/Simlect-AI-Mall</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

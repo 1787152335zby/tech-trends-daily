@@ -1,0 +1,48 @@
+{
+  "slug": "snapshot-npm-typescript-7bdc05ac",
+  "title": "typescript — NPM Package Data Snapshot",
+  "description": "typescript NPM package data snapshot: 239.9M downloads in the recorded weekly NPM window. TypeScript is a language for application scale JavaScript development.",
+  "category": "language",
+  "type": "trend",
+  "publishedAt": "2026-06-27",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-typescript",
+    "name": "typescript",
+    "fullName": "npm:typescript",
+    "url": "https://www.npmjs.com/package/typescript",
+    "description": "TypeScript is a language for application scale JavaScript development",
+    "language": "JavaScript/TypeScript",
+    "stars": 109924,
+    "starsGrowth": 239877049,
+    "forks": 13561,
+    "openIssues": 5056,
+    "topics": [
+      "TypeScript",
+      "Microsoft",
+      "compiler",
+      "language",
+      "javascript"
+    ],
+    "license": "Apache-2.0",
+    "createdAt": "2026-07-23T02:40:59.010Z",
+    "updatedAt": "2026-07-23T02:40:59.010Z",
+    "homepage": "https://www.typescriptlang.org/",
+    "source": "npm",
+    "category": "language"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-zod-d3c81d4c",
+    "snapshot-npm-valibot-b248fc05",
+    "snapshot-npm-tsx-0103a257",
+    "snapshot-npm-typebox-f621feee"
+  ],
+  "tags": [
+    "TypeScript",
+    "Microsoft",
+    "compiler",
+    "language",
+    "javascript"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>typescript</strong> is listed in our <em>Programming Languages</em> feed. The source describes it as: TypeScript is a language for application scale JavaScript development.</p>\n<p>The principal source-specific signal in this snapshot is <strong>239.9M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 239.9M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 109.9k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 13.6k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Source topics: TypeScript, Microsoft, compiler, language, javascript</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/typescript\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/typescript</a></li>\n  <li>Homepage supplied by source: <a href=\"https://www.typescriptlang.org/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.typescriptlang.org/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install typescript</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/typescript\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+}

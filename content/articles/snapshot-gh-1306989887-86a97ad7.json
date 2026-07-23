@@ -1,0 +1,54 @@
+{
+  "slug": "snapshot-gh-1306989887-86a97ad7",
+  "title": "Kritt-ai/open-kritt — GitHub Project Data Snapshot",
+  "description": "open-kritt GitHub project data snapshot: 11 new GitHub stars in the recorded weekly window. Orchestrate AI agents to find real vulnerabilities in code.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-21",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1306989887",
+    "name": "open-kritt",
+    "fullName": "Kritt-ai/open-kritt",
+    "url": "https://github.com/Kritt-ai/open-kritt",
+    "description": "Orchestrate AI agents to find real vulnerabilities in code.",
+    "language": "JavaScript",
+    "stars": 323,
+    "starsGrowth": 11,
+    "forks": 71,
+    "openIssues": 18,
+    "topics": [
+      "agent",
+      "agents",
+      "ai",
+      "bug-bounty",
+      "bugbounty",
+      "bugbounty-tools",
+      "security",
+      "security-research"
+    ],
+    "license": "AGPL-3.0",
+    "createdAt": "2026-07-20T20:26:24Z",
+    "updatedAt": "2026-07-23T02:24:50Z",
+    "homepage": "https://kritt.ai/",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-zustand-40e2e8fd",
+    "snapshot-npm-vue-056515e9",
+    "snapshot-gh-1305383508-d5a1c10d",
+    "snapshot-gh-1305663861-3494cae0"
+  ],
+  "tags": [
+    "agent",
+    "agents",
+    "ai",
+    "bug-bounty",
+    "bugbounty",
+    "bugbounty-tools",
+    "security",
+    "security-research"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>open-kritt</strong> is listed in our <em>Frontend</em> feed. The source describes it as: Orchestrate AI agents to find real vulnerabilities in code.</p>\n<p>The principal source-specific signal in this snapshot is <strong>11 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 323</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +11</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 71</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 18</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript</strong></li>\n  <li>Reported license: <strong>AGPL-3.0</strong></li>\n  <li>Source topics: agent, agents, ai, bug-bounty, bugbounty, bugbounty-tools, security, security-research</li>\n  <li>Primary source: <a href=\"https://github.com/Kritt-ai/open-kritt\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/Kritt-ai/open-kritt</a></li>\n  <li>Homepage supplied by source: <a href=\"https://kritt.ai/\" rel=\"nofollow noopener\" target=\"_blank\">https://kritt.ai/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/Kritt-ai/open-kritt</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

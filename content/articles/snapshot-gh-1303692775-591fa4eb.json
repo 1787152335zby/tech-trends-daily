@@ -1,0 +1,36 @@
+{
+  "slug": "snapshot-gh-1303692775-591fa4eb",
+  "title": "hxreborn/morphe-patches — GitHub Project Data Snapshot",
+  "description": "morphe-patches GitHub project data snapshot: 11 new GitHub stars in the recorded weekly window. Personal Morphe patch bundle for Projectivy Launcher, ForusApp, and Showly.",
+  "category": "mobile",
+  "type": "trend",
+  "publishedAt": "2026-07-23",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1303692775",
+    "name": "morphe-patches",
+    "fullName": "hxreborn/morphe-patches",
+    "url": "https://github.com/hxreborn/morphe-patches",
+    "description": "Personal Morphe patch bundle for Projectivy Launcher, ForusApp, and Showly",
+    "language": "Kotlin",
+    "stars": 11,
+    "starsGrowth": 11,
+    "forks": 0,
+    "openIssues": 1,
+    "topics": [],
+    "license": "GPL-3.0",
+    "createdAt": "2026-07-17T07:16:52Z",
+    "updatedAt": "2026-07-22T14:16:10Z",
+    "homepage": "",
+    "source": "github",
+    "category": "mobile"
+  },
+  "relatedSlugs": [
+    "snapshot-gh-1299986310-e781ce18",
+    "snapshot-gh-1307136587-13ebbecb",
+    "snapshot-gh-1295073265-56a7d482",
+    "snapshot-gh-1303646079-1efc86b4"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>morphe-patches</strong> is listed in our <em>Mobile</em> feed. The source describes it as: Personal Morphe patch bundle for Projectivy Launcher, ForusApp, and Showly.</p>\n<p>The principal source-specific signal in this snapshot is <strong>11 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 11</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +11</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 0</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Kotlin</strong></li>\n  <li>Reported license: <strong>GPL-3.0</strong></li>\n  <li>Primary source: <a href=\"https://github.com/hxreborn/morphe-patches\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/hxreborn/morphe-patches</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/hxreborn/morphe-patches</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

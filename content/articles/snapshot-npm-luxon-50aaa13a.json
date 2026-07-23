@@ -1,0 +1,42 @@
+{
+  "slug": "snapshot-npm-luxon-50aaa13a",
+  "title": "luxon — NPM Package Data Snapshot",
+  "description": "luxon NPM package data snapshot: 0 downloads in the recorded weekly NPM window. Immutable date wrapper.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-06-27",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-luxon",
+    "name": "luxon",
+    "fullName": "npm:luxon",
+    "url": "https://www.npmjs.com/package/luxon",
+    "description": "Immutable date wrapper",
+    "language": "JavaScript/TypeScript",
+    "stars": 16424,
+    "starsGrowth": 0,
+    "forks": 786,
+    "openIssues": 193,
+    "topics": [
+      "date",
+      "immutable"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-23T02:41:17.664Z",
+    "updatedAt": "2026-07-23T02:41:17.664Z",
+    "homepage": "https://github.com/moment/luxon#readme",
+    "source": "npm",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-astro-c7c0f5a3",
+    "snapshot-npm-pnpm-a24f2661",
+    "snapshot-npm-vitest-31b3b9a9",
+    "snapshot-npm-dayjs-98193aad"
+  ],
+  "tags": [
+    "date",
+    "immutable"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>luxon</strong> is listed in our <em>Tools</em> feed. The source describes it as: Immutable date wrapper.</p>\n<p>The principal source-specific signal in this snapshot is <strong>0 downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 0</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 16.4k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 786</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: date, immutable</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/luxon\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/luxon</a></li>\n  <li>Homepage supplied by source: <a href=\"https://github.com/moment/luxon#readme\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/moment/luxon#readme</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install luxon</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/luxon\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+}

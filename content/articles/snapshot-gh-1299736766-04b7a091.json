@@ -1,0 +1,60 @@
+{
+  "slug": "snapshot-gh-1299736766-04b7a091",
+  "title": "m-novotny/memguard-rs — GitHub Project Data Snapshot",
+  "description": "memguard-rs GitHub project data snapshot: 0 new GitHub stars in the recorded weekly window. Secure memory handling primitives for Rust — zeroization on drop, mlock-protected regions, constant-time comparison, and….",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1299736766",
+    "name": "memguard-rs",
+    "fullName": "m-novotny/memguard-rs",
+    "url": "https://github.com/m-novotny/memguard-rs",
+    "description": "Secure memory handling primitives for Rust — zeroization on drop, mlock-protected regions, constant-time comparison, and compile-time enforced memory safety boundaries",
+    "language": "Rust",
+    "stars": 130,
+    "starsGrowth": 0,
+    "forks": 2,
+    "openIssues": 0,
+    "topics": [
+      "constant-time",
+      "crypto",
+      "cryptography",
+      "embedded",
+      "memory-management",
+      "memory-safety",
+      "mlock",
+      "no-std",
+      "rust",
+      "secret",
+      "secure-memory",
+      "security",
+      "side-channel",
+      "zeroize"
+    ],
+    "license": "Apache-2.0",
+    "createdAt": "2026-07-13T21:08:48Z",
+    "updatedAt": "2026-07-18T07:26:40Z",
+    "homepage": "",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-fastify-73779c1b",
+    "snapshot-gh-1301140808-7937a8dd",
+    "snapshot-gh-1304937849-3f1610e5",
+    "snapshot-gh-1304027771-29a48573"
+  ],
+  "tags": [
+    "constant-time",
+    "crypto",
+    "cryptography",
+    "embedded",
+    "memory-management",
+    "memory-safety",
+    "mlock",
+    "no-std"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>memguard-rs</strong> is listed in our <em>Backend</em> feed. The source describes it as: Secure memory handling primitives for Rust — zeroization on drop, mlock-protected regions, constant-time comparison, and compile-time enforced memory safety boundaries.</p>\n<p>The principal source-specific signal in this snapshot is <strong>0 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 130</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +0</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 2</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Rust</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Source topics: constant-time, crypto, cryptography, embedded, memory-management, memory-safety, mlock, no-std</li>\n  <li>Primary source: <a href=\"https://github.com/m-novotny/memguard-rs\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/m-novotny/memguard-rs</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/m-novotny/memguard-rs</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

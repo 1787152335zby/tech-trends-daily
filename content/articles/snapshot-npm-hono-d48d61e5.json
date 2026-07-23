@@ -1,0 +1,61 @@
+{
+  "slug": "snapshot-npm-hono-d48d61e5",
+  "title": "hono — NPM Package Data Snapshot",
+  "description": "hono NPM package data snapshot: 51.6M downloads in the recorded weekly NPM window. Web framework built on Web Standards.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-06-27",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-hono",
+    "name": "hono",
+    "fullName": "npm:hono",
+    "url": "https://www.npmjs.com/package/hono",
+    "description": "Web framework built on Web Standards",
+    "language": "JavaScript/TypeScript",
+    "stars": 31448,
+    "starsGrowth": 51647193,
+    "forks": 1182,
+    "openIssues": 371,
+    "topics": [
+      "hono",
+      "web",
+      "app",
+      "http",
+      "application",
+      "framework",
+      "router",
+      "cloudflare",
+      "workers",
+      "fastly",
+      "compute",
+      "deno",
+      "bun",
+      "lambda",
+      "nodejs"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-23T02:40:58.034Z",
+    "updatedAt": "2026-07-23T02:40:58.034Z",
+    "homepage": "https://hono.dev",
+    "source": "npm",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-fastify-73779c1b",
+    "snapshot-gh-1301140808-7937a8dd",
+    "snapshot-gh-1304937849-3f1610e5",
+    "snapshot-gh-1304027771-29a48573"
+  ],
+  "tags": [
+    "hono",
+    "web",
+    "app",
+    "http",
+    "application",
+    "framework",
+    "router",
+    "cloudflare"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>hono</strong> is listed in our <em>Backend</em> feed. The source describes it as: Web framework built on Web Standards.</p>\n<p>The principal source-specific signal in this snapshot is <strong>51.6M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 51.6M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 31.4k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1.2k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: hono, web, app, http, application, framework, router, cloudflare</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/hono\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/hono</a></li>\n  <li>Homepage supplied by source: <a href=\"https://hono.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://hono.dev</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install hono</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/hono\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+}

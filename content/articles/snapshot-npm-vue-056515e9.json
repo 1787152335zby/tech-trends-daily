@@ -1,0 +1,40 @@
+{
+  "slug": "snapshot-npm-vue-056515e9",
+  "title": "vue — NPM Package Data Snapshot",
+  "description": "vue NPM package data snapshot: 14.2M downloads in the recorded weekly NPM window. The progressive JavaScript framework for building modern web UI.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-06-28",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-vue",
+    "name": "vue",
+    "fullName": "npm:vue",
+    "url": "https://www.npmjs.com/package/vue",
+    "description": "The progressive JavaScript framework for building modern web UI.",
+    "language": "JavaScript/TypeScript",
+    "stars": 54011,
+    "starsGrowth": 14200796,
+    "forks": 9168,
+    "openIssues": 914,
+    "topics": [
+      "vue"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-23T02:40:52.804Z",
+    "updatedAt": "2026-07-23T02:40:52.804Z",
+    "homepage": "https://vuejs.org/",
+    "source": "npm",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-zustand-40e2e8fd",
+    "snapshot-gh-1305383508-d5a1c10d",
+    "snapshot-gh-1305663861-3494cae0",
+    "snapshot-gh-1302409680-a59b7212"
+  ],
+  "tags": [
+    "vue"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>vue</strong> is listed in our <em>Frontend</em> feed. The source describes it as: The progressive JavaScript framework for building modern web UI.</p>\n<p>The principal source-specific signal in this snapshot is <strong>14.2M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 14.2M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 54.0k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 9.2k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: vue</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/vue\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/vue</a></li>\n  <li>Homepage supplied by source: <a href=\"https://vuejs.org/\" rel=\"nofollow noopener\" target=\"_blank\">https://vuejs.org/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install vue</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/vue\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+}

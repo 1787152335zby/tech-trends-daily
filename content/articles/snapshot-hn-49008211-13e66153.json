@@ -1,0 +1,36 @@
+{
+  "slug": "snapshot-hn-49008211-13e66153",
+  "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab) (hn-49008211) — Hacker News Data Snapshot",
+  "description": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab) Hacker News story data snapshot: 675 Hacker News points at collection time. Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab).",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-07-22",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "hn-49008211",
+    "name": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+    "fullName": "hn:show-hn-bento-an-entire-powerpoint-in-one-html-file-edit-view-data-collab",
+    "url": "https://bento.page/slides/",
+    "description": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+    "language": "Various",
+    "stars": 675,
+    "starsGrowth": 675,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-07-22T15:19:23.000Z",
+    "updatedAt": "2026-07-22T15:19:23.000Z",
+    "homepage": "https://bento.page/slides/",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-astro-c7c0f5a3",
+    "snapshot-npm-pnpm-a24f2661",
+    "snapshot-npm-vitest-31b3b9a9",
+    "snapshot-npm-dayjs-98193aad"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public Hacker News story metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)</strong> is listed in our <em>Tools</em> feed. The source describes it as: Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab).</p>\n<p>The principal source-specific signal in this snapshot is <strong>675 Hacker News points at collection time</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 675</span><span class=\"stat-label\">Hacker News Points</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Various</strong></li>\n  <li>Primary source: <a href=\"https://bento.page/slides/\" rel=\"nofollow noopener\" target=\"_blank\">https://bento.page/slides/</a></li>\n  <li>Homepage supplied by source: <a href=\"https://bento.page/slides/\" rel=\"nofollow noopener\" target=\"_blank\">https://bento.page/slides/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat the recorded score as attention at collection time, not a product ranking.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Read in Context</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>"
+}

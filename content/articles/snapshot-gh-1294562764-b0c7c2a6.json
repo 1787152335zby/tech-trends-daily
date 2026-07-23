@@ -1,0 +1,55 @@
+{
+  "slug": "snapshot-gh-1294562764-b0c7c2a6",
+  "title": "pax-beehive/paxm — GitHub Project Data Snapshot",
+  "description": "paxm GitHub project data snapshot: 3 new GitHub stars in the recorded weekly window. Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-13",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1294562764",
+    "name": "paxm",
+    "fullName": "pax-beehive/paxm",
+    "url": "https://github.com/pax-beehive/paxm",
+    "description": "Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.",
+    "language": "Go",
+    "stars": 111,
+    "starsGrowth": 3,
+    "forks": 1,
+    "openIssues": 0,
+    "topics": [
+      "agent-memory",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "golang",
+      "local-first",
+      "mcp",
+      "opencode",
+      "sqlite"
+    ],
+    "license": "Apache-2.0",
+    "createdAt": "2026-07-09T02:40:57Z",
+    "updatedAt": "2026-07-15T18:49:18Z",
+    "homepage": "",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-fastify-73779c1b",
+    "snapshot-gh-1301140808-7937a8dd",
+    "snapshot-gh-1304937849-3f1610e5",
+    "snapshot-gh-1304027771-29a48573"
+  ],
+  "tags": [
+    "agent-memory",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "golang",
+    "local-first",
+    "mcp",
+    "opencode"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>paxm</strong> is listed in our <em>Backend</em> feed. The source describes it as: Persistent, provider-neutral memory for Codex, Claude Code, OpenCode, Pi, and MCP coding agents.</p>\n<p>The principal source-specific signal in this snapshot is <strong>3 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 111</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +3</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Go</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Source topics: agent-memory, ai-agents, claude-code, codex, golang, local-first, mcp, opencode</li>\n  <li>Primary source: <a href=\"https://github.com/pax-beehive/paxm\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/pax-beehive/paxm</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/pax-beehive/paxm</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

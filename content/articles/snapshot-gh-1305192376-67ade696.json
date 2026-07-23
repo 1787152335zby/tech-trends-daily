@@ -1,0 +1,50 @@
+{
+  "slug": "snapshot-gh-1305192376-67ade696",
+  "title": "joeseesun/qiaomu-cut-skill — GitHub Project Data Snapshot",
+  "description": "qiaomu-cut-skill GitHub project data snapshot: 1 new GitHub stars in the recorded weekly window. 乔木智能视频导演 Skill：素材治理、双语字幕、品牌包装与可复现渲染 | Agent-native video director with governed sourcing and verifiable rendering.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1305192376",
+    "name": "qiaomu-cut-skill",
+    "fullName": "joeseesun/qiaomu-cut-skill",
+    "url": "https://github.com/joeseesun/qiaomu-cut-skill",
+    "description": "乔木智能视频导演 Skill：素材治理、双语字幕、品牌包装与可复现渲染 | Agent-native video director with governed sourcing and verifiable rendering",
+    "language": "JavaScript",
+    "stars": 236,
+    "starsGrowth": 1,
+    "forks": 30,
+    "openIssues": 1,
+    "topics": [
+      "agent-skill",
+      "ai-video",
+      "ffmpeg",
+      "nodejs",
+      "subtitles",
+      "video-editing"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-18T20:00:46Z",
+    "updatedAt": "2026-07-23T00:33:31Z",
+    "homepage": "",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-zustand-40e2e8fd",
+    "snapshot-npm-vue-056515e9",
+    "snapshot-gh-1305383508-d5a1c10d",
+    "snapshot-gh-1305663861-3494cae0"
+  ],
+  "tags": [
+    "agent-skill",
+    "ai-video",
+    "ffmpeg",
+    "nodejs",
+    "subtitles",
+    "video-editing"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>qiaomu-cut-skill</strong> is listed in our <em>Frontend</em> feed. The source describes it as: 乔木智能视频导演 Skill：素材治理、双语字幕、品牌包装与可复现渲染 | Agent-native video director with governed sourcing and verifiable rendering.</p>\n<p>The principal source-specific signal in this snapshot is <strong>1 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 236</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +1</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 30</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: agent-skill, ai-video, ffmpeg, nodejs, subtitles, video-editing</li>\n  <li>Primary source: <a href=\"https://github.com/joeseesun/qiaomu-cut-skill\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/joeseesun/qiaomu-cut-skill</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/joeseesun/qiaomu-cut-skill</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

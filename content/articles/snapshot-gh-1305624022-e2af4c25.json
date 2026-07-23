@@ -1,0 +1,48 @@
+{
+  "slug": "snapshot-gh-1305624022-e2af4c25",
+  "title": "lyu0805/OpenBrowser — GitHub Project Data Snapshot",
+  "description": "OpenBrowser GitHub project data snapshot: 7 new GitHub stars in the recorded weekly window. 本地指纹浏览器 · 多环境隔离 · 代理 / 指纹 / 同步 / RPA.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1305624022",
+    "name": "OpenBrowser",
+    "fullName": "lyu0805/OpenBrowser",
+    "url": "https://github.com/lyu0805/OpenBrowser",
+    "description": "本地指纹浏览器 · 多环境隔离 · 代理 / 指纹 / 同步 / RPA",
+    "language": "JavaScript",
+    "stars": 245,
+    "starsGrowth": 7,
+    "forks": 52,
+    "openIssues": 1,
+    "topics": [
+      "chromium",
+      "electron",
+      "fingerprint-browser",
+      "proxy",
+      "rpa"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-19T10:41:16Z",
+    "updatedAt": "2026-07-23T02:16:39Z",
+    "homepage": "",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-zustand-40e2e8fd",
+    "snapshot-npm-vue-056515e9",
+    "snapshot-gh-1305383508-d5a1c10d",
+    "snapshot-gh-1305663861-3494cae0"
+  ],
+  "tags": [
+    "chromium",
+    "electron",
+    "fingerprint-browser",
+    "proxy",
+    "rpa"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>OpenBrowser</strong> is listed in our <em>Frontend</em> feed. The source describes it as: 本地指纹浏览器 · 多环境隔离 · 代理 / 指纹 / 同步 / RPA.</p>\n<p>The principal source-specific signal in this snapshot is <strong>7 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 245</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +7</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 52</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: chromium, electron, fingerprint-browser, proxy, rpa</li>\n  <li>Primary source: <a href=\"https://github.com/lyu0805/OpenBrowser\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/lyu0805/OpenBrowser</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/lyu0805/OpenBrowser</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

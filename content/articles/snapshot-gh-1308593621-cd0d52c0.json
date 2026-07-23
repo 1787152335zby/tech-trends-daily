@@ -1,0 +1,36 @@
+{
+  "slug": "snapshot-gh-1308593621-cd0d52c0",
+  "title": "neural-maze/production-ocr-course — GitHub Project Data Snapshot",
+  "description": "production-ocr-course GitHub project data snapshot: 61 new GitHub stars in the recorded weekly window. Build, deploy, and scale a production-grade OCR pipeline using Rust, vLLM, Redis, KEDA, and Kubernetes.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-23",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1308593621",
+    "name": "production-ocr-course",
+    "fullName": "neural-maze/production-ocr-course",
+    "url": "https://github.com/neural-maze/production-ocr-course",
+    "description": "Build, deploy, and scale a production-grade OCR pipeline using Rust, vLLM, Redis, KEDA, and Kubernetes.",
+    "language": "Rust",
+    "stars": 61,
+    "starsGrowth": 61,
+    "forks": 23,
+    "openIssues": 0,
+    "topics": [],
+    "license": "Apache-2.0",
+    "createdAt": "2026-07-22T08:50:00Z",
+    "updatedAt": "2026-07-23T02:24:03Z",
+    "homepage": "",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-fastify-73779c1b",
+    "snapshot-gh-1301140808-7937a8dd",
+    "snapshot-gh-1304937849-3f1610e5",
+    "snapshot-gh-1304027771-29a48573"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>production-ocr-course</strong> is listed in our <em>Backend</em> feed. The source describes it as: Build, deploy, and scale a production-grade OCR pipeline using Rust, vLLM, Redis, KEDA, and Kubernetes.</p>\n<p>The principal source-specific signal in this snapshot is <strong>61 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 61</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +61</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 23</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Rust</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Primary source: <a href=\"https://github.com/neural-maze/production-ocr-course\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/neural-maze/production-ocr-course</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/neural-maze/production-ocr-course</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "snapshot-npm-valtio-7e5240ac",
+  "title": "valtio — NPM Package Data Snapshot",
+  "description": "valtio NPM package data snapshot: 0 downloads in the recorded weekly NPM window. 🧙 Valtio makes proxy-state simple for React and Vanilla.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-06-27",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-valtio",
+    "name": "valtio",
+    "fullName": "npm:valtio",
+    "url": "https://www.npmjs.com/package/valtio",
+    "description": "🧙 Valtio makes proxy-state simple for React and Vanilla",
+    "language": "JavaScript/TypeScript",
+    "stars": 10211,
+    "starsGrowth": 0,
+    "forks": 289,
+    "openIssues": 5,
+    "topics": [
+      "react",
+      "state",
+      "manager",
+      "management",
+      "mobx",
+      "proxy",
+      "store"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-23T02:41:13.047Z",
+    "updatedAt": "2026-07-23T02:41:13.047Z",
+    "homepage": "https://github.com/pmndrs/valtio",
+    "source": "npm",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-zustand-40e2e8fd",
+    "snapshot-npm-vue-056515e9",
+    "snapshot-gh-1305383508-d5a1c10d",
+    "snapshot-gh-1305663861-3494cae0"
+  ],
+  "tags": [
+    "react",
+    "state",
+    "manager",
+    "management",
+    "mobx",
+    "proxy",
+    "store"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>valtio</strong> is listed in our <em>Frontend</em> feed. The source describes it as: 🧙 Valtio makes proxy-state simple for React and Vanilla.</p>\n<p>The principal source-specific signal in this snapshot is <strong>0 downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 0</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 10.2k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 289</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: react, state, manager, management, mobx, proxy, store</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/valtio\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/valtio</a></li>\n  <li>Homepage supplied by source: <a href=\"https://github.com/pmndrs/valtio\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/pmndrs/valtio</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install valtio</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/valtio\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+}

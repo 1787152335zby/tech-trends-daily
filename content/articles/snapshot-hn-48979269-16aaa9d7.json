@@ -1,0 +1,36 @@
+{
+  "slug": "snapshot-hn-48979269-16aaa9d7",
+  "title": "China’s open-weights AI strategy is winning (hn-48979269) — Hacker News Data Snapshot",
+  "description": "China’s open-weights AI strategy is winning Hacker News story data snapshot: 1.2k Hacker News points at collection time. China’s open-weights AI strategy is winning.",
+  "category": "ai-ml",
+  "type": "trend",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "hn-48979269",
+    "name": "China’s open-weights AI strategy is winning",
+    "fullName": "hn:china-s-open-weights-ai-strategy-is-winning",
+    "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+    "description": "China’s open-weights AI strategy is winning",
+    "language": "Various",
+    "stars": 1160,
+    "starsGrowth": 1160,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-07-20T14:21:47.000Z",
+    "updatedAt": "2026-07-20T14:21:47.000Z",
+    "homepage": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+    "source": "hackernews",
+    "category": "ai-ml"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-openai-7aaa84e3",
+    "snapshot-npm-ai-d26cf95d",
+    "snapshot-npm-langchain-5001809c",
+    "snapshot-npm-chromadb-0667c152"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public Hacker News story metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>China’s open-weights AI strategy is winning</strong> is listed in our <em>AI &amp; ML</em> feed. The source describes it as: China’s open-weights AI strategy is winning.</p>\n<p>The principal source-specific signal in this snapshot is <strong>1.2k Hacker News points at collection time</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 1.2k</span><span class=\"stat-label\">Hacker News Points</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Various</strong></li>\n  <li>Primary source: <a href=\"https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/\" rel=\"nofollow noopener\" target=\"_blank\">https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/</a></li>\n  <li>Homepage supplied by source: <a href=\"https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/\" rel=\"nofollow noopener\" target=\"_blank\">https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat the recorded score as attention at collection time, not a product ranking.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Read in Context</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>"
+}

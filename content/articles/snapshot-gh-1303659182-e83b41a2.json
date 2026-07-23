@@ -1,0 +1,50 @@
+{
+  "slug": "snapshot-gh-1303659182-e83b41a2",
+  "title": "shigella520/MindTrain — GitHub Project Data Snapshot",
+  "description": "MindTrain GitHub project data snapshot: 2 new GitHub stars in the recorded weekly window. AI-driven knowledge training platform with pluggable schedulers, Codex Skill integration, and optional Anki/FSRS support.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-21",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1303659182",
+    "name": "MindTrain",
+    "fullName": "shigella520/MindTrain",
+    "url": "https://github.com/shigella520/MindTrain",
+    "description": "AI-driven knowledge training platform with pluggable schedulers, Codex Skill integration, and optional Anki/FSRS support.",
+    "language": "Java",
+    "stars": 69,
+    "starsGrowth": 2,
+    "forks": 4,
+    "openIssues": 0,
+    "topics": [
+      "ai-learning",
+      "codex-plugin",
+      "edtech",
+      "knowledge-training",
+      "mcp-server",
+      "openai-codex"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-17T06:42:34Z",
+    "updatedAt": "2026-07-23T01:34:13Z",
+    "homepage": "https://mindtrain.jianyutan.com/",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-fastify-73779c1b",
+    "snapshot-gh-1301140808-7937a8dd",
+    "snapshot-gh-1304937849-3f1610e5",
+    "snapshot-gh-1304027771-29a48573"
+  ],
+  "tags": [
+    "ai-learning",
+    "codex-plugin",
+    "edtech",
+    "knowledge-training",
+    "mcp-server",
+    "openai-codex"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>MindTrain</strong> is listed in our <em>Backend</em> feed. The source describes it as: AI-driven knowledge training platform with pluggable schedulers, Codex Skill integration, and optional Anki/FSRS support.</p>\n<p>The principal source-specific signal in this snapshot is <strong>2 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 69</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +2</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 4</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Java</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: ai-learning, codex-plugin, edtech, knowledge-training, mcp-server, openai-codex</li>\n  <li>Primary source: <a href=\"https://github.com/shigella520/MindTrain\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/shigella520/MindTrain</a></li>\n  <li>Homepage supplied by source: <a href=\"https://mindtrain.jianyutan.com/\" rel=\"nofollow noopener\" target=\"_blank\">https://mindtrain.jianyutan.com/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/shigella520/MindTrain</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "snapshot-gh-1298189234-2d00b04e",
+  "title": "mereyabdenbekuly-ctrl/clodex-ide — GitHub Project Data Snapshot",
+  "description": "clodex-ide GitHub project data snapshot: 2 new GitHub stars in the recorded weekly window. Local-first, zero-trust agentic IDE for verifiable autonomous software development.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-12",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1298189234",
+    "name": "clodex-ide",
+    "fullName": "mereyabdenbekuly-ctrl/clodex-ide",
+    "url": "https://github.com/mereyabdenbekuly-ctrl/clodex-ide",
+    "description": "Local-first, zero-trust agentic IDE for verifiable autonomous software development.",
+    "language": "TypeScript",
+    "stars": 837,
+    "starsGrowth": 2,
+    "forks": 152,
+    "openIssues": 1,
+    "topics": [
+      "agentic-ai",
+      "agentic-ide",
+      "ai-agents",
+      "developer-tools",
+      "electron",
+      "ide",
+      "local-first",
+      "typescript",
+      "zero-trust"
+    ],
+    "license": "AGPL-3.0",
+    "createdAt": "2026-07-12T10:35:44Z",
+    "updatedAt": "2026-07-18T18:09:02Z",
+    "homepage": "https://ide.clodex.xyz",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-zustand-40e2e8fd",
+    "snapshot-npm-vue-056515e9",
+    "snapshot-gh-1305383508-d5a1c10d",
+    "snapshot-gh-1305663861-3494cae0"
+  ],
+  "tags": [
+    "agentic-ai",
+    "agentic-ide",
+    "ai-agents",
+    "developer-tools",
+    "electron",
+    "ide",
+    "local-first",
+    "typescript"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>clodex-ide</strong> is listed in our <em>Frontend</em> feed. The source describes it as: Local-first, zero-trust agentic IDE for verifiable autonomous software development.</p>\n<p>The principal source-specific signal in this snapshot is <strong>2 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 837</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +2</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 152</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>TypeScript</strong></li>\n  <li>Reported license: <strong>AGPL-3.0</strong></li>\n  <li>Source topics: agentic-ai, agentic-ide, ai-agents, developer-tools, electron, ide, local-first, typescript</li>\n  <li>Primary source: <a href=\"https://github.com/mereyabdenbekuly-ctrl/clodex-ide\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/mereyabdenbekuly-ctrl/clodex-ide</a></li>\n  <li>Homepage supplied by source: <a href=\"https://ide.clodex.xyz\" rel=\"nofollow noopener\" target=\"_blank\">https://ide.clodex.xyz</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/mereyabdenbekuly-ctrl/clodex-ide</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

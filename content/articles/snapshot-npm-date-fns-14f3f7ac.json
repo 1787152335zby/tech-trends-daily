@@ -1,0 +1,36 @@
+{
+  "slug": "snapshot-npm-date-fns-14f3f7ac",
+  "title": "date-fns — NPM Package Data Snapshot",
+  "description": "date-fns NPM package data snapshot: 0 downloads in the recorded weekly NPM window. Modern JavaScript date utility library.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-06-27",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-date-fns",
+    "name": "date-fns",
+    "fullName": "npm:date-fns",
+    "url": "https://www.npmjs.com/package/date-fns",
+    "description": "Modern JavaScript date utility library",
+    "language": "JavaScript/TypeScript",
+    "stars": 0,
+    "starsGrowth": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "MIT",
+    "createdAt": "2026-07-23T02:41:17.002Z",
+    "updatedAt": "2026-07-23T02:41:17.002Z",
+    "homepage": "",
+    "source": "npm",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-astro-c7c0f5a3",
+    "snapshot-npm-pnpm-a24f2661",
+    "snapshot-npm-vitest-31b3b9a9",
+    "snapshot-npm-dayjs-98193aad"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>date-fns</strong> is listed in our <em>Tools</em> feed. The source describes it as: Modern JavaScript date utility library.</p>\n<p>The principal source-specific signal in this snapshot is <strong>0 downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 0</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/date-fns\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/date-fns</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install date-fns</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/date-fns\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+}

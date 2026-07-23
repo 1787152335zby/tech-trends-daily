@@ -1,0 +1,60 @@
+{
+  "slug": "snapshot-gh-1305663861-3494cae0",
+  "title": "Vincentwei1021/video-shotcraft — GitHub Project Data Snapshot",
+  "description": "video-shotcraft GitHub project data snapshot: 27 new GitHub stars in the recorded weekly window. AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews….",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-21",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1305663861",
+    "name": "video-shotcraft",
+    "fullName": "Vincentwei1021/video-shotcraft",
+    "url": "https://github.com/Vincentwei1021/video-shotcraft",
+    "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template",
+    "language": "TypeScript",
+    "stars": 529,
+    "starsGrowth": 27,
+    "forks": 38,
+    "openIssues": 1,
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "ai-video",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "motion-design",
+      "motion-graphics",
+      "product-video",
+      "promo-video",
+      "remotion",
+      "video-generation",
+      "video-production"
+    ],
+    "license": "Apache-2.0",
+    "createdAt": "2026-07-19T11:44:41Z",
+    "updatedAt": "2026-07-23T02:03:42Z",
+    "homepage": "https://vincentwei1021.github.io/video-shotcraft/",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-zustand-40e2e8fd",
+    "snapshot-npm-vue-056515e9",
+    "snapshot-gh-1305383508-d5a1c10d",
+    "snapshot-gh-1302409680-a59b7212"
+  ],
+  "tags": [
+    "agent-skills",
+    "ai-agents",
+    "ai-video",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "motion-design"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>video-shotcraft</strong> is listed in our <em>Frontend</em> feed. The source describes it as: AI video skill for Claude Code &amp; Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template.</p>\n<p>The principal source-specific signal in this snapshot is <strong>27 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 529</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +27</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 38</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>TypeScript</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Source topics: agent-skills, ai-agents, ai-video, claude-code, claude-code-skills, claude-skills, codex, motion-design</li>\n  <li>Primary source: <a href=\"https://github.com/Vincentwei1021/video-shotcraft\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/Vincentwei1021/video-shotcraft</a></li>\n  <li>Homepage supplied by source: <a href=\"https://vincentwei1021.github.io/video-shotcraft/\" rel=\"nofollow noopener\" target=\"_blank\">https://vincentwei1021.github.io/video-shotcraft/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/Vincentwei1021/video-shotcraft</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

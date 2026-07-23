@@ -1,0 +1,48 @@
+{
+  "slug": "snapshot-npm-dayjs-98193aad",
+  "title": "dayjs — NPM Package Data Snapshot",
+  "description": "dayjs NPM package data snapshot: 61.2M downloads in the recorded weekly NPM window. 2KB immutable date time library alternative to Moment.js with the same modern API.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-06-27",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-dayjs",
+    "name": "dayjs",
+    "fullName": "npm:dayjs",
+    "url": "https://www.npmjs.com/package/dayjs",
+    "description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
+    "language": "JavaScript/TypeScript",
+    "stars": 48663,
+    "starsGrowth": 61211038,
+    "forks": 2454,
+    "openIssues": 1289,
+    "topics": [
+      "dayjs",
+      "date",
+      "time",
+      "immutable",
+      "moment"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-23T02:41:17.145Z",
+    "updatedAt": "2026-07-23T02:41:17.145Z",
+    "homepage": "https://day.js.org",
+    "source": "npm",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-astro-c7c0f5a3",
+    "snapshot-npm-pnpm-a24f2661",
+    "snapshot-npm-vitest-31b3b9a9",
+    "snapshot-npm-esbuild-ad8a9326"
+  ],
+  "tags": [
+    "dayjs",
+    "date",
+    "time",
+    "immutable",
+    "moment"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>dayjs</strong> is listed in our <em>Tools</em> feed. The source describes it as: 2KB immutable date time library alternative to Moment.js with the same modern API.</p>\n<p>The principal source-specific signal in this snapshot is <strong>61.2M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 61.2M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 48.7k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 2.5k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: dayjs, date, time, immutable, moment</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/dayjs\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/dayjs</a></li>\n  <li>Homepage supplied by source: <a href=\"https://day.js.org\" rel=\"nofollow noopener\" target=\"_blank\">https://day.js.org</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install dayjs</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/dayjs\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+}

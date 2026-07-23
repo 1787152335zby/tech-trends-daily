@@ -1,0 +1,54 @@
+{
+  "slug": "snapshot-npm-tsx-0103a257",
+  "title": "tsx — NPM Package Data Snapshot",
+  "description": "tsx NPM package data snapshot: 80.4M downloads in the recorded weekly NPM window. TypeScript Execute (tsx): Node.js enhanced with esbuild to run TypeScript & ESM files.",
+  "category": "language",
+  "type": "trend",
+  "publishedAt": "2026-06-27",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-tsx",
+    "name": "tsx",
+    "fullName": "npm:tsx",
+    "url": "https://www.npmjs.com/package/tsx",
+    "description": "TypeScript Execute (tsx): Node.js enhanced with esbuild to run TypeScript & ESM files",
+    "language": "JavaScript/TypeScript",
+    "stars": 12054,
+    "starsGrowth": 80420150,
+    "forks": 246,
+    "openIssues": 129,
+    "topics": [
+      "cli",
+      "runtime",
+      "node",
+      "cjs",
+      "commonjs",
+      "esm",
+      "typescript",
+      "typescript runner"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-23T02:41:00.494Z",
+    "updatedAt": "2026-07-23T02:41:00.494Z",
+    "homepage": "https://tsx.hirok.io",
+    "source": "npm",
+    "category": "language"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-typescript-7bdc05ac",
+    "snapshot-npm-zod-d3c81d4c",
+    "snapshot-npm-valibot-b248fc05",
+    "snapshot-npm-typebox-f621feee"
+  ],
+  "tags": [
+    "cli",
+    "runtime",
+    "node",
+    "cjs",
+    "commonjs",
+    "esm",
+    "typescript",
+    "typescript runner"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>tsx</strong> is listed in our <em>Programming Languages</em> feed. The source describes it as: TypeScript Execute (tsx): Node.js enhanced with esbuild to run TypeScript &amp; ESM files.</p>\n<p>The principal source-specific signal in this snapshot is <strong>80.4M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 80.4M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 12.1k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 246</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: cli, runtime, node, cjs, commonjs, esm, typescript, typescript runner</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/tsx\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/tsx</a></li>\n  <li>Homepage supplied by source: <a href=\"https://tsx.hirok.io\" rel=\"nofollow noopener\" target=\"_blank\">https://tsx.hirok.io</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install tsx</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/tsx\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+}

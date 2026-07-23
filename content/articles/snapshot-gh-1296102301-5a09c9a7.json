@@ -1,0 +1,36 @@
+{
+  "slug": "snapshot-gh-1296102301-5a09c9a7",
+  "title": "Jane-xiaoer/paper-collage-ad-codex — GitHub Project Data Snapshot",
+  "description": "paper-collage-ad-codex GitHub project data snapshot: 1 new GitHub stars in the recorded weekly window. Codex skill for complete paper-cut collage ad production, local IndexTTS-2 voice cloning, animation, audio and MP4 QC.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-12",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1296102301",
+    "name": "paper-collage-ad-codex",
+    "fullName": "Jane-xiaoer/paper-collage-ad-codex",
+    "url": "https://github.com/Jane-xiaoer/paper-collage-ad-codex",
+    "description": "Codex skill for complete paper-cut collage ad production, local IndexTTS-2 voice cloning, animation, audio and MP4 QC",
+    "language": "JavaScript",
+    "stars": 279,
+    "starsGrowth": 1,
+    "forks": 38,
+    "openIssues": 0,
+    "topics": [],
+    "license": "MIT",
+    "createdAt": "2026-07-10T05:50:11Z",
+    "updatedAt": "2026-07-16T15:06:28Z",
+    "homepage": "",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-zustand-40e2e8fd",
+    "snapshot-npm-vue-056515e9",
+    "snapshot-gh-1305383508-d5a1c10d",
+    "snapshot-gh-1305663861-3494cae0"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>paper-collage-ad-codex</strong> is listed in our <em>Frontend</em> feed. The source describes it as: Codex skill for complete paper-cut collage ad production, local IndexTTS-2 voice cloning, animation, audio and MP4 QC.</p>\n<p>The principal source-specific signal in this snapshot is <strong>1 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 279</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +1</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 38</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Primary source: <a href=\"https://github.com/Jane-xiaoer/paper-collage-ad-codex\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/Jane-xiaoer/paper-collage-ad-codex</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/Jane-xiaoer/paper-collage-ad-codex</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

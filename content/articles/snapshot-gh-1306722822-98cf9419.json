@@ -1,0 +1,52 @@
+{
+  "slug": "snapshot-gh-1306722822-98cf9419",
+  "title": "powerycy/goutoujunshi — GitHub Project Data Snapshot",
+  "description": "goutoujunshi GitHub project data snapshot: 28 new GitHub stars in the recorded weekly window. 一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-21",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1306722822",
+    "name": "goutoujunshi",
+    "fullName": "powerycy/goutoujunshi",
+    "url": "https://github.com/powerycy/goutoujunshi",
+    "description": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
+    "language": "Python",
+    "stars": 535,
+    "starsGrowth": 28,
+    "forks": 68,
+    "openIssues": 3,
+    "topics": [
+      "ai-agent",
+      "chinese",
+      "codex",
+      "codex-skill",
+      "lgbtq",
+      "psychology",
+      "relationship-advice"
+    ],
+    "license": "NOASSERTION",
+    "createdAt": "2026-07-20T14:58:48Z",
+    "updatedAt": "2026-07-23T02:35:28Z",
+    "homepage": "",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-fastify-73779c1b",
+    "snapshot-gh-1301140808-7937a8dd",
+    "snapshot-gh-1304937849-3f1610e5",
+    "snapshot-gh-1304027771-29a48573"
+  ],
+  "tags": [
+    "ai-agent",
+    "chinese",
+    "codex",
+    "codex-skill",
+    "lgbtq",
+    "psychology",
+    "relationship-advice"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>goutoujunshi</strong> is listed in our <em>Backend</em> feed. The source describes it as: 一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。.</p>\n<p>The principal source-specific signal in this snapshot is <strong>28 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 535</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +28</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 68</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 3</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Python</strong></li>\n  <li>Reported license: <strong>NOASSERTION</strong></li>\n  <li>Source topics: ai-agent, chinese, codex, codex-skill, lgbtq, psychology, relationship-advice</li>\n  <li>Primary source: <a href=\"https://github.com/powerycy/goutoujunshi\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/powerycy/goutoujunshi</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/powerycy/goutoujunshi</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

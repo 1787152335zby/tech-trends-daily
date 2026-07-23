@@ -1,0 +1,36 @@
+{
+  "slug": "snapshot-hn-49010129-9def9538",
+  "title": "Are AI Labs Pelicanmaxxing? (hn-49010129) — Hacker News Data Snapshot",
+  "description": "Are AI Labs Pelicanmaxxing? Hacker News story data snapshot: 408 Hacker News points at collection time. Are AI Labs Pelicanmaxxing.",
+  "category": "ai-ml",
+  "type": "trend",
+  "publishedAt": "2026-07-22",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "hn-49010129",
+    "name": "Are AI Labs Pelicanmaxxing?",
+    "fullName": "hn:are-ai-labs-pelicanmaxxing",
+    "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+    "description": "Are AI Labs Pelicanmaxxing?",
+    "language": "Various",
+    "stars": 408,
+    "starsGrowth": 408,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-07-22T17:17:54.000Z",
+    "updatedAt": "2026-07-22T17:17:54.000Z",
+    "homepage": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+    "source": "hackernews",
+    "category": "ai-ml"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-openai-7aaa84e3",
+    "snapshot-npm-ai-d26cf95d",
+    "snapshot-npm-langchain-5001809c",
+    "snapshot-npm-chromadb-0667c152"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public Hacker News story metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>Are AI Labs Pelicanmaxxing?</strong> is listed in our <em>AI &amp; ML</em> feed. The source describes it as: Are AI Labs Pelicanmaxxing.</p>\n<p>The principal source-specific signal in this snapshot is <strong>408 Hacker News points at collection time</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 408</span><span class=\"stat-label\">Hacker News Points</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Various</strong></li>\n  <li>Primary source: <a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\" rel=\"nofollow noopener\" target=\"_blank\">https://dylancastillo.co/posts/pelicanmaxxing.html</a></li>\n  <li>Homepage supplied by source: <a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\" rel=\"nofollow noopener\" target=\"_blank\">https://dylancastillo.co/posts/pelicanmaxxing.html</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat the recorded score as attention at collection time, not a product ranking.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Read in Context</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>"
+}

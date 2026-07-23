@@ -1,0 +1,50 @@
+{
+  "slug": "snapshot-gh-1296250451-8425d222",
+  "title": "ucsandman/marketing-studio — GitHub Project Data Snapshot",
+  "description": "marketing-studio GitHub project data snapshot: 11 new GitHub stars in the recorded weekly window. Agent-driven marketing studio for Claude Code: one /marketing command renders your product's full launch asset suite (logo….",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-13",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1296250451",
+    "name": "marketing-studio",
+    "fullName": "ucsandman/marketing-studio",
+    "url": "https://github.com/ucsandman/marketing-studio",
+    "description": "Agent-driven marketing studio for Claude Code: one /marketing command renders your product's full launch asset suite (logo reveal, demo, launch video, social clips, OG assets)",
+    "language": "JavaScript",
+    "stars": 144,
+    "starsGrowth": 11,
+    "forks": 21,
+    "openIssues": 1,
+    "topics": [
+      "ai-agents",
+      "blender",
+      "claude-code",
+      "marketing",
+      "remotion",
+      "video-generation"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-10T08:00:22Z",
+    "updatedAt": "2026-07-16T18:54:16Z",
+    "homepage": "",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-zustand-40e2e8fd",
+    "snapshot-npm-vue-056515e9",
+    "snapshot-gh-1305383508-d5a1c10d",
+    "snapshot-gh-1305663861-3494cae0"
+  ],
+  "tags": [
+    "ai-agents",
+    "blender",
+    "claude-code",
+    "marketing",
+    "remotion",
+    "video-generation"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>marketing-studio</strong> is listed in our <em>Frontend</em> feed. The source describes it as: Agent-driven marketing studio for Claude Code: one /marketing command renders your product's full launch asset suite (logo reveal, demo, launch video, social clips, OG assets).</p>\n<p>The principal source-specific signal in this snapshot is <strong>11 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 144</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +11</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 21</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: ai-agents, blender, claude-code, marketing, remotion, video-generation</li>\n  <li>Primary source: <a href=\"https://github.com/ucsandman/marketing-studio\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/ucsandman/marketing-studio</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/ucsandman/marketing-studio</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>"
+}

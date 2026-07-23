@@ -1,0 +1,48 @@
+{
+  "slug": "snapshot-npm-svelte-dd295d10",
+  "title": "svelte — NPM Package Data Snapshot",
+  "description": "svelte NPM package data snapshot: 5.2M downloads in the recorded weekly NPM window. Cybernetically enhanced web apps.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-06-28",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-svelte",
+    "name": "svelte",
+    "fullName": "npm:svelte",
+    "url": "https://www.npmjs.com/package/svelte",
+    "description": "Cybernetically enhanced web apps",
+    "language": "JavaScript/TypeScript",
+    "stars": 87650,
+    "starsGrowth": 5206029,
+    "forks": 5052,
+    "openIssues": 1093,
+    "topics": [
+      "svelte",
+      "UI",
+      "framework",
+      "templates",
+      "templating"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-23T02:40:53.295Z",
+    "updatedAt": "2026-07-23T02:40:53.295Z",
+    "homepage": "https://svelte.dev",
+    "source": "npm",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "snapshot-npm-zustand-40e2e8fd",
+    "snapshot-npm-vue-056515e9",
+    "snapshot-gh-1305383508-d5a1c10d",
+    "snapshot-gh-1305663861-3494cae0"
+  ],
+  "tags": [
+    "svelte",
+    "UI",
+    "framework",
+    "templates",
+    "templating"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public NPM package metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>svelte</strong> is listed in our <em>Frontend</em> feed. The source describes it as: Cybernetically enhanced web apps.</p>\n<p>The principal source-specific signal in this snapshot is <strong>5.2M downloads in the recorded weekly NPM window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 5.2M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 87.7k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 5.1k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript/TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: svelte, UI, framework, templates, templating</li>\n  <li>Primary source: <a href=\"https://www.npmjs.com/package/svelte\" rel=\"nofollow noopener\" target=\"_blank\">https://www.npmjs.com/package/svelte</a></li>\n  <li>Homepage supplied by source: <a href=\"https://svelte.dev\" rel=\"nofollow noopener\" target=\"_blank\">https://svelte.dev</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat download volume as distribution activity, not unique users or GitHub growth.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>npm install svelte</code></div>\n<p>Check the <a href=\"https://www.npmjs.com/package/svelte\" rel=\"nofollow noopener\" target=\"_blank\">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>"
+}
