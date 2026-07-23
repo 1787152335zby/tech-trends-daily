@@ -45,12 +45,14 @@ export default function EditorialPolicyPage() {
           source linked from each article.
         </p>
         <p>
-          Searchable guides are organized around reader questions: what a
-          project does, who it may help, why it is receiving attention, how to
-          evaluate it, and which limitations matter. Raw records remain
-          available in a supporting source section. Pages that have not passed
-          the current evidence and editorial thresholds are excluded from
-          discovery pages and marked not to be indexed by search engines.
+          Searchable tool guides are organized around decisions: a quick
+          verdict, best-fit uses, reasons to skip a tool, setup checks,
+          maintenance signals, and limitations. Discussion guides summarize
+          the linked source or discussion text before explaining attention and
+          verification questions. Raw records remain available in a supporting
+          source section. Pages that have not passed the current evidence and
+          editorial thresholds are excluded from discovery pages and marked
+          not to be indexed by search engines.
         </p>
 
         <h2>Selection and ranking</h2>
@@ -59,7 +61,11 @@ export default function EditorialPolicyPage() {
           practitioners, category fit, source completeness, and the amount of
           verifiable evidence available. The workflow may publish fewer items
           than its configured daily limit when candidates do not meet the
-          quality threshold. Trend figures are a point-in-time snapshot and may
+          quality threshold. The homepage trend view balances GitHub, npm, and
+          Hacker News rather than allowing one source to dominate. It combines
+          source-appropriate activity with release, publication, repository,
+          or push recency. Missing metrics are labeled unavailable rather than
+          displayed as zero. Figures remain point-in-time records and may
           change after publication. Inclusion is not an endorsement.
         </p>
 

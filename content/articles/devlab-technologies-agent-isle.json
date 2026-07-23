@@ -1,0 +1,57 @@
+{
+  "slug": "devlab-technologies-agent-isle",
+  "title": "DevLab-Technologies/agent-isle — GitHub Project Data Snapshot",
+  "description": "agent-isle GitHub project data snapshot: 1 new GitHub stars in the recorded weekly window. A Dynamic Island for your coding agents — a native macOS notch monitor for Claude Code, Grok, Copilot and more. Monitor….",
+  "category": "mobile",
+  "type": "trend",
+  "publishedAt": "2026-07-21",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1305828240",
+    "name": "agent-isle",
+    "fullName": "DevLab-Technologies/agent-isle",
+    "url": "https://github.com/DevLab-Technologies/agent-isle",
+    "description": "A Dynamic Island for your coding agents — a native macOS notch monitor for Claude Code, Grok, Copilot and more. Monitor, approve, and jump back without leaving your flow.",
+    "language": "Swift",
+    "stars": 40,
+    "starsGrowth": 1,
+    "forks": 3,
+    "openIssues": 2,
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "copilot",
+      "developer-tools",
+      "dynamic-island",
+      "macos",
+      "menubar",
+      "notch",
+      "swift",
+      "swiftui"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-19T15:44:09Z",
+    "updatedAt": "2026-07-22T21:06:38Z",
+    "homepage": "",
+    "source": "github",
+    "category": "mobile"
+  },
+  "relatedSlugs": [
+    "blaizzy-nativ",
+    "finnmckenty-ntscrt",
+    "hxreborn-playstore-adblock",
+    "hxreborn-morphe-patches"
+  ],
+  "tags": [
+    "ai-agents",
+    "claude-code",
+    "copilot",
+    "developer-tools",
+    "dynamic-island",
+    "macos",
+    "menubar",
+    "notch"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>agent-isle</strong> is listed in our <em>Mobile</em> feed. The source describes it as: A Dynamic Island for your coding agents — a native macOS notch monitor for Claude Code, Grok, Copilot and more. Monitor, approve, and jump back without leaving your flow.</p>\n<p>The principal source-specific signal in this snapshot is <strong>1 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 40</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +1</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 3</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 2</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Swift</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: ai-agents, claude-code, copilot, developer-tools, dynamic-island, macos, menubar, notch</li>\n  <li>Primary source: <a href=\"https://github.com/DevLab-Technologies/agent-isle\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/DevLab-Technologies/agent-isle</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/DevLab-Technologies/agent-isle</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

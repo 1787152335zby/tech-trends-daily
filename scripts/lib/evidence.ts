@@ -565,6 +565,14 @@ async function collectGitHubEvidence(
   );
   addEvidence(
     evidence,
+    "Repository summary",
+    cleanText(repository.description),
+    apiUrl,
+    fetchedAt,
+    "documentation",
+  );
+  addEvidence(
+    evidence,
     "GitHub stars",
     finiteNumber(repository.stargazers_count),
     apiUrl,
@@ -723,9 +731,11 @@ async function collectNpmEvidence(
       // sufficient when the site is unavailable or blocks automated requests.
     }
   }
+  const registrySummary = cleanText(registry.description);
   const documentationSummary =
-    cleanText(registry.description)
+    (registrySummary.length >= 40 ? registrySummary : "")
     || readmeSummary(registry.readme)
+    || registrySummary
     || homepageSummary;
   const evidence: EvidenceItem[] = [];
   addEvidence(
@@ -893,11 +903,63 @@ async function collectHackerNewsEvidence(
   if (!item) throw new Error("Hacker News item metadata was unavailable");
 
   const evidence: EvidenceItem[] = [];
+  const originalSourceUrl = validHttpUrl(item.url);
+  const discussionText = cleanText(item.text, 700);
+  let originalSourceSummary = "";
+  const warnings = [
+    "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+    NO_TESTING_WARNING,
+  ];
+  if (
+    originalSourceUrl &&
+    !originalSourceUrl.startsWith("https://news.ycombinator.com/")
+  ) {
+    try {
+      originalSourceSummary = htmlDescription(
+        await fetchText(originalSourceUrl, {
+          fetchImpl,
+          timeoutMs,
+          headers: {
+            Accept: "text/html",
+            "User-Agent": "TechTrends-Daily-Evidence-Collector",
+          },
+        }),
+      );
+    } catch (error) {
+      warnings.push(
+        `The linked article summary could not be collected: ${safeErrorMessage(error)}`,
+      );
+    }
+  }
   addEvidence(
     evidence,
     "Hacker News item",
     item.id,
     apiUrl,
+    fetchedAt,
+    "discussion",
+  );
+  addEvidence(
+    evidence,
+    "Story title",
+    item.title,
+    discussionUrl,
+    fetchedAt,
+    "discussion",
+  );
+  addEvidence(
+    evidence,
+    "Original source summary",
+    originalSourceSummary,
+    originalSourceUrl ?? discussionUrl,
+    fetchedAt,
+    "documentation",
+  );
+  addEvidence(
+    evidence,
+    "Discussion text",
+    discussionText,
+    discussionUrl,
     fetchedAt,
     "discussion",
   );
@@ -934,25 +996,26 @@ async function collectHackerNewsEvidence(
     "discussion",
   );
 
-  const warnings = [
-    "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
-    NO_TESTING_WARNING,
-  ];
   if (item.dead || item.deleted) {
     warnings.unshift("The Hacker News API marks this item as dead or deleted.");
   }
+
+  const title = cleanText(item.title, 240);
+  const readerSummary = originalSourceSummary || discussionText;
 
   return finalizeEvidencePack({
     sourceId: repo.id,
     source: repo.source,
     fetchedAt,
     summary:
-      cleanText(item.title ?? item.text) ||
+      (readerSummary
+        ? `${title || repo.name}. ${readerSummary}`
+        : title) ||
       `${repo.name} Hacker News discussion; no title or text was available.`,
     officialUrls: uniqueStrings([
       discussionUrl,
       apiUrl,
-      validHttpUrl(item.url),
+      originalSourceUrl,
     ]),
     evidence,
     warnings,
@@ -964,7 +1027,7 @@ function cachePath(cacheDir: string, repo: RepoData): string {
     .update(`${repo.source}:${repo.id}`)
     .digest("hex")
     .slice(0, 24);
-  return path.join(cacheDir, `v3-${repo.source}-${digest}.json`);
+  return path.join(cacheDir, `v6-${repo.source}-${digest}.json`);
 }
 
 function isEvidencePack(value: unknown): value is EvidencePack {

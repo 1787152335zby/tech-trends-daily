@@ -1,0 +1,55 @@
+{
+  "slug": "taovietducofficial-sql-mysql-beginner",
+  "title": "taovietducofficial/SQL-MySQL-Beginner — GitHub Project Data Snapshot",
+  "description": "SQL-MySQL-Beginner GitHub project data snapshot: 1 new GitHub stars in the recorded weekly window. Beginner-friendly SQL and MySQL learning repository with notes, examples, and practical queries.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-22",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1304027771",
+    "name": "SQL-MySQL-Beginner",
+    "fullName": "taovietducofficial/SQL-MySQL-Beginner",
+    "url": "https://github.com/taovietducofficial/SQL-MySQL-Beginner",
+    "description": "Beginner-friendly SQL and MySQL learning repository with notes, examples, and practical queries.",
+    "language": "Java",
+    "stars": 11,
+    "starsGrowth": 1,
+    "forks": 1,
+    "openIssues": 0,
+    "topics": [
+      "beginner",
+      "database",
+      "exercises",
+      "learning",
+      "mysql",
+      "queries",
+      "sql",
+      "tutorial"
+    ],
+    "license": "No license",
+    "createdAt": "2026-07-17T13:30:01Z",
+    "updatedAt": "2026-07-23T00:33:29Z",
+    "homepage": "https://www.facebook.com/CODE4LIFEOFFICIAL",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "kysely",
+    "yc-duan-fastctx",
+    "prisma",
+    "steelbrain-metal2vulkan"
+  ],
+  "tags": [
+    "beginner",
+    "database",
+    "exercises",
+    "learning",
+    "mysql",
+    "queries",
+    "sql",
+    "tutorial"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>SQL-MySQL-Beginner</strong> is listed in our <em>Backend</em> feed. The source describes it as: Beginner-friendly SQL and MySQL learning repository with notes, examples, and practical queries.</p>\n<p>The principal source-specific signal in this snapshot is <strong>1 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 11</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +1</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Java</strong></li>\n  <li>Reported license: <strong>No license</strong></li>\n  <li>Source topics: beginner, database, exercises, learning, mysql, queries, sql, tutorial</li>\n  <li>Primary source: <a href=\"https://github.com/taovietducofficial/SQL-MySQL-Beginner\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/taovietducofficial/SQL-MySQL-Beginner</a></li>\n  <li>Homepage supplied by source: <a href=\"https://www.facebook.com/CODE4LIFEOFFICIAL\" rel=\"nofollow noopener\" target=\"_blank\">https://www.facebook.com/CODE4LIFEOFFICIAL</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/taovietducofficial/SQL-MySQL-Beginner</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

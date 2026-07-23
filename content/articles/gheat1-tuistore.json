@@ -1,0 +1,57 @@
+{
+  "slug": "gheat1-tuistore",
+  "title": "Gheat1/tuistore — GitHub Project Data Snapshot",
+  "description": "tuistore GitHub project data snapshot: 5 new GitHub stars in the recorded weekly window. 🛍️ The TUI app store — browse, search & one-key-install hundreds of terminal apps. Built on ricekit, seeded from….",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-21",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1305068975",
+    "name": "tuistore",
+    "fullName": "Gheat1/tuistore",
+    "url": "https://github.com/Gheat1/tuistore",
+    "description": "🛍️ The TUI app store — browse, search & one-key-install hundreds of terminal apps. Built on ricekit, seeded from awesome-tuis.",
+    "language": "Python",
+    "stars": 265,
+    "starsGrowth": 5,
+    "forks": 10,
+    "openIssues": 1,
+    "topics": [
+      "app-store",
+      "awesome-tuis",
+      "cli",
+      "developer-tools",
+      "package-manager",
+      "python",
+      "terminal",
+      "terminal-apps",
+      "textual",
+      "tui"
+    ],
+    "license": "NOASSERTION",
+    "createdAt": "2026-07-18T16:43:58Z",
+    "updatedAt": "2026-07-23T02:04:02Z",
+    "homepage": "",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "lopopolo-harness-engineering",
+    "seanj1ang-design-judge-skills",
+    "openbmb-minicpm-robot",
+    "mobai-app-simslim"
+  ],
+  "tags": [
+    "app-store",
+    "awesome-tuis",
+    "cli",
+    "developer-tools",
+    "package-manager",
+    "python",
+    "terminal",
+    "terminal-apps"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>tuistore</strong> is listed in our <em>Backend</em> feed. The source describes it as: 🛍️ The TUI app store — browse, search &amp; one-key-install hundreds of terminal apps. Built on ricekit, seeded from awesome-tuis.</p>\n<p>The principal source-specific signal in this snapshot is <strong>5 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 265</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +5</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 10</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Python</strong></li>\n  <li>Reported license: <strong>NOASSERTION</strong></li>\n  <li>Source topics: app-store, awesome-tuis, cli, developer-tools, package-manager, python, terminal, terminal-apps</li>\n  <li>Primary source: <a href=\"https://github.com/Gheat1/tuistore\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/Gheat1/tuistore</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/Gheat1/tuistore</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

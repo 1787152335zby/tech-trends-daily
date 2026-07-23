@@ -1,0 +1,175 @@
+{
+  "slug": "catsjuice-sticker-forge",
+  "title": "Sticker-Forge Guide: Uses, Setup, and Repository Health",
+  "description": "Sticker-Forge explained: A tactile WebGL sticker maker with rich text, image uploads, and interactive peel physics. See best-fit use cases, setup, maintenance signals, and adoption checks.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-21",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1306841672",
+    "name": "sticker-forge",
+    "fullName": "CatsJuice/sticker-forge",
+    "url": "https://github.com/CatsJuice/sticker-forge",
+    "description": "A tactile WebGL sticker maker with rich text, image uploads, and interactive peel physics.",
+    "language": "JavaScript",
+    "stars": 260,
+    "starsGrowth": 7,
+    "forks": 24,
+    "openIssues": 0,
+    "topics": [
+      "sticker",
+      "webgl"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-20T17:13:15Z",
+    "updatedAt": "2026-07-23T10:27:47Z",
+    "homepage": "http://sticker.oooo.so/",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "kritt-ai-open-kritt",
+    "gnipbao-story-to-handdrawn-video",
+    "duolahypercho-codex-router",
+    "zustand"
+  ],
+  "tags": [
+    "sticker",
+    "webgl"
+  ],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Sticker-Forge: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>A tactile WebGL sticker maker with rich text, image uploads, and interactive peel physics.</p>\n<p>Shortlist Sticker-Forge only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Sticker-Forge is most relevant to developers working with JavaScript. Its source topics point to sticker, webgl. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Read the README, recent releases, issue tracker, security policy, and license before cloning Sticker-Forge. Start in a disposable environment that matches your runtime and deployment constraints.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 260 GitHub stars, 24 forks, 0 open issues, and last source push 2026-07-23.</p>\n<p>The source reports the MIT license.</p>\n<p>Stars, forks, and issue counts show repository activity or attention; they do not prove quality, security, or suitability.</p>\n<h2>Bottom line</h2>\n<p>Sticker-Forge is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Start with the official repository</h2>\n<div class=\"code-block\"><code>git clone https://github.com/CatsJuice/sticker-forge</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project. Try it in a disposable or non-production environment first.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 260</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 24</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars, forks, and issue counts are repository signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-23. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Archived:</strong> false\n    — <a href=\"https://api.github.com/repos/CatsJuice/sticker-forge\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Last source push:</strong> 2026-07-23\n    — <a href=\"https://api.github.com/repos/CatsJuice/sticker-forge\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository:</strong> CatsJuice/sticker-forge\n    — <a href=\"https://api.github.com/repos/CatsJuice/sticker-forge\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://api.github.com/repos/CatsJuice/sticker-forge\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Forks:</strong> 24\n    — <a href=\"https://api.github.com/repos/CatsJuice/sticker-forge\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>GitHub stars:</strong> 260\n    — <a href=\"https://api.github.com/repos/CatsJuice/sticker-forge\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Open issues:</strong> 0\n    — <a href=\"https://api.github.com/repos/CatsJuice/sticker-forge\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository summary:</strong> A tactile WebGL sticker maker with rich text, image uploads, and interactive peel physics.\n    — <a href=\"https://github.com/CatsJuice/sticker-forge\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Latest GitHub release metadata was unavailable: HTTP 403 from api.github.com</li>\n  <li>No latest release was returned by the GitHub Releases API; the project may publish by another method.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-23 from public GitHub project records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "gh-1306841672",
+    "fetchedAt": "2026-07-23T10:58:41.741Z",
+    "score": 85,
+    "officialUrls": [
+      "https://github.com/CatsJuice/sticker-forge",
+      "http://sticker.oooo.so/"
+    ],
+    "items": [
+      {
+        "label": "Archived",
+        "value": "false",
+        "url": "https://api.github.com/repos/CatsJuice/sticker-forge",
+        "observedAt": "2026-07-23T10:58:41.741Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Last source push",
+        "value": "2026-07-23T10:27:47Z",
+        "url": "https://api.github.com/repos/CatsJuice/sticker-forge",
+        "observedAt": "2026-07-23T10:58:41.741Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Repository",
+        "value": "CatsJuice/sticker-forge",
+        "url": "https://api.github.com/repos/CatsJuice/sticker-forge",
+        "observedAt": "2026-07-23T10:58:41.741Z",
+        "kind": "repository"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://api.github.com/repos/CatsJuice/sticker-forge",
+        "observedAt": "2026-07-23T10:58:41.741Z",
+        "kind": "repository-metadata"
+      },
+      {
+        "label": "Forks",
+        "value": "24",
+        "url": "https://api.github.com/repos/CatsJuice/sticker-forge",
+        "observedAt": "2026-07-23T10:58:41.741Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "GitHub stars",
+        "value": "260",
+        "url": "https://api.github.com/repos/CatsJuice/sticker-forge",
+        "observedAt": "2026-07-23T10:58:41.741Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "Open issues",
+        "value": "0",
+        "url": "https://api.github.com/repos/CatsJuice/sticker-forge",
+        "observedAt": "2026-07-23T10:58:41.741Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "Repository summary",
+        "value": "A tactile WebGL sticker maker with rich text, image uploads, and interactive peel physics.",
+        "url": "https://github.com/CatsJuice/sticker-forge",
+        "observedAt": "2026-07-23T10:58:41.741Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Latest GitHub release metadata was unavailable: HTTP 403 from api.github.com",
+      "No latest release was returned by the GitHub Releases API; the project may publish by another method.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 85,
+    "claims": [
+      {
+        "text": "Archived: false (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/CatsJuice/sticker-forge"
+        ]
+      },
+      {
+        "text": "Last source push: 2026-07-23T10:27:47Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/CatsJuice/sticker-forge"
+        ]
+      },
+      {
+        "text": "Repository: CatsJuice/sticker-forge (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/CatsJuice/sticker-forge"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/CatsJuice/sticker-forge"
+        ]
+      },
+      {
+        "text": "Forks: 24 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/CatsJuice/sticker-forge"
+        ]
+      },
+      {
+        "text": "GitHub stars: 260 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/CatsJuice/sticker-forge"
+        ]
+      },
+      {
+        "text": "Open issues: 0 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/CatsJuice/sticker-forge"
+        ]
+      },
+      {
+        "text": "Repository summary: A tactile WebGL sticker maker with rich text, image uploads, and interactive peel physics. (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://github.com/CatsJuice/sticker-forge"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:41.741Z"
+    },
+    "generatedAt": "2026-07-23T10:58:41.741Z"
+  },
+  "indexable": true
+}

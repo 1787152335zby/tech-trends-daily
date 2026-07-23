@@ -1,0 +1,53 @@
+{
+  "slug": "korayteacher-fintech-advisor",
+  "title": "KORAYTEACHER/fintech-advisor — GitHub Project Data Snapshot",
+  "description": "fintech-advisor GitHub project data snapshot: 1 new GitHub stars in the recorded weekly window. ai fintech financial advisor for your portfolio.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-12",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1294722834",
+    "name": "fintech-advisor",
+    "fullName": "KORAYTEACHER/fintech-advisor",
+    "url": "https://github.com/KORAYTEACHER/fintech-advisor",
+    "description": "ai fintech financial advisor for your portfolio",
+    "language": "TypeScript",
+    "stars": 162,
+    "starsGrowth": 1,
+    "forks": 1233,
+    "openIssues": 1,
+    "topics": [
+      "ai",
+      "ai-advisor",
+      "ai-financial",
+      "ai-fintech",
+      "fintech",
+      "fintech-advisor",
+      "fintech-financial"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-09T06:23:12Z",
+    "updatedAt": "2026-07-15T10:43:50Z",
+    "homepage": "https://www.foliofox.com/",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "prism-shadow-penguin-harness",
+    "klaatai-klaatcode",
+    "vincentwei1021-video-shotcraft",
+    "pireel-pireel"
+  ],
+  "tags": [
+    "ai",
+    "ai-advisor",
+    "ai-financial",
+    "ai-fintech",
+    "fintech",
+    "fintech-advisor",
+    "fintech-financial"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>fintech-advisor</strong> is listed in our <em>Frontend</em> feed. The source describes it as: ai fintech financial advisor for your portfolio.</p>\n<p>The principal source-specific signal in this snapshot is <strong>1 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 162</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +1</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1.2k</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: ai, ai-advisor, ai-financial, ai-fintech, fintech, fintech-advisor, fintech-financial</li>\n  <li>Primary source: <a href=\"https://github.com/KORAYTEACHER/fintech-advisor\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/KORAYTEACHER/fintech-advisor</a></li>\n  <li>Homepage supplied by source: <a href=\"https://www.foliofox.com/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.foliofox.com/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/KORAYTEACHER/fintech-advisor</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

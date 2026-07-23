@@ -1,0 +1,49 @@
+{
+  "slug": "dgeloe4-yb-market-pilot",
+  "title": "Dgeloe4-yb/market-pilot — GitHub Project Data Snapshot",
+  "description": "market-pilot GitHub project data snapshot: 0 new GitHub stars in the recorded weekly window. Evidence-grounded market research prototype with traceable AI workflows.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-19",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1300059342",
+    "name": "market-pilot",
+    "fullName": "Dgeloe4-yb/market-pilot",
+    "url": "https://github.com/Dgeloe4-yb/market-pilot",
+    "description": "Evidence-grounded market research prototype with traceable AI workflows.",
+    "language": "JavaScript",
+    "stars": 101,
+    "starsGrowth": 0,
+    "forks": 1,
+    "openIssues": 0,
+    "topics": [
+      "ai-product-management",
+      "fastapi",
+      "llm",
+      "market-research",
+      "react"
+    ],
+    "license": "Apache-2.0",
+    "createdAt": "2026-07-14T05:39:30Z",
+    "updatedAt": "2026-07-18T22:01:31Z",
+    "homepage": "https://marketpilot.worldon.ai/",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "kritt-ai-open-kritt",
+    "zustand",
+    "jotai",
+    "valtio"
+  ],
+  "tags": [
+    "ai-product-management",
+    "fastapi",
+    "llm",
+    "market-research",
+    "react"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>market-pilot</strong> is listed in our <em>Frontend</em> feed. The source describes it as: Evidence-grounded market research prototype with traceable AI workflows.</p>\n<p>The principal source-specific signal in this snapshot is <strong>0 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 101</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +0</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Source topics: ai-product-management, fastapi, llm, market-research, react</li>\n  <li>Primary source: <a href=\"https://github.com/Dgeloe4-yb/market-pilot\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/Dgeloe4-yb/market-pilot</a></li>\n  <li>Homepage supplied by source: <a href=\"https://marketpilot.worldon.ai/\" rel=\"nofollow noopener\" target=\"_blank\">https://marketpilot.worldon.ai/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/Dgeloe4-yb/market-pilot</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

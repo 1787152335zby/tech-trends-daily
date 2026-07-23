@@ -12,6 +12,7 @@
     "generate": "npx tsx scripts/generate-articles.ts",
     "migrate-content": "npx tsx scripts/migrate-content-quality.ts",
     "test:ai-editor": "npx tsx scripts/lib/ai-editor.test.ts",
+    "test:content-upgrade": "npx tsx scripts/lib/content-upgrade.test.ts",
     "validate-content": "npx tsx scripts/validate-content.ts",
     "pipeline": "npx tsx scripts/build-pipeline.ts"
   },

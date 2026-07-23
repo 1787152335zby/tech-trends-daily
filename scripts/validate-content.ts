@@ -146,6 +146,7 @@ function normalizedGitHubRepository(value: unknown): string | null {
 function validateContentClaims(
   bodyHtml: unknown,
   source: JsonObject,
+  evidence: JsonObject | null,
   location: string,
 ): void {
   if (!isNonEmptyString(bodyHtml)) return;
@@ -154,21 +155,42 @@ function validateContentClaims(
     if (pattern.test(bodyHtml)) reportError(`${location}.bodyHtml ${message}`);
   }
 
-  if (!/automated snapshot/i.test(bodyHtml) || !/no independent product testing/i.test(bodyHtml)) {
-    reportError(`${location}.bodyHtml must disclose automated snapshot generation and lack of independent testing`);
+  if (!/automated (?:workflow|snapshot)/i.test(bodyHtml) || !/no independent product testing/i.test(bodyHtml)) {
+    reportError(`${location}.bodyHtml must disclose automated workflow generation and lack of independent testing`);
   }
 
   const sourceType = String(source.source);
+  const evidenceLabels = new Set(
+    Array.isArray(evidence?.items)
+      ? evidence.items.flatMap((item) =>
+          isObject(item) && isNonEmptyString(item.label)
+            ? [item.label.toLowerCase()]
+            : [],
+        )
+      : [],
+  );
   if (sourceType === "npm") {
-    if (!/weekly NPM downloads/i.test(bodyHtml)) {
+    if (
+      evidenceLabels.has("weekly downloads") &&
+      !/weekly NPM downloads/i.test(bodyHtml)
+    ) {
       reportError(`${location}.bodyHtml must label the NPM metric as weekly downloads`);
+    }
+    if (
+      !evidenceLabels.has("weekly downloads") &&
+      !/download data was unavailable/i.test(bodyHtml)
+    ) {
+      reportError(`${location}.bodyHtml must disclose unavailable NPM download data instead of showing zero`);
     }
     if (/new GitHub stars (?:this week|in the recorded weekly window)/i.test(bodyHtml)) {
       reportError(`${location}.bodyHtml mislabels NPM downloads as GitHub star growth`);
     }
   } else if (sourceType === "github") {
-    if (!/new GitHub stars/i.test(bodyHtml)) {
-      reportError(`${location}.bodyHtml must label GitHub growth as new GitHub stars`);
+    if (
+      evidenceLabels.has("github stars") &&
+      !/GitHub Stars/i.test(bodyHtml)
+    ) {
+      reportError(`${location}.bodyHtml must label the recorded GitHub star total`);
     }
     if (/weekly NPM downloads/i.test(bodyHtml)) {
       reportError(`${location}.bodyHtml mixes NPM downloads into a GitHub snapshot`);
@@ -229,6 +251,8 @@ function validateEvidenceEditorial(value: JsonObject, location: string): void {
   validateStringArray(evidence.warnings, `${location}.evidence.warnings`);
 
   const evidenceUrls = new Set(officialUrls.map(normalizeEvidenceUrl));
+  const evidenceLabels = new Set<string>();
+  const evidenceValues = new Map<string, string>();
   if (!Array.isArray(evidence.items) || evidence.items.length === 0) {
     reportError(`${location}.evidence.items must contain at least one evidence item`);
   } else {
@@ -241,6 +265,12 @@ function validateEvidenceEditorial(value: JsonObject, location: string): void {
       for (const field of ["label", "value", "kind"] as const) {
         if (!isNonEmptyString(item[field])) {
           reportError(`${itemLocation}.${field} must be a non-empty string`);
+        }
+      }
+      if (isNonEmptyString(item.label)) {
+        evidenceLabels.add(item.label.toLowerCase());
+        if (isNonEmptyString(item.value)) {
+          evidenceValues.set(item.label.toLowerCase(), item.value);
         }
       }
       if (!isNonEmptyString(item.url) || !isHttpUrl(item.url)) {
@@ -329,6 +359,54 @@ function validateEvidenceEditorial(value: JsonObject, location: string): void {
     ) {
       reportError(`${location}.editorial.qualityScore is below the indexable threshold of ${MIN_INDEXABLE_QUALITY_SCORE}`);
     }
+    const sourceType = String(source.source);
+    const requiredLabels =
+      sourceType === "npm"
+        ? ["official package summary", "latest version"]
+        : sourceType === "github"
+          ? ["repository", "repository summary", "github stars", "last source push"]
+          : ["points at collection"];
+    for (const label of requiredLabels) {
+      if (!evidenceLabels.has(label)) {
+        reportError(`${location} cannot be indexable without ${label} evidence`);
+      }
+    }
+    if (
+      sourceType === "hackernews" &&
+      !evidenceLabels.has("original source summary") &&
+      !evidenceLabels.has("discussion text")
+    ) {
+      reportError(`${location} cannot be indexable without original-source or discussion-text evidence`);
+    }
+    const likelyEnglish = (text: string | undefined) => {
+      if (!text) return false;
+      const letters = text.match(/\p{L}/gu) ?? [];
+      if (letters.length < 20) return /[a-z]{4}/i.test(text);
+      const asciiLetters = text.match(/[a-z]/gi)?.length ?? 0;
+      return asciiLetters / letters.length >= 0.72;
+    };
+    const readerSummary =
+      sourceType === "npm"
+        ? evidenceValues.get("official package summary")
+        : sourceType === "github"
+          ? evidenceValues.get("repository summary")
+          : evidenceValues.get("original source summary") ??
+            evidenceValues.get("discussion text");
+    if (
+      !readerSummary ||
+      readerSummary.trim().length < 40 ||
+      !likelyEnglish(readerSummary)
+    ) {
+      reportError(`${location} cannot be indexable without a meaningful English reader summary`);
+    }
+    if (
+      sourceType === "hackernews" &&
+      !/\b(?:ai|artificial intelligence|machine learning|llm|model|software|developer|programming|code|database|sql|api|server|cloud|linux|browser|web|computer|security|cryptography|open source|github|typescript|javascript|python|rust|golang|compiler|runtime|terminal|network|privacy|search engine|semiconductor|chip|algorithm|data engineering|devops|kubernetes|docker)\b/i.test(
+        Array.from(evidenceValues.values()).join(" "),
+      )
+    ) {
+      reportError(`${location} cannot be indexable without a clear developer-technology topic`);
+    }
   }
 }
 
@@ -343,6 +421,8 @@ function validateArticle(value: unknown, location: string, expectedSlug?: string
     reportError(`${location}.slug must be a non-empty URL-safe slug`);
   } else if (expectedSlug && slug !== expectedSlug) {
     reportError(`${location}.slug (${slug}) does not match index slug (${expectedSlug})`);
+  } else if (value.indexable === true && slug.startsWith("snapshot-")) {
+    reportError(`${location}.slug must use a readable canonical guide slug`);
   }
 
   for (const field of ["title", "description", "bodyHtml"] as const) {
@@ -413,7 +493,12 @@ function validateArticle(value: unknown, location: string, expectedSlug?: string
     reportError(`${location}.sourceData.url must identify a GitHub owner/repository`);
   }
 
-  validateContentClaims(value.bodyHtml, source, location);
+  validateContentClaims(
+    value.bodyHtml,
+    source,
+    isObject(value.evidence) ? value.evidence : null,
+    location,
+  );
   validateEvidenceEditorial(value, location);
 }
 
@@ -443,6 +528,7 @@ function main(): void {
     const slugs = new Set<string>();
     const sourceIds = new Set<string>();
     const titles = new Set<string>();
+    const indexableDescriptions = new Set<string>();
     let referencedFiles = 0;
 
     index.forEach((entry, position) => {
@@ -458,6 +544,16 @@ function main(): void {
         const normalizedTitle = entry.title.replace(/\s+/g, " ").trim().toLocaleLowerCase("en-US");
         if (titles.has(normalizedTitle)) reportError(`${location}.title duplicates ${entry.title}`);
         titles.add(normalizedTitle);
+      }
+      if (entry.indexable === true && isNonEmptyString(entry.description)) {
+        const normalizedDescription = entry.description
+          .replace(/\s+/g, " ")
+          .trim()
+          .toLocaleLowerCase("en-US");
+        if (indexableDescriptions.has(normalizedDescription)) {
+          reportError(`${location}.description duplicates another indexable article`);
+        }
+        indexableDescriptions.add(normalizedDescription);
       }
 
       if (isObject(entry.sourceData) && isNonEmptyString(entry.sourceData.id)) {

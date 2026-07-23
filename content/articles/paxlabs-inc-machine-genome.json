@@ -1,0 +1,37 @@
+{
+  "slug": "paxlabs-inc-machine-genome",
+  "title": "paxlabs-inc/machine-genome — GitHub Project Data Snapshot",
+  "description": "machine-genome GitHub project data snapshot: 0 new GitHub stars in the recorded weekly window. Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts that….",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1306595286",
+    "name": "machine-genome",
+    "fullName": "paxlabs-inc/machine-genome",
+    "url": "https://github.com/paxlabs-inc/machine-genome",
+    "description": "Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts that connect them.",
+    "language": "Go",
+    "stars": 283,
+    "starsGrowth": 0,
+    "forks": 47,
+    "openIssues": 0,
+    "topics": [],
+    "license": "Apache-2.0",
+    "createdAt": "2026-07-20T12:41:33Z",
+    "updatedAt": "2026-07-22T15:21:21Z",
+    "homepage": "https://machinegenome.org/",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "yc-duan-fastctx",
+    "mobai-app-simslim",
+    "nethical6-conversation-steganography",
+    "charles-0509-grok-register"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>machine-genome</strong> is listed in our <em>Backend</em> feed. The source describes it as: Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts that connect them.</p>\n<p>The principal source-specific signal in this snapshot is <strong>0 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 283</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +0</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 47</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Go</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Primary source: <a href=\"https://github.com/paxlabs-inc/machine-genome\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/paxlabs-inc/machine-genome</a></li>\n  <li>Homepage supplied by source: <a href=\"https://machinegenome.org/\" rel=\"nofollow noopener\" target=\"_blank\">https://machinegenome.org/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/paxlabs-inc/machine-genome</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

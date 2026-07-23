@@ -1,0 +1,45 @@
+{
+  "slug": "marcelpanse-youtube-guitar-tab-parser",
+  "title": "marcelpanse/youtube-guitar-tab-parser — GitHub Project Data Snapshot",
+  "description": "youtube-guitar-tab-parser GitHub project data snapshot: 1 new GitHub stars in the recorded weekly window. CLI that turns a YouTube guitar-lesson video into a PDF of the guitar tab.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-16",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1299691584",
+    "name": "youtube-guitar-tab-parser",
+    "fullName": "marcelpanse/youtube-guitar-tab-parser",
+    "url": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
+    "description": "CLI that turns a YouTube guitar-lesson video into a PDF of the guitar tab.",
+    "language": "TypeScript",
+    "stars": 157,
+    "starsGrowth": 1,
+    "forks": 5,
+    "openIssues": 0,
+    "topics": [
+      "guitar",
+      "tabs",
+      "transcribe"
+    ],
+    "license": "GPL-3.0",
+    "createdAt": "2026-07-13T20:04:56Z",
+    "updatedAt": "2026-07-19T14:20:13Z",
+    "homepage": "",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "vincentwei1021-video-shotcraft",
+    "pireel-pireel",
+    "gnipbao-story-to-handdrawn-video",
+    "prism-shadow-penguin-harness"
+  ],
+  "tags": [
+    "guitar",
+    "tabs",
+    "transcribe"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>youtube-guitar-tab-parser</strong> is listed in our <em>Frontend</em> feed. The source describes it as: CLI that turns a YouTube guitar-lesson video into a PDF of the guitar tab.</p>\n<p>The principal source-specific signal in this snapshot is <strong>1 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 157</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +1</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 5</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>TypeScript</strong></li>\n  <li>Reported license: <strong>GPL-3.0</strong></li>\n  <li>Source topics: guitar, tabs, transcribe</li>\n  <li>Primary source: <a href=\"https://github.com/marcelpanse/youtube-guitar-tab-parser\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/marcelpanse/youtube-guitar-tab-parser</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/marcelpanse/youtube-guitar-tab-parser</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

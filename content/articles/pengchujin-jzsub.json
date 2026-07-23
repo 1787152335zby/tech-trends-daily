@@ -1,0 +1,49 @@
+{
+  "slug": "pengchujin-jzsub",
+  "title": "pengchujin/jzsub — GitHub Project Data Snapshot",
+  "description": "jzsub GitHub project data snapshot: 7 new GitHub stars in the recorded weekly window. JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1296627757",
+    "name": "jzsub",
+    "fullName": "pengchujin/jzsub",
+    "url": "https://github.com/pengchujin/jzsub",
+    "description": "JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。",
+    "language": "Python",
+    "stars": 711,
+    "starsGrowth": 7,
+    "forks": 81,
+    "openIssues": 1,
+    "topics": [
+      "bilingual",
+      "codex",
+      "subtitles",
+      "video",
+      "yt-dlp"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-10T15:10:00Z",
+    "updatedAt": "2026-07-16T18:30:57Z",
+    "homepage": "",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "seanj1ang-design-judge-skills",
+    "lopopolo-harness-engineering",
+    "openbmb-minicpm-robot",
+    "steelbrain-metal2vulkan"
+  ],
+  "tags": [
+    "bilingual",
+    "codex",
+    "subtitles",
+    "video",
+    "yt-dlp"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>jzsub</strong> is listed in our <em>Backend</em> feed. The source describes it as: JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。.</p>\n<p>The principal source-specific signal in this snapshot is <strong>7 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 711</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +7</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 81</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Python</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: bilingual, codex, subtitles, video, yt-dlp</li>\n  <li>Primary source: <a href=\"https://github.com/pengchujin/jzsub\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/pengchujin/jzsub</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/pengchujin/jzsub</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

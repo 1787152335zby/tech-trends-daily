@@ -1,0 +1,47 @@
+{
+  "slug": "alephaitech-workbuddyguide",
+  "title": "AlephAITech/WorkBuddyGuide — GitHub Project Data Snapshot",
+  "description": "WorkBuddyGuide GitHub project data snapshot: 14 new GitHub stars in the recorded weekly window. A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy….",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-13",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1296036886",
+    "name": "WorkBuddyGuide",
+    "fullName": "AlephAITech/WorkBuddyGuide",
+    "url": "https://github.com/AlephAITech/WorkBuddyGuide",
+    "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+    "language": "Python",
+    "stars": 980,
+    "starsGrowth": 14,
+    "forks": 133,
+    "openIssues": 4,
+    "topics": [
+      "codex",
+      "guide",
+      "llm",
+      "workbuddy"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-10T04:13:51Z",
+    "updatedAt": "2026-07-16T19:06:27Z",
+    "homepage": "https://workbuddy.homes/",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "seanj1ang-design-judge-skills",
+    "lopopolo-harness-engineering",
+    "openbmb-minicpm-robot",
+    "yc-duan-fastctx"
+  ],
+  "tags": [
+    "codex",
+    "guide",
+    "llm",
+    "workbuddy"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>WorkBuddyGuide</strong> is listed in our <em>Backend</em> feed. The source describes it as: A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。.</p>\n<p>The principal source-specific signal in this snapshot is <strong>14 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 980</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +14</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 133</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 4</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Python</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: codex, guide, llm, workbuddy</li>\n  <li>Primary source: <a href=\"https://github.com/AlephAITech/WorkBuddyGuide\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/AlephAITech/WorkBuddyGuide</a></li>\n  <li>Homepage supplied by source: <a href=\"https://workbuddy.homes/\" rel=\"nofollow noopener\" target=\"_blank\">https://workbuddy.homes/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/AlephAITech/WorkBuddyGuide</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

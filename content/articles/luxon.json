@@ -1,0 +1,189 @@
+{
+  "slug": "luxon",
+  "title": "Luxon Guide: Use Cases, Setup, and Package Health",
+  "description": "Luxon explained: [![MIT License][license-image]][license] [![Build Status][github-action-image]][github-action-url] [![NPM version][npm-version-image]][npm-url] [![Coverag… See best-fit use cases, setup, maintenance sig…",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-06-27",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-luxon",
+    "name": "luxon",
+    "fullName": "npm:luxon",
+    "url": "https://www.npmjs.com/package/luxon",
+    "description": "Immutable date wrapper",
+    "language": "JavaScript/TypeScript",
+    "stars": 16424,
+    "starsGrowth": 0,
+    "forks": 786,
+    "openIssues": 193,
+    "topics": [
+      "date",
+      "immutable"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-23T02:41:17.664Z",
+    "updatedAt": "2026-07-23T02:41:17.664Z",
+    "homepage": "https://github.com/moment/luxon#readme",
+    "source": "npm",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "dayjs",
+    "astro",
+    "nuxt",
+    "remix"
+  ],
+  "tags": [
+    "date",
+    "immutable"
+  ],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Luxon: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>[![MIT License][license-image]][license] [![Build Status][github-action-image]][github-action-url] [![NPM version][npm-version-image]][npm-url] [![Coverage Status][test-coverage-image]][test-coverage-url] [![PRs welcome][contributing-image]][contributing-url]</p>\n<p>Shortlist Luxon only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Luxon is most relevant to developers working with JavaScript/TypeScript. Its source topics point to date, immutable. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing luxon in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows version 3.7.2, and released 2025-09-05.</p>\n<p>The recorded Node.js requirement is &gt;=12.</p>\n<p>The registry lists 2 maintainers.</p>\n<p>The source reports the MIT license.</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>Luxon is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install luxon</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/luxon\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  \n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 16.4k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 786</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly download data was unavailable at collection time; the guide does not substitute a zero.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-23. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=12\n    — <a href=\"https://registry.npmjs.org/luxon\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Official package summary:</strong> [![MIT License][license-image]][license] [![Build Status][github-action-image]][github-action-url] [![NPM version][npm-version-image]][npm-url] [![Coverage Status][test-coverage-image]][test-coverage-url] [![PRs welcome][contributing-image]][contributing-url]\n    — <a href=\"https://registry.npmjs.org/luxon\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package keywords:</strong> date, immutable\n    — <a href=\"https://registry.npmjs.org/luxon\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 2\n    — <a href=\"https://registry.npmjs.org/luxon\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2025-09-05\n    — <a href=\"https://registry.npmjs.org/luxon\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/luxon\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> luxon\n    — <a href=\"https://registry.npmjs.org/luxon\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 3.7.2\n    — <a href=\"https://registry.npmjs.org/luxon\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2025-09-05\n    — <a href=\"https://registry.npmjs.org/luxon\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Weekly npm download evidence was unavailable: HTTP 429 from api.npmjs.org</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-23 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "npm-luxon",
+    "fetchedAt": "2026-07-23T12:21:03.655Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/luxon",
+      "https://registry.npmjs.org/luxon",
+      "https://github.com/moment/luxon",
+      "https://github.com/moment/luxon#readme"
+    ],
+    "items": [
+      {
+        "label": "Node.js engine",
+        "value": ">=12",
+        "url": "https://registry.npmjs.org/luxon",
+        "observedAt": "2026-07-23T12:21:03.655Z",
+        "kind": "compatibility"
+      },
+      {
+        "label": "Official package summary",
+        "value": "[![MIT License][license-image]][license] [![Build Status][github-action-image]][github-action-url] [![NPM version][npm-version-image]][npm-url] [![Coverage Status][test-coverage-image]][test-coverage-url] [![PRs welcome][contributing-image]][contributing-url]",
+        "url": "https://registry.npmjs.org/luxon",
+        "observedAt": "2026-07-23T12:21:03.655Z",
+        "kind": "documentation"
+      },
+      {
+        "label": "Package keywords",
+        "value": "date, immutable",
+        "url": "https://registry.npmjs.org/luxon",
+        "observedAt": "2026-07-23T12:21:03.655Z",
+        "kind": "documentation"
+      },
+      {
+        "label": "Maintainers listed",
+        "value": "2",
+        "url": "https://registry.npmjs.org/luxon",
+        "observedAt": "2026-07-23T12:21:03.655Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2025-09-05T10:14:55.998Z",
+        "url": "https://registry.npmjs.org/luxon",
+        "observedAt": "2026-07-23T12:21:03.655Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://registry.npmjs.org/luxon",
+        "observedAt": "2026-07-23T12:21:03.655Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "luxon",
+        "url": "https://registry.npmjs.org/luxon",
+        "observedAt": "2026-07-23T12:21:03.655Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Latest version",
+        "value": "3.7.2",
+        "url": "https://registry.npmjs.org/luxon",
+        "observedAt": "2026-07-23T12:21:03.655Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2025-09-05T10:14:55.814Z",
+        "url": "https://registry.npmjs.org/luxon",
+        "observedAt": "2026-07-23T12:21:03.655Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Weekly npm download evidence was unavailable: HTTP 429 from api.npmjs.org",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Node.js engine: >=12 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/luxon"
+        ]
+      },
+      {
+        "text": "Official package summary: [![MIT License][license-image]][license] [![Build Status][github-action-image]][github-action-url] [![NPM version][npm-version-image]][npm-url] [![Coverage Status][test-coverage-image]][test-coverage-url] [![PRs welcome][contributing-image]][contributing-url] (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/luxon"
+        ]
+      },
+      {
+        "text": "Package keywords: date, immutable (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/luxon"
+        ]
+      },
+      {
+        "text": "Maintainers listed: 2 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/luxon"
+        ]
+      },
+      {
+        "text": "Registry modified: 2025-09-05T10:14:55.998Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/luxon"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/luxon"
+        ]
+      },
+      {
+        "text": "Package: luxon (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/luxon"
+        ]
+      },
+      {
+        "text": "Latest version: 3.7.2 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/luxon"
+        ]
+      },
+      {
+        "text": "Latest version published: 2025-09-05T10:14:55.814Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/luxon"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T12:21:03.655Z"
+    },
+    "generatedAt": "2026-07-23T12:21:03.655Z"
+  },
+  "indexable": true
+}

@@ -1,0 +1,167 @@
+{
+  "slug": "mobai-app-simslim",
+  "title": "Simslim Guide: Uses, Setup, and Repository Health",
+  "description": "Simslim explained: Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need See best-fit use cases, setup, maintenance signals, and adoption checks.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-21",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1306774368",
+    "name": "simslim",
+    "fullName": "MobAI-App/simslim",
+    "url": "https://github.com/MobAI-App/simslim",
+    "description": "Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need",
+    "language": "Go",
+    "stars": 149,
+    "starsGrowth": 9,
+    "forks": 8,
+    "openIssues": 1,
+    "topics": [],
+    "license": "MIT",
+    "createdAt": "2026-07-20T15:55:18Z",
+    "updatedAt": "2026-07-23T10:39:23Z",
+    "homepage": "",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "nethical6-conversation-steganography",
+    "charles-0509-grok-register",
+    "steelbrain-metal2vulkan",
+    "yc-duan-fastctx"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Simslim: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need</p>\n<p>Shortlist Simslim only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Simslim is most relevant to developers working with Go. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Read the README, recent releases, issue tracker, security policy, and license before cloning Simslim. Start in a disposable environment that matches your runtime and deployment constraints.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 149 GitHub stars, 8 forks, 1 open issues, and last source push 2026-07-23.</p>\n<p>The source reports the MIT license.</p>\n<p>Stars, forks, and issue counts show repository activity or attention; they do not prove quality, security, or suitability.</p>\n<h2>Bottom line</h2>\n<p>Simslim is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Start with the official repository</h2>\n<div class=\"code-block\"><code>git clone https://github.com/MobAI-App/simslim</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project. Try it in a disposable or non-production environment first.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 149</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 8</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 1</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars, forks, and issue counts are repository signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-23. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Archived:</strong> false\n    — <a href=\"https://api.github.com/repos/MobAI-App/simslim\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Last source push:</strong> 2026-07-23\n    — <a href=\"https://api.github.com/repos/MobAI-App/simslim\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository:</strong> MobAI-App/simslim\n    — <a href=\"https://api.github.com/repos/MobAI-App/simslim\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://api.github.com/repos/MobAI-App/simslim\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Forks:</strong> 8\n    — <a href=\"https://api.github.com/repos/MobAI-App/simslim\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>GitHub stars:</strong> 149\n    — <a href=\"https://api.github.com/repos/MobAI-App/simslim\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Open issues:</strong> 1\n    — <a href=\"https://api.github.com/repos/MobAI-App/simslim\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository summary:</strong> Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need\n    — <a href=\"https://github.com/MobAI-App/simslim\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-23 from public GitHub project records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "gh-1306774368",
+    "fetchedAt": "2026-07-23T10:58:40.737Z",
+    "score": 95,
+    "officialUrls": [
+      "https://github.com/MobAI-App/simslim",
+      "https://github.com/MobAI-App/simslim/releases/tag/v0.3.0"
+    ],
+    "items": [
+      {
+        "label": "Archived",
+        "value": "false",
+        "url": "https://api.github.com/repos/MobAI-App/simslim",
+        "observedAt": "2026-07-23T10:58:40.737Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Last source push",
+        "value": "2026-07-23T10:39:23Z",
+        "url": "https://api.github.com/repos/MobAI-App/simslim",
+        "observedAt": "2026-07-23T10:58:40.737Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Repository",
+        "value": "MobAI-App/simslim",
+        "url": "https://api.github.com/repos/MobAI-App/simslim",
+        "observedAt": "2026-07-23T10:58:40.737Z",
+        "kind": "repository"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://api.github.com/repos/MobAI-App/simslim",
+        "observedAt": "2026-07-23T10:58:40.737Z",
+        "kind": "repository-metadata"
+      },
+      {
+        "label": "Forks",
+        "value": "8",
+        "url": "https://api.github.com/repos/MobAI-App/simslim",
+        "observedAt": "2026-07-23T10:58:40.737Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "GitHub stars",
+        "value": "149",
+        "url": "https://api.github.com/repos/MobAI-App/simslim",
+        "observedAt": "2026-07-23T10:58:40.737Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "Open issues",
+        "value": "1",
+        "url": "https://api.github.com/repos/MobAI-App/simslim",
+        "observedAt": "2026-07-23T10:58:40.737Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "Repository summary",
+        "value": "Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need",
+        "url": "https://github.com/MobAI-App/simslim",
+        "observedAt": "2026-07-23T10:58:40.737Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Archived: false (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/MobAI-App/simslim"
+        ]
+      },
+      {
+        "text": "Last source push: 2026-07-23T10:39:23Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/MobAI-App/simslim"
+        ]
+      },
+      {
+        "text": "Repository: MobAI-App/simslim (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/MobAI-App/simslim"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/MobAI-App/simslim"
+        ]
+      },
+      {
+        "text": "Forks: 8 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/MobAI-App/simslim"
+        ]
+      },
+      {
+        "text": "GitHub stars: 149 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/MobAI-App/simslim"
+        ]
+      },
+      {
+        "text": "Open issues: 1 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/MobAI-App/simslim"
+        ]
+      },
+      {
+        "text": "Repository summary: Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://github.com/MobAI-App/simslim"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:40.737Z"
+    },
+    "generatedAt": "2026-07-23T10:58:40.737Z"
+  },
+  "indexable": true
+}

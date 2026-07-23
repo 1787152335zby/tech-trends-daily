@@ -4,6 +4,7 @@ import ArticleCard from "@/components/ArticleCard";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { toArticlePreview } from "@/lib/article-presentation";
 
 interface Props { params: Promise<{ slug: string }>; }
 
@@ -54,7 +55,12 @@ export default async function CategoryPage({ params }: Props) {
         <p className="text-gray-500">No articles yet. Check back soon!</p>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {articles.map(a => <ArticleCard key={a.slug} article={a} />)}
+          {articles.map((article) => (
+            <ArticleCard
+              key={article.slug}
+              article={toArticlePreview(article)}
+            />
+          ))}
         </div>
       )}
     </div>

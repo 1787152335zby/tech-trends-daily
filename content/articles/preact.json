@@ -1,0 +1,216 @@
+{
+  "slug": "preact",
+  "title": "Preact Guide: Use Cases, Setup, and Package Health",
+  "description": "Preact explained: Fast 3kb React-compatible Virtual DOM library. See best-fit use cases, setup, maintenance signals, and adoption checks.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-06-27",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-preact",
+    "name": "preact",
+    "fullName": "npm:preact",
+    "url": "https://www.npmjs.com/package/preact",
+    "description": "Fast 3kb React-compatible Virtual DOM library.",
+    "language": "JavaScript/TypeScript",
+    "stars": 38776,
+    "starsGrowth": 26448771,
+    "forks": 2044,
+    "openIssues": 70,
+    "topics": [
+      "preact",
+      "react",
+      "ui",
+      "user interface",
+      "virtual dom",
+      "vdom",
+      "components",
+      "dom diff",
+      "front-end",
+      "framework"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-23T02:40:54.692Z",
+    "updatedAt": "2026-07-23T02:40:54.692Z",
+    "homepage": "https://preactjs.com",
+    "source": "npm",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "cheerio",
+    "react",
+    "storybook",
+    "solid-js"
+  ],
+  "tags": [
+    "preact",
+    "react",
+    "ui",
+    "user interface",
+    "virtual dom",
+    "vdom",
+    "components",
+    "dom diff"
+  ],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Preact: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>Fast 3kb React-compatible Virtual DOM library.</p>\n<p>Shortlist Preact only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Preact is most relevant to developers working with JavaScript/TypeScript. Its source topics point to preact, react, ui, user interface. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing preact in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 26.4M weekly downloads, version 10.29.7, and released 2026-07-08.</p>\n<p>The registry lists 6 maintainers.</p>\n<p>The source reports the MIT license.</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>Preact is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install preact</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/preact\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 26.4M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 38.8k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 2.0k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-23. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Official package summary:</strong> Fast 3kb React-compatible Virtual DOM library.\n    — <a href=\"https://registry.npmjs.org/preact\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package keywords:</strong> preact, react, ui, user interface, virtual dom, vdom, components, dom diff, front-end, framework\n    — <a href=\"https://registry.npmjs.org/preact\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 6\n    — <a href=\"https://registry.npmjs.org/preact\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-15\n    — <a href=\"https://registry.npmjs.org/preact\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/preact\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> preact\n    — <a href=\"https://registry.npmjs.org/preact\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-16 to 2026-07-22\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/preact\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 26.4M\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/preact\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 10.29.7\n    — <a href=\"https://registry.npmjs.org/preact\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-07-08\n    — <a href=\"https://registry.npmjs.org/preact\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-23 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "npm-preact",
+    "fetchedAt": "2026-07-23T12:20:44.609Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/preact",
+      "https://registry.npmjs.org/preact",
+      "https://api.npmjs.org/downloads/point/last-week/preact",
+      "https://github.com/preactjs/preact",
+      "https://preactjs.com/"
+    ],
+    "items": [
+      {
+        "label": "Official package summary",
+        "value": "Fast 3kb React-compatible Virtual DOM library.",
+        "url": "https://registry.npmjs.org/preact",
+        "observedAt": "2026-07-23T12:20:44.609Z",
+        "kind": "documentation"
+      },
+      {
+        "label": "Package keywords",
+        "value": "preact, react, ui, user interface, virtual dom, vdom, components, dom diff, front-end, framework",
+        "url": "https://registry.npmjs.org/preact",
+        "observedAt": "2026-07-23T12:20:44.609Z",
+        "kind": "documentation"
+      },
+      {
+        "label": "Maintainers listed",
+        "value": "6",
+        "url": "https://registry.npmjs.org/preact",
+        "observedAt": "2026-07-23T12:20:44.609Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2026-07-15T15:48:15.062Z",
+        "url": "https://registry.npmjs.org/preact",
+        "observedAt": "2026-07-23T12:20:44.609Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://registry.npmjs.org/preact",
+        "observedAt": "2026-07-23T12:20:44.609Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "preact",
+        "url": "https://registry.npmjs.org/preact",
+        "observedAt": "2026-07-23T12:20:44.609Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Download window",
+        "value": "2026-07-16 to 2026-07-22",
+        "url": "https://api.npmjs.org/downloads/point/last-week/preact",
+        "observedAt": "2026-07-23T12:20:44.609Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Weekly downloads",
+        "value": "26448771",
+        "url": "https://api.npmjs.org/downloads/point/last-week/preact",
+        "observedAt": "2026-07-23T12:20:44.609Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Latest version",
+        "value": "10.29.7",
+        "url": "https://registry.npmjs.org/preact",
+        "observedAt": "2026-07-23T12:20:44.609Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2026-07-08T17:34:12.831Z",
+        "url": "https://registry.npmjs.org/preact",
+        "observedAt": "2026-07-23T12:20:44.609Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Official package summary: Fast 3kb React-compatible Virtual DOM library. (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/preact"
+        ]
+      },
+      {
+        "text": "Package keywords: preact, react, ui, user interface, virtual dom, vdom, components, dom diff, front-end, framework (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/preact"
+        ]
+      },
+      {
+        "text": "Maintainers listed: 6 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/preact"
+        ]
+      },
+      {
+        "text": "Registry modified: 2026-07-15T15:48:15.062Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/preact"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/preact"
+        ]
+      },
+      {
+        "text": "Package: preact (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/preact"
+        ]
+      },
+      {
+        "text": "Download window: 2026-07-16 to 2026-07-22 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/preact"
+        ]
+      },
+      {
+        "text": "Weekly downloads: 26448771 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/preact"
+        ]
+      },
+      {
+        "text": "Latest version: 10.29.7 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/preact"
+        ]
+      },
+      {
+        "text": "Latest version published: 2026-07-08T17:34:12.831Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/preact"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T12:20:44.609Z"
+    },
+    "generatedAt": "2026-07-23T12:20:44.609Z"
+  },
+  "indexable": true
+}

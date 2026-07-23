@@ -1,0 +1,37 @@
+{
+  "slug": "vybenetwork-solana-defi-positions-api",
+  "title": "vybenetwork/solana-defi-positions-api — GitHub Project Data Snapshot",
+  "description": "solana-defi-positions-api GitHub project data snapshot: 7 new GitHub stars in the recorded weekly window. Solana DeFi Positions API.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1295784978",
+    "name": "solana-defi-positions-api",
+    "fullName": "vybenetwork/solana-defi-positions-api",
+    "url": "https://github.com/vybenetwork/solana-defi-positions-api",
+    "description": "Solana DeFi Positions API",
+    "language": "JavaScript",
+    "stars": 219,
+    "starsGrowth": 7,
+    "forks": 84,
+    "openIssues": 0,
+    "topics": [],
+    "license": "No license",
+    "createdAt": "2026-07-09T21:17:40Z",
+    "updatedAt": "2026-07-15T18:52:15Z",
+    "homepage": "https://docs.vybenetwork.com",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "duolahypercho-codex-router",
+    "kritt-ai-open-kritt",
+    "catsjuice-sticker-forge",
+    "gnipbao-story-to-handdrawn-video"
+  ],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>solana-defi-positions-api</strong> is listed in our <em>Frontend</em> feed. The source describes it as: Solana DeFi Positions API.</p>\n<p>The principal source-specific signal in this snapshot is <strong>7 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 219</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +7</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 84</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>JavaScript</strong></li>\n  <li>Reported license: <strong>No license</strong></li>\n  <li>Primary source: <a href=\"https://github.com/vybenetwork/solana-defi-positions-api\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/vybenetwork/solana-defi-positions-api</a></li>\n  <li>Homepage supplied by source: <a href=\"https://docs.vybenetwork.com\" rel=\"nofollow noopener\" target=\"_blank\">https://docs.vybenetwork.com</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/vybenetwork/solana-defi-positions-api</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

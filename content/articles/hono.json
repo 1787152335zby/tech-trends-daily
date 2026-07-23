@@ -1,0 +1,228 @@
+{
+  "slug": "hono",
+  "title": "Hono Guide: Use Cases, Setup, and Package Health",
+  "description": "Hono explained: Hono - means flame🔥 in Japanese - is a small, simple, and ultrafast web framework built on Web Standards. It works on any JavaScript runtime: Cloudflare… See best-fit use cases, setup, maintenance signa…",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-06-27",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "npm-hono",
+    "name": "hono",
+    "fullName": "npm:hono",
+    "url": "https://www.npmjs.com/package/hono",
+    "description": "Web framework built on Web Standards",
+    "language": "JavaScript/TypeScript",
+    "stars": 31448,
+    "starsGrowth": 52154285,
+    "forks": 1182,
+    "openIssues": 371,
+    "topics": [
+      "hono",
+      "web",
+      "app",
+      "http",
+      "application",
+      "framework",
+      "router",
+      "cloudflare",
+      "workers",
+      "fastly",
+      "compute",
+      "deno",
+      "bun",
+      "lambda",
+      "nodejs"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-23T02:40:58.034Z",
+    "updatedAt": "2026-07-23T02:40:58.034Z",
+    "homepage": "https://hono.dev",
+    "source": "npm",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "express",
+    "fastify",
+    "prisma",
+    "kysely"
+  ],
+  "tags": [
+    "hono",
+    "web",
+    "app",
+    "http",
+    "application",
+    "framework",
+    "router",
+    "cloudflare"
+  ],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Hono: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>Hono - means flame🔥 in Japanese - is a small, simple, and ultrafast web framework built on Web Standards. It works on any JavaScript runtime: Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, AWS Lambda, Lambda@Edge, and Node.js.</p>\n<p>Shortlist Hono only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Hono is most relevant to developers working with JavaScript/TypeScript. Its source topics point to hono, web, app, http. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing hono in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 52.2M weekly downloads, version 4.12.31, and released 2026-07-18.</p>\n<p>The recorded Node.js requirement is &gt;=16.9.0.</p>\n<p>The registry lists 1 maintainers.</p>\n<p>The source reports the MIT license.</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>Hono is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install hono</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/hono\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 52.2M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 31.4k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 1.2k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-23. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=16.9.0\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Official package summary:</strong> Hono - means flame🔥 in Japanese - is a small, simple, and ultrafast web framework built on Web Standards. It works on any JavaScript runtime: Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, AWS Lambda, Lambda@Edge, and Node.js.\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package keywords:</strong> hono, web, app, http, application, framework, router, cloudflare, workers, fastly, compute, deno\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 1\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-18\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> hono\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-16 to 2026-07-22\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 52.2M\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 4.12.31\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-07-18\n    — <a href=\"https://registry.npmjs.org/hono\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-23 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "npm-hono",
+    "fetchedAt": "2026-07-23T12:20:43.767Z",
+    "score": 100,
+    "officialUrls": [
+      "https://www.npmjs.com/package/hono",
+      "https://registry.npmjs.org/hono",
+      "https://api.npmjs.org/downloads/point/last-week/hono",
+      "https://github.com/honojs/hono",
+      "https://hono.dev/"
+    ],
+    "items": [
+      {
+        "label": "Node.js engine",
+        "value": ">=16.9.0",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T12:20:43.767Z",
+        "kind": "compatibility"
+      },
+      {
+        "label": "Official package summary",
+        "value": "Hono - means flame🔥 in Japanese - is a small, simple, and ultrafast web framework built on Web Standards. It works on any JavaScript runtime: Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, AWS Lambda, Lambda@Edge, and Node.js.",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T12:20:43.767Z",
+        "kind": "documentation"
+      },
+      {
+        "label": "Package keywords",
+        "value": "hono, web, app, http, application, framework, router, cloudflare, workers, fastly, compute, deno",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T12:20:43.767Z",
+        "kind": "documentation"
+      },
+      {
+        "label": "Maintainers listed",
+        "value": "1",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T12:20:43.767Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Registry modified",
+        "value": "2026-07-18T23:16:05.941Z",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T12:20:43.767Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T12:20:43.767Z",
+        "kind": "package-metadata"
+      },
+      {
+        "label": "Package",
+        "value": "hono",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T12:20:43.767Z",
+        "kind": "registry"
+      },
+      {
+        "label": "Download window",
+        "value": "2026-07-16 to 2026-07-22",
+        "url": "https://api.npmjs.org/downloads/point/last-week/hono",
+        "observedAt": "2026-07-23T12:20:43.767Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Weekly downloads",
+        "value": "52154285",
+        "url": "https://api.npmjs.org/downloads/point/last-week/hono",
+        "observedAt": "2026-07-23T12:20:43.767Z",
+        "kind": "registry-metric"
+      },
+      {
+        "label": "Latest version",
+        "value": "4.12.31",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T12:20:43.767Z",
+        "kind": "release"
+      },
+      {
+        "label": "Latest version published",
+        "value": "2026-07-18T23:16:05.588Z",
+        "url": "https://registry.npmjs.org/hono",
+        "observedAt": "2026-07-23T12:20:43.767Z",
+        "kind": "release"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Node.js engine: >=16.9.0 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "Official package summary: Hono - means flame🔥 in Japanese - is a small, simple, and ultrafast web framework built on Web Standards. It works on any JavaScript runtime: Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, AWS Lambda, Lambda@Edge, and Node.js. (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "Package keywords: hono, web, app, http, application, framework, router, cloudflare, workers, fastly, compute, deno (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "Maintainers listed: 1 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "Registry modified: 2026-07-18T23:16:05.941Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "Package: hono (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      },
+      {
+        "text": "Download window: 2026-07-16 to 2026-07-22 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/hono"
+        ]
+      },
+      {
+        "text": "Weekly downloads: 52154285 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.npmjs.org/downloads/point/last-week/hono"
+        ]
+      },
+      {
+        "text": "Latest version: 4.12.31 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://registry.npmjs.org/hono"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T12:20:43.767Z"
+    },
+    "generatedAt": "2026-07-23T12:20:43.767Z"
+  },
+  "indexable": true
+}

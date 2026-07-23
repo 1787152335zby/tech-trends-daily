@@ -1,0 +1,32 @@
+{
+  "slug": "microsoft-patches-a-record-570-security-flaws-48913190",
+  "title": "Microsoft Patches a Record 570 Security Flaws (hn-48913190) — Hacker News Data Snapshot",
+  "description": "Microsoft Patches a Record 570 Security Flaws Hacker News story data snapshot: 32 Hacker News points at collection time. Microsoft Patches a Record 570 Security Flaws.",
+  "category": "security",
+  "type": "trend",
+  "publishedAt": "2026-07-15",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "hn-48913190",
+    "name": "Microsoft Patches a Record 570 Security Flaws",
+    "fullName": "hn:microsoft-patches-a-record-570-security-flaws",
+    "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+    "description": "Microsoft Patches a Record 570 Security Flaws",
+    "language": "Various",
+    "stars": 32,
+    "starsGrowth": 32,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-07-14T21:32:22.000Z",
+    "updatedAt": "2026-07-14T21:32:22.000Z",
+    "homepage": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+    "source": "hackernews",
+    "category": "security"
+  },
+  "relatedSlugs": [],
+  "tags": [],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public Hacker News story metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>Microsoft Patches a Record 570 Security Flaws</strong> is listed in our <em>Security</em> feed. The source describes it as: Microsoft Patches a Record 570 Security Flaws.</p>\n<p>The principal source-specific signal in this snapshot is <strong>32 Hacker News points at collection time</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 32</span><span class=\"stat-label\">Hacker News Points</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Various</strong></li>\n  <li>Primary source: <a href=\"https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/\" rel=\"nofollow noopener\" target=\"_blank\">https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/</a></li>\n  <li>Homepage supplied by source: <a href=\"https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/\" rel=\"nofollow noopener\" target=\"_blank\">https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat the recorded score as attention at collection time, not a product ranking.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Read in Context</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>",
+  "indexable": false
+}

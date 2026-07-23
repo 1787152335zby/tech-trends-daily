@@ -1,0 +1,49 @@
+{
+  "slug": "pyang5166-gbro-collage-broll",
+  "title": "pyang5166/gbro-collage-broll — GitHub Project Data Snapshot",
+  "description": "gbro-collage-broll GitHub project data snapshot: 13 new GitHub stars in the recorded weekly window. 半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill.",
+  "category": "backend",
+  "type": "trend",
+  "publishedAt": "2026-07-18",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1301607598",
+    "name": "gbro-collage-broll",
+    "fullName": "pyang5166/gbro-collage-broll",
+    "url": "https://github.com/pyang5166/gbro-collage-broll",
+    "description": "半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill",
+    "language": "Python",
+    "stars": 547,
+    "starsGrowth": 13,
+    "forks": 57,
+    "openIssues": 2,
+    "topics": [
+      "agent-skill",
+      "broll",
+      "gemini",
+      "paper-collage",
+      "video-generation"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-15T12:45:47Z",
+    "updatedAt": "2026-07-21T19:08:26Z",
+    "homepage": "",
+    "source": "github",
+    "category": "backend"
+  },
+  "relatedSlugs": [
+    "lopopolo-harness-engineering",
+    "seanj1ang-design-judge-skills",
+    "openbmb-minicpm-robot",
+    "steelbrain-metal2vulkan"
+  ],
+  "tags": [
+    "agent-skill",
+    "broll",
+    "gemini",
+    "paper-collage",
+    "video-generation"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>gbro-collage-broll</strong> is listed in our <em>Backend</em> feed. The source describes it as: 半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill.</p>\n<p>The principal source-specific signal in this snapshot is <strong>13 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 547</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +13</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 57</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 2</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Python</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: agent-skill, broll, gemini, paper-collage, video-generation</li>\n  <li>Primary source: <a href=\"https://github.com/pyang5166/gbro-collage-broll\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/pyang5166/gbro-collage-broll</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/pyang5166/gbro-collage-broll</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

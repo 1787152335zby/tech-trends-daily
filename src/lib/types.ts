@@ -107,6 +107,17 @@ export interface Article {
   indexable?: boolean;
 }
 
+export interface ArticlePreview {
+  slug: string;
+  title: string;
+  description: string;
+  category: ArticleCategory;
+  updatedAt: string;
+  source: RepoData["source"];
+  language: string;
+  signalLabel?: string;
+}
+
 export const CATEGORY_SLUGS: Record<ArticleCategory, string> = {
   frontend: "frontend",
   backend: "backend",

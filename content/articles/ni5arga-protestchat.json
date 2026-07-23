@@ -1,0 +1,187 @@
+{
+  "slug": "ni5arga-protestchat",
+  "title": "Protestchat Guide: Uses, Setup, and Repository Health",
+  "description": "Protestchat explained: Encrypted messaging with no internet, no cell tower, and no server. Phones relay for each other over Bluetooth mesh, so it keeps working during internet s… See best-fit use cases, setup, maintenan…",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-21",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1306674258",
+    "name": "protestchat",
+    "fullName": "ni5arga/protestchat",
+    "url": "https://github.com/ni5arga/protestchat",
+    "description": "Encrypted messaging with no internet, no cell tower, and no server. Phones relay for each other over Bluetooth mesh, so it keeps working during internet shutdowns and inside cellular jammers",
+    "language": "TypeScript",
+    "stars": 164,
+    "starsGrowth": 15,
+    "forks": 24,
+    "openIssues": 45,
+    "topics": [
+      "bluetooth-low-energy",
+      "censorship-resistance",
+      "e2ee",
+      "internet-freedom",
+      "internet-shutdowns",
+      "mesh",
+      "mesh-networking",
+      "meshtastic",
+      "offline-first",
+      "protests"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-20T14:07:55Z",
+    "updatedAt": "2026-07-22T12:36:46Z",
+    "homepage": "",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "klaatai-klaatcode",
+    "pireel-pireel",
+    "prism-shadow-penguin-harness",
+    "vincentwei1021-video-shotcraft"
+  ],
+  "tags": [
+    "bluetooth-low-energy",
+    "censorship-resistance",
+    "e2ee",
+    "internet-freedom",
+    "internet-shutdowns",
+    "mesh",
+    "mesh-networking",
+    "meshtastic"
+  ],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Protestchat: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>Encrypted messaging with no internet, no cell tower, and no server. Phones relay for each other over Bluetooth mesh, so it keeps working during internet shutdowns and inside cellular jammers</p>\n<p>Shortlist Protestchat only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Protestchat is most relevant to developers working with TypeScript. Its source topics point to bluetooth low energy, censorship resistance, e2ee, internet freedom. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Read the README, recent releases, issue tracker, security policy, and license before cloning Protestchat. Start in a disposable environment that matches your runtime and deployment constraints.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 164 GitHub stars, 24 forks, 45 open issues, and last source push 2026-07-22.</p>\n<p>The source reports the MIT license.</p>\n<p>Stars, forks, and issue counts show repository activity or attention; they do not prove quality, security, or suitability.</p>\n<h2>Bottom line</h2>\n<p>Protestchat is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Start with the official repository</h2>\n<div class=\"code-block\"><code>git clone https://github.com/ni5arga/protestchat</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project. Try it in a disposable or non-production environment first.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 164</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 24</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 45</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars, forks, and issue counts are repository signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-23. Source completeness is <strong>Medium</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Repository summary:</strong> Encrypted messaging with no internet, no cell tower, and no server. Phones relay for each other over Bluetooth mesh, so it keeps working during internet shutdowns and inside cellular jammers\n    — <a href=\"https://api.github.com/repos/ni5arga/protestchat\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Archived:</strong> false\n    — <a href=\"https://api.github.com/repos/ni5arga/protestchat\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Last source push:</strong> 2026-07-22\n    — <a href=\"https://api.github.com/repos/ni5arga/protestchat\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository:</strong> ni5arga/protestchat\n    — <a href=\"https://api.github.com/repos/ni5arga/protestchat\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://api.github.com/repos/ni5arga/protestchat\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Forks:</strong> 24\n    — <a href=\"https://api.github.com/repos/ni5arga/protestchat\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>GitHub stars:</strong> 164\n    — <a href=\"https://api.github.com/repos/ni5arga/protestchat\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Open issues:</strong> 45\n    — <a href=\"https://api.github.com/repos/ni5arga/protestchat\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>No latest release was returned by the GitHub Releases API; the project may publish by another method.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-23 from public GitHub project records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "gh-1306674258",
+    "fetchedAt": "2026-07-23T12:22:42.347Z",
+    "score": 80,
+    "officialUrls": [
+      "https://github.com/ni5arga/protestchat"
+    ],
+    "items": [
+      {
+        "label": "Repository summary",
+        "value": "Encrypted messaging with no internet, no cell tower, and no server. Phones relay for each other over Bluetooth mesh, so it keeps working during internet shutdowns and inside cellular jammers",
+        "url": "https://api.github.com/repos/ni5arga/protestchat",
+        "observedAt": "2026-07-23T12:22:42.347Z",
+        "kind": "documentation"
+      },
+      {
+        "label": "Archived",
+        "value": "false",
+        "url": "https://api.github.com/repos/ni5arga/protestchat",
+        "observedAt": "2026-07-23T12:22:42.347Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Last source push",
+        "value": "2026-07-22T12:36:46Z",
+        "url": "https://api.github.com/repos/ni5arga/protestchat",
+        "observedAt": "2026-07-23T12:22:42.347Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Repository",
+        "value": "ni5arga/protestchat",
+        "url": "https://api.github.com/repos/ni5arga/protestchat",
+        "observedAt": "2026-07-23T12:22:42.347Z",
+        "kind": "repository"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://api.github.com/repos/ni5arga/protestchat",
+        "observedAt": "2026-07-23T12:22:42.347Z",
+        "kind": "repository-metadata"
+      },
+      {
+        "label": "Forks",
+        "value": "24",
+        "url": "https://api.github.com/repos/ni5arga/protestchat",
+        "observedAt": "2026-07-23T12:22:42.347Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "GitHub stars",
+        "value": "164",
+        "url": "https://api.github.com/repos/ni5arga/protestchat",
+        "observedAt": "2026-07-23T12:22:42.347Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "Open issues",
+        "value": "45",
+        "url": "https://api.github.com/repos/ni5arga/protestchat",
+        "observedAt": "2026-07-23T12:22:42.347Z",
+        "kind": "repository-metric"
+      }
+    ],
+    "warnings": [
+      "No latest release was returned by the GitHub Releases API; the project may publish by another method.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 80,
+    "claims": [
+      {
+        "text": "Repository summary: Encrypted messaging with no internet, no cell tower, and no server. Phones relay for each other over Bluetooth mesh, so it keeps working during internet shutdowns and inside cellular jammers (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/ni5arga/protestchat"
+        ]
+      },
+      {
+        "text": "Archived: false (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/ni5arga/protestchat"
+        ]
+      },
+      {
+        "text": "Last source push: 2026-07-22T12:36:46Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/ni5arga/protestchat"
+        ]
+      },
+      {
+        "text": "Repository: ni5arga/protestchat (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/ni5arga/protestchat"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/ni5arga/protestchat"
+        ]
+      },
+      {
+        "text": "Forks: 24 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/ni5arga/protestchat"
+        ]
+      },
+      {
+        "text": "GitHub stars: 164 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/ni5arga/protestchat"
+        ]
+      },
+      {
+        "text": "Open issues: 45 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/ni5arga/protestchat"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T12:22:42.347Z"
+    },
+    "generatedAt": "2026-07-23T12:22:42.347Z"
+  },
+  "indexable": true
+}

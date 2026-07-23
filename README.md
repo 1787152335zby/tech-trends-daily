@@ -47,7 +47,11 @@ Use real AdSense values only after the site has been added to AdSense. Invalid o
 
 ## Evidence and AI review
 
-New evidence-driven articles retain the official URLs and observed values used to support their claims. Every editorial claim must cite a URL contained in that article's evidence pack. Reader-facing copy starts with the project's purpose, intended audience, attention signal, evaluation path, and bottom line; raw supporting records are kept in a collapsible source section. Indexable articles must pass the configured evidence and editorial quality thresholds. Older or rejected pages remain reachable but are excluded from discovery surfaces and marked `noindex` until they pass the current standard.
+New evidence-driven articles retain the official URLs and observed values used to support their claims. Every editorial claim must cite a URL contained in that article's evidence pack. Tool guides provide a quick verdict, best-fit and skip conditions, setup checks, maintenance signals, and a bottom line. Hacker News guides require original-source metadata or meaningful discussion text and explain the specific claim, context, and verification questions. Raw supporting records are kept in one collapsible source section instead of being repeated after every paragraph.
+
+Indexable articles must pass the configured evidence and editorial quality thresholds plus source-specific reader-evidence gates. Missing activity metrics are labeled unavailable and never substituted with zero. Public guide URLs use readable `/guides/<slug>` paths; historical `/article/<slug>` paths are preserved with permanent redirects. Older or rejected pages remain reachable but are excluded from discovery surfaces and marked `noindex` until they pass the current standard.
+
+The homepage includes client-side search and source/category filters over the static article catalog. Its trend set is balanced across GitHub, npm, and Hacker News, and combines a source-appropriate signal with release, publication, repository, or push recency rather than sorting every source by one raw number.
 
 AI editing is optional. When `OPENAI_API_KEY` is unavailable or the AI service cannot provide an acceptable result, the workflow safely falls back to deterministic, source-backed copy and records the review as `not-configured` or `fallback`. It does not invent a successful AI review, and it may publish zero new articles if candidates do not pass the normal quality gates.
 

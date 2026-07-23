@@ -1,7 +1,9 @@
 ﻿import { Article, CATEGORY_LABELS, CATEGORY_SLUGS, ArticleCategory } from "./types";
+import type { RepoData } from "./types";
 import fs from "fs";
 import path from "path";
 import { CONTENT_DIR } from "./constants";
+import { getTrendScore } from "./article-presentation";
 
 const REDIRECTS_FILE = path.join("content", "article-redirects.json");
 
@@ -145,13 +147,50 @@ export function getArticlesByCategory(): Record<ArticleCategory, Article[]> {
 }
 
 /**
- * Get trending articles (top by starsGrowth).
+ * Get a source-balanced trend set. Scores combine a source-appropriate
+ * attention signal with release, publication, repository, or push recency.
  */
 export function getTrendingArticles(limit = 10): Article[] {
-  const articles = [...loadIndexableArticles()];
-  return deduplicateArticlesBySource(
-    articles.sort((a, b) => b.sourceData.starsGrowth - a.sourceData.starsGrowth),
-  ).slice(0, limit);
+  const articles = deduplicateArticlesBySource(loadIndexableArticles());
+  const referenceTime = articles.reduce((latest, article) => {
+    const candidate = Date.parse(
+      article.evidence?.fetchedAt ?? article.updatedAt ?? article.publishedAt,
+    );
+    return Number.isFinite(candidate) ? Math.max(latest, candidate) : latest;
+  }, 0);
+  const effectiveReference = referenceTime || Date.now();
+  const sources: RepoData["source"][] = ["github", "npm", "hackernews"];
+  const queues = new Map(
+    sources.map((source) => [
+      source,
+      articles
+        .filter((article) => article.sourceData.source === source)
+        .map((article) => ({
+          article,
+          score: getTrendScore(article, effectiveReference),
+        }))
+        .filter((candidate) => candidate.score > 0)
+        .sort(
+          (left, right) =>
+            right.score - left.score ||
+            right.article.updatedAt.localeCompare(left.article.updatedAt),
+        ),
+    ]),
+  );
+
+  const selected: Article[] = [];
+  while (selected.length < limit) {
+    let added = false;
+    for (const source of sources) {
+      const candidate = queues.get(source)?.shift();
+      if (!candidate) continue;
+      selected.push(candidate.article);
+      added = true;
+      if (selected.length >= limit) break;
+    }
+    if (!added) break;
+  }
+  return selected;
 }
 
 /**

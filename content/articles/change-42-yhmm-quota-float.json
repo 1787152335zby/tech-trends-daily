@@ -1,0 +1,56 @@
+{
+  "slug": "change-42-yhmm-quota-float",
+  "title": "change-42-yhmm/quota-float — GitHub Project Data Snapshot",
+  "description": "quota-float GitHub project data snapshot: 1 new GitHub stars in the recorded weekly window. A plug-in for easy viewing of credit limits.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-12",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1294906179",
+    "name": "quota-float",
+    "fullName": "change-42-yhmm/quota-float",
+    "url": "https://github.com/change-42-yhmm/quota-float",
+    "description": "A plug-in for easy viewing of credit limits",
+    "language": "TypeScript",
+    "stars": 247,
+    "starsGrowth": 1,
+    "forks": 14,
+    "openIssues": 7,
+    "topics": [
+      "codex",
+      "desktop-app",
+      "macos",
+      "productivity",
+      "quota",
+      "react",
+      "rust",
+      "tauri",
+      "windows"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-09T08:33:45Z",
+    "updatedAt": "2026-07-15T14:21:40Z",
+    "homepage": "",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "prism-shadow-penguin-harness",
+    "vincentwei1021-video-shotcraft",
+    "klaatai-klaatcode",
+    "pireel-pireel"
+  ],
+  "tags": [
+    "codex",
+    "desktop-app",
+    "macos",
+    "productivity",
+    "quota",
+    "react",
+    "rust",
+    "tauri"
+  ],
+  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>quota-float</strong> is listed in our <em>Frontend</em> feed. The source describes it as: A plug-in for easy viewing of credit limits.</p>\n<p>The principal source-specific signal in this snapshot is <strong>1 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 247</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +1</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 14</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 7</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>TypeScript</strong></li>\n  <li>Reported license: <strong>MIT</strong></li>\n  <li>Source topics: codex, desktop-app, macos, productivity, quota, react, rust, tauri</li>\n  <li>Primary source: <a href=\"https://github.com/change-42-yhmm/quota-float\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/change-42-yhmm/quota-float</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/change-42-yhmm/quota-float</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
+  "indexable": false
+}

@@ -1,5 +1,6 @@
 import { loadAllArticles } from "@/lib/articles";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/constants";
+import { articlePath } from "@/lib/article-presentation";
 
 export const dynamic = "force-static";
 
@@ -28,7 +29,7 @@ export function GET() {
 
   const items = articles
     .map((article) => {
-      const url = `${siteUrl}/article/${encodeURIComponent(article.slug)}`;
+      const url = `${siteUrl}${articlePath(article.slug)}`;
       const published = toRfc822(article.publishedAt);
 
       return [

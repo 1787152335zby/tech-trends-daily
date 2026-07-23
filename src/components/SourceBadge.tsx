@@ -5,12 +5,12 @@ const sourcePresentation: Record<
   { label: string; className: string }
 > = {
   github: {
-    label: "GitHub Snapshot",
+    label: "GitHub Project",
     className:
       "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200",
   },
   npm: {
-    label: "npm Snapshot",
+    label: "npm Package",
     className:
       "bg-red-100 text-red-800 dark:bg-red-950 dark:text-red-200",
   },

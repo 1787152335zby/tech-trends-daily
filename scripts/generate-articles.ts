@@ -36,6 +36,8 @@ export interface BuildArticleOptions {
   indexable?: boolean;
 }
 
+const REDIRECTS_PATH = path.join("content", "article-redirects.json");
+
 function slugify(text: string, maxLen = 54): string {
   return text
     .toLowerCase()
@@ -106,12 +108,23 @@ function sourceIdentity(repo: RepoData): string {
 }
 
 export function canonicalArticleSlug(repo: RepoData): string {
-  const base = slugify(repo.id) || slugify(repo.fullName) || slugify(repo.name) || "source";
-  const hash = createHash("sha256")
-    .update(repo.id)
-    .digest("hex")
-    .slice(0, 8);
-  return `snapshot-${base}-${hash}`;
+  if (repo.source === "npm") {
+    const packageSlug = slugify(repo.name, 72);
+    if (packageSlug) return packageSlug;
+  }
+  if (repo.source === "github") {
+    const repositorySlug = slugify(repo.fullName, 72);
+    if (repositorySlug) return repositorySlug;
+  }
+  if (repo.source === "hackernews") {
+    const storySlug = slugify(repo.name, 58);
+    const itemId = repo.id.match(/\d+/)?.[0];
+    if (storySlug && itemId) return `${storySlug}-${itemId}`;
+  }
+
+  const base = slugify(repo.name, 54) || "source";
+  const hash = createHash("sha256").update(repo.id).digest("hex").slice(0, 8);
+  return `${base}-${hash}`;
 }
 
 export function canonicalArticleTitle(repo: RepoData): string {
@@ -123,8 +136,47 @@ export function canonicalArticleTitle(repo: RepoData): string {
 
 function generateDataNote(repo: RepoData, updatedAt: string): string {
   return `
-<p><em>Data note:</em> This automated snapshot was updated on ${updatedAt} from public ${sourceName(repo)} metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>
+<p><em>Data note:</em> This automated workflow updated the guide on ${updatedAt} from public ${sourceName(repo)} records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>
   `.trim();
+}
+
+function packItem(pack: EvidencePack | undefined, label: string) {
+  return pack?.evidence.find(
+    (item) => item.label.toLowerCase() === label.toLowerCase(),
+  );
+}
+
+function packNumber(pack: EvidencePack | undefined, label: string): number | null {
+  const value = Number(packItem(pack, label)?.value);
+  return Number.isFinite(value) && value >= 0 ? value : null;
+}
+
+function synchronizedRepo(repo: RepoData, pack: EvidencePack | undefined): RepoData {
+  if (!pack) return repo;
+  const synchronized = { ...repo };
+
+  if (repo.source === "npm") {
+    const downloads = packNumber(pack, "Weekly downloads");
+    if (downloads !== null) synchronized.starsGrowth = downloads;
+  } else if (repo.source === "hackernews") {
+    const points = packNumber(pack, "Points at collection");
+    if (points !== null) {
+      synchronized.stars = points;
+      synchronized.starsGrowth = points;
+    }
+  } else {
+    const stars = packNumber(pack, "GitHub stars");
+    const forks = packNumber(pack, "Forks");
+    const openIssues = packNumber(pack, "Open issues");
+    const lastPush = packItem(pack, "Last source push")?.value;
+    if (stars !== null) synchronized.stars = stars;
+    if (forks !== null) synchronized.forks = forks;
+    if (openIssues !== null) synchronized.openIssues = openIssues;
+    if (lastPush && Number.isFinite(Date.parse(lastPush))) {
+      synchronized.updatedAt = lastPush;
+    }
+  }
+  return synchronized;
 }
 
 function generateSummary(repo: RepoData): string {
@@ -140,8 +192,9 @@ function generateSummary(repo: RepoData): string {
   `.trim();
 }
 
-function generateMetrics(repo: RepoData): string {
+function generateMetrics(repo: RepoData, pack?: EvidencePack): string {
   if (repo.source === "npm") {
+    const downloads = packNumber(pack, "Weekly downloads");
     const linkedRepositoryMetrics = repo.stars > 0
       ? `
   <div class="stat"><span class="stat-value">⭐ ${formatNumber(repo.stars)}</span><span class="stat-label">Linked GitHub Stars (total)</span></div>
@@ -150,32 +203,37 @@ function generateMetrics(repo: RepoData): string {
     return `
 <h2>At a glance</h2>
 <div class="stats-box">
-  <div class="stat"><span class="stat-value">📦 ${formatNumber(repo.starsGrowth)}</span><span class="stat-label">Weekly NPM Downloads</span></div>
+  ${downloads === null ? "" : `<div class="stat"><span class="stat-value">📦 ${formatNumber(downloads)}</span><span class="stat-label">Weekly NPM Downloads</span></div>`}
   <div class="stat"><span class="stat-value">NPM</span><span class="stat-label">Package Registry</span></div>${linkedRepositoryMetrics}
 </div>
-<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>
+<p>${downloads === null ? "Weekly download data was unavailable at collection time; the guide does not substitute a zero." : "Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users."}</p>
     `.trim();
   }
 
   if (repo.source === "hackernews") {
+    const points = packNumber(pack, "Points at collection");
+    const comments = packNumber(pack, "Comments at collection");
     return `
 <h2>At a glance</h2>
 <div class="stats-box">
-  <div class="stat"><span class="stat-value">▲ ${formatNumber(repo.starsGrowth)}</span><span class="stat-label">Hacker News Points</span></div>
+  ${points === null ? "" : `<div class="stat"><span class="stat-value">▲ ${formatNumber(points)}</span><span class="stat-label">Hacker News Points</span></div>`}
+  ${comments === null ? "" : `<div class="stat"><span class="stat-value">💬 ${formatNumber(comments)}</span><span class="stat-label">Comments at collection</span></div>`}
 </div>
-<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>
+<p>${points === null ? "The live discussion score was unavailable at collection time; the guide does not substitute a zero." : "Hacker News points are a time-specific attention signal, not a software adoption metric."}</p>
     `.trim();
   }
 
+  const stars = packNumber(pack, "GitHub stars");
+  const forks = packNumber(pack, "Forks");
+  const openIssues = packNumber(pack, "Open issues");
   return `
 <h2>At a glance</h2>
 <div class="stats-box">
-  <div class="stat"><span class="stat-value">⭐ ${formatNumber(repo.stars)}</span><span class="stat-label">GitHub Stars (total)</span></div>
-  <div class="stat"><span class="stat-value">📈 +${formatNumber(repo.starsGrowth)}</span><span class="stat-label">New GitHub Stars (weekly window)</span></div>
-  <div class="stat"><span class="stat-value">🔀 ${formatNumber(repo.forks)}</span><span class="stat-label">GitHub Forks (total)</span></div>
-  <div class="stat"><span class="stat-value">⚠️ ${formatNumber(repo.openIssues)}</span><span class="stat-label">Open GitHub Issues</span></div>
+  ${stars === null ? "" : `<div class="stat"><span class="stat-value">⭐ ${formatNumber(stars)}</span><span class="stat-label">GitHub Stars (total)</span></div>`}
+  ${forks === null ? "" : `<div class="stat"><span class="stat-value">🔀 ${formatNumber(forks)}</span><span class="stat-label">GitHub Forks (total)</span></div>`}
+  ${openIssues === null ? "" : `<div class="stat"><span class="stat-value">⚠️ ${formatNumber(openIssues)}</span><span class="stat-label">Open GitHub Issues</span></div>`}
 </div>
-<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>
+<p>${stars === null ? "Live repository metrics were unavailable at collection time; the guide does not substitute zeros." : "Stars, forks, and issue counts are repository signals. They do not by themselves establish quality, security, or suitability."}</p>
   `.trim();
 }
 
@@ -273,16 +331,9 @@ function generateEditorialContent(draft: EditorialDraft): string {
     const paragraphs = section.paragraphs
       .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
       .join("\n");
-    const sources = Array.from(new Set(section.evidenceUrls))
-      .map((url) => {
-        const label = new URL(url).hostname.replace(/^www\./, "");
-        return `<a href="${escapeHtml(url)}" rel="nofollow noopener" target="_blank">${escapeHtml(label)}</a>`;
-      })
-      .join(", ");
     return `
 <h2>${escapeHtml(section.heading)}</h2>
 ${paragraphs}
-${sources ? `<p><small>Evidence: ${sources}</small></p>` : ""}
     `.trim();
   });
 
@@ -319,10 +370,12 @@ function generateEvidenceRecord(pack: EvidencePack): string {
     )
     .map((warning) => `<li>${escapeHtml(warning)}</li>`)
     .join("\n  ");
+  const completeness =
+    pack.score >= 85 ? "High" : pack.score >= 65 ? "Medium" : "Limited";
 
   return `
 <h2>Sources and methodology</h2>
-<p>This guide uses public records collected on ${escapeHtml(pack.fetchedAt.slice(0, 10))}. The ${pack.score}/100 score below measures evidence completeness, not whether the project is good or suitable for you.</p>
+<p>This guide uses public records collected on ${escapeHtml(pack.fetchedAt.slice(0, 10))}. Source completeness is <strong>${completeness}</strong>; this label is not a product rating.</p>
 <details class="evidence-details">
 <summary>View the supporting source data</summary>
 <ul>
@@ -366,28 +419,29 @@ export function buildArticle(repo: RepoData, options: BuildArticleOptions = {}):
   if (Boolean(evidencePack) !== Boolean(editorialDraft)) {
     throw new Error("Evidence-driven articles require both an evidence pack and editorial draft.");
   }
-  const descriptionText = excerpt(repo.description, 125);
+  const currentRepo = synchronizedRepo(repo, evidencePack);
+  const descriptionText = excerpt(currentRepo.description, 125);
   const description = editorialDraft?.description
-    ?? `${repo.name} ${sourceName(repo)} data snapshot: ${sourceMetric(repo)}.${descriptionText ? ` ${descriptionText}.` : ""}`;
+    ?? `${currentRepo.name} ${sourceName(currentRepo)} data snapshot: ${sourceMetric(currentRepo)}.${descriptionText ? ` ${descriptionText}.` : ""}`;
 
   const article: Article = {
-    slug: canonicalArticleSlug(repo),
-    title: editorialDraft?.title ?? canonicalArticleTitle(repo),
+    slug: canonicalArticleSlug(currentRepo),
+    title: editorialDraft?.title ?? canonicalArticleTitle(currentRepo),
     description,
     category: repo.category,
     type: "trend",
     publishedAt,
     updatedAt,
-    sourceData: repo,
+    sourceData: currentRepo,
     relatedSlugs: options.relatedSlugs ?? [],
-    tags: repo.topics.slice(0, 8),
+    tags: currentRepo.topics.slice(0, 8),
     bodyHtml: [
-      editorialDraft ? generateEditorialContent(editorialDraft) : generateSummary(repo),
-      generateMetrics(repo),
-      generateSourceActions(repo),
-      evidencePack ? generateEvidenceRecord(evidencePack) : generateMetadata(repo),
-      editorialDraft ? "" : generateEvaluationChecklist(repo),
-      generateDataNote(repo, updatedAt),
+      editorialDraft ? generateEditorialContent(editorialDraft) : generateSummary(currentRepo),
+      generateSourceActions(currentRepo),
+      generateMetrics(currentRepo, evidencePack),
+      evidencePack ? generateEvidenceRecord(evidencePack) : generateMetadata(currentRepo),
+      editorialDraft ? "" : generateEvaluationChecklist(currentRepo),
+      generateDataNote(currentRepo, updatedAt),
     ].filter(Boolean).join("\n"),
   };
 
@@ -483,11 +537,60 @@ export function selectCategoryBalancedArticles(
   return selected;
 }
 
+function hasReaderEvidence(
+  source: RepoData["source"],
+  evidence: Array<{ label: string; value: string }>,
+): boolean {
+  const values = new Map(
+    evidence.map((item) => [item.label.toLowerCase(), item.value.trim()]),
+  );
+  const has = (label: string) => Boolean(values.get(label.toLowerCase()));
+  const likelyEnglish = (value: string | undefined) => {
+    if (!value) return false;
+    const letters = value.match(/\p{L}/gu) ?? [];
+    if (letters.length < 20) return /[a-z]{4}/i.test(value);
+    const asciiLetters = value.match(/[a-z]/gi)?.length ?? 0;
+    return asciiLetters / letters.length >= 0.72;
+  };
+  const meaningfulEnglishSummary = (value: string | undefined) =>
+    Boolean(value && value.trim().length >= 40 && likelyEnglish(value));
+
+  if (source === "npm") {
+    return (
+      has("Official package summary") &&
+      has("Latest version") &&
+      meaningfulEnglishSummary(values.get("official package summary"))
+    );
+  }
+  if (source === "github") {
+    return (
+      has("Repository") &&
+      has("Repository summary") &&
+      has("GitHub stars") &&
+      has("Last source push") &&
+      meaningfulEnglishSummary(values.get("repository summary"))
+    );
+  }
+  const storySummary =
+    values.get("original source summary") ?? values.get("discussion text");
+  const relevantTechnologyTopic =
+    /\b(?:ai|artificial intelligence|machine learning|llm|model|software|developer|programming|code|database|sql|api|server|cloud|linux|browser|web|computer|security|cryptography|open source|github|typescript|javascript|python|rust|golang|compiler|runtime|terminal|network|privacy|search engine|semiconductor|chip|algorithm|data engineering|devops|kubernetes|docker)\b/i.test(
+      Array.from(values.values()).join(" "),
+    );
+  return (
+    has("Points at collection") &&
+    Boolean(storySummary) &&
+    meaningfulEnglishSummary(storySummary) &&
+    relevantTechnologyTopic
+  );
+}
+
 function draftPassesPolicy(
   evidencePack: EvidencePack,
   draft: EditorialDraft,
   policy: ReturnType<typeof loadContentPolicy>,
 ): boolean {
+  if (!hasReaderEvidence(evidencePack.source, evidencePack.evidence)) return false;
   if (evidencePack.score < policy.minEvidenceScore) return false;
   if (draft.qualityScore < policy.minEditorialScore) return false;
   if (draft.review.status === "rejected") return false;
@@ -500,6 +603,24 @@ function rankedEvidenceScore(repo: RepoData, pack: EvidencePack): number {
 
 function storedEvidencePack(article: Article): EvidencePack | null {
   if (!article.evidence) return null;
+  const evidence = [...article.evidence.items];
+  const storedDescription = article.sourceData.description.trim();
+  if (
+    article.sourceData.source === "github" &&
+    storedDescription &&
+    !/no repository description was supplied/i.test(storedDescription) &&
+    !evidence.some(
+      (item) => item.label.toLowerCase() === "repository summary",
+    )
+  ) {
+    evidence.push({
+      label: "Repository summary",
+      value: storedDescription,
+      url: article.sourceData.url,
+      observedAt: article.evidence.fetchedAt,
+      kind: "documentation",
+    });
+  }
   return {
     sourceId: article.evidence.sourceId,
     source: article.sourceData.source,
@@ -509,7 +630,7 @@ function storedEvidencePack(article: Article): EvidencePack | null {
       || article.description
       || `${article.sourceData.name} official source guide.`,
     officialUrls: article.evidence.officialUrls,
-    evidence: article.evidence.items,
+    evidence,
     score: article.evidence.score,
     warnings: article.evidence.warnings,
   };
@@ -520,11 +641,58 @@ function articlePassesPolicy(
   policy: ReturnType<typeof loadContentPolicy>,
 ): boolean {
   if (!article.evidence || !article.editorial) return false;
+  if (!hasReaderEvidence(article.sourceData.source, article.evidence.items)) {
+    return false;
+  }
   if (article.evidence.score < policy.minEvidenceScore) return false;
   if (article.editorial.qualityScore < policy.minEditorialScore) return false;
   if (article.editorial.review.status === "rejected") return false;
   return article.editorial.mode !== "ai"
     || article.editorial.review.status === "passed";
+}
+
+function relatedArticleScore(article: Article, candidate: Article): number {
+  const stopWords = new Set([
+    "and",
+    "app",
+    "for",
+    "from",
+    "guide",
+    "open",
+    "project",
+    "source",
+    "the",
+    "tool",
+    "tools",
+    "with",
+  ]);
+  const tokens = (value: Article) =>
+    new Set(
+      [
+        value.sourceData.name,
+        value.sourceData.description,
+        value.sourceData.language,
+        ...value.tags,
+      ]
+        .join(" ")
+        .toLowerCase()
+        .split(/[^a-z0-9+#.]+/)
+        .filter((token) => token.length >= 3 && !stopWords.has(token)),
+    );
+  const articleTokens = tokens(article);
+  const candidateTokens = tokens(candidate);
+  let score = 0;
+  for (const token of articleTokens) {
+    if (candidateTokens.has(token)) score += 3;
+  }
+  if (article.sourceData.source === candidate.sourceData.source) score += 2;
+  if (
+    article.sourceData.language !== "Unknown" &&
+    article.sourceData.language === candidate.sourceData.language
+  ) {
+    score += 2;
+  }
+  return score;
 }
 
 export async function generateAll(): Promise<void> {
@@ -572,7 +740,26 @@ export async function generateAll(): Promise<void> {
   for (const article of existing) {
     const stored = storedEvidencePack(article);
     const fresh = evidenceBySourceId.get(article.sourceData.id);
-    if (stored && (!fresh || stored.score > fresh.score)) {
+    const primaryMetricLabel =
+      article.sourceData.source === "npm"
+        ? "Weekly downloads"
+        : article.sourceData.source === "hackernews"
+          ? "Points at collection"
+          : "GitHub stars";
+    const hasPrimaryMetric = (pack: EvidencePack | undefined | null) =>
+      Boolean(packItem(pack ?? undefined, primaryMetricLabel));
+    if (
+      stored &&
+      (
+        !fresh ||
+        stored.score > fresh.score ||
+        (!hasPrimaryMetric(fresh) && hasPrimaryMetric(stored)) ||
+        (
+          !hasReaderEvidence(fresh.source, fresh.evidence) &&
+          hasReaderEvidence(stored.source, stored.evidence)
+        )
+      )
+    ) {
       evidenceBySourceId.set(article.sourceData.id, stored);
     }
   }
@@ -673,29 +860,44 @@ export async function generateAll(): Promise<void> {
     policy.maxIndexedArticles,
     12,
   );
-  const selectedSlugs = new Set(selected.map((article) => article.slug));
-  const selectedCurrent = currentArticles
-    .filter((article) => selectedSlugs.has(article.slug))
-    .map((article) => ({
+  const selectedSourceIds = new Set(
+    selected.map((article) => article.sourceData.id),
+  );
+  const canonicalSelected = selected.map((article) => ({
+    ...article,
+    slug: canonicalArticleSlug(article.sourceData),
+  }));
+  const duplicateCanonicalSlugs = canonicalSelected
+    .map((article) => article.slug)
+    .filter((slug, index, all) => all.indexOf(slug) !== index);
+  if (duplicateCanonicalSlugs.length > 0) {
+    throw new Error(
+      `Readable article slugs collided: ${Array.from(new Set(duplicateCanonicalSlugs)).join(", ")}`,
+    );
+  }
+  const selectedWithPolicy = canonicalSelected.map((article) => ({
+    ...article,
+    indexable: articlePassesPolicy(article, policy),
+  }));
+  const selectedWithRelations = selectedWithPolicy.map((article) => {
+    return {
       ...article,
-      relatedSlugs: selected
+      relatedSlugs: selectedWithPolicy
         .filter(
           (candidate) =>
-            candidate.category === article.category
-            && candidate.slug !== article.slug
-            && articlePassesPolicy(candidate, policy),
+            candidate.indexable &&
+            candidate.category === article.category &&
+            candidate.sourceData.id !== article.sourceData.id,
+        )
+        .sort(
+          (left, right) =>
+            relatedArticleScore(article, right) -
+              relatedArticleScore(article, left) ||
+            (right.evidence?.score ?? 0) - (left.evidence?.score ?? 0) ||
+            right.updatedAt.localeCompare(left.updatedAt),
         )
         .slice(0, 4)
         .map((candidate) => candidate.slug),
-    }));
-  const selectedCurrentBySlug = new Map(
-    selectedCurrent.map((article) => [article.slug, article]),
-  );
-  const selectedWithRelations = selected.map((article) => {
-    const selectedArticle = selectedCurrentBySlug.get(article.slug) ?? article;
-    return {
-      ...selectedArticle,
-      indexable: articlePassesPolicy(selectedArticle, policy),
     };
   });
   const merged = selectedWithRelations.sort((left, right) => (
@@ -710,8 +912,73 @@ export async function generateAll(): Promise<void> {
     );
   }
   fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2));
+  const canonicalBySourceId = new Map(
+    merged.map((article) => [article.sourceData.id, article.slug]),
+  );
+  const canonicalSlugs = new Set(merged.map((article) => article.slug));
+  const oldSlugToCanonical = new Map(
+    existing.flatMap((article) => {
+      const target = canonicalBySourceId.get(article.sourceData.id);
+      return target ? [[article.slug, target] as const] : [];
+    }),
+  );
+  let redirects: Record<string, string> = {};
+  if (fs.existsSync(REDIRECTS_PATH)) {
+    const parsed: unknown = JSON.parse(
+      fs.readFileSync(REDIRECTS_PATH, "utf-8"),
+    );
+    if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
+      redirects = Object.fromEntries(
+        Object.entries(parsed).filter(
+          (entry): entry is [string, string] =>
+            typeof entry[1] === "string" && Boolean(entry[0]) && Boolean(entry[1]),
+        ),
+      );
+    }
+  }
+  for (const [oldSlug, canonicalSlug] of oldSlugToCanonical) {
+    if (oldSlug !== canonicalSlug) redirects[oldSlug] = canonicalSlug;
+  }
+  const flattenedRedirects: Record<string, string> = {};
+  for (const [from, initialTarget] of Object.entries(redirects).sort(
+    ([left], [right]) => left.localeCompare(right),
+  )) {
+    let target = oldSlugToCanonical.get(initialTarget) ?? initialTarget;
+    const seen = new Set([from]);
+    while (redirects[target] && !seen.has(target)) {
+      seen.add(target);
+      target = oldSlugToCanonical.get(redirects[target]) ?? redirects[target];
+    }
+    if (
+      !seen.has(target) &&
+      from !== target &&
+      canonicalSlugs.has(target)
+    ) {
+      flattenedRedirects[from] = target;
+    }
+  }
+  fs.writeFileSync(
+    REDIRECTS_PATH,
+    JSON.stringify(flattenedRedirects, null, 2),
+  );
+
+  const retainedFiles = new Set([
+    "index.json",
+    ...merged.map((article) => `${article.slug}.json`),
+  ]);
+  const resolvedContentDir = path.resolve(CONTENT_DIR);
+  let prunedFiles = 0;
+  for (const filename of fs.readdirSync(CONTENT_DIR)) {
+    if (!filename.endsWith(".json") || retainedFiles.has(filename)) continue;
+    const resolvedFile = path.resolve(CONTENT_DIR, filename);
+    if (path.dirname(resolvedFile) !== resolvedContentDir) {
+      throw new Error(`Refusing to prune unsafe article path: ${resolvedFile}`);
+    }
+    fs.unlinkSync(resolvedFile);
+    prunedFiles += 1;
+  }
   const publishedNew = admittedNew.filter((article) =>
-    selectedSlugs.has(article.slug),
+    selectedSourceIds.has(article.sourceData.id),
   ).length;
   console.log(
     [
@@ -723,6 +990,8 @@ export async function generateAll(): Promise<void> {
       `daily limit=${policy.dailyNewArticleLimit}`,
       `indexable=${merged.filter((article) => article.indexable).length}`,
       `index size=${merged.length}`,
+      `legacy files pruned=${prunedFiles}`,
+      `legacy redirects=${Object.keys(flattenedRedirects).length}`,
     ].join("; "),
   );
 }

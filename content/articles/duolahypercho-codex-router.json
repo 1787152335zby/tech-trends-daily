@@ -1,0 +1,179 @@
+{
+  "slug": "duolahypercho-codex-router",
+  "title": "Codex-Router Guide: Uses, Setup, and Repository Health",
+  "description": "Codex-Router explained: External-model router for Codex with guided Kimi OAuth/API, DeepSeek, safe migration, and rollback. See best-fit use cases, setup, maintenance signals, and adoption checks.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-07-20",
+  "updatedAt": "2026-07-23",
+  "sourceData": {
+    "id": "gh-1306065843",
+    "name": "codex-router",
+    "fullName": "duolahypercho/codex-router",
+    "url": "https://github.com/duolahypercho/codex-router",
+    "description": "External-model router for Codex with guided Kimi OAuth/API, DeepSeek, safe migration, and rollback.",
+    "language": "JavaScript",
+    "stars": 193,
+    "starsGrowth": 8,
+    "forks": 20,
+    "openIssues": 2,
+    "topics": [
+      "codex",
+      "deepseek",
+      "kimi",
+      "litellm",
+      "model-router"
+    ],
+    "license": "MIT",
+    "createdAt": "2026-07-19T23:16:41Z",
+    "updatedAt": "2026-07-23T03:58:16Z",
+    "homepage": "",
+    "source": "github",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "klaatai-klaatcode",
+    "kritt-ai-open-kritt",
+    "catsjuice-sticker-forge",
+    "gnipbao-story-to-handdrawn-video"
+  ],
+  "tags": [
+    "codex",
+    "deepseek",
+    "kimi",
+    "litellm",
+    "model-router"
+  ],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Codex-Router: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>External-model router for Codex with guided Kimi OAuth/API, DeepSeek, safe migration, and rollback.</p>\n<p>Shortlist Codex-Router only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Codex-Router is most relevant to developers working with JavaScript. Its source topics point to codex, deepseek, kimi, litellm. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Read the README, recent releases, issue tracker, security policy, and license before cloning Codex-Router. Start in a disposable environment that matches your runtime and deployment constraints.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 193 GitHub stars, 20 forks, 2 open issues, and last source push 2026-07-23.</p>\n<p>The source reports the MIT license.</p>\n<p>Stars, forks, and issue counts show repository activity or attention; they do not prove quality, security, or suitability.</p>\n<h2>Bottom line</h2>\n<p>Codex-Router is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Start with the official repository</h2>\n<div class=\"code-block\"><code>git clone https://github.com/duolahypercho/codex-router</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project. Try it in a disposable or non-production environment first.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 193</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 20</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 2</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars, forks, and issue counts are repository signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-23. Source completeness is <strong>Medium</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Archived:</strong> false\n    — <a href=\"https://api.github.com/repos/duolahypercho/codex-router\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Last source push:</strong> 2026-07-23\n    — <a href=\"https://api.github.com/repos/duolahypercho/codex-router\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository:</strong> duolahypercho/codex-router\n    — <a href=\"https://api.github.com/repos/duolahypercho/codex-router\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://api.github.com/repos/duolahypercho/codex-router\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Forks:</strong> 20\n    — <a href=\"https://api.github.com/repos/duolahypercho/codex-router\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>GitHub stars:</strong> 193\n    — <a href=\"https://api.github.com/repos/duolahypercho/codex-router\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Open issues:</strong> 2\n    — <a href=\"https://api.github.com/repos/duolahypercho/codex-router\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository summary:</strong> External-model router for Codex with guided Kimi OAuth/API, DeepSeek, safe migration, and rollback.\n    — <a href=\"https://github.com/duolahypercho/codex-router\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>No latest release was returned by the GitHub Releases API; the project may publish by another method.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-23 from public GitHub project records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "gh-1306065843",
+    "fetchedAt": "2026-07-23T10:58:41.006Z",
+    "score": 80,
+    "officialUrls": [
+      "https://github.com/duolahypercho/codex-router"
+    ],
+    "items": [
+      {
+        "label": "Archived",
+        "value": "false",
+        "url": "https://api.github.com/repos/duolahypercho/codex-router",
+        "observedAt": "2026-07-23T10:58:41.006Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Last source push",
+        "value": "2026-07-23T03:58:16Z",
+        "url": "https://api.github.com/repos/duolahypercho/codex-router",
+        "observedAt": "2026-07-23T10:58:41.006Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Repository",
+        "value": "duolahypercho/codex-router",
+        "url": "https://api.github.com/repos/duolahypercho/codex-router",
+        "observedAt": "2026-07-23T10:58:41.006Z",
+        "kind": "repository"
+      },
+      {
+        "label": "License",
+        "value": "MIT",
+        "url": "https://api.github.com/repos/duolahypercho/codex-router",
+        "observedAt": "2026-07-23T10:58:41.006Z",
+        "kind": "repository-metadata"
+      },
+      {
+        "label": "Forks",
+        "value": "20",
+        "url": "https://api.github.com/repos/duolahypercho/codex-router",
+        "observedAt": "2026-07-23T10:58:41.006Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "GitHub stars",
+        "value": "193",
+        "url": "https://api.github.com/repos/duolahypercho/codex-router",
+        "observedAt": "2026-07-23T10:58:41.006Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "Open issues",
+        "value": "2",
+        "url": "https://api.github.com/repos/duolahypercho/codex-router",
+        "observedAt": "2026-07-23T10:58:41.006Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "Repository summary",
+        "value": "External-model router for Codex with guided Kimi OAuth/API, DeepSeek, safe migration, and rollback.",
+        "url": "https://github.com/duolahypercho/codex-router",
+        "observedAt": "2026-07-23T10:58:41.006Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "No latest release was returned by the GitHub Releases API; the project may publish by another method.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or hands-on test is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 80,
+    "claims": [
+      {
+        "text": "Archived: false (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/duolahypercho/codex-router"
+        ]
+      },
+      {
+        "text": "Last source push: 2026-07-23T03:58:16Z (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/duolahypercho/codex-router"
+        ]
+      },
+      {
+        "text": "Repository: duolahypercho/codex-router (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/duolahypercho/codex-router"
+        ]
+      },
+      {
+        "text": "License: MIT (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/duolahypercho/codex-router"
+        ]
+      },
+      {
+        "text": "Forks: 20 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/duolahypercho/codex-router"
+        ]
+      },
+      {
+        "text": "GitHub stars: 193 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/duolahypercho/codex-router"
+        ]
+      },
+      {
+        "text": "Open issues: 2 (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/duolahypercho/codex-router"
+        ]
+      },
+      {
+        "text": "Repository summary: External-model router for Codex with guided Kimi OAuth/API, DeepSeek, safe migration, and rollback. (observed 2026-07-23)",
+        "evidenceUrls": [
+          "https://github.com/duolahypercho/codex-router"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-23T10:58:41.006Z"
+    },
+    "generatedAt": "2026-07-23T10:58:41.006Z"
+  },
+  "indexable": true
+}

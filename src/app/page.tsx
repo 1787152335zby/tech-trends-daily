@@ -1,11 +1,12 @@
-﻿import { loadAllArticles, getTrendingArticles } from "@/lib/articles";
 import type { Metadata } from "next";
-import { SITE_DESCRIPTION, SITE_URL } from "@/lib/constants";
-import { deduplicateArticlesBySource } from "@/lib/articles";
-import { CATEGORY_LABELS } from "@/lib/types";
-import ArticleCard from "@/components/ArticleCard";
-import AdUnit from "@/components/AdUnit";
 import Link from "next/link";
+import { getTrendingArticles, loadIndexableArticles } from "@/lib/articles";
+import { SITE_DESCRIPTION, SITE_URL } from "@/lib/constants";
+import { CATEGORY_LABELS } from "@/lib/types";
+import { toArticlePreview } from "@/lib/article-presentation";
+import ArticleCard from "@/components/ArticleCard";
+import ArticleExplorer from "@/components/ArticleExplorer";
+import AdUnit from "@/components/AdUnit";
 
 export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
@@ -15,31 +16,29 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const articles = loadAllArticles().filter(
-    (article) => article.indexable !== false,
-  );
+  const articles = loadIndexableArticles();
   const trending = getTrendingArticles(9);
-  const trendingSourceIds = new Set(
-    trending.map((article) => article.sourceData.id || article.sourceData.url),
-  );
-  const recent = deduplicateArticlesBySource(
-    articles,
-    trendingSourceIds,
-  ).slice(0, 18);
+  const searchable = [...articles]
+    .sort(
+      (left, right) =>
+        right.updatedAt.localeCompare(left.updatedAt) ||
+        left.title.localeCompare(right.title),
+    )
+    .map(toArticlePreview);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      {/* Hero */}
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <section className="mb-12 overflow-hidden rounded-2xl border border-blue-100 bg-gradient-to-br from-blue-50 via-white to-indigo-50 px-6 py-12 text-center dark:border-blue-950 dark:from-blue-950/40 dark:via-gray-950 dark:to-indigo-950/30 sm:px-10">
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-blue-700 dark:text-blue-300">
           Practical open-source research
         </p>
         <h1 className="mx-auto mb-4 max-w-3xl text-3xl font-bold tracking-tight sm:text-5xl">
-          Understand trending developer tools before you adopt them
+          Understand developer tools before you adopt them
         </h1>
         <p className="mx-auto max-w-2xl text-lg leading-8 text-gray-600 dark:text-gray-300">
-          Clear guides explaining what each project does, who it is for, how
-          to start, and what the official activity signals really mean.
+          Decision-focused guides explain what each project does, where it
+          fits, how to start, what to verify, and which source signals are
+          actually available.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3 text-sm">
           <span className="rounded-full bg-white px-4 py-2 shadow-sm dark:bg-gray-900">
@@ -48,60 +47,57 @@ export default function HomePage() {
           <span className="rounded-full bg-white px-4 py-2 shadow-sm dark:bg-gray-900">
             GitHub · npm · Hacker News
           </span>
+          <a
+            href="#explore"
+            className="rounded-full bg-blue-600 px-4 py-2 font-medium text-white hover:bg-blue-700"
+          >
+            Search the guides
+          </a>
           <Link
             href="/editorial-policy"
-            className="rounded-full bg-gray-900 px-4 py-2 font-medium text-white hover:bg-blue-700 dark:bg-white dark:text-gray-950"
+            className="rounded-full bg-gray-900 px-4 py-2 font-medium text-white hover:bg-gray-700 dark:bg-white dark:text-gray-950"
           >
             How we verify claims
           </Link>
         </div>
       </section>
 
-      {/* Ad above fold */}
       <AdUnit placement="home-top" />
 
-      {/* Trending Section */}
       <section className="mb-12">
         <div className="mb-6">
-          <h2 className="text-2xl font-bold">Most active right now</h2>
-          <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-            Projects with notable source activity—not a ranking of product quality.
+          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-blue-700 dark:text-blue-300">
+            Source-balanced trend view
+          </p>
+          <h2 className="mt-2 text-2xl font-bold">Fresh signals across the ecosystem</h2>
+          <p className="mt-1 max-w-3xl text-sm text-gray-500 dark:text-gray-400">
+            A mix of recently released npm packages, active repositories, and
+            timely discussions. Recency and source-specific activity both
+            matter; this is not a product-quality ranking.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {trending.map((article) => (
-            <ArticleCard key={article.slug} article={article} />
+            <ArticleCard
+              key={article.slug}
+              article={toArticlePreview(article)}
+            />
           ))}
         </div>
       </section>
 
-      {/* Ad mid-page */}
       <AdUnit placement="home-mid" />
 
-      {/* Latest Articles */}
-      <section className="mb-12">
-        <div className="mb-6">
-          <h2 className="text-2xl font-bold">Recently updated practical guides</h2>
-          <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-            Start with what the tool is for, then inspect setup, tradeoffs, and sources.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {recent.map((article) => (
-            <ArticleCard key={article.slug} article={article} />
-          ))}
-        </div>
-      </section>
+      <ArticleExplorer articles={searchable} />
 
-      {/* Categories overview */}
       <section>
-        <h2 className="text-2xl font-bold mb-6">Browse by what you build</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+        <h2 className="mb-6 text-2xl font-bold">Browse by what you build</h2>
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5">
           {Object.entries(CATEGORY_LABELS).map(([slug, label]) => (
             <Link
               key={slug}
               href={`/category/${slug}`}
-              className="p-4 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-blue-500 hover:shadow-md transition-all text-center"
+              className="rounded-lg border border-gray-200 p-4 text-center transition-all hover:border-blue-500 hover:shadow-md dark:border-gray-800"
             >
               <span className="font-medium">{label}</span>
             </Link>
@@ -109,7 +105,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Ad bottom */}
       <AdUnit placement="home-bottom" />
     </div>
   );
