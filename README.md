@@ -1,45 +1,67 @@
 # TechTrends Daily
 
-Fully automated English-language SEO content site. Generates 176+ structured articles daily from trending GitHub repos, NPM packages, and Hacker News — deploys to Vercel for passive AdSense revenue.
+English-language Next.js SEO content site built from public GitHub, NPM, and Hacker News data. The repository keeps a rolling index of up to 2,000 articles and pre-renders the site for Vercel.
 
-## How It Works
+## Pipeline
 
-1. **Fetch** — GitHub Actions runs data collection every 6 hours (GitHub API, NPM Registry, HN API)
-2. **Generate** — Template engine produces SEO-optimized articles across 9 categories, 5 article types
-3. **Build** — Next.js static export generates ~189 HTML pages
-4. **Deploy** — Automatic push to Vercel CDN
-5. **Earn** — AdSense ads throughout. Paid in RMB via Western Union to Chinese bank accounts.
+The scheduled GitHub Actions workflow runs every six hours:
 
-## Quick Start
+1. Fetch public source data.
+2. Generate or refresh articles.
+3. Validate the article index and referenced JSON files.
+4. Build the Next.js site.
+5. Generate the sitemap.
+6. Commit updated content and data.
 
-### 1. Register Google AdSense
-Go to https://adsense.google.com/, create account, get publisher ID (format: ca-pub-XXXXXXXXXXXXXXXX).  
-Set in .env.local: NEXT_PUBLIC_ADSENSE_CLIENT_ID=ca-pub-XXXXXXXXXXXXXXXX
+Vercel deployment is separate from this workflow. A successful build does not guarantee that the production URL is public or correctly assigned.
 
-### 2. Deploy to Vercel
-Connect GitHub repo to Vercel, or: npm i -g vercel && vercel --prod
+## Local setup
 
-### 3. GitHub Actions Secrets (for auto pipeline)
-Settings -> Secrets and variables -> Actions: VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_PROJECT_ID
+```bash
+npm ci
+copy .env.example .env.local
+npm run validate-content
+npm run build
+npm run dev
+```
 
-### 4. Manual Commands
-npm run fetch-all    # Fetch trending data from all sources
-npm run generate     # Generate articles from data
-npm run pipeline     # Full pipeline: fetch -> generate -> build
-npm run build        # Next.js static export
+Environment variables:
 
-## Monetization
+```dotenv
+NEXT_PUBLIC_SITE_URL=https://your-public-domain.example
+NEXT_PUBLIC_ADSENSE_CLIENT_ID=ca-pub-0000000000000000
+NEXT_PUBLIC_ADSENSE_SLOT_HOME_TOP=0000000000
+NEXT_PUBLIC_ADSENSE_SLOT_HOME_MID=0000000000
+NEXT_PUBLIC_ADSENSE_SLOT_HOME_BOTTOM=0000000000
+NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE_BOTTOM=0000000000
+```
 
-Traffic -> AdSense Impressions -> CPM Revenue ($5-15 per 1k views) -> Western Union -> Chinese Bank -> RMB
+Use real AdSense values only after the site has been added to AdSense. Invalid or placeholder publisher and slot IDs are ignored, so no advertising script is loaded during development.
 
-## Timeline
-- Day 1: 176 articles live
-- Weeks 1-4: Google indexing
-- Months 1-3: 10-100 daily visitors
-- Month 1-2: Apply for AdSense review
-- Months 3-6: 500-5,000 daily visitors as SEO compounds
+## Commands
 
-## Free Tier Viability
-Vercel: 100GB bandwidth/mo (~30k daily visitors)  
-GitHub Actions: 2,000 min/mo (6 builds/day * ~10 min = 1,800 min)  
-GitHub API: 60 req/hr unauthenticated (well within limits)
+```bash
+npm run dev              # Start the development server
+npm run lint             # Run ESLint
+npm run validate-content # Validate the rolling article index
+npm run build            # Create the production Next.js build
+npm run fetch-all        # Fetch all external data sources
+npm run generate         # Generate articles from existing data
+npm run pipeline         # Fetch, generate, validate, and build
+```
+
+`fetch-all` and `pipeline` access external APIs and rewrite files under `data/` and `content/`.
+
+## Monetization readiness
+
+AdSense revenue is not automatic. Before requesting or resuming review, verify all of the following:
+
+- The canonical site URL is publicly reachable without Vercel authentication.
+- The domain serves the homepage, `robots.txt`, `sitemap.xml`, and content pages successfully.
+- About, Privacy, and Contact pages are available.
+- The site contains useful, accurate, source-backed content rather than placeholder copy.
+- The AdSense publisher ID and all four numeric ad slot IDs are configured in the production environment.
+- `/ads.txt` returns the configured publisher record.
+- The site shows as `Ready` in the AdSense Sites page.
+
+Do not repeatedly remove and resubmit a site while it is under review. Diagnose accessibility and connection problems first.

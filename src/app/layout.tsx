@@ -4,6 +4,7 @@ import Link from "next/link";
 import "./globals.css";
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from "@/lib/constants";
 import { CATEGORY_LABELS, ArticleCategory } from "@/lib/types";
+import { getAdSenseClientId } from "@/lib/adsense";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,15 +48,18 @@ export const metadata: Metadata = {
 const categories = Object.entries(CATEGORY_LABELS) as [ArticleCategory, string][];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const adsenseClientId = getAdSenseClientId();
+
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <head>
-        {/* AdSense auto ads */}
-        <script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || "ca-pub-XXXXXXXXXXXXXXXX"}`}
-          crossOrigin="anonymous"
-        />
+        {adsenseClientId && (
+          <script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClientId}`}
+            crossOrigin="anonymous"
+          />
+        )}
         {/* JSON-LD: WebSite */}
         <script
           type="application/ld+json"
@@ -99,9 +103,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Footer */}
         <footer className="border-t border-gray-200 dark:border-gray-800 py-8 mt-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500 dark:text-gray-400">
+            <nav aria-label="Footer" className="mb-3 flex flex-wrap justify-center gap-x-5 gap-y-2">
+              <Link href="/about" className="hover:text-blue-600">About</Link>
+              <Link href="/privacy" className="hover:text-blue-600">Privacy</Link>
+              <Link href="/contact" className="hover:text-blue-600">Contact</Link>
+              <Link href="/rss.xml" className="hover:text-blue-600">RSS</Link>
+            </nav>
             <p>&copy; {new Date().getFullYear()} {SITE_NAME}. All rights reserved.</p>
             <p className="mt-1">
-              This site is a participant in affiliate advertising programs designed to provide a means for sites to earn advertising fees.
+              Some pages may display advertising when an approved advertising account is enabled.
             </p>
           </div>
         </footer>

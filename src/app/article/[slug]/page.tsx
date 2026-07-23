@@ -4,6 +4,7 @@ import { SITE_URL, SITE_NAME } from "@/lib/constants";
 import AdUnit from "@/components/AdUnit";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 
 interface Props { params: Promise<{ slug: string }>; }
 
@@ -14,12 +15,48 @@ export async function generateStaticParams() {
 export const dynamicParams = false;
 export const dynamic = "force-static";
 
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const article = loadArticle(slug);
+
+  if (!article) notFound();
+
+  const canonicalPath = `/article/${article.slug}`;
+
+  return {
+    title: article.title,
+    description: article.description,
+    alternates: {
+      canonical: canonicalPath,
+    },
+    openGraph: {
+      type: "article",
+      title: article.title,
+      description: article.description,
+      url: canonicalPath,
+      siteName: SITE_NAME,
+      publishedTime: article.publishedAt,
+      modifiedTime: article.updatedAt,
+      tags: article.tags,
+    },
+    twitter: {
+      card: "summary",
+      title: article.title,
+      description: article.description,
+    },
+  };
+}
+
 function fmt(n: number): string { if (n >= 1000000000) return `${(n / 1000000000).toFixed(1)}B`; if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`; if (n >= 1000) return `${(n / 1000).toFixed(1)}k`; return String(n); }
 
 export default async function ArticlePage({ params }: Props) {
   const { slug } = await params;
   const article = loadArticle(slug);
   if (!article) notFound();
+
+  const articleHtml = article.bodyHtml
+    .replace(/<div class=["']ad-container["']>[\s\S]*?<\/div>/gi, "")
+    .replace(/<p class=["']disclosure["']>[\s\S]*?<\/p>/gi, "");
 
   const allArticles = loadAllArticles();
   const related = allArticles
@@ -72,8 +109,12 @@ export default async function ArticlePage({ params }: Props) {
 
         <div
           className="prose prose-lg dark:prose-invert max-w-none mb-8 article-body"
-          dangerouslySetInnerHTML={{ __html: article.bodyHtml }}
+          dangerouslySetInnerHTML={{ __html: articleHtml }}
         />
+
+        <aside className="mb-8 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-950 dark:border-amber-900 dark:bg-amber-950/30 dark:text-amber-100">
+          This article was produced through an automated workflow using public source data. Verify important technical, licensing, and security details with the original source below. Any advertising shown on this page is separate from editorial selection.
+        </aside>
 
         <div className="my-8 p-4 rounded-lg bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800">
           <p className="text-sm text-gray-600 dark:text-gray-400">
@@ -95,7 +136,7 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         )}
 
-        <AdUnit slot="article-bottom" />
+        <AdUnit placement="article-bottom" />
 
         {related.length > 0 && (
           <section className="mt-12">

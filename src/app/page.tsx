@@ -23,7 +23,7 @@ export default function HomePage() {
       </section>
 
       {/* Ad above fold */}
-      <AdUnit slot="home-top" />
+      <AdUnit placement="home-top" />
 
       {/* Trending Section */}
       <section className="mb-12">
@@ -36,7 +36,7 @@ export default function HomePage() {
       </section>
 
       {/* Ad mid-page */}
-      <AdUnit slot="home-mid" />
+      <AdUnit placement="home-mid" />
 
       {/* Latest Articles */}
       <section className="mb-12">
@@ -65,7 +65,7 @@ export default function HomePage() {
       </section>
 
       {/* Ad bottom */}
-      <AdUnit slot="home-bottom" />
+      <AdUnit placement="home-bottom" />
     </div>
   );
 }

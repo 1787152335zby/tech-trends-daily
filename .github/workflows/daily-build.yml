@@ -36,6 +36,9 @@ jobs:
       - name: Generate articles
         run: npx tsx scripts/generate-articles.ts
 
+      - name: Validate generated content
+        run: npm run validate-content
+
       - name: Verify build succeeds
         run: npx next build
 
