@@ -9,6 +9,7 @@
     "lint": "eslint",
     "fetch-all": "npx tsx scripts/fetch-all.ts",
     "generate": "npx tsx scripts/generate-articles.ts",
+    "migrate-content": "npx tsx scripts/migrate-content-quality.ts",
     "validate-content": "npx tsx scripts/validate-content.ts",
     "pipeline": "npx tsx scripts/build-pipeline.ts"
   },

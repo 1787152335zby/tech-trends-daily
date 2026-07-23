@@ -23,6 +23,12 @@ export default function AboutPage() {
         <p>
           Inclusion on this site is not an endorsement, and rankings or trend signals can change after an article is published.
         </p>
+        <p>
+          Coverage is published under the{" "}
+          <Link href="/editorial-policy">TechTrends Daily Editorial Policy</Link>,
+          which explains our use of automation, source checks, corrections, and
+          commercial independence.
+        </p>
         <h2>Advertising</h2>
         <p>
           The site may display advertising after an advertising account has been approved and enabled. Advertising does not determine which projects are covered. Any future sponsored or affiliate relationship should be disclosed where it appears; the general presence of an outbound link does not mean it is an affiliate link.

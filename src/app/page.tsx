@@ -1,5 +1,6 @@
 ﻿import { loadAllArticles, getTrendingArticles } from "@/lib/articles";
 import { SITE_NAME } from "@/lib/constants";
+import { deduplicateArticlesBySource } from "@/lib/articles";
 import { CATEGORY_LABELS } from "@/lib/types";
 import ArticleCard from "@/components/ArticleCard";
 import AdUnit from "@/components/AdUnit";
@@ -8,7 +9,13 @@ import Link from "next/link";
 export default function HomePage() {
   const articles = loadAllArticles();
   const trending = getTrendingArticles(12);
-  const recent = articles.slice(0, 30);
+  const trendingSourceIds = new Set(
+    trending.map((article) => article.sourceData.id || article.sourceData.url),
+  );
+  const recent = deduplicateArticlesBySource(
+    articles,
+    trendingSourceIds,
+  ).slice(0, 30);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">

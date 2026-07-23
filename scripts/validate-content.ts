@@ -23,6 +23,13 @@ const ARTICLE_CATEGORIES = new Set([
 ]);
 const SOURCES = new Set(["github", "npm", "hackernews"]);
 const MAX_REPORTED_ERRORS = 50;
+const BANNED_CONTENT: Array<[RegExp, string]> = [
+  [/\b\d+(?:\.\d+)?MM\b/i, "contains malformed MM number formatting"],
+  [/\bgit clone\s+https?:\/\/(?:www\.)?npmjs\.com\b/i, "tries to git clone an NPM page"],
+  [/\b(?:ad-placeholder|advertisement placeholder|adsbygoogle|data-ad-(?:client|slot))\b/i, "contains an ad placeholder or embedded ad markup"],
+  [/\b(?:we|our team|techtrends daily)\s+(?:tested|benchmarked|reviewed)\b/i, "claims unsupported first-hand testing or review"],
+  [/\b(?:hands-on (?:test|review)|after (?:we )?tested|in our tests)\b/i, "claims unsupported hands-on testing"],
+];
 
 const errors: string[] = [];
 let totalErrors = 0;
@@ -50,6 +57,16 @@ function isHttpUrl(value: unknown): boolean {
   }
 }
 
+function parseHttpUrl(value: unknown): URL | null {
+  if (!isNonEmptyString(value)) return null;
+  try {
+    const parsed = new URL(value);
+    return parsed.protocol === "http:" || parsed.protocol === "https:" ? parsed : null;
+  } catch {
+    return null;
+  }
+}
+
 function isDateOnly(value: unknown): boolean {
   if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
   const parsed = new Date(`${value}T00:00:00.000Z`);
@@ -63,6 +80,71 @@ function isIsoDate(value: unknown): boolean {
 function validateStringArray(value: unknown, location: string): void {
   if (!Array.isArray(value) || value.some((item) => typeof item !== "string")) {
     reportError(`${location} must be an array of strings`);
+  }
+}
+
+function validateNonNegativeNumber(value: unknown, location: string): void {
+  if (typeof value !== "number" || !Number.isFinite(value) || value < 0) {
+    reportError(`${location} must be a finite non-negative number`);
+  }
+}
+
+function normalizedGitHubRepository(value: unknown): string | null {
+  const parsed = parseHttpUrl(value);
+  if (!parsed || parsed.protocol !== "https:" || parsed.hostname.toLowerCase() !== "github.com") {
+    return null;
+  }
+  const parts = parsed.pathname.replace(/\.git$/i, "").split("/").filter(Boolean);
+  if (parts.length !== 2 || parts.some((part) => !/^[a-z0-9_.-]+$/i.test(part))) return null;
+  return `https://github.com/${parts[0].toLowerCase()}/${parts[1].toLowerCase()}`;
+}
+
+function validateContentClaims(
+  bodyHtml: unknown,
+  source: JsonObject,
+  location: string,
+): void {
+  if (!isNonEmptyString(bodyHtml)) return;
+
+  for (const [pattern, message] of BANNED_CONTENT) {
+    if (pattern.test(bodyHtml)) reportError(`${location}.bodyHtml ${message}`);
+  }
+
+  if (!/automated snapshot/i.test(bodyHtml) || !/no independent product testing/i.test(bodyHtml)) {
+    reportError(`${location}.bodyHtml must disclose automated snapshot generation and lack of independent testing`);
+  }
+
+  const sourceType = String(source.source);
+  if (sourceType === "npm") {
+    if (!/weekly NPM downloads/i.test(bodyHtml)) {
+      reportError(`${location}.bodyHtml must label the NPM metric as weekly downloads`);
+    }
+    if (/new GitHub stars (?:this week|in the recorded weekly window)/i.test(bodyHtml)) {
+      reportError(`${location}.bodyHtml mislabels NPM downloads as GitHub star growth`);
+    }
+  } else if (sourceType === "github") {
+    if (!/new GitHub stars/i.test(bodyHtml)) {
+      reportError(`${location}.bodyHtml must label GitHub growth as new GitHub stars`);
+    }
+    if (/weekly NPM downloads/i.test(bodyHtml)) {
+      reportError(`${location}.bodyHtml mixes NPM downloads into a GitHub snapshot`);
+    }
+  } else if (sourceType === "hackernews") {
+    if (!/Hacker News points/i.test(bodyHtml)) {
+      reportError(`${location}.bodyHtml must label the Hacker News score as points`);
+    }
+    if (/weekly NPM downloads|new GitHub stars/i.test(bodyHtml)) {
+      reportError(`${location}.bodyHtml mixes package/repository growth into a Hacker News snapshot`);
+    }
+  }
+
+  const cloneCommands = bodyHtml.matchAll(/\bgit clone\s+(https?:\/\/[^\s<]+)/gi);
+  for (const match of cloneCommands) {
+    const cloneRepository = normalizedGitHubRepository(match[1]);
+    const sourceRepository = normalizedGitHubRepository(source.url);
+    if (sourceType !== "github" || !cloneRepository || cloneRepository !== sourceRepository) {
+      reportError(`${location}.bodyHtml contains a git clone command that does not match its GitHub source`);
+    }
   }
 }
 
@@ -129,6 +211,25 @@ function validateArticle(value: unknown, location: string, expectedSlug?: string
   if (!isIsoDate(source.updatedAt)) {
     reportError(`${location}.sourceData.updatedAt must be a valid date`);
   }
+  for (const field of ["stars", "starsGrowth", "forks", "openIssues"] as const) {
+    validateNonNegativeNumber(source[field], `${location}.sourceData.${field}`);
+  }
+  validateStringArray(source.topics, `${location}.sourceData.topics`);
+
+  const parsedSourceUrl = parseHttpUrl(source.url);
+  if (source.source === "npm") {
+    if (
+      !parsedSourceUrl
+      || !["npmjs.com", "www.npmjs.com"].includes(parsedSourceUrl.hostname.toLowerCase())
+      || !parsedSourceUrl.pathname.startsWith("/package/")
+    ) {
+      reportError(`${location}.sourceData.url must be an official NPM package URL`);
+    }
+  } else if (source.source === "github" && !normalizedGitHubRepository(source.url)) {
+    reportError(`${location}.sourceData.url must identify a GitHub owner/repository`);
+  }
+
+  validateContentClaims(value.bodyHtml, source, location);
 }
 
 function readJson(filePath: string, location: string): unknown {
@@ -155,6 +256,8 @@ function main(): void {
     reportError("index.json must contain an array");
   } else {
     const slugs = new Set<string>();
+    const sourceIds = new Set<string>();
+    const titles = new Set<string>();
     let referencedFiles = 0;
 
     index.forEach((entry, position) => {
@@ -165,6 +268,18 @@ function main(): void {
       const slug = entry.slug;
       if (slugs.has(slug)) reportError(`${location}.slug duplicates ${slug}`);
       slugs.add(slug);
+
+      if (isNonEmptyString(entry.title)) {
+        const normalizedTitle = entry.title.replace(/\s+/g, " ").trim().toLocaleLowerCase("en-US");
+        if (titles.has(normalizedTitle)) reportError(`${location}.title duplicates ${entry.title}`);
+        titles.add(normalizedTitle);
+      }
+
+      if (isObject(entry.sourceData) && isNonEmptyString(entry.sourceData.id)) {
+        const sourceId = entry.sourceData.id;
+        if (sourceIds.has(sourceId)) reportError(`${location}.sourceData.id duplicates ${sourceId}`);
+        sourceIds.add(sourceId);
+      }
 
       if (!/^[a-z0-9][a-z0-9-]*[a-z0-9]$/.test(slug)) return;
       const articlePath = path.join(contentDir, `${slug}.json`);

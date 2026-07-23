@@ -3,7 +3,8 @@
  * 1. Fetch all data sources
  * 2. Generate articles from data
  * 3. Validate generated content
- * 4. Build the Next.js site
+ * 4. Run static quality checks
+ * 5. Build the Next.js site
  */
 
 import { execSync } from "child_process";
@@ -19,9 +20,11 @@ async function main() {
   console.log("========== TechTrends Daily Build Pipeline ==========\n");
 
   run("npm run fetch-all", "Step 1: Fetch Data");
-  run("npm run generate", "Step 2: Generate Articles");
+  run("npm run generate", "Step 2: Update Canonical Snapshots");
   run("npm run validate-content", "Step 3: Validate Content");
-  run("npm run build", "Step 4: Build Next.js Site");
+  run("npm run lint", "Step 4a: Lint");
+  run("npx tsc --noEmit", "Step 4b: Type Check");
+  run("npm run build", "Step 5: Build Next.js Site");
 
   console.log("\n========== Build Complete ==========");
 }

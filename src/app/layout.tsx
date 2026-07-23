@@ -5,6 +5,7 @@ import "./globals.css";
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from "@/lib/constants";
 import { CATEGORY_LABELS, ArticleCategory } from "@/lib/types";
 import { getAdSenseClientId } from "@/lib/adsense";
+import MobileCategoryNav from "@/components/MobileCategoryNav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -82,7 +83,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/" className="text-xl font-bold tracking-tight hover:text-blue-600 transition-colors">
                 {SITE_NAME}
               </Link>
-              <nav className="hidden md:flex items-center gap-1">
+              <nav aria-label="Categories" className="hidden md:flex items-center gap-1">
                 {categories.map(([key, label]) => (
                   <Link
                     key={key}
@@ -93,6 +94,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </Link>
                 ))}
               </nav>
+              <MobileCategoryNav categories={categories} />
             </div>
           </div>
         </header>
@@ -105,6 +107,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-500 dark:text-gray-400">
             <nav aria-label="Footer" className="mb-3 flex flex-wrap justify-center gap-x-5 gap-y-2">
               <Link href="/about" className="hover:text-blue-600">About</Link>
+              <Link href="/editorial-policy" className="hover:text-blue-600">Editorial Policy</Link>
               <Link href="/privacy" className="hover:text-blue-600">Privacy</Link>
               <Link href="/contact" className="hover:text-blue-600">Contact</Link>
               <Link href="/rss.xml" className="hover:text-blue-600">RSS</Link>

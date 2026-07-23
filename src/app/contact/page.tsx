@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -26,6 +27,10 @@ export default function ContactPage() {
         </p>
         <p>
           Source-project support questions should be directed to the original project maintainers through the source link shown in the relevant article.
+        </p>
+        <p>
+          Correction requests are handled according to our{" "}
+          <Link href="/editorial-policy">Editorial Policy</Link>.
         </p>
       </div>
     </article>

@@ -2,7 +2,8 @@ name: Daily Content Update
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    # One quality-checked refresh per day is sufficient for weekly source metrics.
+    - cron: "17 3 * * *"
   workflow_dispatch:
 
 # Allow the workflow to push generated content back to the repo.
@@ -38,6 +39,11 @@ jobs:
 
       - name: Validate generated content
         run: npm run validate-content
+
+      - name: Run static checks
+        run: |
+          npm run lint
+          npx tsc --noEmit
 
       - name: Verify build succeeds
         run: npx next build

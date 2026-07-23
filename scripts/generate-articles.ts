@@ -1,16 +1,24 @@
-﻿/**
- * Content generation engine.
- * Takes merged RepoData and produces structured HTML articles using templates.
+/**
+ * Canonical content generation engine.
+ *
+ * One sourceData.id maps to one stable URL. Re-running the generator updates
+ * that source's data snapshot instead of publishing another dated article.
  */
 
+import { createHash } from "crypto";
 import fs from "fs";
 import path from "path";
-import { RepoData, Article, ArticleType, CATEGORY_LABELS } from "../src/lib/types";
+import { pathToFileURL } from "url";
+import { RepoData, Article, CATEGORY_LABELS } from "../src/lib/types";
 import { DATA_DIR, CONTENT_DIR } from "../src/lib/constants";
 
-// ----- Template helpers -----
+export interface BuildArticleOptions {
+  publishedAt?: string;
+  updatedAt?: string;
+  relatedSlugs?: string[];
+}
 
-function slugify(text: string, maxLen = 60): string {
+function slugify(text: string, maxLen = 54): string {
   return text
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
@@ -19,12 +27,8 @@ function slugify(text: string, maxLen = 60): string {
     .replace(/-$/g, "");
 }
 
-function dateStr(iso: string): string {
-  return new Date(iso).toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  });
+function todayUtc(): string {
+  return new Date().toISOString().slice(0, 10);
 }
 
 function escapeHtml(text: string): string {
@@ -35,455 +39,424 @@ function escapeHtml(text: string): string {
     .replace(/"/g, "&quot;");
 }
 
-function formatNumber(n: number): string {
-  if (n >= 1000000000) return `${(n / 1000000000).toFixed(1)}B`;
-  if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
-  if (n >= 1000) return `${(n / 1000).toFixed(1)}k`;
-  return String(n);
+function formatNumber(value: number): string {
+  if (!Number.isFinite(value)) return "0";
+  if (value >= 1_000_000_000) return `${(value / 1_000_000_000).toFixed(1)}B`;
+  if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
+  if (value >= 1_000) return `${(value / 1_000).toFixed(1)}k`;
+  return String(Math.max(0, Math.round(value)));
 }
 
-function sourceLabel(repo: RepoData): string {
+function excerpt(text: string, maxLen: number): string {
+  const normalized = text
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (normalized.length <= maxLen) {
+    return normalized.replace(/[\s.,;:!?]+$/g, "");
+  }
+
+  const clipped = normalized.slice(0, maxLen + 1);
+  const lastWordBoundary = clipped.lastIndexOf(" ");
+  const safeCut = lastWordBoundary >= Math.floor(maxLen * 0.65)
+    ? clipped.slice(0, lastWordBoundary)
+    : normalized.slice(0, maxLen);
+
+  return `${safeCut.replace(/[\s.,;:!?]+$/g, "")}…`;
+}
+
+function sourceName(repo: RepoData): string {
   if (repo.source === "npm") return "NPM package";
   if (repo.source === "hackernews") return "Hacker News story";
   return "GitHub project";
 }
 
-function metricSummary(repo: RepoData): string {
+function sourceMetric(repo: RepoData): string {
   if (repo.source === "npm") {
-    return `${formatNumber(repo.starsGrowth)} weekly downloads`;
+    return `${formatNumber(repo.starsGrowth)} downloads in the recorded weekly NPM window`;
   }
   if (repo.source === "hackernews") {
-    return `${formatNumber(repo.starsGrowth)} Hacker News points`;
+    return `${formatNumber(repo.starsGrowth)} Hacker News points at collection time`;
   }
-  return `${formatNumber(repo.starsGrowth)} new stars this week`;
+  return `${formatNumber(repo.starsGrowth)} new GitHub stars in the recorded weekly window`;
 }
 
-function descriptionExcerpt(text: string, maxLen: number): string {
-  return text.replace(/\s+/g, " ").trim().slice(0, maxLen).replace(/[\s.,;:!?]+$/g, "");
+function sourceIdentity(repo: RepoData): string {
+  if (repo.source === "github") return repo.fullName || repo.name;
+  if (repo.source === "npm") return repo.name;
+  return `${repo.name} (${repo.id})`;
 }
 
-// ----- Article type selector -----
-
-function pickArticleType(repo: RepoData): ArticleType {
-  const types: ArticleType[] = ["review", "vs", "howto", "bestof", "trend"];
-  // Hash-based deterministic selection
-  const hash = repo.id.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
-  return types[hash % types.length];
+export function canonicalArticleSlug(repo: RepoData): string {
+  const base = slugify(repo.id) || slugify(repo.fullName) || slugify(repo.name) || "source";
+  const hash = createHash("sha256")
+    .update(repo.id)
+    .digest("hex")
+    .slice(0, 8);
+  return `snapshot-${base}-${hash}`;
 }
 
-// ----- Section generators -----
+export function canonicalArticleTitle(repo: RepoData): string {
+  const identity = sourceIdentity(repo);
+  if (repo.source === "npm") return `${identity} — NPM Package Data Snapshot`;
+  if (repo.source === "hackernews") return `${identity} — Hacker News Data Snapshot`;
+  return `${identity} — GitHub Project Data Snapshot`;
+}
 
-function generateIntro(repo: RepoData): string {
-  const category = CATEGORY_LABELS[repo.category];
-  if (repo.source === "npm") {
-    const githubContext = repo.stars > 0
-      ? ` Its linked GitHub project has ${formatNumber(repo.stars)} stars.`
-      : "";
-    const summary = descriptionExcerpt(
-      repo.description || "It provides tooling for JavaScript and TypeScript developers.",
-      300,
-    );
-    return `
-<p><strong>${escapeHtml(repo.name)}</strong> is an NPM package drawing attention in the <em>${category}</em> ecosystem, with <strong>${formatNumber(repo.starsGrowth)} weekly downloads</strong>. ${escapeHtml(summary)}.${githubContext}</p>
-    `.trim();
-  }
-
-  if (repo.source === "hackernews") {
-    return `
-<p><strong>${escapeHtml(repo.name)}</strong> is a technology story gaining attention in the <em>${category}</em> community. It reached <strong>${formatNumber(repo.starsGrowth)} points on Hacker News</strong>, signaling active reader interest and discussion.</p>
-    `.trim();
-  }
-
+function generateDataNote(repo: RepoData, updatedAt: string): string {
   return `
-<p><strong>${escapeHtml(repo.name)}</strong> is gaining attention in the <em>${category}</em> ecosystem, adding <strong>${formatNumber(repo.starsGrowth)} new stars this week</strong>. The GitHub project currently has ${formatNumber(repo.stars)} stars and ${formatNumber(repo.forks)} forks.</p>
+<p><em>Data note:</em> This automated snapshot was updated on ${updatedAt} from public ${sourceName(repo)} metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>
   `.trim();
 }
 
-function generateStatsBox(repo: RepoData): string {
+function generateSummary(repo: RepoData): string {
+  const summary = excerpt(repo.description, 360);
+  const description = summary
+    ? escapeHtml(summary)
+    : `No description was supplied by the public ${sourceName(repo)} source`;
+
+  return `
+<h2>Snapshot Summary</h2>
+<p><strong>${escapeHtml(repo.name)}</strong> is listed in our <em>${escapeHtml(CATEGORY_LABELS[repo.category])}</em> feed. The source describes it as: ${description}.</p>
+<p>The principal source-specific signal in this snapshot is <strong>${escapeHtml(sourceMetric(repo))}</strong>.</p>
+  `.trim();
+}
+
+function generateMetrics(repo: RepoData): string {
   if (repo.source === "npm") {
-    const githubStats = repo.stars > 0
+    const linkedRepositoryMetrics = repo.stars > 0
       ? `
-  <div class="stat"><span class="stat-value">⭐ ${formatNumber(repo.stars)}</span><span class="stat-label">GitHub Stars</span></div>
-  <div class="stat"><span class="stat-value">🔀 ${formatNumber(repo.forks)}</span><span class="stat-label">GitHub Forks</span></div>`
+  <div class="stat"><span class="stat-value">⭐ ${formatNumber(repo.stars)}</span><span class="stat-label">Linked GitHub Stars (total)</span></div>
+  <div class="stat"><span class="stat-value">🔀 ${formatNumber(repo.forks)}</span><span class="stat-label">Linked GitHub Forks (total)</span></div>`
       : "";
     return `
+<h2>Recorded Metrics</h2>
 <div class="stats-box">
-  <div class="stat"><span class="stat-value">📦 ${formatNumber(repo.starsGrowth)}</span><span class="stat-label">Weekly Downloads</span></div>
-  <div class="stat"><span class="stat-value">NPM</span><span class="stat-label">Package Registry</span></div>${githubStats}
+  <div class="stat"><span class="stat-value">📦 ${formatNumber(repo.starsGrowth)}</span><span class="stat-label">Weekly NPM Downloads</span></div>
+  <div class="stat"><span class="stat-value">NPM</span><span class="stat-label">Package Registry</span></div>${linkedRepositoryMetrics}
 </div>
+<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>
     `.trim();
   }
 
   if (repo.source === "hackernews") {
     return `
+<h2>Recorded Metrics</h2>
 <div class="stats-box">
   <div class="stat"><span class="stat-value">▲ ${formatNumber(repo.starsGrowth)}</span><span class="stat-label">Hacker News Points</span></div>
-  <div class="stat"><span class="stat-value">${dateStr(repo.createdAt)}</span><span class="stat-label">Posted</span></div>
 </div>
+<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>
     `.trim();
   }
 
   return `
+<h2>Recorded Metrics</h2>
 <div class="stats-box">
-  <div class="stat"><span class="stat-value">⭐ ${formatNumber(repo.stars)}</span><span class="stat-label">Stars</span></div>
-  <div class="stat"><span class="stat-value">📈 +${formatNumber(repo.starsGrowth)}</span><span class="stat-label">New Stars This Week</span></div>
-  <div class="stat"><span class="stat-value">🔀 ${formatNumber(repo.forks)}</span><span class="stat-label">Forks</span></div>
-  <div class="stat"><span class="stat-value">⚠️ ${formatNumber(repo.openIssues)}</span><span class="stat-label">Open Issues</span></div>
+  <div class="stat"><span class="stat-value">⭐ ${formatNumber(repo.stars)}</span><span class="stat-label">GitHub Stars (total)</span></div>
+  <div class="stat"><span class="stat-value">📈 +${formatNumber(repo.starsGrowth)}</span><span class="stat-label">New GitHub Stars (weekly window)</span></div>
+  <div class="stat"><span class="stat-value">🔀 ${formatNumber(repo.forks)}</span><span class="stat-label">GitHub Forks (total)</span></div>
+  <div class="stat"><span class="stat-value">⚠️ ${formatNumber(repo.openIssues)}</span><span class="stat-label">Open GitHub Issues</span></div>
 </div>
+<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>
   `.trim();
 }
 
-function generateKeyFeatures(repo: RepoData): string {
-  if (repo.source === "hackernews") {
-    return `
-<h2>Story at a Glance</h2>
-<ul>
-  <li>Topic: <strong>${escapeHtml(CATEGORY_LABELS[repo.category])}</strong></li>
-  <li>Community signal: <strong>${formatNumber(repo.starsGrowth)} Hacker News points</strong></li>
-  <li>Original source: <a href="${escapeHtml(repo.url)}" rel="nofollow noopener" target="_blank">Read the linked story</a></li>
-</ul>
-    `.trim();
+function generateMetadata(repo: RepoData): string {
+  const items: string[] = [];
+  if (repo.language && repo.language !== "Unknown") {
+    items.push(`<li>Language or ecosystem: <strong>${escapeHtml(repo.language)}</strong></li>`);
+  }
+  if (repo.license && repo.license !== "N/A") {
+    items.push(`<li>Reported license: <strong>${escapeHtml(repo.license)}</strong></li>`);
+  }
+  if (repo.topics.length > 0) {
+    items.push(`<li>Source topics: ${repo.topics.slice(0, 8).map(escapeHtml).join(", ")}</li>`);
+  }
+  items.push(`<li>Primary source: <a href="${escapeHtml(repo.url)}" rel="nofollow noopener" target="_blank">${escapeHtml(repo.url)}</a></li>`);
+  if (repo.homepage) {
+    items.push(`<li>Homepage supplied by source: <a href="${escapeHtml(repo.homepage)}" rel="nofollow noopener" target="_blank">${escapeHtml(repo.homepage)}</a></li>`);
   }
 
-  const features = repo.topics.slice(0, 5);
-  const lang = repo.language !== "Unknown"
-    ? `<li>Primary language or ecosystem: <strong>${escapeHtml(repo.language)}</strong></li>`
-    : "";
-  const home = repo.homepage ? `<li>Official website: <a href="${escapeHtml(repo.homepage)}" rel="nofollow noopener" target="_blank">${escapeHtml(repo.homepage)}</a></li>` : "";
-  const topics = features.map((t) => `<li>🏷️ ${escapeHtml(t)}</li>`).join("\n");
-  const license = repo.license && repo.license !== "N/A"
-    ? `<li>Published under the <strong>${escapeHtml(repo.license)}</strong> license</li>`
-    : "";
-
   return `
-<h2>Key Features</h2>
+<h2>Source Metadata</h2>
 <ul>
-  ${lang}
-  ${license}
-  ${home}
-  ${topics}
+  ${items.join("\n  ")}
 </ul>
   `.trim();
 }
 
-function generateQuickStart(repo: RepoData): string {
+function validNpmPackageName(name: string): boolean {
+  return /^(?:@[a-z0-9][a-z0-9._~-]*\/)?[a-z0-9][a-z0-9._~-]*$/i.test(name);
+}
+
+function githubCloneUrl(repo: RepoData): string | null {
+  if (repo.source !== "github") return null;
+  try {
+    const parsed = new URL(repo.url);
+    if (parsed.protocol !== "https:" || parsed.hostname.toLowerCase() !== "github.com") return null;
+    const parts = parsed.pathname.replace(/\.git$/i, "").split("/").filter(Boolean);
+    if (parts.length !== 2 || parts.some((part) => !/^[a-z0-9_.-]+$/i.test(part))) return null;
+    return `https://github.com/${parts[0]}/${parts[1]}`;
+  } catch {
+    return null;
+  }
+}
+
+function generateSourceActions(repo: RepoData): string {
   if (repo.source === "npm") {
+    const command = validNpmPackageName(repo.name)
+      ? `<div class="code-block"><code>npm install ${escapeHtml(repo.name)}</code></div>`
+      : "";
     return `
-<h2>Quick Start</h2>
-<p>Install <strong>${escapeHtml(repo.name)}</strong> from the NPM registry:</p>
-<div class="code-block"><code>npm install ${escapeHtml(repo.name)}</code></div>
-<p>Review package versions, documentation, and dependency details on the <a href="${escapeHtml(repo.url)}" rel="nofollow noopener" target="_blank">official NPM package page</a>.</p>
+<h2>Verify Before Adoption</h2>
+${command}
+<p>Check the <a href="${escapeHtml(repo.url)}" rel="nofollow noopener" target="_blank">official NPM package page</a> for current versions, documentation, dependencies, provenance, and compatibility requirements.</p>
     `.trim();
   }
 
-  if (repo.source === "hackernews") {
+  if (repo.source === "github") {
+    const cloneUrl = githubCloneUrl(repo);
+    const command = cloneUrl
+      ? `<div class="code-block"><code>git clone ${escapeHtml(cloneUrl)}</code></div>`
+      : "";
     return `
-<h2>Explore the Story</h2>
-<p>Start with the <a href="${escapeHtml(repo.url)}" rel="nofollow noopener" target="_blank">original article or project page</a>, then review the Hacker News discussion context before drawing conclusions or adopting any technology it covers.</p>
+<h2>Verify Before Adoption</h2>
+${command}
+<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>
     `.trim();
   }
 
   return `
-<h2>Quick Start</h2>
-<p>Get started with <strong>${escapeHtml(repo.name)}</strong> in minutes:</p>
-<div class="code-block"><code>
-# Clone the repository
-git clone ${escapeHtml(repo.url)}
-
-# Navigate to project
-cd ${escapeHtml(repo.name)}
-
-# Check the README for detailed setup instructions
-</code></div>
-<p>For full documentation and advanced usage, visit the <a href="${escapeHtml(repo.url)}" rel="nofollow noopener" target="_blank">official GitHub repository</a>.</p>
+<h2>Read in Context</h2>
+<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>
   `.trim();
 }
 
-function generateTrendAnalysis(repo: RepoData): string {
-  const category = CATEGORY_LABELS[repo.category];
-  if (repo.source === "npm") {
-    return `
-<h2>Why ${escapeHtml(repo.name)} Is Notable</h2>
-<p><strong>${escapeHtml(repo.name)}</strong> recorded ${formatNumber(repo.starsGrowth)} downloads in the latest weekly NPM window. Download volume is a useful signal of ecosystem reach, although it includes automated installs and does not by itself measure week-over-week growth.</p>
-<ol>
-  <li><strong>Package usage:</strong> Weekly registry downloads show broad distribution across development and CI environments.</li>
-  <li><strong>Practical focus:</strong> ${escapeHtml(repo.description || "The package addresses a common JavaScript or TypeScript workflow.")}</li>
-  <li><strong>Evaluation:</strong> Check the current release notes, maintenance status, and compatibility requirements before adopting it.</li>
-</ol>
-    `.trim();
-  }
-
-  if (repo.source === "hackernews") {
-    return `
-<h2>Why This Story Is Trending</h2>
-<p>The story reached ${formatNumber(repo.starsGrowth)} points on Hacker News, reflecting reader interest at the time it was collected. That score is a discussion signal, not a GitHub star count or a measure of software adoption.</p>
-<ol>
-  <li><strong>Community attention:</strong> Readers elevated the story through Hacker News voting.</li>
-  <li><strong>Topical relevance:</strong> The subject connects to current conversations in ${escapeHtml(category)}.</li>
-  <li><strong>Further reading:</strong> Review the original source and discussion critically for technical details and differing viewpoints.</li>
-</ol>
-    `.trim();
-  }
+function generateEvaluationChecklist(repo: RepoData): string {
+  const metricWarning = repo.source === "npm"
+    ? "Treat download volume as distribution activity, not unique users or GitHub growth."
+    : repo.source === "hackernews"
+      ? "Treat the recorded score as attention at collection time, not a product ranking."
+      : "Treat star growth as an attention signal, not proof of technical quality.";
 
   return `
-<h2>Why ${escapeHtml(repo.name)} Is Trending</h2>
-<p>The ${category} landscape is constantly evolving, and <strong>${escapeHtml(repo.name)}</strong> gained ${formatNumber(repo.starsGrowth)} GitHub stars in the latest weekly collection window. Several signals make it worth evaluating:</p>
-<ol>
-  <li><strong>Community interest:</strong> New stars indicate increased visibility among GitHub users.</li>
-  <li><strong>Repository activity:</strong> Its latest recorded update was ${dateStr(repo.updatedAt)}.</li>
-  <li><strong>Practical utility:</strong> ${escapeHtml(repo.description || "It solves a real problem that many developers face daily.")}</li>
-</ol>
-<p>If you're working in ${category}, review its documentation, release history, and issue tracker to decide whether it fits your needs.</p>
-  `.trim();
-}
-
-function generateVSSection(repo: RepoData): string {
-  if (repo.source === "npm") {
-    const community = repo.stars > 0
-      ? `<li><strong>Community:</strong> Its linked GitHub project has ${formatNumber(repo.stars)} stars; inspect recent issues and releases for current maintenance context.</li>`
-      : `<li><strong>Community:</strong> Review release cadence, maintainers, and open issues before choosing the package.</li>`;
-    return `
-<h2>How It Compares to Alternatives</h2>
-<p>Compare <strong>${escapeHtml(repo.name)}</strong> with packages that solve the same problem using criteria relevant to your own application:</p>
+<h2>Evaluation Checklist</h2>
 <ul>
-  <li><strong>Compatibility:</strong> Confirm runtime, framework, and module-format support.</li>
-  <li><strong>Usage signal:</strong> ${formatNumber(repo.starsGrowth)} weekly NPM downloads show distribution volume, not necessarily unique users.</li>
-  ${community}
-</ul>
-    `.trim();
-  }
-
-  if (repo.source === "hackernews") {
-    return `
-<h2>How to Put the Story in Context</h2>
-<p>Rather than treating a Hacker News score as a product ranking, compare the story's claims with primary documentation and other technical sources.</p>
-<ul>
-  <li><strong>Evidence:</strong> Separate measured results from opinions and projections.</li>
-  <li><strong>Discussion:</strong> Use community comments to find counterexamples, not as a substitute for verification.</li>
-  <li><strong>Relevance:</strong> Decide whether the constraints described in the story match your own environment.</li>
-</ul>
-    `.trim();
-  }
-
-  return `
-<h2>How It Compares to Alternatives</h2>
-<p>When evaluating <strong>${escapeHtml(repo.name)}</strong>, it's natural to compare it against established alternatives. Here's what sets it apart:</p>
-<ul>
-  <li><strong>Technical fit:</strong> Review its ${escapeHtml(repo.language)} implementation and supported environments.</li>
-  <li><strong>Community size:</strong> ${formatNumber(repo.stars)} GitHub stars provide a visibility signal, but should not replace technical evaluation.</li>
-  <li><strong>License:</strong> Review the ${escapeHtml(repo.license)} license terms for your intended use.</li>
+  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>
+  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>
+  <li><strong>Interpret metrics carefully:</strong> ${metricWarning}</li>
+  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>
 </ul>
   `.trim();
 }
 
-function generateHowToSection(repo: RepoData): string {
-  if (repo.source === "hackernews") {
-    return `
-<h2>Questions to Consider</h2>
-<ol>
-  <li><strong>Source:</strong> Does the original story link to primary evidence or reproducible examples?</li>
-  <li><strong>Scope:</strong> Which users, systems, or constraints do its conclusions apply to?</li>
-  <li><strong>Follow-up:</strong> Have corrections, responses, or newer developments changed the picture?</li>
-</ol>
-    `.trim();
-  }
-
-  return `
-<h2>Practical Use Cases</h2>
-<p>Here are some common scenarios where <strong>${escapeHtml(repo.name)}</strong> shines:</p>
-<ol>
-  <li><strong>New projects:</strong> Start your next ${escapeHtml(repo.language)} project with this tool as a foundation</li>
-  <li><strong>Migration:</strong> Consider switching if your current solution is slowing you down</li>
-  <li><strong>Learning:</strong> Study the source code to understand modern ${escapeHtml(CATEGORY_LABELS[repo.category])} patterns</li>
-</ol>
-  `.trim();
-}
-
-function generateConclusion(repo: RepoData): string {
-  if (repo.source === "npm") {
-    return `
-<h2>Final Thoughts</h2>
-<p><strong>${escapeHtml(repo.name)}</strong> has meaningful distribution across the NPM ecosystem. Before adding it to a production project, review its current documentation, release history, dependency footprint, and compatibility with your stack.</p>
-    `.trim();
-  }
-
-  if (repo.source === "hackernews") {
-    return `
-<h2>Final Thoughts</h2>
-<p><strong>${escapeHtml(repo.name)}</strong> attracted notable Hacker News attention. Read the original source, verify important claims, and use the community discussion as additional context rather than as a final verdict.</p>
-    `.trim();
-  }
-
-  return `
-<h2>Final Thoughts</h2>
-<p><strong>${escapeHtml(repo.name)}</strong> is a GitHub project worth evaluating. Review its documentation, recent releases, issue tracker, and license, then try it in a low-risk environment to see whether it fits your workflow.</p>
-  `.trim();
-}
-
-// ----- Full article builder -----
-
-function buildArticle(repo: RepoData, relatedSlugs: string[]): Article {
-  const articleType = pickArticleType(repo);
-  const today = new Date().toISOString().split("T")[0];
-  const slug = `${slugify(repo.name)}-${articleType}-${today}`;
-
-  const subject = sourceLabel(repo);
-  const titleTemplates: Record<ArticleType, string> = {
-    review: `${repo.name}: A Closer Look at This Trending ${subject}`,
-    vs: repo.source === "hackernews"
-      ? `${repo.name}: Context, Claims, and What to Verify`
-      : `${repo.name} vs Alternatives: What ${CATEGORY_LABELS[repo.category]} Developers Should Compare`,
-    howto: repo.source === "hackernews"
-      ? `Understanding ${repo.name}: A Practical Reading Guide`
-      : `Getting Started with ${repo.name} — A Practical Guide for ${CATEGORY_LABELS[repo.category]} Developers`,
-    bestof: repo.source === "hackernews"
-      ? `Why ${repo.name} Is Getting Attention`
-      : `Why ${repo.name} Stands Out Among ${CATEGORY_LABELS[repo.category]} Tools in 2026`,
-    trend: repo.source === "hackernews"
-      ? `${repo.name} Is Trending on Hacker News: What to Know`
-      : `${repo.name} Is Trending: What ${CATEGORY_LABELS[repo.category]} Developers Need to Know`,
-  };
-
-  const excerpt = descriptionExcerpt(repo.description, 120) || `A ${subject} in the ${CATEGORY_LABELS[repo.category]} ecosystem`;
-  const descriptionTemplates: Record<ArticleType, string> = {
-    review: `A closer look at ${repo.name}, a trending ${subject}. ${excerpt}. Current signal: ${metricSummary(repo)}.`,
-    vs: `Put ${repo.name} in context and compare its fit, evidence, maintenance, and ecosystem signals with relevant alternatives.`,
-    howto: repo.source === "hackernews"
-      ? `A practical guide to reading the claims, evidence, and community context around ${repo.name}.`
-      : `A practical guide to getting started with ${repo.name}, including setup and evaluation considerations for ${CATEGORY_LABELS[repo.category]}.`,
-    bestof: `Discover why ${repo.name} is attracting attention in ${CATEGORY_LABELS[repo.category]}. ${excerpt}.`,
-    trend: `${repo.name} is trending with ${metricSummary(repo)}. ${excerpt}.`,
-  };
-
-  const title = titleTemplates[articleType];
-  const description = descriptionTemplates[articleType];
-
-  // Build body sections
-  const sections: string[] = [
-    generateIntro(repo),
-    generateStatsBox(repo),
-    generateKeyFeatures(repo),
-    generateTrendAnalysis(repo),
-  ];
-
-  // Add type-specific section
-  switch (articleType) {
-    case "vs":
-      sections.push(generateVSSection(repo));
-      break;
-    case "howto":
-      sections.push(generateHowToSection(repo));
-      sections.push(generateQuickStart(repo));
-      break;
-    case "review":
-      sections.push(generateVSSection(repo));
-      sections.push(generateQuickStart(repo));
-      break;
-    case "bestof":
-      sections.push(generateHowToSection(repo));
-      break;
-    case "trend":
-      sections.push(generateQuickStart(repo));
-      break;
-  }
-
-  sections.push(generateConclusion(repo));
-
-  const bodyHtml = sections.join("\n");
+/**
+ * Pure canonical article builder used by both scheduled generation and historical
+ * migration. It performs no filesystem or network I/O.
+ */
+export function buildArticle(repo: RepoData, options: BuildArticleOptions = {}): Article {
+  const updatedAt = options.updatedAt ?? todayUtc();
+  const publishedAt = options.publishedAt ?? updatedAt;
+  const descriptionText = excerpt(repo.description, 125);
+  const description = `${repo.name} ${sourceName(repo)} data snapshot: ${sourceMetric(repo)}.${descriptionText ? ` ${descriptionText}.` : ""}`;
 
   return {
-    slug,
-    title,
+    slug: canonicalArticleSlug(repo),
+    title: canonicalArticleTitle(repo),
     description,
     category: repo.category,
-    type: articleType,
-    publishedAt: today,
-    updatedAt: today,
+    type: "trend",
+    publishedAt,
+    updatedAt,
     sourceData: repo,
-    relatedSlugs,
+    relatedSlugs: options.relatedSlugs ?? [],
     tags: repo.topics.slice(0, 8),
-    bodyHtml,
+    bodyHtml: [
+      generateDataNote(repo, updatedAt),
+      generateSummary(repo),
+      generateMetrics(repo),
+      generateMetadata(repo),
+      generateEvaluationChecklist(repo),
+      generateSourceActions(repo),
+    ].join("\n"),
   };
 }
 
-// ----- Main -----
+function validDateOnly(value: unknown): value is string {
+  return typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value);
+}
 
-function generateAll(): void {
+export function sourceQualityScore(repo: RepoData): number {
+  let score = 0;
+  if (repo.id.trim() && repo.name.trim() && repo.fullName.trim()) score += 3;
+  if (excerpt(repo.description, 40).length >= 40) score += 3;
+  else if (repo.description.trim()) score += 1;
+  if (repo.starsGrowth > 0) score += 2;
+  if (repo.language && repo.language !== "Unknown") score += 1;
+  if (repo.license && repo.license !== "N/A") score += 1;
+  if (repo.homepage) score += 1;
+  if (repo.topics.length > 0) score += 1;
+  if (repo.source === "github" && githubCloneUrl(repo)) score += 2;
+  if (repo.source === "npm" && validNpmPackageName(repo.name)) score += 2;
+  return score;
+}
+
+function sourceIsEligible(repo: RepoData): boolean {
+  if (!repo.id.trim() || !repo.name.trim() || !repo.fullName.trim()) return false;
+  if (!repo.description.trim() || !Number.isFinite(repo.starsGrowth) || repo.starsGrowth < 0) return false;
+  try {
+    const parsed = new URL(repo.url);
+    if (!["http:", "https:"].includes(parsed.protocol)) return false;
+  } catch {
+    return false;
+  }
+  if (repo.source === "github" && !githubCloneUrl(repo)) return false;
+  if (repo.source === "npm" && !validNpmPackageName(repo.name)) return false;
+  return true;
+}
+
+function earliestPublishedAt(articles: Article[], fallback: string): string {
+  return articles
+    .map((article) => article.publishedAt)
+    .filter(validDateOnly)
+    .sort()[0] ?? fallback;
+}
+
+/**
+ * Preserve representation for every category present in the ranked candidates,
+ * then fill remaining slots in the original ranking order. Callers should put
+ * current sources before historical sources when constructing `rankedCandidates`.
+ */
+export function selectCategoryBalancedArticles(
+  rankedCandidates: Article[],
+  maxArticles = 300,
+  perCategoryReserve = 12,
+): Article[] {
+  const uniqueCandidates: Article[] = [];
+  const seenSourceIds = new Set<string>();
+  for (const article of rankedCandidates) {
+    if (seenSourceIds.has(article.sourceData.id)) continue;
+    seenSourceIds.add(article.sourceData.id);
+    uniqueCandidates.push(article);
+  }
+
+  const selected: Article[] = [];
+  const selectedSourceIds = new Set<string>();
+  const categories = Array.from(new Set(uniqueCandidates.map((article) => article.category)));
+
+  for (const category of categories) {
+    const categoryCandidates = uniqueCandidates
+      .filter((article) => article.category === category)
+      .slice(0, Math.max(0, perCategoryReserve));
+    for (const article of categoryCandidates) {
+      if (selected.length >= maxArticles) return selected;
+      selected.push(article);
+      selectedSourceIds.add(article.sourceData.id);
+    }
+  }
+
+  for (const article of uniqueCandidates) {
+    if (selected.length >= maxArticles) break;
+    if (selectedSourceIds.has(article.sourceData.id)) continue;
+    selected.push(article);
+    selectedSourceIds.add(article.sourceData.id);
+  }
+  return selected;
+}
+
+export function generateAll(): void {
   const dataPath = path.join(DATA_DIR, "all-trending.json");
   if (!fs.existsSync(dataPath)) {
-    console.error(`Data file not found: ${dataPath}. Run fetch-all first.`);
-    process.exit(1);
+    throw new Error(`Data file not found: ${dataPath}. Run fetch-all first.`);
   }
 
-  const repos: RepoData[] = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
-  console.log(`Loaded ${repos.length} repos for article generation`);
+  const inputRepos: RepoData[] = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
+  const duplicateInputIds = inputRepos
+    .map((repo) => repo.id)
+    .filter((id, index, all) => all.indexOf(id) !== index);
+  if (duplicateInputIds.length > 0) {
+    throw new Error(`Input contains duplicate source IDs: ${Array.from(new Set(duplicateInputIds)).join(", ")}`);
+  }
+  const repos = inputRepos.filter(sourceIsEligible);
+  if (repos.length !== inputRepos.length) {
+    console.warn(`Skipped ${inputRepos.length - repos.length} sources with incomplete or invalid core metadata.`);
+  }
 
-  // Ensure content directory exists
   fs.mkdirSync(CONTENT_DIR, { recursive: true });
-
-  // Generate articles
-  const articles: Article[] = repos.map((repo) => {
-    const related = repos
-      .filter((r) => r.category === repo.category && r.id !== repo.id)
-      .slice(0, 4)
-      .map((r) => slugify(r.name));
-    return buildArticle(repo, related);
-  });
-
-  // Write each article file
-  for (const article of articles) {
-    const fp = path.join(CONTENT_DIR, `${article.slug}.json`);
-    fs.writeFileSync(fp, JSON.stringify(article, null, 2));
-  }
-
-  // Merge with existing index so historical articles (and their URLs) persist.
   const indexPath = path.join(CONTENT_DIR, "index.json");
   let existing: Article[] = [];
   if (fs.existsSync(indexPath)) {
-    try {
-      existing = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
-    } catch {
-      existing = [];
-    }
+    const parsed: unknown = JSON.parse(fs.readFileSync(indexPath, "utf-8"));
+    if (!Array.isArray(parsed)) throw new Error("content/index.json must contain an array");
+    existing = parsed as Article[];
   }
 
-  const bySlug = new Map<string, Article>();
-  for (const a of existing) bySlug.set(a.slug, a);
-  for (const a of articles) bySlug.set(a.slug, a);
+  const currentKeys = new Set(inputRepos.map((repo) => repo.id));
+  const today = todayUtc();
+  const articles = repos.map((repo) => {
+    const relatedSlugs = repos
+      .filter((candidate) => candidate.category === repo.category && candidate.id !== repo.id)
+      .slice(0, 4)
+      .map(canonicalArticleSlug);
+    const priorVersions = existing.filter(
+      (article) => article.sourceData.id === repo.id,
+    );
+    return buildArticle(repo, {
+      publishedAt: earliestPublishedAt(priorVersions, today),
+      updatedAt: today,
+      relatedSlugs,
+    });
+  });
 
-  const MAX_ARTICLES = 2000;
-  const merged = Array.from(bySlug.values())
-    .sort((x, y) => (y.publishedAt > x.publishedAt ? 1 : y.publishedAt < x.publishedAt ? -1 : 0))
-    .slice(0, MAX_ARTICLES);
+  for (const article of articles) {
+    fs.writeFileSync(
+      path.join(CONTENT_DIR, `${article.slug}.json`),
+      JSON.stringify(article, null, 2),
+    );
+  }
+
+  // Replace every historical version of a currently collected source with its
+  // canonical snapshot. Historical sources not in this collection remain intact
+  // for the explicit migration/curation pass.
+  const untouched = existing.filter(
+    (article) => !currentKeys.has(article.sourceData.id),
+  );
+  const mergedBySourceId = new Map<string, Article>();
+  for (const article of [...untouched, ...articles]) {
+    mergedBySourceId.set(article.sourceData.id, article);
+  }
+
+  const MAX_ARTICLES = 300;
+  const rankedCurrent = [...articles].sort(
+    (left, right) => sourceQualityScore(right.sourceData) - sourceQualityScore(left.sourceData),
+  );
+  const currentSlugs = new Set(rankedCurrent.map((article) => article.slug));
+  const rankedHistorical = Array.from(mergedBySourceId.values())
+    .filter((article) => !currentSlugs.has(article.slug))
+    .sort((left, right) => (
+      sourceQualityScore(right.sourceData) - sourceQualityScore(left.sourceData)
+      || right.updatedAt.localeCompare(left.updatedAt)
+    ));
+  const selected = selectCategoryBalancedArticles(
+    [...rankedCurrent, ...rankedHistorical],
+    MAX_ARTICLES,
+    12,
+  );
+  const merged = selected.sort((left, right) => (
+    right.updatedAt.localeCompare(left.updatedAt)
+    || left.title.localeCompare(right.title)
+  ));
 
   fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2));
-
-  console.log(`Generated ${articles.length} new articles; index now has ${merged.length} total`);
-
-  // Backfill star/fork/issue data from newest entries to older entries for the same package.
-  const byPackageId = new Map<string, { stars: number; forks: number; openIssues: number }>();
-  for (const a of merged) {
-    if (a.sourceData.stars > 0) {
-      byPackageId.set(a.sourceData.id, { stars: a.sourceData.stars, forks: a.sourceData.forks, openIssues: a.sourceData.openIssues });
-    }
-  }
-  let enriched = 0;
-  for (const a of merged) {
-    if (a.sourceData.stars === 0) {
-      const latest = byPackageId.get(a.sourceData.id);
-      if (latest) {
-        a.sourceData.stars = latest.stars;
-        a.sourceData.forks = latest.forks;
-        a.sourceData.openIssues = latest.openIssues;
-        fs.writeFileSync(path.join(CONTENT_DIR, `${a.slug}.json`), JSON.stringify(a, null, 2));
-        enriched++;
-      }
-    }
-  }
-  if (enriched > 0) {
-    fs.writeFileSync(indexPath, JSON.stringify(merged, null, 2));
-    console.log(`Backfilled ${enriched} older articles with up-to-date star data`);
-  }
+  console.log(`Updated ${articles.length} canonical snapshots; index now has ${merged.length} unique source IDs.`);
 }
 
-generateAll();
+const invokedPath = process.argv[1] ? pathToFileURL(path.resolve(process.argv[1])).href : "";
+if (import.meta.url === invokedPath) {
+  try {
+    generateAll();
+  } catch (error) {
+    console.error(error instanceof Error ? error.message : error);
+    process.exitCode = 1;
+  }
+}
