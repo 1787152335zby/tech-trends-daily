@@ -38,10 +38,10 @@
     "category": "backend"
   },
   "relatedSlugs": [
+    "shiroryu9-community-ops-kit",
     "lopopolo-harness-engineering",
     "openbmb-minicpm-robot",
-    "lanpishu6300-match-rust",
-    "steelbrain-metal2vulkan"
+    "lanpishu6300-match-rust"
   ],
   "tags": [
     "agent-skills",

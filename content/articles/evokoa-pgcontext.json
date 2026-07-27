@@ -1,11 +1,11 @@
 {
   "slug": "evokoa-pgcontext",
-  "title": "Evokoa/pgContext — GitHub Project Data Snapshot",
-  "description": "pgContext GitHub project data snapshot: 7 new GitHub stars in the recorded weekly window. A full AI search engine, built into Postgres.",
+  "title": "PgContext Guide: Uses, Setup, and Repository Health",
+  "description": "PgContext explained: A full AI search engine, built into Postgres. See best-fit use cases, setup, maintenance signals, and adoption checks.",
   "category": "backend",
   "type": "trend",
   "publishedAt": "2026-07-22",
-  "updatedAt": "2026-07-23",
+  "updatedAt": "2026-07-27",
   "sourceData": {
     "id": "gh-1307379556",
     "name": "pgContext",
@@ -13,14 +13,14 @@
     "url": "https://github.com/Evokoa/pgContext",
     "description": "A full AI search engine, built into Postgres.",
     "language": "Rust",
-    "stars": 67,
-    "starsGrowth": 7,
-    "forks": 4,
+    "stars": 144,
+    "starsGrowth": 77,
+    "forks": 8,
     "openIssues": 0,
     "topics": [],
     "license": "Apache-2.0",
     "createdAt": "2026-07-21T06:57:38Z",
-    "updatedAt": "2026-07-23T02:24:44Z",
+    "updatedAt": "2026-07-27T02:44:37Z",
     "homepage": "",
     "source": "github",
     "category": "backend"
@@ -32,6 +32,136 @@
     "neural-maze-production-ocr-course"
   ],
   "tags": [],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>pgContext</strong> is listed in our <em>Backend</em> feed. The source describes it as: A full AI search engine, built into Postgres.</p>\n<p>The principal source-specific signal in this snapshot is <strong>7 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 67</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +7</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 4</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>Rust</strong></li>\n  <li>Reported license: <strong>Apache-2.0</strong></li>\n  <li>Primary source: <a href=\"https://github.com/Evokoa/pgContext\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/Evokoa/pgContext</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/Evokoa/pgContext</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
-  "indexable": false
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to PgContext: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>A full AI search engine, built into Postgres.</p>\n<p>Shortlist PgContext only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>PgContext is most relevant to developers working with Rust. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Read the README, recent releases, issue tracker, security policy, and license before cloning PgContext. Start in a disposable environment that matches your runtime and deployment constraints.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 144 GitHub stars, 8 forks, 0 open issues, and last source push 2026-07-27.</p>\n<p>The source reports the Apache-2.0 license.</p>\n<p>Stars, forks, and issue counts show repository activity or attention; they do not prove quality, security, or suitability.</p>\n<h2>Bottom line</h2>\n<p>PgContext is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Start with the official repository</h2>\n<div class=\"code-block\"><code>git clone https://github.com/Evokoa/pgContext</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project. Try it in a disposable or non-production environment first.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 144</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 8</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars, forks, and issue counts are repository signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-27. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Repository summary:</strong> A full AI search engine, built into Postgres.\n    — <a href=\"https://api.github.com/repos/Evokoa/pgContext\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Archived:</strong> false\n    — <a href=\"https://api.github.com/repos/Evokoa/pgContext\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Last source push:</strong> 2026-07-27\n    — <a href=\"https://api.github.com/repos/Evokoa/pgContext\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository:</strong> Evokoa/pgContext\n    — <a href=\"https://api.github.com/repos/Evokoa/pgContext\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> Apache-2.0\n    — <a href=\"https://api.github.com/repos/Evokoa/pgContext\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Forks:</strong> 8\n    — <a href=\"https://api.github.com/repos/Evokoa/pgContext\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>GitHub stars:</strong> 144\n    — <a href=\"https://api.github.com/repos/Evokoa/pgContext\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Open issues:</strong> 0\n    — <a href=\"https://api.github.com/repos/Evokoa/pgContext\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-27 from public GitHub project records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "gh-1307379556",
+    "fetchedAt": "2026-07-27T06:46:02.360Z",
+    "score": 95,
+    "officialUrls": [
+      "https://github.com/Evokoa/pgContext",
+      "https://github.com/Evokoa/pgContext/releases/tag/v0.2.0"
+    ],
+    "items": [
+      {
+        "label": "Repository summary",
+        "value": "A full AI search engine, built into Postgres.",
+        "url": "https://api.github.com/repos/Evokoa/pgContext",
+        "observedAt": "2026-07-27T06:46:02.360Z",
+        "kind": "documentation"
+      },
+      {
+        "label": "Archived",
+        "value": "false",
+        "url": "https://api.github.com/repos/Evokoa/pgContext",
+        "observedAt": "2026-07-27T06:46:02.360Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Last source push",
+        "value": "2026-07-27T02:44:37Z",
+        "url": "https://api.github.com/repos/Evokoa/pgContext",
+        "observedAt": "2026-07-27T06:46:02.360Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Repository",
+        "value": "Evokoa/pgContext",
+        "url": "https://api.github.com/repos/Evokoa/pgContext",
+        "observedAt": "2026-07-27T06:46:02.360Z",
+        "kind": "repository"
+      },
+      {
+        "label": "License",
+        "value": "Apache-2.0",
+        "url": "https://api.github.com/repos/Evokoa/pgContext",
+        "observedAt": "2026-07-27T06:46:02.360Z",
+        "kind": "repository-metadata"
+      },
+      {
+        "label": "Forks",
+        "value": "8",
+        "url": "https://api.github.com/repos/Evokoa/pgContext",
+        "observedAt": "2026-07-27T06:46:02.360Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "GitHub stars",
+        "value": "144",
+        "url": "https://api.github.com/repos/Evokoa/pgContext",
+        "observedAt": "2026-07-27T06:46:02.360Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "Open issues",
+        "value": "0",
+        "url": "https://api.github.com/repos/Evokoa/pgContext",
+        "observedAt": "2026-07-27T06:46:02.360Z",
+        "kind": "repository-metric"
+      }
+    ],
+    "warnings": [
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Repository summary: A full AI search engine, built into Postgres. (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/Evokoa/pgContext"
+        ]
+      },
+      {
+        "text": "Archived: false (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/Evokoa/pgContext"
+        ]
+      },
+      {
+        "text": "Last source push: 2026-07-27T02:44:37Z (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/Evokoa/pgContext"
+        ]
+      },
+      {
+        "text": "Repository: Evokoa/pgContext (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/Evokoa/pgContext"
+        ]
+      },
+      {
+        "text": "License: Apache-2.0 (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/Evokoa/pgContext"
+        ]
+      },
+      {
+        "text": "Forks: 8 (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/Evokoa/pgContext"
+        ]
+      },
+      {
+        "text": "GitHub stars: 144 (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/Evokoa/pgContext"
+        ]
+      },
+      {
+        "text": "Open issues: 0 (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/Evokoa/pgContext"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-27T06:46:02.360Z"
+    },
+    "generatedAt": "2026-07-27T06:46:02.360Z"
+  },
+  "indexable": true
 }

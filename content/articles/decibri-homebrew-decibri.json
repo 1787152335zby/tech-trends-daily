@@ -31,10 +31,10 @@
     "category": "backend"
   },
   "relatedSlugs": [
+    "shiroryu9-community-ops-kit",
     "steelbrain-metal2vulkan",
-    "yc-duan-fastctx",
-    "lopopolo-harness-engineering",
-    "mobai-app-simslim"
+    "evokoa-pgcontext",
+    "yc-duan-fastctx"
   ],
   "tags": [
     "decibri",

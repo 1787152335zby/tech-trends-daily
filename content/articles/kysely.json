@@ -45,7 +45,7 @@
     "graphql",
     "fastify",
     "express",
-    "hono"
+    "prisma"
   ],
   "tags": [
     "query",

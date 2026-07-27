@@ -39,10 +39,10 @@
     "category": "backend"
   },
   "relatedSlugs": [
+    "evokoa-pgcontext",
     "lanpishu6300-match-rust",
     "steelbrain-metal2vulkan",
-    "yc-duan-fastctx",
-    "neural-maze-production-ocr-course"
+    "yc-duan-fastctx"
   ],
   "tags": [
     "cuda",

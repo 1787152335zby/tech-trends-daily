@@ -27,8 +27,8 @@
   },
   "relatedSlugs": [
     "prisma",
-    "kysely",
     "graphql",
+    "kysely",
     "fastify"
   ],
   "tags": [],

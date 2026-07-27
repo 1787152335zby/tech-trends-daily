@@ -35,10 +35,10 @@
     "category": "backend"
   },
   "relatedSlugs": [
+    "shiroryu9-community-ops-kit",
     "steelbrain-metal2vulkan",
-    "openbmb-minicpm-robot",
     "charles-0509-grok-register",
-    "prisma"
+    "openbmb-minicpm-robot"
   ],
   "tags": [
     "apple-silicon",

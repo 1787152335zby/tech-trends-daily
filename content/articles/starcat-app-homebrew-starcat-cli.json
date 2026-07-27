@@ -33,10 +33,10 @@
     "category": "backend"
   },
   "relatedSlugs": [
+    "shiroryu9-community-ops-kit",
     "yc-duan-fastctx",
     "charles-0509-grok-register",
-    "prisma",
-    "steelbrain-metal2vulkan"
+    "prisma"
   ],
   "tags": [
     "cli",

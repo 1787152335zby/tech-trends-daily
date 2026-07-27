@@ -35,10 +35,10 @@
     "category": "backend"
   },
   "relatedSlugs": [
+    "shiroryu9-community-ops-kit",
+    "evokoa-pgcontext",
     "yc-duan-fastctx",
-    "lopopolo-harness-engineering",
-    "lanpishu6300-match-rust",
-    "neural-maze-production-ocr-course"
+    "lopopolo-harness-engineering"
   ],
   "tags": [
     "i18n",

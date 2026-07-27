@@ -36,10 +36,10 @@
     "category": "backend"
   },
   "relatedSlugs": [
+    "shiroryu9-community-ops-kit",
     "kysely",
     "steelbrain-metal2vulkan",
-    "yc-duan-fastctx",
-    "lopopolo-harness-engineering"
+    "evokoa-pgcontext"
   ],
   "tags": [
     "ai",

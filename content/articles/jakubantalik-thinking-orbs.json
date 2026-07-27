@@ -5,7 +5,7 @@
   "category": "frontend",
   "type": "trend",
   "publishedAt": "2026-07-22",
-  "updatedAt": "2026-07-23",
+  "updatedAt": "2026-07-27",
   "sourceData": {
     "id": "gh-1307383231",
     "name": "thinking-orbs",
@@ -13,10 +13,10 @@
     "url": "https://github.com/Jakubantalik/thinking-orbs",
     "description": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light",
     "language": "TypeScript",
-    "stars": 741,
-    "starsGrowth": 110,
-    "forks": 49,
-    "openIssues": 5,
+    "stars": 1116,
+    "starsGrowth": 477,
+    "forks": 82,
+    "openIssues": 7,
     "topics": [],
     "license": "MIT",
     "createdAt": "2026-07-21T07:01:53Z",
@@ -32,10 +32,10 @@
     "pireel-pireel"
   ],
   "tags": [],
-  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Thinking-Orbs: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>Dotted thought-orb loading indicators for AI &amp; agent UIs — six tuned states, two sizes, auto dark/light</p>\n<p>Shortlist Thinking-Orbs only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Thinking-Orbs is most relevant to developers working with TypeScript. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Read the README, recent releases, issue tracker, security policy, and license before cloning Thinking-Orbs. Start in a disposable environment that matches your runtime and deployment constraints.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 741 GitHub stars, 49 forks, 5 open issues, and last source push 2026-07-21.</p>\n<p>The source reports the MIT license.</p>\n<p>Stars, forks, and issue counts show repository activity or attention; they do not prove quality, security, or suitability.</p>\n<h2>Bottom line</h2>\n<p>Thinking-Orbs is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Start with the official repository</h2>\n<div class=\"code-block\"><code>git clone https://github.com/Jakubantalik/thinking-orbs</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project. Try it in a disposable or non-production environment first.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 741</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 49</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 5</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars, forks, and issue counts are repository signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-23. Source completeness is <strong>Medium</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Repository summary:</strong> Dotted thought-orb loading indicators for AI &amp; agent UIs — six tuned states, two sizes, auto dark/light\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Archived:</strong> false\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Last source push:</strong> 2026-07-21\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository:</strong> Jakubantalik/thinking-orbs\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Forks:</strong> 49\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>GitHub stars:</strong> 741\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Open issues:</strong> 5\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>No latest release was returned by the GitHub Releases API; the project may publish by another method.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-23 from public GitHub project records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Thinking-Orbs: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>Dotted thought-orb loading indicators for AI &amp; agent UIs — six tuned states, two sizes, auto dark/light</p>\n<p>Shortlist Thinking-Orbs only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Thinking-Orbs is most relevant to developers working with TypeScript. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Read the README, recent releases, issue tracker, security policy, and license before cloning Thinking-Orbs. Start in a disposable environment that matches your runtime and deployment constraints.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 1.1K GitHub stars, 82 forks, 7 open issues, and last source push 2026-07-21.</p>\n<p>The source reports the MIT license.</p>\n<p>Stars, forks, and issue counts show repository activity or attention; they do not prove quality, security, or suitability.</p>\n<h2>Bottom line</h2>\n<p>Thinking-Orbs is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Start with the official repository</h2>\n<div class=\"code-block\"><code>git clone https://github.com/Jakubantalik/thinking-orbs</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project. Try it in a disposable or non-production environment first.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 1.1k</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 82</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 7</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars, forks, and issue counts are repository signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-27. Source completeness is <strong>Medium</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Repository summary:</strong> Dotted thought-orb loading indicators for AI &amp; agent UIs — six tuned states, two sizes, auto dark/light\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Archived:</strong> false\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Last source push:</strong> 2026-07-21\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository:</strong> Jakubantalik/thinking-orbs\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Forks:</strong> 82\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>GitHub stars:</strong> 1.1k\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Open issues:</strong> 7\n    — <a href=\"https://api.github.com/repos/Jakubantalik/thinking-orbs\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>No latest release was returned by the GitHub Releases API; the project may publish by another method.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-27 from public GitHub project records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
   "evidence": {
     "sourceId": "gh-1307383231",
-    "fetchedAt": "2026-07-23T12:22:38.607Z",
+    "fetchedAt": "2026-07-27T06:45:56.639Z",
     "score": 80,
     "officialUrls": [
       "https://github.com/Jakubantalik/thinking-orbs"
@@ -45,56 +45,56 @@
         "label": "Repository summary",
         "value": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light",
         "url": "https://api.github.com/repos/Jakubantalik/thinking-orbs",
-        "observedAt": "2026-07-23T12:22:38.607Z",
+        "observedAt": "2026-07-27T06:45:56.639Z",
         "kind": "documentation"
       },
       {
         "label": "Archived",
         "value": "false",
         "url": "https://api.github.com/repos/Jakubantalik/thinking-orbs",
-        "observedAt": "2026-07-23T12:22:38.607Z",
+        "observedAt": "2026-07-27T06:45:56.639Z",
         "kind": "maintenance"
       },
       {
         "label": "Last source push",
         "value": "2026-07-21T21:33:07Z",
         "url": "https://api.github.com/repos/Jakubantalik/thinking-orbs",
-        "observedAt": "2026-07-23T12:22:38.607Z",
+        "observedAt": "2026-07-27T06:45:56.639Z",
         "kind": "maintenance"
       },
       {
         "label": "Repository",
         "value": "Jakubantalik/thinking-orbs",
         "url": "https://api.github.com/repos/Jakubantalik/thinking-orbs",
-        "observedAt": "2026-07-23T12:22:38.607Z",
+        "observedAt": "2026-07-27T06:45:56.639Z",
         "kind": "repository"
       },
       {
         "label": "License",
         "value": "MIT",
         "url": "https://api.github.com/repos/Jakubantalik/thinking-orbs",
-        "observedAt": "2026-07-23T12:22:38.607Z",
+        "observedAt": "2026-07-27T06:45:56.639Z",
         "kind": "repository-metadata"
       },
       {
         "label": "Forks",
-        "value": "49",
+        "value": "82",
         "url": "https://api.github.com/repos/Jakubantalik/thinking-orbs",
-        "observedAt": "2026-07-23T12:22:38.607Z",
+        "observedAt": "2026-07-27T06:45:56.639Z",
         "kind": "repository-metric"
       },
       {
         "label": "GitHub stars",
-        "value": "741",
+        "value": "1116",
         "url": "https://api.github.com/repos/Jakubantalik/thinking-orbs",
-        "observedAt": "2026-07-23T12:22:38.607Z",
+        "observedAt": "2026-07-27T06:45:56.639Z",
         "kind": "repository-metric"
       },
       {
         "label": "Open issues",
-        "value": "5",
+        "value": "7",
         "url": "https://api.github.com/repos/Jakubantalik/thinking-orbs",
-        "observedAt": "2026-07-23T12:22:38.607Z",
+        "observedAt": "2026-07-27T06:45:56.639Z",
         "kind": "repository-metric"
       }
     ],
@@ -108,49 +108,49 @@
     "qualityScore": 80,
     "claims": [
       {
-        "text": "Repository summary: Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light (observed 2026-07-23)",
+        "text": "Repository summary: Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light (observed 2026-07-27)",
         "evidenceUrls": [
           "https://api.github.com/repos/Jakubantalik/thinking-orbs"
         ]
       },
       {
-        "text": "Archived: false (observed 2026-07-23)",
+        "text": "Archived: false (observed 2026-07-27)",
         "evidenceUrls": [
           "https://api.github.com/repos/Jakubantalik/thinking-orbs"
         ]
       },
       {
-        "text": "Last source push: 2026-07-21T21:33:07Z (observed 2026-07-23)",
+        "text": "Last source push: 2026-07-21T21:33:07Z (observed 2026-07-27)",
         "evidenceUrls": [
           "https://api.github.com/repos/Jakubantalik/thinking-orbs"
         ]
       },
       {
-        "text": "Repository: Jakubantalik/thinking-orbs (observed 2026-07-23)",
+        "text": "Repository: Jakubantalik/thinking-orbs (observed 2026-07-27)",
         "evidenceUrls": [
           "https://api.github.com/repos/Jakubantalik/thinking-orbs"
         ]
       },
       {
-        "text": "License: MIT (observed 2026-07-23)",
+        "text": "License: MIT (observed 2026-07-27)",
         "evidenceUrls": [
           "https://api.github.com/repos/Jakubantalik/thinking-orbs"
         ]
       },
       {
-        "text": "Forks: 49 (observed 2026-07-23)",
+        "text": "Forks: 82 (observed 2026-07-27)",
         "evidenceUrls": [
           "https://api.github.com/repos/Jakubantalik/thinking-orbs"
         ]
       },
       {
-        "text": "GitHub stars: 741 (observed 2026-07-23)",
+        "text": "GitHub stars: 1116 (observed 2026-07-27)",
         "evidenceUrls": [
           "https://api.github.com/repos/Jakubantalik/thinking-orbs"
         ]
       },
       {
-        "text": "Open issues: 5 (observed 2026-07-23)",
+        "text": "Open issues: 7 (observed 2026-07-27)",
         "evidenceUrls": [
           "https://api.github.com/repos/Jakubantalik/thinking-orbs"
         ]
@@ -159,9 +159,9 @@
     "review": {
       "status": "not-configured",
       "issues": [],
-      "reviewedAt": "2026-07-23T12:22:38.607Z"
+      "reviewedAt": "2026-07-27T06:45:56.639Z"
     },
-    "generatedAt": "2026-07-23T12:22:38.607Z"
+    "generatedAt": "2026-07-27T06:45:56.639Z"
   },
   "indexable": true
 }

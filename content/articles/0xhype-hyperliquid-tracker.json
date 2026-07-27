@@ -1,11 +1,11 @@
 {
   "slug": "0xhype-hyperliquid-tracker",
-  "title": "0xhype/hyperliquid-tracker — GitHub Project Data Snapshot",
-  "description": "hyperliquid-tracker GitHub project data snapshot: 2 new GitHub stars in the recorded weekly window. Get notified when big trades happen on Hyperliquid.",
+  "title": "Hyperliquid-Tracker Guide: Uses, Setup, and Repository Health",
+  "description": "Hyperliquid-Tracker explained: Get notified when big trades happen on Hyperliquid. See best-fit use cases, setup, maintenance signals, and adoption checks.",
   "category": "frontend",
   "type": "trend",
   "publishedAt": "2026-07-22",
-  "updatedAt": "2026-07-23",
+  "updatedAt": "2026-07-27",
   "sourceData": {
     "id": "gh-1307786942",
     "name": "hyperliquid-tracker",
@@ -13,14 +13,14 @@
     "url": "https://github.com/0xhype/hyperliquid-tracker",
     "description": "Get notified when big trades happen on Hyperliquid.",
     "language": "TypeScript",
-    "stars": 503,
-    "starsGrowth": 2,
-    "forks": 0,
-    "openIssues": 0,
+    "stars": 513,
+    "starsGrowth": 10,
+    "forks": 2,
+    "openIssues": 2,
     "topics": [],
     "license": "No license",
     "createdAt": "2026-07-21T14:24:08Z",
-    "updatedAt": "2026-07-22T19:47:34Z",
+    "updatedAt": "2026-07-21T14:25:10Z",
     "homepage": "",
     "source": "github",
     "category": "frontend"
@@ -32,6 +32,124 @@
     "pireel-pireel"
   ],
   "tags": [],
-  "bodyHtml": "<p><em>Data note:</em> This automated snapshot was updated on 2026-07-23 from public GitHub project metadata. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>\n<h2>Snapshot Summary</h2>\n<p><strong>hyperliquid-tracker</strong> is listed in our <em>Frontend</em> feed. The source describes it as: Get notified when big trades happen on Hyperliquid.</p>\n<p>The principal source-specific signal in this snapshot is <strong>2 new GitHub stars in the recorded weekly window</strong>.</p>\n<h2>Recorded Metrics</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 503</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">📈 +2</span><span class=\"stat-label\">New GitHub Stars (weekly window)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 0</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 0</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars and forks are repository interest signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Source Metadata</h2>\n<ul>\n  <li>Language or ecosystem: <strong>TypeScript</strong></li>\n  <li>Reported license: <strong>No license</strong></li>\n  <li>Primary source: <a href=\"https://github.com/0xhype/hyperliquid-tracker\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/0xhype/hyperliquid-tracker</a></li>\n</ul>\n<h2>Evaluation Checklist</h2>\n<ul>\n  <li><strong>Confirm currency:</strong> Check the primary source for releases and documentation published after this snapshot.</li>\n  <li><strong>Assess fit:</strong> Compare supported environments, maintenance activity, dependencies, and license terms with your requirements.</li>\n  <li><strong>Interpret metrics carefully:</strong> Treat star growth as an attention signal, not proof of technical quality.</li>\n  <li><strong>Validate important claims:</strong> Prefer primary documentation and reproducible evidence.</li>\n</ul>\n<h2>Verify Before Adoption</h2>\n<div class=\"code-block\"><code>git clone https://github.com/0xhype/hyperliquid-tracker</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project.</p>",
-  "indexable": false
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Hyperliquid-Tracker: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>Get notified when big trades happen on Hyperliquid.</p>\n<p>Shortlist Hyperliquid-Tracker only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Hyperliquid-Tracker is most relevant to developers working with TypeScript. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Read the README, recent releases, issue tracker, security policy, and license before cloning Hyperliquid-Tracker. Start in a disposable environment that matches your runtime and deployment constraints.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 513 GitHub stars, 2 forks, 2 open issues, and last source push 2026-07-21.</p>\n<p>The source did not expose every compatibility or maintenance detail, so verify the live documentation before adoption.</p>\n<p>Stars, forks, and issue counts show repository activity or attention; they do not prove quality, security, or suitability.</p>\n<h2>Bottom line</h2>\n<p>Hyperliquid-Tracker is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Start with the official repository</h2>\n<div class=\"code-block\"><code>git clone https://github.com/0xhype/hyperliquid-tracker</code></div>\n<p>Read the repository documentation, recent releases, issue tracker, security policy, and license before using the project. Try it in a disposable or non-production environment first.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 513</span><span class=\"stat-label\">GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 2</span><span class=\"stat-label\">GitHub Forks (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⚠️ 2</span><span class=\"stat-label\">Open GitHub Issues</span></div>\n</div>\n<p>Stars, forks, and issue counts are repository signals. They do not by themselves establish quality, security, or suitability.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-27. Source completeness is <strong>Medium</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Repository summary:</strong> Get notified when big trades happen on Hyperliquid.\n    — <a href=\"https://api.github.com/repos/0xhype/hyperliquid-tracker\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Archived:</strong> false\n    — <a href=\"https://api.github.com/repos/0xhype/hyperliquid-tracker\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Last source push:</strong> 2026-07-21\n    — <a href=\"https://api.github.com/repos/0xhype/hyperliquid-tracker\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Repository:</strong> 0xhype/hyperliquid-tracker\n    — <a href=\"https://api.github.com/repos/0xhype/hyperliquid-tracker\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Forks:</strong> 2\n    — <a href=\"https://api.github.com/repos/0xhype/hyperliquid-tracker\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>GitHub stars:</strong> 513\n    — <a href=\"https://api.github.com/repos/0xhype/hyperliquid-tracker\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Open issues:</strong> 2\n    — <a href=\"https://api.github.com/repos/0xhype/hyperliquid-tracker\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>No latest release was returned by the GitHub Releases API; the project may publish by another method.</li>\n  <li>The GitHub API did not report an SPDX license identifier.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-27 from public GitHub project records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "gh-1307786942",
+    "fetchedAt": "2026-07-27T06:46:11.170Z",
+    "score": 80,
+    "officialUrls": [
+      "https://github.com/0xhype/hyperliquid-tracker"
+    ],
+    "items": [
+      {
+        "label": "Repository summary",
+        "value": "Get notified when big trades happen on Hyperliquid.",
+        "url": "https://api.github.com/repos/0xhype/hyperliquid-tracker",
+        "observedAt": "2026-07-27T06:46:11.170Z",
+        "kind": "documentation"
+      },
+      {
+        "label": "Archived",
+        "value": "false",
+        "url": "https://api.github.com/repos/0xhype/hyperliquid-tracker",
+        "observedAt": "2026-07-27T06:46:11.170Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Last source push",
+        "value": "2026-07-21T14:25:10Z",
+        "url": "https://api.github.com/repos/0xhype/hyperliquid-tracker",
+        "observedAt": "2026-07-27T06:46:11.170Z",
+        "kind": "maintenance"
+      },
+      {
+        "label": "Repository",
+        "value": "0xhype/hyperliquid-tracker",
+        "url": "https://api.github.com/repos/0xhype/hyperliquid-tracker",
+        "observedAt": "2026-07-27T06:46:11.170Z",
+        "kind": "repository"
+      },
+      {
+        "label": "Forks",
+        "value": "2",
+        "url": "https://api.github.com/repos/0xhype/hyperliquid-tracker",
+        "observedAt": "2026-07-27T06:46:11.170Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "GitHub stars",
+        "value": "513",
+        "url": "https://api.github.com/repos/0xhype/hyperliquid-tracker",
+        "observedAt": "2026-07-27T06:46:11.170Z",
+        "kind": "repository-metric"
+      },
+      {
+        "label": "Open issues",
+        "value": "2",
+        "url": "https://api.github.com/repos/0xhype/hyperliquid-tracker",
+        "observedAt": "2026-07-27T06:46:11.170Z",
+        "kind": "repository-metric"
+      }
+    ],
+    "warnings": [
+      "No latest release was returned by the GitHub Releases API; the project may publish by another method.",
+      "The GitHub API did not report an SPDX license identifier.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 80,
+    "claims": [
+      {
+        "text": "Repository summary: Get notified when big trades happen on Hyperliquid. (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/0xhype/hyperliquid-tracker"
+        ]
+      },
+      {
+        "text": "Archived: false (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/0xhype/hyperliquid-tracker"
+        ]
+      },
+      {
+        "text": "Last source push: 2026-07-21T14:25:10Z (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/0xhype/hyperliquid-tracker"
+        ]
+      },
+      {
+        "text": "Repository: 0xhype/hyperliquid-tracker (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/0xhype/hyperliquid-tracker"
+        ]
+      },
+      {
+        "text": "Forks: 2 (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/0xhype/hyperliquid-tracker"
+        ]
+      },
+      {
+        "text": "GitHub stars: 513 (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/0xhype/hyperliquid-tracker"
+        ]
+      },
+      {
+        "text": "Open issues: 2 (observed 2026-07-27)",
+        "evidenceUrls": [
+          "https://api.github.com/repos/0xhype/hyperliquid-tracker"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-27T06:46:11.170Z"
+    },
+    "generatedAt": "2026-07-27T06:46:11.170Z"
+  },
+  "indexable": true
 }

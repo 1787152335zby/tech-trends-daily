@@ -31,10 +31,10 @@
     "category": "backend"
   },
   "relatedSlugs": [
+    "shiroryu9-community-ops-kit",
     "charles-0509-grok-register",
     "prisma",
-    "steelbrain-metal2vulkan",
-    "yc-duan-fastctx"
+    "steelbrain-metal2vulkan"
   ],
   "tags": [
     "hacktoberfest",
