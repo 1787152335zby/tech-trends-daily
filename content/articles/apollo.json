@@ -5,7 +5,7 @@
   "category": "tools",
   "type": "trend",
   "publishedAt": "2026-06-27",
-  "updatedAt": "2026-07-27",
+  "updatedAt": "2026-07-28",
   "sourceData": {
     "id": "npm-apollo",
     "name": "apollo",
@@ -19,8 +19,8 @@
     "openIssues": 367,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-07-27T06:45:43.224Z",
-    "updatedAt": "2026-07-27T06:45:43.224Z",
+    "createdAt": "2026-07-28T06:06:11.629Z",
+    "updatedAt": "2026-07-28T06:06:11.629Z",
     "homepage": "https://github.com/apollographql/apollo-tooling",
     "source": "npm",
     "category": "tools"
@@ -32,10 +32,10 @@
     "pnpm"
   ],
   "tags": [],
-  "bodyHtml": "<p class=\"article-dek\"><strong>Apollo is marked deprecated. Use this guide to understand its former purpose, verify replacement guidance, and avoid starting a new dependency without a migration plan.</strong></p>\n<h2>Quick verdict</h2>\n<p>[2022-01-21] Note - Upcoming Deprecation Plans: We (Apollo) are working towards fully deprecating this repository and its related projects. Most of the functionality in this repository has been replaced by newer projects and the rest will be soon. We'll share detailed migration documentation when everything here is ready to be officially deprecated, but just a heads up in case you're planning on adopting anything here for a new project (which you still can of course if the tooling here works for</p>\n<p>Shortlist Apollo only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Apollo is most relevant to developers working with JavaScript/TypeScript. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing apollo in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 163.2K weekly downloads, version 2.34.0, and released 2022-05-20.</p>\n<p>The recorded Node.js requirement is &gt;=8.</p>\n<p>The current package metadata lists 37 direct dependencies.</p>\n<p>The registry lists 1 maintainers.</p>\n<p>The source reports the MIT license.</p>\n<p>The latest npm version is marked deprecated: The `apollo` package is deprecated and no longer maintained. It has been replaced by the Apollo Rover CLI (`@apollo/rover`) — see the migration guide at https://go.apollo.dev/t/mig</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>Apollo is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install apollo</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 163.2k</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 3.0k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 461</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-27. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=8\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Official package summary:</strong> [2022-01-21] Note - Upcoming Deprecation Plans: We (Apollo) are working towards fully deprecating this repository and its related projects. Most of the functionality in this repository has been replaced by newer projects and the rest will be soon. We'll share detailed migration documentation when everything here is ready to be officially deprecated, but just a heads up in case you're planning on adopting anything here for a new project (which you still can of course if the tooling here works for\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 1\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-03\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 37\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> apollo\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-18 to 2026-07-24\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 163.2k\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 2.34.0\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2022-05-20\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>The latest npm version is marked deprecated: The `apollo` package is deprecated and no longer maintained. It has been replaced by the Apollo Rover CLI (`@apollo/rover`) — see the migration guide at https://go.apollo.dev/t/mig</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-27 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "bodyHtml": "<p class=\"article-dek\"><strong>Apollo is marked deprecated. Use this guide to understand its former purpose, verify replacement guidance, and avoid starting a new dependency without a migration plan.</strong></p>\n<h2>Quick verdict</h2>\n<p>[2022-01-21] Note - Upcoming Deprecation Plans: We (Apollo) are working towards fully deprecating this repository and its related projects. Most of the functionality in this repository has been replaced by newer projects and the rest will be soon. We'll share detailed migration documentation when everything here is ready to be officially deprecated, but just a heads up in case you're planning on adopting anything here for a new project (which you still can of course if the tooling here works for</p>\n<p>Shortlist Apollo only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Apollo is most relevant to developers working with JavaScript/TypeScript. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing apollo in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 163.2K weekly downloads, version 2.34.0, and released 2022-05-20.</p>\n<p>The recorded Node.js requirement is &gt;=8.</p>\n<p>The current package metadata lists 37 direct dependencies.</p>\n<p>The registry lists 1 maintainers.</p>\n<p>The source reports the MIT license.</p>\n<p>The latest npm version is marked deprecated: The `apollo` package is deprecated and no longer maintained. It has been replaced by the Apollo Rover CLI (`@apollo/rover`) — see the migration guide at https://go.apollo.dev/t/mig</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>Apollo is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install apollo</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 163.2k</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 3.0k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 461</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-28. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=8\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Official package summary:</strong> [2022-01-21] Note - Upcoming Deprecation Plans: We (Apollo) are working towards fully deprecating this repository and its related projects. Most of the functionality in this repository has been replaced by newer projects and the rest will be soon. We'll share detailed migration documentation when everything here is ready to be officially deprecated, but just a heads up in case you're planning on adopting anything here for a new project (which you still can of course if the tooling here works for\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 1\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-07-03\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 37\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> apollo\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-18 to 2026-07-24\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 163.2k\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 2.34.0\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2022-05-20\n    — <a href=\"https://registry.npmjs.org/apollo\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>The latest npm version is marked deprecated: The `apollo` package is deprecated and no longer maintained. It has been replaced by the Apollo Rover CLI (`@apollo/rover`) — see the migration guide at https://go.apollo.dev/t/mig</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-28 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
   "evidence": {
     "sourceId": "npm-apollo",
-    "fetchedAt": "2026-07-27T06:46:13.325Z",
+    "fetchedAt": "2026-07-28T06:06:34.464Z",
     "score": 100,
     "officialUrls": [
       "https://www.npmjs.com/package/apollo",
@@ -48,77 +48,77 @@
         "label": "Node.js engine",
         "value": ">=8",
         "url": "https://registry.npmjs.org/apollo",
-        "observedAt": "2026-07-27T06:46:13.325Z",
+        "observedAt": "2026-07-28T06:06:34.464Z",
         "kind": "compatibility"
       },
       {
         "label": "Official package summary",
         "value": "[2022-01-21] Note - Upcoming Deprecation Plans: We (Apollo) are working towards fully deprecating this repository and its related projects. Most of the functionality in this repository has been replaced by newer projects and the rest will be soon. We'll share detailed migration documentation when everything here is ready to be officially deprecated, but just a heads up in case you're planning on adopting anything here for a new project (which you still can of course if the tooling here works for",
         "url": "https://registry.npmjs.org/apollo",
-        "observedAt": "2026-07-27T06:46:13.325Z",
+        "observedAt": "2026-07-28T06:06:34.464Z",
         "kind": "documentation"
       },
       {
         "label": "Maintainers listed",
         "value": "1",
         "url": "https://registry.npmjs.org/apollo",
-        "observedAt": "2026-07-27T06:46:13.325Z",
+        "observedAt": "2026-07-28T06:06:34.464Z",
         "kind": "maintenance"
       },
       {
         "label": "Registry modified",
         "value": "2026-07-03T13:09:06.096Z",
         "url": "https://registry.npmjs.org/apollo",
-        "observedAt": "2026-07-27T06:46:13.325Z",
+        "observedAt": "2026-07-28T06:06:34.464Z",
         "kind": "maintenance"
       },
       {
         "label": "Direct dependencies",
         "value": "37",
         "url": "https://registry.npmjs.org/apollo",
-        "observedAt": "2026-07-27T06:46:13.325Z",
+        "observedAt": "2026-07-28T06:06:34.464Z",
         "kind": "package-metadata"
       },
       {
         "label": "License",
         "value": "MIT",
         "url": "https://registry.npmjs.org/apollo",
-        "observedAt": "2026-07-27T06:46:13.325Z",
+        "observedAt": "2026-07-28T06:06:34.464Z",
         "kind": "package-metadata"
       },
       {
         "label": "Package",
         "value": "apollo",
         "url": "https://registry.npmjs.org/apollo",
-        "observedAt": "2026-07-27T06:46:13.325Z",
+        "observedAt": "2026-07-28T06:06:34.464Z",
         "kind": "registry"
       },
       {
         "label": "Download window",
         "value": "2026-07-18 to 2026-07-24",
         "url": "https://api.npmjs.org/downloads/point/last-week/apollo",
-        "observedAt": "2026-07-27T06:46:13.325Z",
+        "observedAt": "2026-07-28T06:06:34.464Z",
         "kind": "registry-metric"
       },
       {
         "label": "Weekly downloads",
         "value": "163230",
         "url": "https://api.npmjs.org/downloads/point/last-week/apollo",
-        "observedAt": "2026-07-27T06:46:13.325Z",
+        "observedAt": "2026-07-28T06:06:34.464Z",
         "kind": "registry-metric"
       },
       {
         "label": "Latest version",
         "value": "2.34.0",
         "url": "https://registry.npmjs.org/apollo",
-        "observedAt": "2026-07-27T06:46:13.325Z",
+        "observedAt": "2026-07-28T06:06:34.464Z",
         "kind": "release"
       },
       {
         "label": "Latest version published",
         "value": "2022-05-20T22:49:02.018Z",
         "url": "https://registry.npmjs.org/apollo",
-        "observedAt": "2026-07-27T06:46:13.325Z",
+        "observedAt": "2026-07-28T06:06:34.464Z",
         "kind": "release"
       }
     ],
@@ -132,7 +132,7 @@
     "qualityScore": 92,
     "claims": [
       {
-        "text": "Node.js engine: >=8 (observed 2026-07-27)",
+        "text": "Node.js engine: >=8 (observed 2026-07-28)",
         "evidenceUrls": [
           "https://registry.npmjs.org/apollo"
         ]
@@ -144,49 +144,49 @@
         ]
       },
       {
-        "text": "Maintainers listed: 1 (observed 2026-07-27)",
+        "text": "Maintainers listed: 1 (observed 2026-07-28)",
         "evidenceUrls": [
           "https://registry.npmjs.org/apollo"
         ]
       },
       {
-        "text": "Registry modified: 2026-07-03T13:09:06.096Z (observed 2026-07-27)",
+        "text": "Registry modified: 2026-07-03T13:09:06.096Z (observed 2026-07-28)",
         "evidenceUrls": [
           "https://registry.npmjs.org/apollo"
         ]
       },
       {
-        "text": "Direct dependencies: 37 (observed 2026-07-27)",
+        "text": "Direct dependencies: 37 (observed 2026-07-28)",
         "evidenceUrls": [
           "https://registry.npmjs.org/apollo"
         ]
       },
       {
-        "text": "License: MIT (observed 2026-07-27)",
+        "text": "License: MIT (observed 2026-07-28)",
         "evidenceUrls": [
           "https://registry.npmjs.org/apollo"
         ]
       },
       {
-        "text": "Package: apollo (observed 2026-07-27)",
+        "text": "Package: apollo (observed 2026-07-28)",
         "evidenceUrls": [
           "https://registry.npmjs.org/apollo"
         ]
       },
       {
-        "text": "Download window: 2026-07-18 to 2026-07-24 (observed 2026-07-27)",
+        "text": "Download window: 2026-07-18 to 2026-07-24 (observed 2026-07-28)",
         "evidenceUrls": [
           "https://api.npmjs.org/downloads/point/last-week/apollo"
         ]
       },
       {
-        "text": "Weekly downloads: 163230 (observed 2026-07-27)",
+        "text": "Weekly downloads: 163230 (observed 2026-07-28)",
         "evidenceUrls": [
           "https://api.npmjs.org/downloads/point/last-week/apollo"
         ]
       },
       {
-        "text": "Latest version: 2.34.0 (observed 2026-07-27)",
+        "text": "Latest version: 2.34.0 (observed 2026-07-28)",
         "evidenceUrls": [
           "https://registry.npmjs.org/apollo"
         ]
@@ -195,9 +195,9 @@
     "review": {
       "status": "not-configured",
       "issues": [],
-      "reviewedAt": "2026-07-27T06:46:13.325Z"
+      "reviewedAt": "2026-07-28T06:06:34.464Z"
     },
-    "generatedAt": "2026-07-27T06:46:13.325Z"
+    "generatedAt": "2026-07-28T06:06:34.464Z"
   },
   "indexable": true
 }

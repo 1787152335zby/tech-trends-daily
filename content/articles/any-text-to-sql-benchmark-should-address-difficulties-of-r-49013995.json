@@ -26,8 +26,8 @@
     "category": "backend"
   },
   "relatedSlugs": [
-    "prisma",
     "graphql",
+    "prisma",
     "kysely",
     "fastify"
   ],

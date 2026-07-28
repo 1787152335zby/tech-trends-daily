@@ -44,8 +44,8 @@
   "relatedSlugs": [
     "express",
     "fastify",
-    "prisma",
-    "graphql"
+    "graphql",
+    "prisma"
   ],
   "tags": [
     "hono",
