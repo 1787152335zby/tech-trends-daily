@@ -1,0 +1,156 @@
+{
+  "slug": "learnvector-andrew-ng-s-ai-company-building-one-to-one-lea-49092499",
+  "title": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences: Context, Claims, and Sources",
+  "description": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences — A new AI company from Andrew Ng, with a $100M investment from Coursera — building one-to-one learning that stay… Read the context, source,…",
+  "category": "ai-ml",
+  "type": "trend",
+  "publishedAt": "2026-07-29",
+  "updatedAt": "2026-07-29",
+  "sourceData": {
+    "id": "hn-49092499",
+    "name": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
+    "fullName": "hn:learnvector-andrew-ng-s-ai-company-building-one-to-one-learning-experiences",
+    "url": "https://learnvector.ai/",
+    "description": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
+    "language": "Various",
+    "stars": 131,
+    "starsGrowth": 131,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-07-29T01:49:19.000Z",
+    "updatedAt": "2026-07-29T01:49:19.000Z",
+    "homepage": "https://learnvector.ai/",
+    "source": "hackernews",
+    "category": "ai-ml"
+  },
+  "relatedSlugs": [
+    "transformer-transformer-a-unified-model-for-motion-conditi-49093232",
+    "the-new-ai-superpowers-focus-and-followthrough-49057877",
+    "openai-s-accidental-cyberattack-against-hugging-face-is-sc-49015639",
+    "are-ai-labs-pelicanmaxxing-49010129"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>A new AI company from Andrew Ng, with a $100M investment from Coursera — building one-to-one learning that stays with you until you</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 131 points, 68 comments, and published 2026-07-29.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Check whether model, dataset, benchmark, cost, and deployment claims link to primary documentation or reproducible results.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 131</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 68</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-29. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 68\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49092499.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 131\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49092499.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> ajhai\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49092499.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.1M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49092499.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-07-29\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49092499.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences\n    — <a href=\"https://news.ycombinator.com/item?id=49092499\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> A new AI company from Andrew Ng, with a $100M investment from Coursera — building one-to-one learning that stays with you until you\n    — <a href=\"https://learnvector.ai/\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-29 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49092499",
+    "fetchedAt": "2026-07-29T06:10:40.982Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49092499",
+      "https://hacker-news.firebaseio.com/v0/item/49092499.json",
+      "https://learnvector.ai/"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "68",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49092499.json",
+        "observedAt": "2026-07-29T06:10:40.982Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "131",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49092499.json",
+        "observedAt": "2026-07-29T06:10:40.982Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "ajhai",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49092499.json",
+        "observedAt": "2026-07-29T06:10:40.982Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49092499",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49092499.json",
+        "observedAt": "2026-07-29T06:10:40.982Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-07-29T01:49:19.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49092499.json",
+        "observedAt": "2026-07-29T06:10:40.982Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
+        "url": "https://news.ycombinator.com/item?id=49092499",
+        "observedAt": "2026-07-29T06:10:40.982Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "A new AI company from Andrew Ng, with a $100M investment from Coursera — building one-to-one learning that stays with you until you",
+        "url": "https://learnvector.ai/",
+        "observedAt": "2026-07-29T06:10:40.982Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 68 (observed 2026-07-29)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49092499.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 131 (observed 2026-07-29)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49092499.json"
+        ]
+      },
+      {
+        "text": "Author: ajhai (observed 2026-07-29)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49092499.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49092499 (observed 2026-07-29)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49092499.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-07-29T01:49:19.000Z (observed 2026-07-29)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49092499.json"
+        ]
+      },
+      {
+        "text": "Story title: LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences (observed 2026-07-29)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49092499"
+        ]
+      },
+      {
+        "text": "Original source summary: A new AI company from Andrew Ng, with a $100M investment from Coursera — building one-to-one learning that stays with you until you (observed 2026-07-29)",
+        "evidenceUrls": [
+          "https://learnvector.ai/"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-29T06:10:40.982Z"
+    },
+    "generatedAt": "2026-07-29T06:10:40.982Z"
+  },
+  "indexable": true
+}

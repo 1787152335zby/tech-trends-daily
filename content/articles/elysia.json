@@ -34,7 +34,7 @@
     "express",
     "hono",
     "fastify",
-    "graphql"
+    "prisma"
   ],
   "tags": [
     "bun",
