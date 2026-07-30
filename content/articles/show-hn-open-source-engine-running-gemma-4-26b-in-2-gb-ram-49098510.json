@@ -1,0 +1,169 @@
+{
+  "slug": "show-hn-open-source-engine-running-gemma-4-26b-in-2-gb-ram-49098510",
+  "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac: Context, Claims, and Sources",
+  "description": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac — Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook - drumih/turbo-fieldfare Read the context, source, and verification que…",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-07-30",
+  "updatedAt": "2026-07-30",
+  "sourceData": {
+    "id": "hn-49098510",
+    "name": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+    "fullName": "hn:show-hn-open-source-engine-running-gemma-4-26b-in-2-gb-ram-on-any-m-series-mac",
+    "url": "https://github.com/drumih/turbo-fieldfare",
+    "description": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+    "language": "Various",
+    "stars": 720,
+    "starsGrowth": 720,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-07-29T15:05:43.000Z",
+    "updatedAt": "2026-07-29T15:05:43.000Z",
+    "homepage": "https://github.com/drumih/turbo-fieldfare",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "show-hn-cactus-hybrid-we-taught-gemma-4-to-know-when-it-s-49010782",
+    "show-hn-cheapfoodmap-a-map-of-good-meals-under-10-49100043",
+    "half-life-ported-to-mac-os-9-49089814",
+    "show-hn-physically-accurate-black-hole-you-can-put-in-your-49021270"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook - drumih/turbo-fieldfare</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 720 points, 251 comments, and published 2026-07-29.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 720</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 251</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-07-30. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 251\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49098510.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 720\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49098510.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> gitpusher42\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49098510.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Discussion text:</strong> Hi HN, I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal. I have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whose weights don’t fit in memory. The model’s 4-bit quantized weights occupy roughly 14 GB, which makes running it with conventional inference tools almost impossible on an 8 GB or even 16 GB Mac once the OS, applications, and KV cache are included. The trick is to keep the shared part of the model and the KV cache in RAM, then stream only the\n    — <a href=\"https://news.ycombinator.com/item?id=49098510\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.1M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49098510.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-07-29\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49098510.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac\n    — <a href=\"https://news.ycombinator.com/item?id=49098510\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook - drumih/turbo-fieldfare\n    — <a href=\"https://github.com/drumih/turbo-fieldfare\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-07-30 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49098510",
+    "fetchedAt": "2026-07-30T06:02:19.688Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49098510",
+      "https://hacker-news.firebaseio.com/v0/item/49098510.json",
+      "https://github.com/drumih/turbo-fieldfare"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "251",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49098510.json",
+        "observedAt": "2026-07-30T06:02:19.688Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "720",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49098510.json",
+        "observedAt": "2026-07-30T06:02:19.688Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "gitpusher42",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49098510.json",
+        "observedAt": "2026-07-30T06:02:19.688Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Discussion text",
+        "value": "Hi HN, I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal. I have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So I wanted to push the limits a bit and run a model whose weights don’t fit in memory. The model’s 4-bit quantized weights occupy roughly 14 GB, which makes running it with conventional inference tools almost impossible on an 8 GB or even 16 GB Mac once the OS, applications, and KV cache are included. The trick is to keep the shared part of the model and the KV cache in RAM, then stream only the",
+        "url": "https://news.ycombinator.com/item?id=49098510",
+        "observedAt": "2026-07-30T06:02:19.688Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49098510",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49098510.json",
+        "observedAt": "2026-07-30T06:02:19.688Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-07-29T15:05:43.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49098510.json",
+        "observedAt": "2026-07-30T06:02:19.688Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+        "url": "https://news.ycombinator.com/item?id=49098510",
+        "observedAt": "2026-07-30T06:02:19.688Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook - drumih/turbo-fieldfare",
+        "url": "https://github.com/drumih/turbo-fieldfare",
+        "observedAt": "2026-07-30T06:02:19.688Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 251 (observed 2026-07-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49098510.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 720 (observed 2026-07-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49098510.json"
+        ]
+      },
+      {
+        "text": "Author: gitpusher42 (observed 2026-07-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49098510.json"
+        ]
+      },
+      {
+        "text": "Discussion text: Hi HN, I built a specialized inference engine for running 4-bit Gemma 4 26B-A4B-IT on any M-series Mac using about 2 GB of RAM. It is called TurboFieldfare and is written in Swift and Metal. I have always adored on-device AI. It feels like magic that you can run a powerful NN on your Mac or iPhone. So…",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49098510"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49098510 (observed 2026-07-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49098510.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-07-29T15:05:43.000Z (observed 2026-07-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49098510.json"
+        ]
+      },
+      {
+        "text": "Story title: Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac (observed 2026-07-30)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49098510"
+        ]
+      },
+      {
+        "text": "Original source summary: Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook - drumih/turbo-fieldfare (observed 2026-07-30)",
+        "evidenceUrls": [
+          "https://github.com/drumih/turbo-fieldfare"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-07-30T06:02:19.688Z"
+    },
+    "generatedAt": "2026-07-30T06:02:19.688Z"
+  },
+  "indexable": true
+}
