@@ -1,0 +1,169 @@
+{
+  "slug": "show-hn-nixos-dgx-spark-nix-and-nixos-on-the-dgx-spark-49146267",
+  "title": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark: Context, Claims, and Sources",
+  "description": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark — Use Nix and NixOS on your DGX Spark! Contribute to graham33/nixos-dgx-spark development by creating an account… Read the context, source, and verification ques…",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-08-03",
+  "updatedAt": "2026-08-03",
+  "sourceData": {
+    "id": "hn-49146267",
+    "name": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark",
+    "fullName": "hn:show-hn-nixos-dgx-spark-nix-and-nixos-on-the-dgx-spark",
+    "url": "https://github.com/graham33/nixos-dgx-spark",
+    "description": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark",
+    "language": "Various",
+    "stars": 113,
+    "starsGrowth": 113,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-08-02T17:05:54.000Z",
+    "updatedAt": "2026-08-02T17:05:54.000Z",
+    "homepage": "https://github.com/graham33/nixos-dgx-spark",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "show-hn-kakehashi-experimental-userspace-to-run-macos-bina-49145937",
+    "show-hn-i-m-a-15-year-old-wannabe-engineer-this-is-a-cyclo-49140396",
+    "show-hn-cheapfoodmap-a-map-of-good-meals-under-10-49100043",
+    "show-hn-open-source-engine-running-gemma-4-26b-in-2-gb-ram-49098510"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Use Nix and NixOS on your DGX Spark! Contribute to graham33/nixos-dgx-spark development by creating an account on GitHub.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 113 points, 32 comments, and published 2026-08-02.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 113</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 32</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-08-03. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 32\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49146267.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 113\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49146267.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> graham33\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49146267.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Discussion text:</strong> Try DGX Spark playbooks using Nix on DGX OS, or install NixOS on your DGX Spark for the full Nix experience. The repository provides USB images and a NixOS module with settings for DGX Spark systems. This works on the NVIDIA DGX Spark itself and also on the Asus Ascent GX10. See my 5 minute lightning talk from Planet Nix for an intro: https:&amp;#x2F;&amp;#x2F;youtu.be&amp;#x2F;AvK_gi_snJE?si=MPKv3iiuS9B5elIE\n    — <a href=\"https://news.ycombinator.com/item?id=49146267\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.1M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49146267.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-08-02\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49146267.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark\n    — <a href=\"https://news.ycombinator.com/item?id=49146267\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Use Nix and NixOS on your DGX Spark! Contribute to graham33/nixos-dgx-spark development by creating an account on GitHub.\n    — <a href=\"https://github.com/graham33/nixos-dgx-spark\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-08-03 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49146267",
+    "fetchedAt": "2026-08-03T06:40:38.330Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49146267",
+      "https://hacker-news.firebaseio.com/v0/item/49146267.json",
+      "https://github.com/graham33/nixos-dgx-spark"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "32",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49146267.json",
+        "observedAt": "2026-08-03T06:40:38.330Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "113",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49146267.json",
+        "observedAt": "2026-08-03T06:40:38.330Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "graham33",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49146267.json",
+        "observedAt": "2026-08-03T06:40:38.330Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Discussion text",
+        "value": "Try DGX Spark playbooks using Nix on DGX OS, or install NixOS on your DGX Spark for the full Nix experience. The repository provides USB images and a NixOS module with settings for DGX Spark systems. This works on the NVIDIA DGX Spark itself and also on the Asus Ascent GX10. See my 5 minute lightning talk from Planet Nix for an intro: https:&#x2F;&#x2F;youtu.be&#x2F;AvK_gi_snJE?si=MPKv3iiuS9B5elIE",
+        "url": "https://news.ycombinator.com/item?id=49146267",
+        "observedAt": "2026-08-03T06:40:38.330Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49146267",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49146267.json",
+        "observedAt": "2026-08-03T06:40:38.330Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-08-02T17:05:54.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49146267.json",
+        "observedAt": "2026-08-03T06:40:38.330Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark",
+        "url": "https://news.ycombinator.com/item?id=49146267",
+        "observedAt": "2026-08-03T06:40:38.330Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Use Nix and NixOS on your DGX Spark! Contribute to graham33/nixos-dgx-spark development by creating an account on GitHub.",
+        "url": "https://github.com/graham33/nixos-dgx-spark",
+        "observedAt": "2026-08-03T06:40:38.330Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 32 (observed 2026-08-03)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49146267.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 113 (observed 2026-08-03)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49146267.json"
+        ]
+      },
+      {
+        "text": "Author: graham33 (observed 2026-08-03)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49146267.json"
+        ]
+      },
+      {
+        "text": "Discussion text: Try DGX Spark playbooks using Nix on DGX OS, or install NixOS on your DGX Spark for the full Nix experience. The repository provides USB images and a NixOS module with settings for DGX Spark systems. This works on the NVIDIA DGX Spark itself and also on the Asus Ascent GX10. See my 5 minute lightning…",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49146267"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49146267 (observed 2026-08-03)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49146267.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-08-02T17:05:54.000Z (observed 2026-08-03)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49146267.json"
+        ]
+      },
+      {
+        "text": "Story title: Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark (observed 2026-08-03)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49146267"
+        ]
+      },
+      {
+        "text": "Original source summary: Use Nix and NixOS on your DGX Spark! Contribute to graham33/nixos-dgx-spark development by creating an account on GitHub. (observed 2026-08-03)",
+        "evidenceUrls": [
+          "https://github.com/graham33/nixos-dgx-spark"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-08-03T06:40:38.330Z"
+    },
+    "generatedAt": "2026-08-03T06:40:38.330Z"
+  },
+  "indexable": true
+}
