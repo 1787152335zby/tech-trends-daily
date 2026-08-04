@@ -1,0 +1,156 @@
+{
+  "slug": "minimax-h3-day-0-support-in-comfyui-open-weights-native-au-49155629",
+  "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video: Context, Claims, and Sources",
+  "description": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video — An open-weights omni-modal video model with real stereo sound and 2K output — this powerful model is greatly op… Read the context, source,…",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-08-04",
+  "updatedAt": "2026-08-04",
+  "sourceData": {
+    "id": "hn-49155629",
+    "name": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+    "fullName": "hn:minimax-h3-day-0-support-in-comfyui-open-weights-native-audio-and-2k-video",
+    "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+    "description": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+    "language": "Various",
+    "stars": 283,
+    "starsGrowth": 283,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-08-03T13:34:43.000Z",
+    "updatedAt": "2026-08-03T13:34:43.000Z",
+    "homepage": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "twenty-five-years-ago-it-was-cryptography-today-it-s-model-49083599",
+    "airllm-70b-inference-with-single-4gb-gpu-49154228",
+    "smaller-faster-safer-running-kimi-and-glm-at-scale-49158581",
+    "devtools-must-be-open-source-49156111"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>An open-weights omni-modal video model with real stereo sound and 2K output — this powerful model is greatly optimized in ComfyUI and can run locally on a 3060.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 283 points, 84 comments, and published 2026-08-03.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 283</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 84</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-08-04. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 84\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49155629.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 283\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49155629.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> vblanco\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49155629.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.2M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49155629.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-08-03\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49155629.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video\n    — <a href=\"https://news.ycombinator.com/item?id=49155629\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> An open-weights omni-modal video model with real stereo sound and 2K output — this powerful model is greatly optimized in ComfyUI and can run locally on a 3060.\n    — <a href=\"https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-08-04 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49155629",
+    "fetchedAt": "2026-08-04T06:07:08.955Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49155629",
+      "https://hacker-news.firebaseio.com/v0/item/49155629.json",
+      "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "84",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49155629.json",
+        "observedAt": "2026-08-04T06:07:08.955Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "283",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49155629.json",
+        "observedAt": "2026-08-04T06:07:08.955Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "vblanco",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49155629.json",
+        "observedAt": "2026-08-04T06:07:08.955Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49155629",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49155629.json",
+        "observedAt": "2026-08-04T06:07:08.955Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-08-03T13:34:43.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49155629.json",
+        "observedAt": "2026-08-04T06:07:08.955Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+        "url": "https://news.ycombinator.com/item?id=49155629",
+        "observedAt": "2026-08-04T06:07:08.955Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "An open-weights omni-modal video model with real stereo sound and 2K output — this powerful model is greatly optimized in ComfyUI and can run locally on a 3060.",
+        "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+        "observedAt": "2026-08-04T06:07:08.955Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 84 (observed 2026-08-04)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49155629.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 283 (observed 2026-08-04)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49155629.json"
+        ]
+      },
+      {
+        "text": "Author: vblanco (observed 2026-08-04)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49155629.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49155629 (observed 2026-08-04)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49155629.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-08-03T13:34:43.000Z (observed 2026-08-04)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49155629.json"
+        ]
+      },
+      {
+        "text": "Story title: MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video (observed 2026-08-04)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49155629"
+        ]
+      },
+      {
+        "text": "Original source summary: An open-weights omni-modal video model with real stereo sound and 2K output — this powerful model is greatly optimized in ComfyUI and can run locally on a 3060. (observed 2026-08-04)",
+        "evidenceUrls": [
+          "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-08-04T06:07:08.955Z"
+    },
+    "generatedAt": "2026-08-04T06:07:08.955Z"
+  },
+  "indexable": true
+}
