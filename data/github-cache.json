@@ -5051,8 +5051,8 @@
   },
   "bashalarmistalt/decimen-optical-transfer": {
     "fullName": "bashalarmistalt/decimen-optical-transfer",
-    "stars": 4320,
-    "fetchedAt": "2026-08-04T06:06:34.916Z"
+    "stars": 4576,
+    "fetchedAt": "2026-08-05T06:03:32.590Z"
   },
   "benjitaylor/drawesome": {
     "fullName": "benjitaylor/drawesome",
@@ -5061,8 +5061,8 @@
   },
   "ddoemonn/interior": {
     "fullName": "ddoemonn/interior",
-    "stars": 475,
-    "fetchedAt": "2026-08-04T06:06:34.916Z"
+    "stars": 488,
+    "fetchedAt": "2026-08-05T06:03:32.590Z"
   },
   "dotneet/image-to-3d": {
     "fullName": "dotneet/image-to-3d",
@@ -5086,8 +5086,8 @@
   },
   "codermyxiaoc/sub2api-guardian": {
     "fullName": "codermyxiaoc/sub2api-guardian",
-    "stars": 223,
-    "fetchedAt": "2026-08-04T06:06:35.531Z"
+    "stars": 226,
+    "fetchedAt": "2026-08-05T06:03:33.288Z"
   },
   "grafana/ai-sdk": {
     "fullName": "grafana/ai-sdk",
@@ -5096,8 +5096,8 @@
   },
   "YuJunZhiXue/Cline-proxy": {
     "fullName": "YuJunZhiXue/Cline-proxy",
-    "stars": 93,
-    "fetchedAt": "2026-08-04T06:06:35.531Z"
+    "stars": 95,
+    "fetchedAt": "2026-08-05T06:03:33.288Z"
   },
   "wjordan/syzy": {
     "fullName": "wjordan/syzy",
@@ -5137,7 +5137,7 @@
   "ANEWCAN/ucas-grade-monitor": {
     "fullName": "ANEWCAN/ucas-grade-monitor",
     "stars": 112,
-    "fetchedAt": "2026-08-04T06:06:36.348Z"
+    "fetchedAt": "2026-08-05T06:03:33.995Z"
   },
   "nvxtien/emporia": {
     "fullName": "nvxtien/emporia",
@@ -5146,18 +5146,18 @@
   },
   "rails/rails-forensics-CVE-2026-66066": {
     "fullName": "rails/rails-forensics-CVE-2026-66066",
-    "stars": 20,
-    "fetchedAt": "2026-08-04T06:06:36.820Z"
+    "stars": 21,
+    "fetchedAt": "2026-08-05T06:03:34.330Z"
   },
   "baweaver/gemcp": {
     "fullName": "baweaver/gemcp",
     "stars": 10,
-    "fetchedAt": "2026-08-04T06:06:36.820Z"
+    "fetchedAt": "2026-08-05T06:03:34.330Z"
   },
   "searlsco/order_taker": {
     "fullName": "searlsco/order_taker",
     "stars": 6,
-    "fetchedAt": "2026-08-04T06:06:36.820Z"
+    "fetchedAt": "2026-08-05T06:03:34.330Z"
   },
   "Shyboy0499/homebrew-deepseek-tui": {
     "fullName": "Shyboy0499/homebrew-deepseek-tui",
@@ -5191,13 +5191,13 @@
   },
   "0xwilliamortiz/ratchet": {
     "fullName": "0xwilliamortiz/ratchet",
-    "stars": 426,
-    "fetchedAt": "2026-08-04T06:06:34.572Z"
+    "stars": 430,
+    "fetchedAt": "2026-08-05T06:03:32.184Z"
   },
   "ZihangDong/toolknit-desktop": {
     "fullName": "ZihangDong/toolknit-desktop",
-    "stars": 230,
-    "fetchedAt": "2026-08-04T06:06:34.572Z"
+    "stars": 254,
+    "fetchedAt": "2026-08-05T06:03:32.184Z"
   },
   "lixooo00-lab/mingruis-miya": {
     "fullName": "lixooo00-lab/mingruis-miya",
@@ -5211,8 +5211,8 @@
   },
   "deedy/qr-data-transfer": {
     "fullName": "deedy/qr-data-transfer",
-    "stars": 377,
-    "fetchedAt": "2026-08-04T06:06:34.916Z"
+    "stars": 398,
+    "fetchedAt": "2026-08-05T06:03:32.590Z"
   },
   "microsoft/skill-recorder": {
     "fullName": "microsoft/skill-recorder",
@@ -5231,8 +5231,8 @@
   },
   "l00sed/termixer": {
     "fullName": "l00sed/termixer",
-    "stars": 175,
-    "fetchedAt": "2026-08-04T06:06:35.860Z"
+    "stars": 198,
+    "fetchedAt": "2026-08-05T06:03:33.661Z"
   },
   "gaborini/monitrs": {
     "fullName": "gaborini/monitrs",
@@ -5241,8 +5241,8 @@
   },
   "hamzarehmandeveloper/claude-account": {
     "fullName": "hamzarehmandeveloper/claude-account",
-    "stars": 65,
-    "fetchedAt": "2026-08-04T06:06:35.860Z"
+    "stars": 68,
+    "fetchedAt": "2026-08-05T06:03:33.661Z"
   },
   "DigitalShieldOfficial/Crypto-Payment-Gateway": {
     "fullName": "DigitalShieldOfficial/Crypto-Payment-Gateway",
@@ -5267,7 +5267,7 @@
   "mame/piet-quine": {
     "fullName": "mame/piet-quine",
     "stars": 10,
-    "fetchedAt": "2026-08-04T06:06:36.820Z"
+    "fetchedAt": "2026-08-05T06:03:34.330Z"
   },
   "monji024/requests_ruby": {
     "fullName": "monji024/requests_ruby",
@@ -5287,22 +5287,22 @@
   "Vegxz/Vega-Agent": {
     "fullName": "Vegxz/Vega-Agent",
     "stars": 53,
-    "fetchedAt": "2026-08-04T06:06:37.538Z"
+    "fetchedAt": "2026-08-05T06:03:35.019Z"
   },
   "x4gKing/3x-ui-multi": {
     "fullName": "x4gKing/3x-ui-multi",
-    "stars": 570,
-    "fetchedAt": "2026-08-04T06:06:34.572Z"
+    "stars": 714,
+    "fetchedAt": "2026-08-05T06:03:32.184Z"
   },
   "trycompai/crm": {
     "fullName": "trycompai/crm",
-    "stars": 3550,
-    "fetchedAt": "2026-08-04T06:06:34.916Z"
+    "stars": 5060,
+    "fetchedAt": "2026-08-05T06:03:32.590Z"
   },
   "elder-plinius/GL4SS": {
     "fullName": "elder-plinius/GL4SS",
-    "stars": 288,
-    "fetchedAt": "2026-08-04T06:06:34.916Z"
+    "stars": 304,
+    "fetchedAt": "2026-08-05T06:03:32.590Z"
   },
   "TanStack/charts": {
     "fullName": "TanStack/charts",
@@ -5321,18 +5321,18 @@
   },
   "0rangec3t/Black-cat": {
     "fullName": "0rangec3t/Black-cat",
-    "stars": 231,
-    "fetchedAt": "2026-08-04T06:06:35.228Z"
+    "stars": 253,
+    "fetchedAt": "2026-08-05T06:03:32.970Z"
   },
   "opentokenz/mcpx": {
     "fullName": "opentokenz/mcpx",
-    "stars": 166,
-    "fetchedAt": "2026-08-04T06:06:35.531Z"
+    "stars": 183,
+    "fetchedAt": "2026-08-05T06:03:33.288Z"
   },
   "lij768423-svg/grok2api-egress-enhancements": {
     "fullName": "lij768423-svg/grok2api-egress-enhancements",
-    "stars": 108,
-    "fetchedAt": "2026-08-04T06:06:35.531Z"
+    "stars": 128,
+    "fetchedAt": "2026-08-05T06:03:33.288Z"
   },
   "kejilion/KPanel": {
     "fullName": "kejilion/KPanel",
@@ -5346,8 +5346,8 @@
   },
   "ArchAstro/scopey": {
     "fullName": "ArchAstro/scopey",
-    "stars": 109,
-    "fetchedAt": "2026-08-04T06:06:35.860Z"
+    "stars": 112,
+    "fetchedAt": "2026-08-05T06:03:33.661Z"
   },
   "hasnat-farhan/Offline-36": {
     "fullName": "hasnat-farhan/Offline-36",
@@ -5362,22 +5362,22 @@
   "saroby/homebrew-snack": {
     "fullName": "saroby/homebrew-snack",
     "stars": 8,
-    "fetchedAt": "2026-08-04T06:06:36.820Z"
+    "fetchedAt": "2026-08-05T06:03:34.330Z"
   },
   "slidict/wip": {
     "fullName": "slidict/wip",
-    "stars": 6,
-    "fetchedAt": "2026-08-04T06:06:36.820Z"
+    "stars": 7,
+    "fetchedAt": "2026-08-05T06:03:34.330Z"
   },
   "chen10191200-hue/GlassQuota": {
     "fullName": "chen10191200-hue/GlassQuota",
     "stars": 114,
-    "fetchedAt": "2026-08-04T06:06:37.224Z"
+    "fetchedAt": "2026-08-05T06:03:34.751Z"
   },
   "Kellytomi/expo-native-compact-tabs": {
     "fullName": "Kellytomi/expo-native-compact-tabs",
     "stars": 41,
-    "fetchedAt": "2026-08-04T06:06:37.224Z"
+    "fetchedAt": "2026-08-05T06:03:34.751Z"
   },
   "farukkamcici/mectrics": {
     "fullName": "farukkamcici/mectrics",
@@ -5387,12 +5387,12 @@
   "fayazara/cobe-swift": {
     "fullName": "fayazara/cobe-swift",
     "stars": 31,
-    "fetchedAt": "2026-08-04T06:06:37.224Z"
+    "fetchedAt": "2026-08-05T06:03:34.751Z"
   },
   "luckyzyx/LuckyTool": {
     "fullName": "luckyzyx/LuckyTool",
-    "stars": 205,
-    "fetchedAt": "2026-08-04T06:06:37.538Z"
+    "stars": 212,
+    "fetchedAt": "2026-08-05T06:03:35.019Z"
   },
   "conreo/couchy-launcher": {
     "fullName": "conreo/couchy-launcher",
@@ -5406,8 +5406,8 @@
   },
   "CRUNZEX/Linux-on-Dex": {
     "fullName": "CRUNZEX/Linux-on-Dex",
-    "stars": 32,
-    "fetchedAt": "2026-08-04T06:06:37.538Z"
+    "stars": 35,
+    "fetchedAt": "2026-08-05T06:03:35.019Z"
   },
   "SouthautumnYa/junshi-android": {
     "fullName": "SouthautumnYa/junshi-android",
@@ -5416,23 +5416,23 @@
   },
   "0xwilliamortiz/humanizer-cli": {
     "fullName": "0xwilliamortiz/humanizer-cli",
-    "stars": 560,
-    "fetchedAt": "2026-08-04T06:06:34.572Z"
+    "stars": 572,
+    "fetchedAt": "2026-08-05T06:03:32.184Z"
   },
   "brookfacehe2421/flashloan-scalper-bot": {
     "fullName": "brookfacehe2421/flashloan-scalper-bot",
-    "stars": 314,
-    "fetchedAt": "2026-08-04T06:06:34.572Z"
+    "stars": 553,
+    "fetchedAt": "2026-08-05T06:03:32.184Z"
   },
   "thebuggeddev/anatomy": {
     "fullName": "thebuggeddev/anatomy",
-    "stars": 864,
-    "fetchedAt": "2026-08-04T06:06:34.916Z"
+    "stars": 1297,
+    "fetchedAt": "2026-08-05T06:03:32.590Z"
   },
   "Anionex/codex-vision-proxy": {
     "fullName": "Anionex/codex-vision-proxy",
-    "stars": 266,
-    "fetchedAt": "2026-08-04T06:06:35.228Z"
+    "stars": 277,
+    "fetchedAt": "2026-08-05T06:03:32.970Z"
   },
   "aws/context-ontology-accelerator": {
     "fullName": "aws/context-ontology-accelerator",
@@ -5446,8 +5446,8 @@
   },
   "FrontisAI/OpenRSI": {
     "fullName": "FrontisAI/OpenRSI",
-    "stars": 168,
-    "fetchedAt": "2026-08-04T06:06:35.228Z"
+    "stars": 198,
+    "fetchedAt": "2026-08-05T06:03:32.970Z"
   },
   "p0nymc1/cee": {
     "fullName": "p0nymc1/cee",
@@ -5466,13 +5466,13 @@
   },
   "programmersd21/wallr": {
     "fullName": "programmersd21/wallr",
-    "stars": 72,
-    "fetchedAt": "2026-08-04T06:06:35.860Z"
+    "stars": 82,
+    "fetchedAt": "2026-08-05T06:03:33.661Z"
   },
   "TensorHub-ORG/Coomi-Android": {
     "fullName": "TensorHub-ORG/Coomi-Android",
-    "stars": 28,
-    "fetchedAt": "2026-08-04T06:06:36.348Z"
+    "stars": 37,
+    "fetchedAt": "2026-08-05T06:03:33.995Z"
   },
   "chenziren912/JavaChatServer": {
     "fullName": "chenziren912/JavaChatServer",
@@ -5481,8 +5481,8 @@
   },
   "vinay5ain/kiet_DSA": {
     "fullName": "vinay5ain/kiet_DSA",
-    "stars": 19,
-    "fetchedAt": "2026-08-04T06:06:36.348Z"
+    "stars": 20,
+    "fetchedAt": "2026-08-05T06:03:33.995Z"
   },
   "w1lli4m666-droid/TVBookReader": {
     "fullName": "w1lli4m666-droid/TVBookReader",
@@ -5492,22 +5492,22 @@
   "kvvipa0028/NBShell_For_Ipad": {
     "fullName": "kvvipa0028/NBShell_For_Ipad",
     "stars": 111,
-    "fetchedAt": "2026-08-04T06:06:37.224Z"
+    "fetchedAt": "2026-08-05T06:03:34.751Z"
   },
   "1lck/Lithe-IDEA": {
     "fullName": "1lck/Lithe-IDEA",
-    "stars": 65,
-    "fetchedAt": "2026-08-04T06:06:37.224Z"
+    "stars": 73,
+    "fetchedAt": "2026-08-05T06:03:34.751Z"
   },
   "pluk-inc/himekuri": {
     "fullName": "pluk-inc/himekuri",
-    "stars": 73,
-    "fetchedAt": "2026-08-04T06:06:37.224Z"
+    "stars": 79,
+    "fetchedAt": "2026-08-05T06:03:34.751Z"
   },
   "NeelM0906/Mference": {
     "fullName": "NeelM0906/Mference",
-    "stars": 48,
-    "fetchedAt": "2026-08-04T06:06:37.224Z"
+    "stars": 55,
+    "fetchedAt": "2026-08-05T06:03:34.751Z"
   },
   "Godles-lab/usb-modem-sms": {
     "fullName": "Godles-lab/usb-modem-sms",
@@ -5516,8 +5516,8 @@
   },
   "alex193a/Root-My-Pixel": {
     "fullName": "alex193a/Root-My-Pixel",
-    "stars": 52,
-    "fetchedAt": "2026-08-04T06:06:37.538Z"
+    "stars": 79,
+    "fetchedAt": "2026-08-05T06:03:35.019Z"
   },
   "jizizr/signaldock": {
     "fullName": "jizizr/signaldock",
@@ -5531,93 +5531,93 @@
   },
   "sophiamyang/finger-frame-effect-ai": {
     "fullName": "sophiamyang/finger-frame-effect-ai",
-    "stars": 156,
-    "fetchedAt": "2026-08-04T06:06:34.572Z"
+    "stars": 459,
+    "fetchedAt": "2026-08-05T06:03:32.184Z"
   },
   "juxhinr/bindwidth": {
     "fullName": "juxhinr/bindwidth",
-    "stars": 141,
-    "fetchedAt": "2026-08-04T06:06:34.572Z"
+    "stars": 142,
+    "fetchedAt": "2026-08-05T06:03:32.184Z"
   },
   "StarKnightt/jungle-trail": {
     "fullName": "StarKnightt/jungle-trail",
-    "stars": 131,
-    "fetchedAt": "2026-08-04T06:06:34.572Z"
+    "stars": 140,
+    "fetchedAt": "2026-08-05T06:03:32.184Z"
   },
   "genspark-ai/genoffice": {
     "fullName": "genspark-ai/genoffice",
-    "stars": 827,
-    "fetchedAt": "2026-08-04T06:06:34.916Z"
+    "stars": 1451,
+    "fetchedAt": "2026-08-05T06:03:32.590Z"
   },
   "1mm-module/PNGAL": {
     "fullName": "1mm-module/PNGAL",
-    "stars": 287,
-    "fetchedAt": "2026-08-04T06:06:35.228Z"
+    "stars": 304,
+    "fetchedAt": "2026-08-05T06:03:32.184Z"
   },
   "disler/super-simple-software-factory": {
     "fullName": "disler/super-simple-software-factory",
-    "stars": 242,
-    "fetchedAt": "2026-08-04T06:06:35.228Z"
+    "stars": 364,
+    "fetchedAt": "2026-08-05T06:03:32.970Z"
   },
   "joeseesun/qiaomu-seo": {
     "fullName": "joeseesun/qiaomu-seo",
-    "stars": 192,
-    "fetchedAt": "2026-08-04T06:06:35.228Z"
+    "stars": 293,
+    "fetchedAt": "2026-08-05T06:03:32.970Z"
   },
   "magicrew/doc7": {
     "fullName": "magicrew/doc7",
-    "stars": 219,
-    "fetchedAt": "2026-08-04T06:06:35.531Z"
+    "stars": 343,
+    "fetchedAt": "2026-08-05T06:03:33.288Z"
   },
   "codetesla51/barrage": {
     "fullName": "codetesla51/barrage",
-    "stars": 58,
-    "fetchedAt": "2026-08-04T06:06:35.531Z"
+    "stars": 68,
+    "fetchedAt": "2026-08-05T06:03:33.288Z"
   },
   "BetaLi/direct-link": {
     "fullName": "BetaLi/direct-link",
-    "stars": 34,
-    "fetchedAt": "2026-08-04T06:06:35.531Z"
+    "stars": 57,
+    "fetchedAt": "2026-08-05T06:03:33.288Z"
   },
   "mangobubu/go-auto-icloud-mail": {
     "fullName": "mangobubu/go-auto-icloud-mail",
-    "stars": 33,
-    "fetchedAt": "2026-08-04T06:06:35.531Z"
+    "stars": 35,
+    "fetchedAt": "2026-08-05T06:03:33.288Z"
   },
   "mrpulor-gh/nuphus-mcp": {
     "fullName": "mrpulor-gh/nuphus-mcp",
-    "stars": 81,
-    "fetchedAt": "2026-08-04T06:06:35.860Z"
+    "stars": 105,
+    "fetchedAt": "2026-08-05T06:03:33.661Z"
   },
   "poxk/Falco": {
     "fullName": "poxk/Falco",
-    "stars": 74,
-    "fetchedAt": "2026-08-04T06:06:35.860Z"
+    "stars": 124,
+    "fetchedAt": "2026-08-05T06:03:33.661Z"
   },
   "dtolnay/chapter-tgz": {
     "fullName": "dtolnay/chapter-tgz",
-    "stars": 65,
-    "fetchedAt": "2026-08-04T06:06:35.860Z"
+    "stars": 107,
+    "fetchedAt": "2026-08-05T06:03:33.661Z"
   },
   "888newstep/ai-agent-platform": {
     "fullName": "888newstep/ai-agent-platform",
-    "stars": 30,
-    "fetchedAt": "2026-08-04T06:06:36.348Z"
+    "stars": 50,
+    "fetchedAt": "2026-08-05T06:03:33.995Z"
   },
   "lunar-landing/qualia": {
     "fullName": "lunar-landing/qualia",
-    "stars": 27,
-    "fetchedAt": "2026-08-04T06:06:36.348Z"
+    "stars": 44,
+    "fetchedAt": "2026-08-05T06:03:33.995Z"
   },
   "FunctionHookTJU/old_wu_java-template-26.2": {
     "fullName": "FunctionHookTJU/old_wu_java-template-26.2",
-    "stars": 18,
-    "fetchedAt": "2026-08-04T06:06:36.348Z"
+    "stars": 22,
+    "fetchedAt": "2026-08-05T06:03:33.995Z"
   },
   "igorkasyanchuk/rails_named_cache": {
     "fullName": "igorkasyanchuk/rails_named_cache",
     "stars": 5,
-    "fetchedAt": "2026-08-04T06:06:36.820Z"
+    "fetchedAt": "2026-08-05T06:03:34.330Z"
   },
   "nafiez/Metasploit-CVE-2026-54121-Certighost": {
     "fullName": "nafiez/Metasploit-CVE-2026-54121-Certighost",
@@ -5626,27 +5626,152 @@
   },
   "leonickson1/Swiftlet": {
     "fullName": "leonickson1/Swiftlet",
-    "stars": 82,
-    "fetchedAt": "2026-08-04T06:06:37.224Z"
+    "stars": 362,
+    "fetchedAt": "2026-08-05T06:03:34.751Z"
   },
   "murat-soysal/UIViews": {
     "fullName": "murat-soysal/UIViews",
-    "stars": 48,
-    "fetchedAt": "2026-08-04T06:06:37.224Z"
+    "stars": 53,
+    "fetchedAt": "2026-08-05T06:03:34.751Z"
   },
   "LeanBitLab/RdTube": {
     "fullName": "LeanBitLab/RdTube",
-    "stars": 18,
-    "fetchedAt": "2026-08-04T06:06:37.538Z"
+    "stars": 24,
+    "fetchedAt": "2026-08-05T06:03:35.020Z"
   },
   "heroiamarelo1/Local-Cache": {
     "fullName": "heroiamarelo1/Local-Cache",
-    "stars": 16,
-    "fetchedAt": "2026-08-04T06:06:37.538Z"
+    "stars": 18,
+    "fetchedAt": "2026-08-05T06:03:35.020Z"
   },
   "opentvproject/opentv": {
     "fullName": "opentvproject/opentv",
-    "stars": 14,
-    "fetchedAt": "2026-08-04T06:06:37.538Z"
+    "stars": 17,
+    "fetchedAt": "2026-08-05T06:03:35.020Z"
+  },
+  "bennjordan/Wavest": {
+    "fullName": "bennjordan/Wavest",
+    "stars": 115,
+    "fetchedAt": "2026-08-05T06:03:32.184Z"
+  },
+  "guillermolg00/morphicons": {
+    "fullName": "guillermolg00/morphicons",
+    "stars": 495,
+    "fetchedAt": "2026-08-05T06:03:32.590Z"
+  },
+  "wumingqi60/lingxi": {
+    "fullName": "wumingqi60/lingxi",
+    "stars": 206,
+    "fetchedAt": "2026-08-05T06:03:32.590Z"
+  },
+  "shuaiplus/inkstone": {
+    "fullName": "shuaiplus/inkstone",
+    "stars": 189,
+    "fetchedAt": "2026-08-05T06:03:32.590Z"
+  },
+  "KKKKhazix/human-writing": {
+    "fullName": "KKKKhazix/human-writing",
+    "stars": 515,
+    "fetchedAt": "2026-08-05T06:03:32.970Z"
+  },
+  "alexan0618/zkky": {
+    "fullName": "alexan0618/zkky",
+    "stars": 247,
+    "fetchedAt": "2026-08-05T06:03:32.970Z"
+  },
+  "AMAP-ML/LongHorizon-Harness": {
+    "fullName": "AMAP-ML/LongHorizon-Harness",
+    "stars": 220,
+    "fetchedAt": "2026-08-05T06:03:32.970Z"
+  },
+  "alikon-art/DeterminFlow": {
+    "fullName": "alikon-art/DeterminFlow",
+    "stars": 192,
+    "fetchedAt": "2026-08-05T06:03:32.970Z"
+  },
+  "FZ2000/da-cli": {
+    "fullName": "FZ2000/da-cli",
+    "stars": 192,
+    "fetchedAt": "2026-08-05T06:03:32.970Z"
+  },
+  "omenswap/swap-aggregator": {
+    "fullName": "omenswap/swap-aggregator",
+    "stars": 33,
+    "fetchedAt": "2026-08-05T06:03:33.288Z"
+  },
+  "jeninh/ssh.place": {
+    "fullName": "jeninh/ssh.place",
+    "stars": 30,
+    "fetchedAt": "2026-08-05T06:03:33.288Z"
+  },
+  "firecrawl/anydoc": {
+    "fullName": "firecrawl/anydoc",
+    "stars": 2180,
+    "fetchedAt": "2026-08-05T06:03:33.661Z"
+  },
+  "HaidarJbeily7/cargo-frisk": {
+    "fullName": "HaidarJbeily7/cargo-frisk",
+    "stars": 357,
+    "fetchedAt": "2026-08-05T06:03:33.661Z"
+  },
+  "cristicretu/diri": {
+    "fullName": "cristicretu/diri",
+    "stars": 146,
+    "fetchedAt": "2026-08-05T06:03:33.661Z"
+  },
+  "Kamilhik/e4steam": {
+    "fullName": "Kamilhik/e4steam",
+    "stars": 26,
+    "fetchedAt": "2026-08-05T06:03:33.995Z"
+  },
+  "JunzFundz/ITS202_OOP": {
+    "fullName": "JunzFundz/ITS202_OOP",
+    "stars": 20,
+    "fetchedAt": "2026-08-05T06:03:33.995Z"
+  },
+  "YesSteveModel/YesSteveModel": {
+    "fullName": "YesSteveModel/YesSteveModel",
+    "stars": 18,
+    "fetchedAt": "2026-08-05T06:03:33.995Z"
+  },
+  "mppassos/desafio-saldo": {
+    "fullName": "mppassos/desafio-saldo",
+    "stars": 15,
+    "fetchedAt": "2026-08-05T06:03:33.995Z"
+  },
+  "adammiribyan/wide_events": {
+    "fullName": "adammiribyan/wide_events",
+    "stars": 5,
+    "fetchedAt": "2026-08-05T06:03:34.330Z"
+  },
+  "andrew/homebrew-actions": {
+    "fullName": "andrew/homebrew-actions",
+    "stars": 4,
+    "fetchedAt": "2026-08-05T06:03:34.330Z"
+  },
+  "giovapanasiti/active_analytics": {
+    "fullName": "giovapanasiti/active_analytics",
+    "stars": 4,
+    "fetchedAt": "2026-08-05T06:03:34.330Z"
+  },
+  "zqxwce/vphone-ws": {
+    "fullName": "zqxwce/vphone-ws",
+    "stars": 303,
+    "fetchedAt": "2026-08-05T06:03:34.751Z"
+  },
+  "saleh2001k/react-native-nitro-theme-transition": {
+    "fullName": "saleh2001k/react-native-nitro-theme-transition",
+    "stars": 45,
+    "fetchedAt": "2026-08-05T06:03:35.019Z"
+  },
+  "daxiaamu/Guise_Reborn": {
+    "fullName": "daxiaamu/Guise_Reborn",
+    "stars": 33,
+    "fetchedAt": "2026-08-05T06:03:35.019Z"
+  },
+  "JJDizz1L/NuvioLinux": {
+    "fullName": "JJDizz1L/NuvioLinux",
+    "stars": 17,
+    "fetchedAt": "2026-08-05T06:03:35.020Z"
   }
 }

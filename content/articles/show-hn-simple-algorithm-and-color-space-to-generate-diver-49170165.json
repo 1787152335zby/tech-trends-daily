@@ -1,0 +1,169 @@
+{
+  "slug": "show-hn-simple-algorithm-and-color-space-to-generate-diver-49170165",
+  "title": "Show HN: Simple algorithm and color space to generate diverse skin tones: Context, Claims, and Sources",
+  "description": "Show HN: Simple algorithm and color space to generate diverse skin tones — Simple equations and a color picker to inclusively select simplified skin tones in a custom color space for dig… Read the context, source, and v…",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-08-05",
+  "updatedAt": "2026-08-05",
+  "sourceData": {
+    "id": "hn-49170165",
+    "name": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+    "fullName": "hn:show-hn-simple-algorithm-and-color-space-to-generate-diverse-skin-tones",
+    "url": "https://toneyalexander.github.io/inclusive-color-space/",
+    "description": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+    "language": "Various",
+    "stars": 494,
+    "starsGrowth": 494,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-08-04T15:16:22.000Z",
+    "updatedAt": "2026-08-04T15:16:22.000Z",
+    "homepage": "https://toneyalexander.github.io/inclusive-color-space/",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "show-hn-nixos-dgx-spark-nix-and-nixos-on-the-dgx-spark-49146267",
+    "show-hn-kakehashi-experimental-userspace-to-run-macos-bina-49145937",
+    "show-hn-i-m-a-15-year-old-wannabe-engineer-this-is-a-cyclo-49140396",
+    "show-hn-cheapfoodmap-a-map-of-good-meals-under-10-49100043"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Simple equations and a color picker to inclusively select simplified skin tones in a custom color space for digital art or game development.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 494 points, 91 comments, and published 2026-08-04.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Show HN: Simple algorithm and color space to generate diverse skin tones with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 494</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 91</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-08-05. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 91\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49170165.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 494\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49170165.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> automatoney\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49170165.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Discussion text:</strong> Hello HN! I found that picking out plausible but diverse skin tones for my digital art and game development projects was kind of difficult, and I got curious about if there was a way to define a color space that made it easy. I've built a color picker and procedural generation algorithm based on the space as well as a bunch of other fun js features and demos throughout the page that use the equations. If you find it interesting, I have lots of explanations of how I built it and what properties the space has. The methodology might be a bit shaky, but hopefully the result is as helpful for others as I have found it! There's lots of room for improvements (see the Future Work section), but I'm r\n    — <a href=\"https://news.ycombinator.com/item?id=49170165\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.2M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49170165.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-08-04\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49170165.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Show HN: Simple algorithm and color space to generate diverse skin tones\n    — <a href=\"https://news.ycombinator.com/item?id=49170165\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Simple equations and a color picker to inclusively select simplified skin tones in a custom color space for digital art or game development.\n    — <a href=\"https://toneyalexander.github.io/inclusive-color-space/\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-08-05 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49170165",
+    "fetchedAt": "2026-08-05T06:04:05.340Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49170165",
+      "https://hacker-news.firebaseio.com/v0/item/49170165.json",
+      "https://toneyalexander.github.io/inclusive-color-space/"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "91",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49170165.json",
+        "observedAt": "2026-08-05T06:04:05.340Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "494",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49170165.json",
+        "observedAt": "2026-08-05T06:04:05.340Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "automatoney",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49170165.json",
+        "observedAt": "2026-08-05T06:04:05.340Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Discussion text",
+        "value": "Hello HN! I found that picking out plausible but diverse skin tones for my digital art and game development projects was kind of difficult, and I got curious about if there was a way to define a color space that made it easy. I've built a color picker and procedural generation algorithm based on the space as well as a bunch of other fun js features and demos throughout the page that use the equations. If you find it interesting, I have lots of explanations of how I built it and what properties the space has. The methodology might be a bit shaky, but hopefully the result is as helpful for others as I have found it! There's lots of room for improvements (see the Future Work section), but I'm r",
+        "url": "https://news.ycombinator.com/item?id=49170165",
+        "observedAt": "2026-08-05T06:04:05.340Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49170165",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49170165.json",
+        "observedAt": "2026-08-05T06:04:05.340Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-08-04T15:16:22.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49170165.json",
+        "observedAt": "2026-08-05T06:04:05.340Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+        "url": "https://news.ycombinator.com/item?id=49170165",
+        "observedAt": "2026-08-05T06:04:05.340Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Simple equations and a color picker to inclusively select simplified skin tones in a custom color space for digital art or game development.",
+        "url": "https://toneyalexander.github.io/inclusive-color-space/",
+        "observedAt": "2026-08-05T06:04:05.340Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 91 (observed 2026-08-05)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49170165.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 494 (observed 2026-08-05)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49170165.json"
+        ]
+      },
+      {
+        "text": "Author: automatoney (observed 2026-08-05)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49170165.json"
+        ]
+      },
+      {
+        "text": "Discussion text: Hello HN! I found that picking out plausible but diverse skin tones for my digital art and game development projects was kind of difficult, and I got curious about if there was a way to define a color space that made it easy. I've built a color picker and procedural generation algorithm based on the s…",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49170165"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49170165 (observed 2026-08-05)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49170165.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-08-04T15:16:22.000Z (observed 2026-08-05)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49170165.json"
+        ]
+      },
+      {
+        "text": "Story title: Show HN: Simple algorithm and color space to generate diverse skin tones (observed 2026-08-05)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49170165"
+        ]
+      },
+      {
+        "text": "Original source summary: Simple equations and a color picker to inclusively select simplified skin tones in a custom color space for digital art or game development. (observed 2026-08-05)",
+        "evidenceUrls": [
+          "https://toneyalexander.github.io/inclusive-color-space/"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-08-05T06:04:05.340Z"
+    },
+    "generatedAt": "2026-08-05T06:04:05.340Z"
+  },
+  "indexable": true
+}
