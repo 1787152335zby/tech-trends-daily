@@ -5,7 +5,7 @@
   "category": "language",
   "type": "trend",
   "publishedAt": "2026-06-27",
-  "updatedAt": "2026-08-05",
+  "updatedAt": "2026-08-10",
   "sourceData": {
     "id": "npm-fp-ts",
     "name": "fp-ts",
@@ -13,8 +13,8 @@
     "url": "https://www.npmjs.com/package/fp-ts",
     "description": "Functional programming in TypeScript",
     "language": "JavaScript/TypeScript",
-    "stars": 11532,
-    "starsGrowth": 4298054,
+    "stars": 11533,
+    "starsGrowth": 4350510,
     "forks": 511,
     "openIssues": 191,
     "topics": [
@@ -23,8 +23,8 @@
       "functional-programming"
     ],
     "license": "MIT",
-    "createdAt": "2026-08-05T06:03:51.562Z",
-    "updatedAt": "2026-08-05T06:03:51.562Z",
+    "createdAt": "2026-08-10T04:57:44.485Z",
+    "updatedAt": "2026-08-10T04:57:44.485Z",
     "homepage": "https://github.com/gcanti/fp-ts",
     "source": "npm",
     "category": "language"
@@ -40,10 +40,10 @@
     "algebraic-data-types",
     "functional-programming"
   ],
-  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Fp-Ts: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>📢 Important Announcement: fp-ts is Joining the Effect-TS Ecosystem!</p>\n<p>Shortlist Fp-Ts only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Fp-Ts is most relevant to developers working with JavaScript/TypeScript. Its source topics point to typescript, algebraic data types, functional programming. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing fp-ts in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 4.3M weekly downloads, version 2.16.11, and released 2025-08-18.</p>\n<p>The registry lists 1 maintainers.</p>\n<p>The source reports the MIT license.</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>Fp-Ts is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install fp-ts</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 4.3M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 11.5k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 511</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-08-05. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Official package summary:</strong> 📢 Important Announcement: fp-ts is Joining the Effect-TS Ecosystem!\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package keywords:</strong> typescript, algebraic-data-types, functional-programming\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 1\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2025-08-18\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> fp-ts\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-28 to 2026-08-03\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 4.3M\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 2.16.11\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2025-08-18\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-08-05 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Fp-Ts: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>📢 Important Announcement: fp-ts is Joining the Effect-TS Ecosystem!</p>\n<p>Shortlist Fp-Ts only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Fp-Ts is most relevant to developers working with JavaScript/TypeScript. Its source topics point to typescript, algebraic data types, functional programming. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing fp-ts in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 4.4M weekly downloads, version 2.16.11, and released 2025-08-18.</p>\n<p>The registry lists 1 maintainers.</p>\n<p>The source reports the MIT license.</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>Fp-Ts is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install fp-ts</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 4.4M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 11.5k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 511</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-08-10. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Official package summary:</strong> 📢 Important Announcement: fp-ts is Joining the Effect-TS Ecosystem!\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package keywords:</strong> typescript, algebraic-data-types, functional-programming\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 1\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2025-08-18\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> fp-ts\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-08-02 to 2026-08-08\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 4.4M\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 2.16.11\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2025-08-18\n    — <a href=\"https://registry.npmjs.org/fp-ts\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-08-10 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
   "evidence": {
     "sourceId": "npm-fp-ts",
-    "fetchedAt": "2026-08-05T06:04:15.580Z",
+    "fetchedAt": "2026-08-10T04:58:10.977Z",
     "score": 100,
     "officialUrls": [
       "https://www.npmjs.com/package/fp-ts",
@@ -56,70 +56,70 @@
         "label": "Official package summary",
         "value": "📢 Important Announcement: fp-ts is Joining the Effect-TS Ecosystem!",
         "url": "https://registry.npmjs.org/fp-ts",
-        "observedAt": "2026-08-05T06:04:15.580Z",
+        "observedAt": "2026-08-10T04:58:10.977Z",
         "kind": "documentation"
       },
       {
         "label": "Package keywords",
         "value": "typescript, algebraic-data-types, functional-programming",
         "url": "https://registry.npmjs.org/fp-ts",
-        "observedAt": "2026-08-05T06:04:15.580Z",
+        "observedAt": "2026-08-10T04:58:10.977Z",
         "kind": "documentation"
       },
       {
         "label": "Maintainers listed",
         "value": "1",
         "url": "https://registry.npmjs.org/fp-ts",
-        "observedAt": "2026-08-05T06:04:15.580Z",
+        "observedAt": "2026-08-10T04:58:10.977Z",
         "kind": "maintenance"
       },
       {
         "label": "Registry modified",
         "value": "2025-08-18T14:00:30.225Z",
         "url": "https://registry.npmjs.org/fp-ts",
-        "observedAt": "2026-08-05T06:04:15.580Z",
+        "observedAt": "2026-08-10T04:58:10.977Z",
         "kind": "maintenance"
       },
       {
         "label": "License",
         "value": "MIT",
         "url": "https://registry.npmjs.org/fp-ts",
-        "observedAt": "2026-08-05T06:04:15.580Z",
+        "observedAt": "2026-08-10T04:58:10.977Z",
         "kind": "package-metadata"
       },
       {
         "label": "Package",
         "value": "fp-ts",
         "url": "https://registry.npmjs.org/fp-ts",
-        "observedAt": "2026-08-05T06:04:15.580Z",
+        "observedAt": "2026-08-10T04:58:10.977Z",
         "kind": "registry"
       },
       {
         "label": "Download window",
-        "value": "2026-07-28 to 2026-08-03",
+        "value": "2026-08-02 to 2026-08-08",
         "url": "https://api.npmjs.org/downloads/point/last-week/fp-ts",
-        "observedAt": "2026-08-05T06:04:15.580Z",
+        "observedAt": "2026-08-10T04:58:10.977Z",
         "kind": "registry-metric"
       },
       {
         "label": "Weekly downloads",
-        "value": "4298054",
+        "value": "4350510",
         "url": "https://api.npmjs.org/downloads/point/last-week/fp-ts",
-        "observedAt": "2026-08-05T06:04:15.580Z",
+        "observedAt": "2026-08-10T04:58:10.977Z",
         "kind": "registry-metric"
       },
       {
         "label": "Latest version",
         "value": "2.16.11",
         "url": "https://registry.npmjs.org/fp-ts",
-        "observedAt": "2026-08-05T06:04:15.580Z",
+        "observedAt": "2026-08-10T04:58:10.977Z",
         "kind": "release"
       },
       {
         "label": "Latest version published",
         "value": "2025-08-18T14:00:30.062Z",
         "url": "https://registry.npmjs.org/fp-ts",
-        "observedAt": "2026-08-05T06:04:15.580Z",
+        "observedAt": "2026-08-10T04:58:10.977Z",
         "kind": "release"
       }
     ],
@@ -132,61 +132,61 @@
     "qualityScore": 92,
     "claims": [
       {
-        "text": "Official package summary: 📢 Important Announcement: fp-ts is Joining the Effect-TS Ecosystem! (observed 2026-08-05)",
+        "text": "Official package summary: 📢 Important Announcement: fp-ts is Joining the Effect-TS Ecosystem! (observed 2026-08-10)",
         "evidenceUrls": [
           "https://registry.npmjs.org/fp-ts"
         ]
       },
       {
-        "text": "Package keywords: typescript, algebraic-data-types, functional-programming (observed 2026-08-05)",
+        "text": "Package keywords: typescript, algebraic-data-types, functional-programming (observed 2026-08-10)",
         "evidenceUrls": [
           "https://registry.npmjs.org/fp-ts"
         ]
       },
       {
-        "text": "Maintainers listed: 1 (observed 2026-08-05)",
+        "text": "Maintainers listed: 1 (observed 2026-08-10)",
         "evidenceUrls": [
           "https://registry.npmjs.org/fp-ts"
         ]
       },
       {
-        "text": "Registry modified: 2025-08-18T14:00:30.225Z (observed 2026-08-05)",
+        "text": "Registry modified: 2025-08-18T14:00:30.225Z (observed 2026-08-10)",
         "evidenceUrls": [
           "https://registry.npmjs.org/fp-ts"
         ]
       },
       {
-        "text": "License: MIT (observed 2026-08-05)",
+        "text": "License: MIT (observed 2026-08-10)",
         "evidenceUrls": [
           "https://registry.npmjs.org/fp-ts"
         ]
       },
       {
-        "text": "Package: fp-ts (observed 2026-08-05)",
+        "text": "Package: fp-ts (observed 2026-08-10)",
         "evidenceUrls": [
           "https://registry.npmjs.org/fp-ts"
         ]
       },
       {
-        "text": "Download window: 2026-07-28 to 2026-08-03 (observed 2026-08-05)",
+        "text": "Download window: 2026-08-02 to 2026-08-08 (observed 2026-08-10)",
         "evidenceUrls": [
           "https://api.npmjs.org/downloads/point/last-week/fp-ts"
         ]
       },
       {
-        "text": "Weekly downloads: 4298054 (observed 2026-08-05)",
+        "text": "Weekly downloads: 4350510 (observed 2026-08-10)",
         "evidenceUrls": [
           "https://api.npmjs.org/downloads/point/last-week/fp-ts"
         ]
       },
       {
-        "text": "Latest version: 2.16.11 (observed 2026-08-05)",
+        "text": "Latest version: 2.16.11 (observed 2026-08-10)",
         "evidenceUrls": [
           "https://registry.npmjs.org/fp-ts"
         ]
       },
       {
-        "text": "Latest version published: 2025-08-18T14:00:30.062Z (observed 2026-08-05)",
+        "text": "Latest version published: 2025-08-18T14:00:30.062Z (observed 2026-08-10)",
         "evidenceUrls": [
           "https://registry.npmjs.org/fp-ts"
         ]
@@ -195,9 +195,9 @@
     "review": {
       "status": "not-configured",
       "issues": [],
-      "reviewedAt": "2026-08-05T06:04:15.580Z"
+      "reviewedAt": "2026-08-10T04:58:10.977Z"
     },
-    "generatedAt": "2026-08-05T06:04:15.580Z"
+    "generatedAt": "2026-08-10T04:58:10.977Z"
   },
   "indexable": true
 }
