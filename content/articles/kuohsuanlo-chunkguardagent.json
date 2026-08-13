@@ -35,9 +35,9 @@
   },
   "relatedSlugs": [
     "prisma",
+    "tailscale-traces-database-corruption-to-16y-o-sqlite-wal-r-49272832",
     "my-server-is-a-phone-now-49226636",
-    "steelbrain-metal2vulkan",
-    "shiroryu9-community-ops-kit"
+    "steelbrain-metal2vulkan"
   ],
   "tags": [
     "bytecode-instrumentation",

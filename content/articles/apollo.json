@@ -27,8 +27,8 @@
   },
   "relatedSlugs": [
     "astro",
-    "nuxt",
     "remix",
+    "nuxt",
     "pnpm"
   ],
   "tags": [],
