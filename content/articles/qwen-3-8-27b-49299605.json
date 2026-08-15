@@ -1,0 +1,156 @@
+{
+  "slug": "qwen-3-8-27b-49299605",
+  "title": "Qwen 3.8 27B: Context, Claims, and Sources",
+  "description": "Qwen 3.8 27B — We’re on a journey to advance and democratize artificial intelligence through open source and open science. Read the context, source, and verification questions.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-08-15",
+  "updatedAt": "2026-08-15",
+  "sourceData": {
+    "id": "hn-49299605",
+    "name": "Qwen 3.8 27B",
+    "fullName": "hn:qwen-3-8-27b",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+    "description": "Qwen 3.8 27B",
+    "language": "Various",
+    "stars": 963,
+    "starsGrowth": 963,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-08-14T15:00:00.000Z",
+    "updatedAt": "2026-08-14T15:00:00.000Z",
+    "homepage": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "maximizing-the-value-of-your-claude-code-sessions-49300800",
+    "show-hn-mole-deep-research-agent-for-your-terminal-49303046",
+    "donkey-bas-is-45-years-old-131-line-of-glory-49289465",
+    "single-log-line-is-49kb-ext4-110kb-btrfs-of-systemd-journa-49290215"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>We’re on a journey to advance and democratize artificial intelligence through open source and open science.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 963 points, 623 comments, and published 2026-08-14.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Qwen 3.8 27B with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 963</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 623</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-08-15. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 623\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49299605.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 963\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49299605.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> erdaltoprak\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49299605.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.3M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49299605.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-08-14\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49299605.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Qwen 3.8 27B\n    — <a href=\"https://news.ycombinator.com/item?id=49299605\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> We’re on a journey to advance and democratize artificial intelligence through open source and open science.\n    — <a href=\"https://huggingface.co/Qwen/Qwen3.8-27B-FP8\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-08-15 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49299605",
+    "fetchedAt": "2026-08-15T03:57:19.258Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49299605",
+      "https://hacker-news.firebaseio.com/v0/item/49299605.json",
+      "https://huggingface.co/Qwen/Qwen3.8-27B-FP8"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "623",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49299605.json",
+        "observedAt": "2026-08-15T03:57:19.258Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "963",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49299605.json",
+        "observedAt": "2026-08-15T03:57:19.258Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "erdaltoprak",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49299605.json",
+        "observedAt": "2026-08-15T03:57:19.258Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49299605",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49299605.json",
+        "observedAt": "2026-08-15T03:57:19.258Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-08-14T15:00:00.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49299605.json",
+        "observedAt": "2026-08-15T03:57:19.258Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Qwen 3.8 27B",
+        "url": "https://news.ycombinator.com/item?id=49299605",
+        "observedAt": "2026-08-15T03:57:19.258Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+        "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+        "observedAt": "2026-08-15T03:57:19.258Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 623 (observed 2026-08-15)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49299605.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 963 (observed 2026-08-15)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49299605.json"
+        ]
+      },
+      {
+        "text": "Author: erdaltoprak (observed 2026-08-15)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49299605.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49299605 (observed 2026-08-15)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49299605.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-08-14T15:00:00.000Z (observed 2026-08-15)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49299605.json"
+        ]
+      },
+      {
+        "text": "Story title: Qwen 3.8 27B (observed 2026-08-15)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49299605"
+        ]
+      },
+      {
+        "text": "Original source summary: We’re on a journey to advance and democratize artificial intelligence through open source and open science. (observed 2026-08-15)",
+        "evidenceUrls": [
+          "https://huggingface.co/Qwen/Qwen3.8-27B-FP8"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-08-15T03:57:19.258Z"
+    },
+    "generatedAt": "2026-08-15T03:57:19.258Z"
+  },
+  "indexable": true
+}
