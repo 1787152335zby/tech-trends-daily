@@ -1,0 +1,156 @@
+{
+  "slug": "ai-generated-github-copilot-autofix-allowed-compromise-of-49331423",
+  "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira: Context, Claims, and Sources",
+  "description": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira — Wiz Red Agent finds its way into Snowflake's internal Jira through a flaw in a GitHub Copilot–Assisted PR. Read the context, source, and ver…",
+  "category": "ai-ml",
+  "type": "trend",
+  "publishedAt": "2026-08-18",
+  "updatedAt": "2026-08-18",
+  "sourceData": {
+    "id": "hn-49331423",
+    "name": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+    "fullName": "hn:ai-generated-github-copilot-autofix-allowed-compromise-of-snowflake-s-jira",
+    "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+    "description": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+    "language": "Various",
+    "stars": 330,
+    "starsGrowth": 330,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-08-17T14:18:38.000Z",
+    "updatedAt": "2026-08-17T14:18:38.000Z",
+    "homepage": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+    "source": "hackernews",
+    "category": "ai-ml"
+  },
+  "relatedSlugs": [
+    "oracle-bans-ai-generated-code-from-openjdk-49213754",
+    "israel-creates-fake-think-tank-in-likely-attempt-to-dupe-a-49337392",
+    "ai-dr-ai-didn-t-read-49336573",
+    "red-queen-hypothesis-a-new-way-forward-for-self-improving-49323136"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Wiz Red Agent finds its way into Snowflake's internal Jira through a flaw in a GitHub Copilot–Assisted PR.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 330 points, 128 comments, and published 2026-08-17.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Check whether model, dataset, benchmark, cost, and deployment claims link to primary documentation or reproducible results.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 330</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 128</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-08-18. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 128\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49331423.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 330\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49331423.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> galnagli\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49331423.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.3M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49331423.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-08-17\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49331423.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira\n    — <a href=\"https://news.ycombinator.com/item?id=49331423\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Wiz Red Agent finds its way into Snowflake's internal Jira through a flaw in a GitHub Copilot–Assisted PR.\n    — <a href=\"https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-08-18 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49331423",
+    "fetchedAt": "2026-08-18T04:02:12.135Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49331423",
+      "https://hacker-news.firebaseio.com/v0/item/49331423.json",
+      "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "128",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49331423.json",
+        "observedAt": "2026-08-18T04:02:12.135Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "330",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49331423.json",
+        "observedAt": "2026-08-18T04:02:12.135Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "galnagli",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49331423.json",
+        "observedAt": "2026-08-18T04:02:12.135Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49331423",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49331423.json",
+        "observedAt": "2026-08-18T04:02:12.135Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-08-17T14:18:38.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49331423.json",
+        "observedAt": "2026-08-18T04:02:12.135Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+        "url": "https://news.ycombinator.com/item?id=49331423",
+        "observedAt": "2026-08-18T04:02:12.135Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Wiz Red Agent finds its way into Snowflake's internal Jira through a flaw in a GitHub Copilot–Assisted PR.",
+        "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+        "observedAt": "2026-08-18T04:02:12.135Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 128 (observed 2026-08-18)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49331423.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 330 (observed 2026-08-18)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49331423.json"
+        ]
+      },
+      {
+        "text": "Author: galnagli (observed 2026-08-18)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49331423.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49331423 (observed 2026-08-18)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49331423.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-08-17T14:18:38.000Z (observed 2026-08-18)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49331423.json"
+        ]
+      },
+      {
+        "text": "Story title: AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira (observed 2026-08-18)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49331423"
+        ]
+      },
+      {
+        "text": "Original source summary: Wiz Red Agent finds its way into Snowflake's internal Jira through a flaw in a GitHub Copilot–Assisted PR. (observed 2026-08-18)",
+        "evidenceUrls": [
+          "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-08-18T04:02:12.135Z"
+    },
+    "generatedAt": "2026-08-18T04:02:12.135Z"
+  },
+  "indexable": true
+}

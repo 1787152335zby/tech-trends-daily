@@ -36,7 +36,7 @@
     "vue",
     "react-native",
     "svelte",
-    "zustand"
+    "lucide-svelte"
   ],
   "tags": [
     "build-tool",
