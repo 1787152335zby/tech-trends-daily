@@ -30,9 +30,9 @@
   },
   "relatedSlugs": [
     "dayjs",
+    "turbo",
     "astro",
-    "nuxt",
-    "remix"
+    "nuxt"
   ],
   "tags": [
     "date",
