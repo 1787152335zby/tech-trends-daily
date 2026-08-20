@@ -1,0 +1,156 @@
+{
+  "slug": "google-replaced-git-tags-for-certain-source-code-with-obta-49364745",
+  "title": "Google replaced Git tags for certain source code with obtaining via Google Drive: Context, Claims, and Sources",
+  "description": "Google replaced Git tags for certain source code with obtaining via Google Drive — Google replaced pushing Git tags for certain source code with obtaining source code via Google Drive after maki… Read the context, sourc…",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-08-20",
+  "updatedAt": "2026-08-20",
+  "sourceData": {
+    "id": "hn-49364745",
+    "name": "Google replaced Git tags for certain source code with obtaining via Google Drive",
+    "fullName": "hn:google-replaced-git-tags-for-certain-source-code-with-obtaining-via-google-drive",
+    "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+    "description": "Google replaced Git tags for certain source code with obtaining via Google Drive",
+    "language": "Various",
+    "stars": 350,
+    "starsGrowth": 350,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-08-19T17:47:29.000Z",
+    "updatedAt": "2026-08-19T17:47:29.000Z",
+    "homepage": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "maximizing-the-value-of-your-claude-code-sessions-49300800",
+    "auto-mode-is-now-the-default-in-claude-code-49239021",
+    "code-was-never-the-hard-part-is-an-insult-to-all-programme-49222189",
+    "message-your-other-claude-code-sessions-49222824"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Google replaced pushing Git tags for certain source code with obtaining source code via Google Drive after making a request through Google Forms. It's completely ridiculous and they've gradually become very slow at handling requests. They're in clear violation of the GPLv2 now.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 350 points, 152 comments, and published 2026-08-19.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Google replaced Git tags for certain source code with obtaining via Google Drive with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 350</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 152</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-08-20. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 152\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49364745.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 350\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49364745.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> Animux\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49364745.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.4M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49364745.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-08-19\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49364745.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Google replaced Git tags for certain source code with obtaining via Google Drive\n    — <a href=\"https://news.ycombinator.com/item?id=49364745\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Google replaced pushing Git tags for certain source code with obtaining source code via Google Drive after making a request through Google Forms. It's completely ridiculous and they've gradually become very slow at handling requests. They're in clear violation of the GPLv2 now.\n    — <a href=\"https://grapheneos.social/@GrapheneOS/117057099753905023\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-08-20 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49364745",
+    "fetchedAt": "2026-08-20T04:02:42.437Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49364745",
+      "https://hacker-news.firebaseio.com/v0/item/49364745.json",
+      "https://grapheneos.social/@GrapheneOS/117057099753905023"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "152",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49364745.json",
+        "observedAt": "2026-08-20T04:02:42.437Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "350",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49364745.json",
+        "observedAt": "2026-08-20T04:02:42.437Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "Animux",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49364745.json",
+        "observedAt": "2026-08-20T04:02:42.437Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49364745",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49364745.json",
+        "observedAt": "2026-08-20T04:02:42.437Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-08-19T17:47:29.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49364745.json",
+        "observedAt": "2026-08-20T04:02:42.437Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Google replaced Git tags for certain source code with obtaining via Google Drive",
+        "url": "https://news.ycombinator.com/item?id=49364745",
+        "observedAt": "2026-08-20T04:02:42.437Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Google replaced pushing Git tags for certain source code with obtaining source code via Google Drive after making a request through Google Forms. It's completely ridiculous and they've gradually become very slow at handling requests. They're in clear violation of the GPLv2 now.",
+        "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+        "observedAt": "2026-08-20T04:02:42.437Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 152 (observed 2026-08-20)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49364745.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 350 (observed 2026-08-20)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49364745.json"
+        ]
+      },
+      {
+        "text": "Author: Animux (observed 2026-08-20)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49364745.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49364745 (observed 2026-08-20)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49364745.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-08-19T17:47:29.000Z (observed 2026-08-20)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49364745.json"
+        ]
+      },
+      {
+        "text": "Story title: Google replaced Git tags for certain source code with obtaining via Google Drive (observed 2026-08-20)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49364745"
+        ]
+      },
+      {
+        "text": "Original source summary: Google replaced pushing Git tags for certain source code with obtaining source code via Google Drive after making a request through Google Forms. It's completely ridiculous and they've gradually become very slow at handling requests. They're in clear violation of the GPLv2 now. (observed 2026-…",
+        "evidenceUrls": [
+          "https://grapheneos.social/@GrapheneOS/117057099753905023"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-08-20T04:02:42.437Z"
+    },
+    "generatedAt": "2026-08-20T04:02:42.437Z"
+  },
+  "indexable": true
+}
