@@ -1,0 +1,169 @@
+{
+  "slug": "malicious-rust-crate-arrayref-runs-a-build-time-payload-49374269",
+  "title": "Malicious Rust crate Arrayref runs a build-time payload: Context, Claims, and Sources",
+  "description": "Malicious Rust crate Arrayref runs a build-time payload — A compromised release of the popular Rust crate arrayref pulled in a typosquatted proc-macro1 whose build scrip… Read the context, source, and verification quest…",
+  "category": "language",
+  "type": "trend",
+  "publishedAt": "2026-08-21",
+  "updatedAt": "2026-08-21",
+  "sourceData": {
+    "id": "hn-49374269",
+    "name": "Malicious Rust crate Arrayref runs a build-time payload",
+    "fullName": "hn:malicious-rust-crate-arrayref-runs-a-build-time-payload",
+    "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+    "description": "Malicious Rust crate Arrayref runs a build-time payload",
+    "language": "Various",
+    "stars": 419,
+    "starsGrowth": 419,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-08-20T13:23:12.000Z",
+    "updatedAt": "2026-08-20T13:23:12.000Z",
+    "homepage": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+    "source": "hackernews",
+    "category": "language"
+  },
+  "relatedSlugs": [
+    "turbovec-google-s-turboquant-for-vector-search-in-rust-49349898",
+    "gpu-offload-in-rust-portable-safe-and-fast-49334991",
+    "the-rust-on-esp-book-49047351",
+    "show-hn-woxi-open-source-mathematica-wolfram-language-reim-49270040"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>A compromised release of the popular Rust crate arrayref pulled in a typosquatted proc-macro1 whose build script downloads and runs a remote binary at compile…</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 419 points, 374 comments, and published 2026-08-20.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Malicious Rust crate Arrayref runs a build-time payload with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 419</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 374</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-08-21. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 374\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49374269.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 419\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49374269.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> abhisek\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49374269.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Discussion text:</strong> https:&amp;#x2F;&amp;#x2F;blog.rust-lang.org&amp;#x2F;2026&amp;#x2F;08&amp;#x2F;20&amp;#x2F;supply-chain-attack-on... https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;rustsec&amp;#x2F;advisory-db&amp;#x2F;issues&amp;#x2F;3161\n    — <a href=\"https://news.ycombinator.com/item?id=49374269\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.4M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49374269.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-08-20\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49374269.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Malicious Rust crate Arrayref runs a build-time payload\n    — <a href=\"https://news.ycombinator.com/item?id=49374269\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> A compromised release of the popular Rust crate arrayref pulled in a typosquatted proc-macro1 whose build script downloads and runs a remote binary at compile…\n    — <a href=\"https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-08-21 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49374269",
+    "fetchedAt": "2026-08-21T04:04:55.203Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49374269",
+      "https://hacker-news.firebaseio.com/v0/item/49374269.json",
+      "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "374",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49374269.json",
+        "observedAt": "2026-08-21T04:04:55.203Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "419",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49374269.json",
+        "observedAt": "2026-08-21T04:04:55.203Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "abhisek",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49374269.json",
+        "observedAt": "2026-08-21T04:04:55.203Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Discussion text",
+        "value": "https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2026&#x2F;08&#x2F;20&#x2F;supply-chain-attack-on... https:&#x2F;&#x2F;github.com&#x2F;rustsec&#x2F;advisory-db&#x2F;issues&#x2F;3161",
+        "url": "https://news.ycombinator.com/item?id=49374269",
+        "observedAt": "2026-08-21T04:04:55.203Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49374269",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49374269.json",
+        "observedAt": "2026-08-21T04:04:55.203Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-08-20T13:23:12.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49374269.json",
+        "observedAt": "2026-08-21T04:04:55.203Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Malicious Rust crate Arrayref runs a build-time payload",
+        "url": "https://news.ycombinator.com/item?id=49374269",
+        "observedAt": "2026-08-21T04:04:55.203Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "A compromised release of the popular Rust crate arrayref pulled in a typosquatted proc-macro1 whose build script downloads and runs a remote binary at compile…",
+        "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+        "observedAt": "2026-08-21T04:04:55.203Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 374 (observed 2026-08-21)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49374269.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 419 (observed 2026-08-21)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49374269.json"
+        ]
+      },
+      {
+        "text": "Author: abhisek (observed 2026-08-21)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49374269.json"
+        ]
+      },
+      {
+        "text": "Discussion text: https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2026&#x2F;08&#x2F;20&#x2F;supply-chain-attack-on... https:&#x2F;&#x2F;github.com&#x2F;rustsec&#x2F;advisory-db&#x2F;issues&#x2F;3161 (observed 2026-08-21)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49374269"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49374269 (observed 2026-08-21)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49374269.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-08-20T13:23:12.000Z (observed 2026-08-21)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49374269.json"
+        ]
+      },
+      {
+        "text": "Story title: Malicious Rust crate Arrayref runs a build-time payload (observed 2026-08-21)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49374269"
+        ]
+      },
+      {
+        "text": "Original source summary: A compromised release of the popular Rust crate arrayref pulled in a typosquatted proc-macro1 whose build script downloads and runs a remote binary at compile… (observed 2026-08-21)",
+        "evidenceUrls": [
+          "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-08-21T04:04:55.203Z"
+    },
+    "generatedAt": "2026-08-21T04:04:55.203Z"
+  },
+  "indexable": true
+}
