@@ -37,8 +37,8 @@
   "relatedSlugs": [
     "kysely",
     "yc-duan-fastctx",
-    "prisma",
-    "tailscale-traces-database-corruption-to-16y-o-sqlite-wal-r-49272832"
+    "tailscale-traces-database-corruption-to-16y-o-sqlite-wal-r-49272832",
+    "steelbrain-metal2vulkan"
   ],
   "tags": [
     "beginner",

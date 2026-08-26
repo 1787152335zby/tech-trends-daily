@@ -39,7 +39,9 @@
     "source": "npm",
     "category": "database"
   },
-  "relatedSlugs": [],
+  "relatedSlugs": [
+    "prisma"
+  ],
   "tags": [
     "drizzle",
     "orm",

@@ -41,10 +41,10 @@
     "category": "backend"
   },
   "relatedSlugs": [
-    "prisma",
     "shiroryu9-community-ops-kit",
     "evokoa-pgcontext",
-    "openbmb-minicpm-robot"
+    "openbmb-minicpm-robot",
+    "steelbrain-metal2vulkan"
   ],
   "tags": [
     "camera-management",
