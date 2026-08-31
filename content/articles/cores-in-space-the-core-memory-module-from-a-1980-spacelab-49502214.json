@@ -1,0 +1,156 @@
+{
+  "slug": "cores-in-space-the-core-memory-module-from-a-1980-spacelab-49502214",
+  "title": "Cores in space: The core memory module from a 1980 Spacelab computer: Context, Claims, and Sources",
+  "description": "Cores in space: The core memory module from a 1980 Spacelab computer — Spacelab was a reusable laboratory that could be carried in the Space Shuttle's cargo bay, providing lab space… Read the context, source, and verifi…",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-08-31",
+  "updatedAt": "2026-08-31",
+  "sourceData": {
+    "id": "hn-49502214",
+    "name": "Cores in space: The core memory module from a 1980 Spacelab computer",
+    "fullName": "hn:cores-in-space-the-core-memory-module-from-a-1980-spacelab-computer",
+    "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+    "description": "Cores in space: The core memory module from a 1980 Spacelab computer",
+    "language": "Various",
+    "stars": 109,
+    "starsGrowth": 109,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-08-30T20:00:25.000Z",
+    "updatedAt": "2026-08-30T20:00:25.000Z",
+    "homepage": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "saving-100-terabytes-of-memory-by-optimizing-1-1-1-1-s-dns-49468083",
+    "2027-memory-capacity-is-reportedly-sold-out-49207236",
+    "show-hn-simple-algorithm-and-color-space-to-generate-diver-49170165",
+    "arbitrary-code-execution-in-qubesos-via-copy-to-vm-error-r-49496918"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Spacelab was a reusable laboratory that could be carried in the Space Shuttle's cargo bay, providing lab space for astronauts and experiment...</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 109 points, 18 comments, and published 2026-08-30.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Cores in space: The core memory module from a 1980 Spacelab computer with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 109</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 18</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-08-31. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 18\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49502214.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 109\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49502214.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> pwg\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49502214.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.5M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49502214.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-08-30\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49502214.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Cores in space: The core memory module from a 1980 Spacelab computer\n    — <a href=\"https://news.ycombinator.com/item?id=49502214\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Spacelab was a reusable laboratory that could be carried in the Space Shuttle's cargo bay, providing lab space for astronauts and experiment...\n    — <a href=\"https://www.righto.com/2026/08/spacelab-core-memory.html\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-08-31 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49502214",
+    "fetchedAt": "2026-08-31T09:52:36.651Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49502214",
+      "https://hacker-news.firebaseio.com/v0/item/49502214.json",
+      "https://www.righto.com/2026/08/spacelab-core-memory.html"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "18",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49502214.json",
+        "observedAt": "2026-08-31T09:52:36.651Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "109",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49502214.json",
+        "observedAt": "2026-08-31T09:52:36.651Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "pwg",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49502214.json",
+        "observedAt": "2026-08-31T09:52:36.651Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49502214",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49502214.json",
+        "observedAt": "2026-08-31T09:52:36.651Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-08-30T20:00:25.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49502214.json",
+        "observedAt": "2026-08-31T09:52:36.651Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Cores in space: The core memory module from a 1980 Spacelab computer",
+        "url": "https://news.ycombinator.com/item?id=49502214",
+        "observedAt": "2026-08-31T09:52:36.651Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Spacelab was a reusable laboratory that could be carried in the Space Shuttle's cargo bay, providing lab space for astronauts and experiment...",
+        "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+        "observedAt": "2026-08-31T09:52:36.651Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 18 (observed 2026-08-31)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49502214.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 109 (observed 2026-08-31)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49502214.json"
+        ]
+      },
+      {
+        "text": "Author: pwg (observed 2026-08-31)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49502214.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49502214 (observed 2026-08-31)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49502214.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-08-30T20:00:25.000Z (observed 2026-08-31)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49502214.json"
+        ]
+      },
+      {
+        "text": "Story title: Cores in space: The core memory module from a 1980 Spacelab computer (observed 2026-08-31)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49502214"
+        ]
+      },
+      {
+        "text": "Original source summary: Spacelab was a reusable laboratory that could be carried in the Space Shuttle's cargo bay, providing lab space for astronauts and experiment... (observed 2026-08-31)",
+        "evidenceUrls": [
+          "https://www.righto.com/2026/08/spacelab-core-memory.html"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-08-31T09:52:36.651Z"
+    },
+    "generatedAt": "2026-08-31T09:52:36.651Z"
+  },
+  "indexable": true
+}
