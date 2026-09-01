@@ -1,0 +1,154 @@
+{
+  "slug": "i-turned-my-security-cameras-into-an-automatic-bird-identi-49511856",
+  "title": "I turned my security cameras into an automatic bird identification system: Context, Claims, and Sources",
+  "description": "I turned my security cameras into an automatic bird identification system — I turned three security cameras into an automatic bird identification system using BirdNet-Go. Now my wife and… Read the context, source, and v…",
+  "category": "security",
+  "type": "trend",
+  "publishedAt": "2026-09-01",
+  "updatedAt": "2026-09-01",
+  "sourceData": {
+    "id": "hn-49511856",
+    "name": "I turned my security cameras into an automatic bird identification system",
+    "fullName": "hn:i-turned-my-security-cameras-into-an-automatic-bird-identification-system",
+    "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+    "description": "I turned my security cameras into an automatic bird identification system",
+    "language": "Various",
+    "stars": 490,
+    "starsGrowth": 490,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-08-31T16:47:11.000Z",
+    "updatedAt": "2026-08-31T16:47:11.000Z",
+    "homepage": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+    "source": "hackernews",
+    "category": "security"
+  },
+  "relatedSlugs": [
+    "codex-security-49089755",
+    "just-the-rumour-of-a-bug-is-enough-to-find-an-exploit-thes-49480466"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>I turned three security cameras into an automatic bird identification system using BirdNet-Go. Now my wife and I can track every bird species that visits our yard in real-time.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 490 points, 115 comments, and published 2026-08-31.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Separate demonstrated impact from speculation, and look for a vendor advisory, patch, disclosure timeline, or reproducible proof.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing I turned my security cameras into an automatic bird identification system with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 490</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 115</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-09-01. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 115\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49511856.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 490\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49511856.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> speckx\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49511856.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.5M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49511856.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-08-31\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49511856.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> I turned my security cameras into an automatic bird identification system\n    — <a href=\"https://news.ycombinator.com/item?id=49511856\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> I turned three security cameras into an automatic bird identification system using BirdNet-Go. Now my wife and I can track every bird species that visits our yard in real-time.\n    — <a href=\"https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-09-01 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49511856",
+    "fetchedAt": "2026-09-01T08:44:42.737Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49511856",
+      "https://hacker-news.firebaseio.com/v0/item/49511856.json",
+      "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "115",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49511856.json",
+        "observedAt": "2026-09-01T08:44:42.737Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "490",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49511856.json",
+        "observedAt": "2026-09-01T08:44:42.737Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "speckx",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49511856.json",
+        "observedAt": "2026-09-01T08:44:42.737Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49511856",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49511856.json",
+        "observedAt": "2026-09-01T08:44:42.737Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-08-31T16:47:11.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49511856.json",
+        "observedAt": "2026-09-01T08:44:42.737Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "I turned my security cameras into an automatic bird identification system",
+        "url": "https://news.ycombinator.com/item?id=49511856",
+        "observedAt": "2026-09-01T08:44:42.737Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "I turned three security cameras into an automatic bird identification system using BirdNet-Go. Now my wife and I can track every bird species that visits our yard in real-time.",
+        "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+        "observedAt": "2026-09-01T08:44:42.737Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 115 (observed 2026-09-01)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49511856.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 490 (observed 2026-09-01)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49511856.json"
+        ]
+      },
+      {
+        "text": "Author: speckx (observed 2026-09-01)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49511856.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49511856 (observed 2026-09-01)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49511856.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-08-31T16:47:11.000Z (observed 2026-09-01)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49511856.json"
+        ]
+      },
+      {
+        "text": "Story title: I turned my security cameras into an automatic bird identification system (observed 2026-09-01)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49511856"
+        ]
+      },
+      {
+        "text": "Original source summary: I turned three security cameras into an automatic bird identification system using BirdNet-Go. Now my wife and I can track every bird species that visits our yard in real-time. (observed 2026-09-01)",
+        "evidenceUrls": [
+          "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-09-01T08:44:42.737Z"
+    },
+    "generatedAt": "2026-09-01T08:44:42.737Z"
+  },
+  "indexable": true
+}
