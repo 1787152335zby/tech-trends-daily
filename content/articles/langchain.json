@@ -5,7 +5,7 @@
   "category": "ai-ml",
   "type": "trend",
   "publishedAt": "2026-06-27",
-  "updatedAt": "2026-08-09",
+  "updatedAt": "2026-09-02",
   "sourceData": {
     "id": "npm-langchain",
     "name": "langchain",
@@ -13,10 +13,10 @@
     "url": "https://www.npmjs.com/package/langchain",
     "description": "Typescript bindings for langchain",
     "language": "JavaScript/TypeScript",
-    "stars": 18023,
-    "starsGrowth": 2780475,
-    "forks": 3301,
-    "openIssues": 478,
+    "stars": 18157,
+    "starsGrowth": 3030909,
+    "forks": 3355,
+    "openIssues": 556,
     "topics": [
       "llm",
       "ai",
@@ -32,8 +32,8 @@
       "vectorstores"
     ],
     "license": "MIT",
-    "createdAt": "2026-08-09T04:40:05.399Z",
-    "updatedAt": "2026-08-09T04:40:05.399Z",
+    "createdAt": "2026-09-02T07:58:48.562Z",
+    "updatedAt": "2026-09-02T07:58:48.562Z",
     "homepage": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
     "source": "npm",
     "category": "ai-ml"
@@ -54,10 +54,10 @@
     "chatgpt",
     "machine learning"
   ],
-  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to LangChain: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves.</p>\n<p>Shortlist LangChain only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>LangChain is most relevant to developers working with JavaScript/TypeScript. Its source topics point to llm, ai, gpt3, chain. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing langchain in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 2.8M weekly downloads, version 1.5.5, and released 2026-08-05.</p>\n<p>The recorded Node.js requirement is &gt;=20.</p>\n<p>The current package metadata lists 4 direct dependencies.</p>\n<p>The registry lists 2 maintainers.</p>\n<p>The source reports the MIT license.</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>LangChain is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install langchain</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 2.8M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 18.0k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 3.3k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-08-09. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=20\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Official package summary:</strong> LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves.\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package keywords:</strong> llm, ai, gpt3, chain, prompt, prompt engineering, chatgpt, machine learning, ml, openai, embeddings, vectorstores\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 2\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-08-05\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 4\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> langchain\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-07-31 to 2026-08-06\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 2.8M\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 1.5.5\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-08-05\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-08-09 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to LangChain: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves.</p>\n<p>Shortlist LangChain only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>LangChain is most relevant to developers working with JavaScript/TypeScript. Its source topics point to llm, ai, gpt3, chain. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing langchain in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 3M weekly downloads, version 1.5.10, and released 2026-08-20.</p>\n<p>The recorded Node.js requirement is &gt;=20.</p>\n<p>The current package metadata lists 4 direct dependencies.</p>\n<p>The registry lists 2 maintainers.</p>\n<p>The source reports the MIT license.</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>LangChain is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install langchain</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 3.0M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 18.2k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 3.4k</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-09-02. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=20\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Official package summary:</strong> LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves.\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package keywords:</strong> llm, ai, gpt3, chain, prompt, prompt engineering, chatgpt, machine learning, ml, openai, embeddings, vectorstores\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 2\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-08-20\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 4\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> langchain\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-08-23 to 2026-08-29\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 3.0M\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 1.5.10\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-08-20\n    — <a href=\"https://registry.npmjs.org/langchain\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-09-02 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
   "evidence": {
     "sourceId": "npm-langchain",
-    "fetchedAt": "2026-08-09T04:40:22.412Z",
+    "fetchedAt": "2026-09-02T07:59:04.358Z",
     "score": 100,
     "officialUrls": [
       "https://www.npmjs.com/package/langchain",
@@ -70,84 +70,84 @@
         "label": "Node.js engine",
         "value": ">=20",
         "url": "https://registry.npmjs.org/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "compatibility"
       },
       {
         "label": "Official package summary",
         "value": "LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves.",
         "url": "https://registry.npmjs.org/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "documentation"
       },
       {
         "label": "Package keywords",
         "value": "llm, ai, gpt3, chain, prompt, prompt engineering, chatgpt, machine learning, ml, openai, embeddings, vectorstores",
         "url": "https://registry.npmjs.org/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "documentation"
       },
       {
         "label": "Maintainers listed",
         "value": "2",
         "url": "https://registry.npmjs.org/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "maintenance"
       },
       {
         "label": "Registry modified",
-        "value": "2026-08-05T22:02:06.016Z",
+        "value": "2026-08-20T01:18:37.011Z",
         "url": "https://registry.npmjs.org/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "maintenance"
       },
       {
         "label": "Direct dependencies",
         "value": "4",
         "url": "https://registry.npmjs.org/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "package-metadata"
       },
       {
         "label": "License",
         "value": "MIT",
         "url": "https://registry.npmjs.org/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "package-metadata"
       },
       {
         "label": "Package",
         "value": "langchain",
         "url": "https://registry.npmjs.org/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "registry"
       },
       {
         "label": "Download window",
-        "value": "2026-07-31 to 2026-08-06",
+        "value": "2026-08-23 to 2026-08-29",
         "url": "https://api.npmjs.org/downloads/point/last-week/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "registry-metric"
       },
       {
         "label": "Weekly downloads",
-        "value": "2780475",
+        "value": "3030909",
         "url": "https://api.npmjs.org/downloads/point/last-week/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "registry-metric"
       },
       {
         "label": "Latest version",
-        "value": "1.5.5",
+        "value": "1.5.10",
         "url": "https://registry.npmjs.org/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "release"
       },
       {
         "label": "Latest version published",
-        "value": "2026-08-05T22:02:05.394Z",
+        "value": "2026-08-20T01:18:36.679Z",
         "url": "https://registry.npmjs.org/langchain",
-        "observedAt": "2026-08-09T04:40:22.412Z",
+        "observedAt": "2026-09-02T07:59:04.358Z",
         "kind": "release"
       }
     ],
@@ -160,61 +160,61 @@
     "qualityScore": 92,
     "claims": [
       {
-        "text": "Node.js engine: >=20 (observed 2026-08-09)",
+        "text": "Node.js engine: >=20 (observed 2026-09-02)",
         "evidenceUrls": [
           "https://registry.npmjs.org/langchain"
         ]
       },
       {
-        "text": "Official package summary: LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves. (observed 2026-08-09)",
+        "text": "Official package summary: LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations to simplify AI application development — all while future-proofing decisions as the underlying technology evolves. (observed 2026-09-02)",
         "evidenceUrls": [
           "https://registry.npmjs.org/langchain"
         ]
       },
       {
-        "text": "Package keywords: llm, ai, gpt3, chain, prompt, prompt engineering, chatgpt, machine learning, ml, openai, embeddings, vectorstores (observed 2026-08-09)",
+        "text": "Package keywords: llm, ai, gpt3, chain, prompt, prompt engineering, chatgpt, machine learning, ml, openai, embeddings, vectorstores (observed 2026-09-02)",
         "evidenceUrls": [
           "https://registry.npmjs.org/langchain"
         ]
       },
       {
-        "text": "Maintainers listed: 2 (observed 2026-08-09)",
+        "text": "Maintainers listed: 2 (observed 2026-09-02)",
         "evidenceUrls": [
           "https://registry.npmjs.org/langchain"
         ]
       },
       {
-        "text": "Registry modified: 2026-08-05T22:02:06.016Z (observed 2026-08-09)",
+        "text": "Registry modified: 2026-08-20T01:18:37.011Z (observed 2026-09-02)",
         "evidenceUrls": [
           "https://registry.npmjs.org/langchain"
         ]
       },
       {
-        "text": "Direct dependencies: 4 (observed 2026-08-09)",
+        "text": "Direct dependencies: 4 (observed 2026-09-02)",
         "evidenceUrls": [
           "https://registry.npmjs.org/langchain"
         ]
       },
       {
-        "text": "License: MIT (observed 2026-08-09)",
+        "text": "License: MIT (observed 2026-09-02)",
         "evidenceUrls": [
           "https://registry.npmjs.org/langchain"
         ]
       },
       {
-        "text": "Package: langchain (observed 2026-08-09)",
+        "text": "Package: langchain (observed 2026-09-02)",
         "evidenceUrls": [
           "https://registry.npmjs.org/langchain"
         ]
       },
       {
-        "text": "Download window: 2026-07-31 to 2026-08-06 (observed 2026-08-09)",
+        "text": "Download window: 2026-08-23 to 2026-08-29 (observed 2026-09-02)",
         "evidenceUrls": [
           "https://api.npmjs.org/downloads/point/last-week/langchain"
         ]
       },
       {
-        "text": "Weekly downloads: 2780475 (observed 2026-08-09)",
+        "text": "Weekly downloads: 3030909 (observed 2026-09-02)",
         "evidenceUrls": [
           "https://api.npmjs.org/downloads/point/last-week/langchain"
         ]
@@ -223,9 +223,9 @@
     "review": {
       "status": "not-configured",
       "issues": [],
-      "reviewedAt": "2026-08-09T04:40:22.412Z"
+      "reviewedAt": "2026-09-02T07:59:04.358Z"
     },
-    "generatedAt": "2026-08-09T04:40:22.412Z"
+    "generatedAt": "2026-09-02T07:59:04.358Z"
   },
   "indexable": true
 }

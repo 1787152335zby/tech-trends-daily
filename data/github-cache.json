@@ -8841,8 +8841,8 @@
   },
   "MorpheApp/PotHelper": {
     "fullName": "MorpheApp/PotHelper",
-    "stars": 145,
-    "fetchedAt": "2026-09-01T08:44:11.542Z"
+    "stars": 181,
+    "fetchedAt": "2026-09-02T07:58:35.630Z"
   },
   "tailscale/tailcat-for-minecraft": {
     "fullName": "tailscale/tailcat-for-minecraft",
@@ -8876,8 +8876,8 @@
   },
   "imbbbbb/celldock-for-mac": {
     "fullName": "imbbbbb/celldock-for-mac",
-    "stars": 29,
-    "fetchedAt": "2026-09-01T08:44:12.236Z"
+    "stars": 30,
+    "fetchedAt": "2026-09-02T07:58:35.940Z"
   },
   "thesadbee/TriFecta": {
     "fullName": "thesadbee/TriFecta",
@@ -8911,8 +8911,8 @@
   },
   "XiaoDuoYa/codex-with-chatgpt": {
     "fullName": "XiaoDuoYa/codex-with-chatgpt",
-    "stars": 2014,
-    "fetchedAt": "2026-09-01T08:44:10.266Z"
+    "stars": 2197,
+    "fetchedAt": "2026-09-02T07:58:34.993Z"
   },
   "S1N6H/pentest-harness": {
     "fullName": "S1N6H/pentest-harness",
@@ -8931,8 +8931,8 @@
   },
   "nateherkai/snagtime": {
     "fullName": "nateherkai/snagtime",
-    "stars": 298,
-    "fetchedAt": "2026-09-01T08:44:10.266Z"
+    "stars": 311,
+    "fetchedAt": "2026-09-02T07:58:34.993Z"
   },
   "jprx/darwin-vm": {
     "fullName": "jprx/darwin-vm",
@@ -8951,8 +8951,8 @@
   },
   "chrisgreg/boop": {
     "fullName": "chrisgreg/boop",
-    "stars": 672,
-    "fetchedAt": "2026-09-01T08:44:10.894Z"
+    "stars": 679,
+    "fetchedAt": "2026-09-02T07:58:35.296Z"
   },
   "HexLasso/FF-16-TUI": {
     "fullName": "HexLasso/FF-16-TUI",
@@ -9002,7 +9002,7 @@
   "Hydrooxzgen/NetherBridge": {
     "fullName": "Hydrooxzgen/NetherBridge",
     "stars": 45,
-    "fetchedAt": "2026-09-01T08:44:11.542Z"
+    "fetchedAt": "2026-09-02T07:58:35.630Z"
   },
   "dinosn/log4j-4255": {
     "fullName": "dinosn/log4j-4255",
@@ -9061,8 +9061,8 @@
   },
   "tsouth89/try-omarchy-windows": {
     "fullName": "tsouth89/try-omarchy-windows",
-    "stars": 71,
-    "fetchedAt": "2026-09-01T08:44:10.894Z"
+    "stars": 83,
+    "fetchedAt": "2026-09-02T07:58:35.296Z"
   },
   "incompletepi/Project-Zomboid-Lag-Crash-Fix-2026": {
     "fullName": "incompletepi/Project-Zomboid-Lag-Crash-Fix-2026",
@@ -9076,8 +9076,8 @@
   },
   "Zulwatha/content-parity": {
     "fullName": "Zulwatha/content-parity",
-    "stars": 31,
-    "fetchedAt": "2026-09-01T08:44:10.894Z"
+    "stars": 32,
+    "fetchedAt": "2026-09-02T07:58:35.296Z"
   },
   "soirihiroka/shrimply": {
     "fullName": "soirihiroka/shrimply",
@@ -9122,22 +9122,22 @@
   "kingbootoshi/facetime-bridge": {
     "fullName": "kingbootoshi/facetime-bridge",
     "stars": 100,
-    "fetchedAt": "2026-09-01T08:44:12.236Z"
+    "fetchedAt": "2026-09-02T07:58:35.940Z"
   },
   "semihtalii/brink": {
     "fullName": "semihtalii/brink",
     "stars": 52,
-    "fetchedAt": "2026-09-01T08:44:12.236Z"
+    "fetchedAt": "2026-09-02T07:58:35.940Z"
   },
   "momenbuilds/throttle": {
     "fullName": "momenbuilds/throttle",
     "stars": 29,
-    "fetchedAt": "2026-09-01T08:44:12.236Z"
+    "fetchedAt": "2026-09-02T07:58:35.940Z"
   },
   "GenericCoding/VibeContainers": {
     "fullName": "GenericCoding/VibeContainers",
     "stars": 27,
-    "fetchedAt": "2026-09-01T08:44:12.236Z"
+    "fetchedAt": "2026-09-02T07:58:35.940Z"
   },
   "gee1k/sonimbus": {
     "fullName": "gee1k/sonimbus",
@@ -9196,8 +9196,8 @@
   },
   "rhevorn/confetti": {
     "fullName": "rhevorn/confetti",
-    "stars": 164,
-    "fetchedAt": "2026-09-01T08:44:10.266Z"
+    "stars": 166,
+    "fetchedAt": "2026-09-02T07:58:34.993Z"
   },
   "mreflow/control-center": {
     "fullName": "mreflow/control-center",
@@ -9212,7 +9212,7 @@
   "ih8d8/yt-dlp-manager": {
     "fullName": "ih8d8/yt-dlp-manager",
     "stars": 45,
-    "fetchedAt": "2026-09-01T08:44:10.894Z"
+    "fetchedAt": "2026-09-02T07:58:35.296Z"
   },
   "incompletepi/Rust-External-Menu-2026": {
     "fullName": "incompletepi/Rust-External-Menu-2026",
@@ -9261,13 +9261,13 @@
   },
   "rileycx/strafe": {
     "fullName": "rileycx/strafe",
-    "stars": 55,
-    "fetchedAt": "2026-09-01T08:44:12.236Z"
+    "stars": 56,
+    "fetchedAt": "2026-09-02T07:58:35.940Z"
   },
   "SamsonRuan/Photo-Insight": {
     "fullName": "SamsonRuan/Photo-Insight",
     "stars": 48,
-    "fetchedAt": "2026-09-01T08:44:12.236Z"
+    "fetchedAt": "2026-09-02T07:58:35.940Z"
   },
   "T-1234567890/hibiscus-app": {
     "fullName": "T-1234567890/hibiscus-app",
@@ -9316,23 +9316,23 @@
   },
   "useagenthq/useagent": {
     "fullName": "useagenthq/useagent",
-    "stars": 264,
-    "fetchedAt": "2026-09-01T08:44:10.266Z"
+    "stars": 272,
+    "fetchedAt": "2026-09-02T07:58:34.993Z"
   },
   "blendi-remade/interdimensional-game": {
     "fullName": "blendi-remade/interdimensional-game",
-    "stars": 143,
-    "fetchedAt": "2026-09-01T08:44:10.266Z"
+    "stars": 204,
+    "fetchedAt": "2026-09-02T07:58:34.993Z"
   },
   "SpatiaOS/Procedura": {
     "fullName": "SpatiaOS/Procedura",
-    "stars": 142,
-    "fetchedAt": "2026-09-01T08:44:10.266Z"
+    "stars": 151,
+    "fetchedAt": "2026-09-02T07:58:34.993Z"
   },
   "keshav-exe/markdown-graphs": {
     "fullName": "keshav-exe/markdown-graphs",
-    "stars": 134,
-    "fetchedAt": "2026-09-01T08:44:10.266Z"
+    "stars": 138,
+    "fetchedAt": "2026-09-02T07:58:34.993Z"
   },
   "GangTailorUpgrade/CoomeRtool": {
     "fullName": "GangTailorUpgrade/CoomeRtool",
@@ -9351,8 +9351,8 @@
   },
   "basketikun/claude2api": {
     "fullName": "basketikun/claude2api",
-    "stars": 39,
-    "fetchedAt": "2026-09-01T08:44:10.894Z"
+    "stars": 45,
+    "fetchedAt": "2026-09-02T07:58:35.296Z"
   },
   "creamylookout/99-Nights-in-the-Forest-Radar-2026": {
     "fullName": "creamylookout/99-Nights-in-the-Forest-Radar-2026",
@@ -9381,18 +9381,18 @@
   },
   "liuran001/WeChat-LiquidGlass": {
     "fullName": "liuran001/WeChat-LiquidGlass",
-    "stars": 22,
-    "fetchedAt": "2026-09-01T08:44:11.542Z"
+    "stars": 26,
+    "fetchedAt": "2026-09-02T07:58:35.630Z"
   },
   "AshJha0/electronic-trading": {
     "fullName": "AshJha0/electronic-trading",
-    "stars": 22,
-    "fetchedAt": "2026-09-01T08:44:11.542Z"
+    "stars": 25,
+    "fetchedAt": "2026-09-02T07:58:35.630Z"
   },
   "git-syl/hermes-agent-demo": {
     "fullName": "git-syl/hermes-agent-demo",
-    "stars": 22,
-    "fetchedAt": "2026-09-01T08:44:11.542Z"
+    "stars": 26,
+    "fetchedAt": "2026-09-02T07:58:35.630Z"
   },
   "kabayamanatsuki-dotcom/Interview.Practice": {
     "fullName": "kabayamanatsuki-dotcom/Interview.Practice",
@@ -9423,5 +9423,85 @@
     "fullName": "ottersuite/Currents",
     "stars": 16,
     "fetchedAt": "2026-09-01T08:44:12.509Z"
+  },
+  "Git-Agni/prod-FARM-IOS-Core": {
+    "fullName": "Git-Agni/prod-FARM-IOS-Core",
+    "stars": 676,
+    "fetchedAt": "2026-09-02T07:58:34.993Z"
+  },
+  "mahdidavoodi7/react-native-continued-task": {
+    "fullName": "mahdidavoodi7/react-native-continued-task",
+    "stars": 138,
+    "fetchedAt": "2026-09-02T07:58:34.993Z"
+  },
+  "sharptoolbox/ontology-driven-dev": {
+    "fullName": "sharptoolbox/ontology-driven-dev",
+    "stars": 137,
+    "fetchedAt": "2026-09-02T07:58:34.993Z"
+  },
+  "liyanan2016-stack/guanfang-youxuan": {
+    "fullName": "liyanan2016-stack/guanfang-youxuan",
+    "stars": 28,
+    "fetchedAt": "2026-09-02T07:58:35.296Z"
+  },
+  "boli0301/NAT-Test": {
+    "fullName": "boli0301/NAT-Test",
+    "stars": 26,
+    "fetchedAt": "2026-09-02T07:58:35.296Z"
+  },
+  "ManasvinYadav/swrm": {
+    "fullName": "ManasvinYadav/swrm",
+    "stars": 25,
+    "fetchedAt": "2026-09-02T07:58:35.296Z"
+  },
+  "ValeryVerkhoturov/json-streaming": {
+    "fullName": "ValeryVerkhoturov/json-streaming",
+    "stars": 25,
+    "fetchedAt": "2026-09-02T07:58:35.296Z"
+  },
+  "0xmania/vps-manager": {
+    "fullName": "0xmania/vps-manager",
+    "stars": 23,
+    "fetchedAt": "2026-09-02T07:58:35.296Z"
+  },
+  "kalai2005bse-del/Smart-Bus": {
+    "fullName": "kalai2005bse-del/Smart-Bus",
+    "stars": 72,
+    "fetchedAt": "2026-09-02T07:58:35.630Z"
+  },
+  "hyundaimotorgroup/hmg-role": {
+    "fullName": "hyundaimotorgroup/hmg-role",
+    "stars": 38,
+    "fetchedAt": "2026-09-02T07:58:35.630Z"
+  },
+  "hyundaimotorgroup/hmg-ipmap": {
+    "fullName": "hyundaimotorgroup/hmg-ipmap",
+    "stars": 31,
+    "fetchedAt": "2026-09-02T07:58:35.630Z"
+  },
+  "Gerato25/BarberShopSchedule": {
+    "fullName": "Gerato25/BarberShopSchedule",
+    "stars": 28,
+    "fetchedAt": "2026-09-02T07:58:35.630Z"
+  },
+  "jose-de-souza/1Z0-830": {
+    "fullName": "jose-de-souza/1Z0-830",
+    "stars": 18,
+    "fetchedAt": "2026-09-02T07:58:35.630Z"
+  },
+  "carloslfu/slotstream": {
+    "fullName": "carloslfu/slotstream",
+    "stars": 178,
+    "fetchedAt": "2026-09-02T07:58:35.940Z"
+  },
+  "qunqin24/Pulse": {
+    "fullName": "qunqin24/Pulse",
+    "stars": 27,
+    "fetchedAt": "2026-09-02T07:58:35.940Z"
+  },
+  "yurirxmos/metria": {
+    "fullName": "yurirxmos/metria",
+    "stars": 26,
+    "fetchedAt": "2026-09-02T07:58:35.940Z"
   }
 }
