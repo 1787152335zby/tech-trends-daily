@@ -1,0 +1,156 @@
+{
+  "slug": "which-tools-do-claude-codex-and-cursor-choose-we-measured-49557206",
+  "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out: Context, Claims, and Sources",
+  "description": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out — We watched almost 17k sessions across different types of personas, with 1,163 prompt variations, 75 repositorie… Read the context, sourc…",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-09-04",
+  "updatedAt": "2026-09-04",
+  "sourceData": {
+    "id": "hn-49557206",
+    "name": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+    "fullName": "hn:which-tools-do-claude-codex-and-cursor-choose-we-measured-17k-runs-to-find-out",
+    "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+    "description": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+    "language": "Various",
+    "stars": 197,
+    "starsGrowth": 197,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-09-03T21:20:34.000Z",
+    "updatedAt": "2026-09-03T21:20:34.000Z",
+    "homepage": "https://armature.tech/blog/which-tools-coding-agents-install",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "claude-fable-5-1-and-claude-mythos-5-1-49525378",
+    "bookshelf-self-hosted-ebook-library-that-runs-on-object-st-49427001",
+    "claudette-make-claude-stop-talking-like-a-buzzfeed-article-49388752",
+    "hacking-with-claude-on-a-27-smart-watch-49374772"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>We watched almost 17k sessions across different types of personas, with 1,163 prompt variations, 75 repositories and 3 coding agents (Claude Code, Codex, Cursor) actually implementing the solutions instead of just recommending one.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 197 points, 87 comments, and published 2026-09-03.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 197</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 87</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-09-04. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 87\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49557206.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 197\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49557206.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> screm\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49557206.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.6M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49557206.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-09-03\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49557206.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out\n    — <a href=\"https://news.ycombinator.com/item?id=49557206\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> We watched almost 17k sessions across different types of personas, with 1,163 prompt variations, 75 repositories and 3 coding agents (Claude Code, Codex, Cursor) actually implementing the solutions instead of just recommending one.\n    — <a href=\"https://armature.tech/blog/which-tools-coding-agents-install\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-09-04 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49557206",
+    "fetchedAt": "2026-09-04T08:08:24.559Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49557206",
+      "https://hacker-news.firebaseio.com/v0/item/49557206.json",
+      "https://armature.tech/blog/which-tools-coding-agents-install"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "87",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49557206.json",
+        "observedAt": "2026-09-04T08:08:24.559Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "197",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49557206.json",
+        "observedAt": "2026-09-04T08:08:24.559Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "screm",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49557206.json",
+        "observedAt": "2026-09-04T08:08:24.559Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49557206",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49557206.json",
+        "observedAt": "2026-09-04T08:08:24.559Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-09-03T21:20:34.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49557206.json",
+        "observedAt": "2026-09-04T08:08:24.559Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+        "url": "https://news.ycombinator.com/item?id=49557206",
+        "observedAt": "2026-09-04T08:08:24.559Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "We watched almost 17k sessions across different types of personas, with 1,163 prompt variations, 75 repositories and 3 coding agents (Claude Code, Codex, Cursor) actually implementing the solutions instead of just recommending one.",
+        "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+        "observedAt": "2026-09-04T08:08:24.559Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 87 (observed 2026-09-04)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49557206.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 197 (observed 2026-09-04)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49557206.json"
+        ]
+      },
+      {
+        "text": "Author: screm (observed 2026-09-04)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49557206.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49557206 (observed 2026-09-04)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49557206.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-09-03T21:20:34.000Z (observed 2026-09-04)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49557206.json"
+        ]
+      },
+      {
+        "text": "Story title: Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out (observed 2026-09-04)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49557206"
+        ]
+      },
+      {
+        "text": "Original source summary: We watched almost 17k sessions across different types of personas, with 1,163 prompt variations, 75 repositories and 3 coding agents (Claude Code, Codex, Cursor) actually implementing the solutions instead of just recommending one. (observed 2026-09-04)",
+        "evidenceUrls": [
+          "https://armature.tech/blog/which-tools-coding-agents-install"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-09-04T08:08:24.559Z"
+    },
+    "generatedAt": "2026-09-04T08:08:24.559Z"
+  },
+  "indexable": true
+}
