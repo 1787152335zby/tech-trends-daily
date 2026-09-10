@@ -1,0 +1,156 @@
+{
+  "slug": "gnu-radio-in-the-browser-49628576",
+  "title": "GNU Radio in the browser: Context, Claims, and Sources",
+  "description": "GNU Radio in the browser — Build and run GNU Radio flowgraphs in your browser — no install. A GRC-style SDR editor with hundreds of DSP bl… Read the context, source, and verification questions.",
+  "category": "frontend",
+  "type": "trend",
+  "publishedAt": "2026-09-10",
+  "updatedAt": "2026-09-10",
+  "sourceData": {
+    "id": "hn-49628576",
+    "name": "GNU Radio in the browser",
+    "fullName": "hn:gnu-radio-in-the-browser",
+    "url": "https://gnuradioworld.com/",
+    "description": "GNU Radio in the browser",
+    "language": "Various",
+    "stars": 197,
+    "starsGrowth": 197,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-09-09T15:53:06.000Z",
+    "updatedAt": "2026-09-09T15:53:06.000Z",
+    "homepage": "https://gnuradioworld.com/",
+    "source": "hackernews",
+    "category": "frontend"
+  },
+  "relatedSlugs": [
+    "os8088-com-ibm-xt-os-now-has-a-browser-cp-m-2-2-with-z80-c-49367256",
+    "firefox-is-now-the-last-major-browser-that-still-supports-49303202",
+    "kitesurf-agent-first-browser-that-runs-in-v8-isolates-49208393",
+    "the-rust-react-compiler-is-now-native-in-vite-49567873"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Build and run GNU Radio flowgraphs in your browser — no install. A GRC-style SDR editor with hundreds of DSP blocks, live QT GUI plots and RTL-SDR support.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 197 points, 27 comments, and published 2026-09-09.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing GNU Radio in the browser with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 197</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 27</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-09-10. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 27\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49628576.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 197\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49628576.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> kristianpaul\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49628576.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.6M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49628576.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-09-09\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49628576.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> GNU Radio in the browser\n    — <a href=\"https://news.ycombinator.com/item?id=49628576\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Build and run GNU Radio flowgraphs in your browser — no install. A GRC-style SDR editor with hundreds of DSP blocks, live QT GUI plots and RTL-SDR support.\n    — <a href=\"https://gnuradioworld.com/\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-09-10 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49628576",
+    "fetchedAt": "2026-09-10T08:13:33.399Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49628576",
+      "https://hacker-news.firebaseio.com/v0/item/49628576.json",
+      "https://gnuradioworld.com/"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "27",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49628576.json",
+        "observedAt": "2026-09-10T08:13:33.399Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "197",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49628576.json",
+        "observedAt": "2026-09-10T08:13:33.399Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "kristianpaul",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49628576.json",
+        "observedAt": "2026-09-10T08:13:33.399Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49628576",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49628576.json",
+        "observedAt": "2026-09-10T08:13:33.399Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-09-09T15:53:06.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49628576.json",
+        "observedAt": "2026-09-10T08:13:33.399Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "GNU Radio in the browser",
+        "url": "https://news.ycombinator.com/item?id=49628576",
+        "observedAt": "2026-09-10T08:13:33.399Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Build and run GNU Radio flowgraphs in your browser — no install. A GRC-style SDR editor with hundreds of DSP blocks, live QT GUI plots and RTL-SDR support.",
+        "url": "https://gnuradioworld.com/",
+        "observedAt": "2026-09-10T08:13:33.399Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 27 (observed 2026-09-10)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49628576.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 197 (observed 2026-09-10)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49628576.json"
+        ]
+      },
+      {
+        "text": "Author: kristianpaul (observed 2026-09-10)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49628576.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49628576 (observed 2026-09-10)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49628576.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-09-09T15:53:06.000Z (observed 2026-09-10)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49628576.json"
+        ]
+      },
+      {
+        "text": "Story title: GNU Radio in the browser (observed 2026-09-10)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49628576"
+        ]
+      },
+      {
+        "text": "Original source summary: Build and run GNU Radio flowgraphs in your browser — no install. A GRC-style SDR editor with hundreds of DSP blocks, live QT GUI plots and RTL-SDR support. (observed 2026-09-10)",
+        "evidenceUrls": [
+          "https://gnuradioworld.com/"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-09-10T08:13:33.399Z"
+    },
+    "generatedAt": "2026-09-10T08:13:33.399Z"
+  },
+  "indexable": true
+}
