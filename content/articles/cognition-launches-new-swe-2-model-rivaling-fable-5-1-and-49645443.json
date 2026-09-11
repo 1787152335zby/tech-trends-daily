@@ -1,0 +1,156 @@
+{
+  "slug": "cognition-launches-new-swe-2-model-rivaling-fable-5-1-and-49645443",
+  "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra: Context, Claims, and Sources",
+  "description": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra — Today we’re introducing SWE-2, our most advanced coding model yet. SWE-2 delivers highly competitive agentic co… Read the context, source, and verif…",
+  "category": "ai-ml",
+  "type": "trend",
+  "publishedAt": "2026-09-11",
+  "updatedAt": "2026-09-11",
+  "sourceData": {
+    "id": "hn-49645443",
+    "name": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+    "fullName": "hn:cognition-launches-new-swe-2-model-rivaling-fable-5-1-and-gpt-astra",
+    "url": "https://cognition.com/blog/swe-2",
+    "description": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+    "language": "Various",
+    "stars": 405,
+    "starsGrowth": 405,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-09-10T15:29:47.000Z",
+    "updatedAt": "2026-09-10T15:29:47.000Z",
+    "homepage": "https://cognition.com/blog/swe-2",
+    "source": "hackernews",
+    "category": "ai-ml"
+  },
+  "relatedSlugs": [
+    "qwen-3-8-follows-gpt-5-5-pro-reasoning-prefills-49630026",
+    "discovery-of-a-new-openai-agent-message-board-49563355",
+    "red-queen-hypothesis-a-new-way-forward-for-self-improving-49323136",
+    "launch-hn-discovered-materials-yc-p26-ai-agents-to-discove-49269090"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Today we’re introducing SWE-2, our most advanced coding model yet. SWE-2 delivers highly competitive agentic coding performance across multiple effort…</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 405 points, 172 comments, and published 2026-09-10.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Check whether model, dataset, benchmark, cost, and deployment claims link to primary documentation or reproducible results.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 405</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 172</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-09-11. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 172\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49645443.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 405\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49645443.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> seelos\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49645443.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.6M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49645443.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-09-10\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49645443.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra\n    — <a href=\"https://news.ycombinator.com/item?id=49645443\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Today we’re introducing SWE-2, our most advanced coding model yet. SWE-2 delivers highly competitive agentic coding performance across multiple effort…\n    — <a href=\"https://cognition.com/blog/swe-2\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-09-11 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49645443",
+    "fetchedAt": "2026-09-11T08:08:56.618Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49645443",
+      "https://hacker-news.firebaseio.com/v0/item/49645443.json",
+      "https://cognition.com/blog/swe-2"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "172",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49645443.json",
+        "observedAt": "2026-09-11T08:08:56.618Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "405",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49645443.json",
+        "observedAt": "2026-09-11T08:08:56.618Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "seelos",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49645443.json",
+        "observedAt": "2026-09-11T08:08:56.618Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49645443",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49645443.json",
+        "observedAt": "2026-09-11T08:08:56.618Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-09-10T15:29:47.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49645443.json",
+        "observedAt": "2026-09-11T08:08:56.618Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+        "url": "https://news.ycombinator.com/item?id=49645443",
+        "observedAt": "2026-09-11T08:08:56.618Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Today we’re introducing SWE-2, our most advanced coding model yet. SWE-2 delivers highly competitive agentic coding performance across multiple effort…",
+        "url": "https://cognition.com/blog/swe-2",
+        "observedAt": "2026-09-11T08:08:56.618Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 172 (observed 2026-09-11)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49645443.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 405 (observed 2026-09-11)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49645443.json"
+        ]
+      },
+      {
+        "text": "Author: seelos (observed 2026-09-11)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49645443.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49645443 (observed 2026-09-11)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49645443.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-09-10T15:29:47.000Z (observed 2026-09-11)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49645443.json"
+        ]
+      },
+      {
+        "text": "Story title: Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra (observed 2026-09-11)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49645443"
+        ]
+      },
+      {
+        "text": "Original source summary: Today we’re introducing SWE-2, our most advanced coding model yet. SWE-2 delivers highly competitive agentic coding performance across multiple effort… (observed 2026-09-11)",
+        "evidenceUrls": [
+          "https://cognition.com/blog/swe-2"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-09-11T08:08:56.618Z"
+    },
+    "generatedAt": "2026-09-11T08:08:56.618Z"
+  },
+  "indexable": true
+}
