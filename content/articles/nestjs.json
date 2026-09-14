@@ -32,7 +32,7 @@
     "nuxt",
     "astro",
     "remix",
-    "vitest"
+    "tamagui"
   ],
   "tags": [
     "web",
