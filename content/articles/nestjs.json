@@ -31,8 +31,8 @@
   "relatedSlugs": [
     "nuxt",
     "astro",
-    "remix",
-    "tamagui"
+    "tamagui",
+    "remix"
   ],
   "tags": [
     "web",
