@@ -1,0 +1,156 @@
+{
+  "slug": "flet-1-0-build-cross-platform-apps-in-python-49746290",
+  "title": "Flet 1.0 – Build cross-platform apps in Python: Context, Claims, and Sources",
+  "description": "Flet 1.0 – Build cross-platform apps in Python — Build web, desktop, and mobile apps in Python. Start in your browser with Flet Studio, create reusable UI compo… Read the context, source, and verification questions.",
+  "category": "language",
+  "type": "trend",
+  "publishedAt": "2026-09-18",
+  "updatedAt": "2026-09-18",
+  "sourceData": {
+    "id": "hn-49746290",
+    "name": "Flet 1.0 – Build cross-platform apps in Python",
+    "fullName": "hn:flet-1-0-build-cross-platform-apps-in-python",
+    "url": "https://flet.dev/",
+    "description": "Flet 1.0 – Build cross-platform apps in Python",
+    "language": "Various",
+    "stars": 112,
+    "starsGrowth": 112,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-09-17T20:44:28.000Z",
+    "updatedAt": "2026-09-17T20:44:28.000Z",
+    "homepage": "https://flet.dev/",
+    "source": "hackernews",
+    "category": "language"
+  },
+  "relatedSlugs": [
+    "eve-online-moves-to-python-3-49433328",
+    "malicious-rust-crate-arrayref-runs-a-build-time-payload-49374269",
+    "nvidia-announces-native-gpu-programming-in-rust-49724881",
+    "rust-is-tier-1-language-at-microsoft-49643546"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Build web, desktop, and mobile apps in Python. Start in your browser with Flet Studio, create reusable UI components, and ship your app across six platforms.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 112 points, 52 comments, and published 2026-09-17.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Flet 1.0 – Build cross-platform apps in Python with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 112</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 52</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-09-18. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 52\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49746290.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 112\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49746290.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> absqueued\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49746290.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.7M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49746290.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-09-17\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49746290.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Flet 1.0 – Build cross-platform apps in Python\n    — <a href=\"https://news.ycombinator.com/item?id=49746290\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Build web, desktop, and mobile apps in Python. Start in your browser with Flet Studio, create reusable UI components, and ship your app across six platforms.\n    — <a href=\"https://flet.dev/\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-09-18 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49746290",
+    "fetchedAt": "2026-09-18T08:20:34.115Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49746290",
+      "https://hacker-news.firebaseio.com/v0/item/49746290.json",
+      "https://flet.dev/"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "52",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49746290.json",
+        "observedAt": "2026-09-18T08:20:34.115Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "112",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49746290.json",
+        "observedAt": "2026-09-18T08:20:34.115Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "absqueued",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49746290.json",
+        "observedAt": "2026-09-18T08:20:34.115Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49746290",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49746290.json",
+        "observedAt": "2026-09-18T08:20:34.115Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-09-17T20:44:28.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49746290.json",
+        "observedAt": "2026-09-18T08:20:34.115Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Flet 1.0 – Build cross-platform apps in Python",
+        "url": "https://news.ycombinator.com/item?id=49746290",
+        "observedAt": "2026-09-18T08:20:34.115Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Build web, desktop, and mobile apps in Python. Start in your browser with Flet Studio, create reusable UI components, and ship your app across six platforms.",
+        "url": "https://flet.dev/",
+        "observedAt": "2026-09-18T08:20:34.115Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 52 (observed 2026-09-18)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49746290.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 112 (observed 2026-09-18)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49746290.json"
+        ]
+      },
+      {
+        "text": "Author: absqueued (observed 2026-09-18)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49746290.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49746290 (observed 2026-09-18)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49746290.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-09-17T20:44:28.000Z (observed 2026-09-18)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49746290.json"
+        ]
+      },
+      {
+        "text": "Story title: Flet 1.0 – Build cross-platform apps in Python (observed 2026-09-18)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49746290"
+        ]
+      },
+      {
+        "text": "Original source summary: Build web, desktop, and mobile apps in Python. Start in your browser with Flet Studio, create reusable UI components, and ship your app across six platforms. (observed 2026-09-18)",
+        "evidenceUrls": [
+          "https://flet.dev/"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-09-18T08:20:34.115Z"
+    },
+    "generatedAt": "2026-09-18T08:20:34.115Z"
+  },
+  "indexable": true
+}
