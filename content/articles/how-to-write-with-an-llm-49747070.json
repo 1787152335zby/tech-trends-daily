@@ -1,0 +1,156 @@
+{
+  "slug": "how-to-write-with-an-llm-49747070",
+  "title": "How to Write with an LLM: Context, Claims, and Sources",
+  "description": "How to Write with an LLM — Two rules keep an LLM from pasteurizing your writing: never take a word it suggests, and never let it encourage… Read the context, source, and verification questions.",
+  "category": "ai-ml",
+  "type": "trend",
+  "publishedAt": "2026-09-19",
+  "updatedAt": "2026-09-19",
+  "sourceData": {
+    "id": "hn-49747070",
+    "name": "How to Write with an LLM",
+    "fullName": "hn:how-to-write-with-an-llm",
+    "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+    "description": "How to Write with an LLM",
+    "language": "Various",
+    "stars": 481,
+    "starsGrowth": 481,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-09-17T21:48:38.000Z",
+    "updatedAt": "2026-09-17T21:48:38.000Z",
+    "homepage": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+    "source": "hackernews",
+    "category": "ai-ml"
+  },
+  "relatedSlugs": [
+    "multi-agents-llm-financial-trading-framework-49605822",
+    "your-intellectual-fly-is-open-when-you-use-an-llm-to-autho-49585644",
+    "porting-my-1993-amiga-game-to-godot-with-an-llm-reading-th-49550375",
+    "webllm-high-performance-in-browser-llm-inference-engine-49536411"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Two rules keep an LLM from pasteurizing your writing: never take a word it suggests, and never let it encourage you. Then hand it all the tedious work.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 481 points, 320 comments, and published 2026-09-17.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Check whether model, dataset, benchmark, cost, and deployment claims link to primary documentation or reproducible results.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing How to Write with an LLM with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 481</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 320</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-09-19. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 320\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49747070.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 481\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49747070.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> joeriddles\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49747070.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.7M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49747070.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-09-17\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49747070.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> How to Write with an LLM\n    — <a href=\"https://news.ycombinator.com/item?id=49747070\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Two rules keep an LLM from pasteurizing your writing: never take a word it suggests, and never let it encourage you. Then hand it all the tedious work.\n    — <a href=\"https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-09-19 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49747070",
+    "fetchedAt": "2026-09-19T08:08:16.775Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49747070",
+      "https://hacker-news.firebaseio.com/v0/item/49747070.json",
+      "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "320",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49747070.json",
+        "observedAt": "2026-09-19T08:08:16.775Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "481",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49747070.json",
+        "observedAt": "2026-09-19T08:08:16.775Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "joeriddles",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49747070.json",
+        "observedAt": "2026-09-19T08:08:16.775Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49747070",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49747070.json",
+        "observedAt": "2026-09-19T08:08:16.775Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-09-17T21:48:38.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49747070.json",
+        "observedAt": "2026-09-19T08:08:16.775Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "How to Write with an LLM",
+        "url": "https://news.ycombinator.com/item?id=49747070",
+        "observedAt": "2026-09-19T08:08:16.775Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Two rules keep an LLM from pasteurizing your writing: never take a word it suggests, and never let it encourage you. Then hand it all the tedious work.",
+        "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+        "observedAt": "2026-09-19T08:08:16.775Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 320 (observed 2026-09-19)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49747070.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 481 (observed 2026-09-19)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49747070.json"
+        ]
+      },
+      {
+        "text": "Author: joeriddles (observed 2026-09-19)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49747070.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49747070 (observed 2026-09-19)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49747070.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-09-17T21:48:38.000Z (observed 2026-09-19)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49747070.json"
+        ]
+      },
+      {
+        "text": "Story title: How to Write with an LLM (observed 2026-09-19)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49747070"
+        ]
+      },
+      {
+        "text": "Original source summary: Two rules keep an LLM from pasteurizing your writing: never take a word it suggests, and never let it encourage you. Then hand it all the tedious work. (observed 2026-09-19)",
+        "evidenceUrls": [
+          "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-09-19T08:08:16.775Z"
+    },
+    "generatedAt": "2026-09-19T08:08:16.775Z"
+  },
+  "indexable": true
+}
