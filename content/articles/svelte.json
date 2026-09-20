@@ -35,7 +35,7 @@
     "vue",
     "react-native",
     "lucide-svelte",
-    "lucide-react"
+    "zustand"
   ],
   "tags": [
     "svelte",
