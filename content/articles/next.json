@@ -39,8 +39,8 @@
   "relatedSlugs": [
     "vue",
     "storybook",
-    "react-native",
-    "svelte"
+    "svelte",
+    "react-native"
   ],
   "tags": [
     "react",

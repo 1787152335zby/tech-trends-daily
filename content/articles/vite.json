@@ -34,8 +34,8 @@
   },
   "relatedSlugs": [
     "vue",
-    "react-native",
     "svelte",
+    "react-native",
     "zustand"
   ],
   "tags": [
