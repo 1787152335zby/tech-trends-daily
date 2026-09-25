@@ -37,10 +37,10 @@
     "category": "frontend"
   },
   "relatedSlugs": [
+    "vite",
     "vue",
     "storybook",
-    "svelte",
-    "react-native"
+    "svelte"
   ],
   "tags": [
     "react",

@@ -1,0 +1,169 @@
+{
+  "slug": "google-s-project-suncatcher-to-put-ml-infrastructure-in-sp-49830606",
+  "title": "Google’s Project Suncatcher to put ML infrastructure in space: Context, Claims, and Sources",
+  "description": "Google’s Project Suncatcher to put ML infrastructure in space — Learn about Google's Project Suncatcher, how we’re testing hardware survival for space, designing cooling syste… Read the context, source, and verification…",
+  "category": "ai-ml",
+  "type": "trend",
+  "publishedAt": "2026-09-25",
+  "updatedAt": "2026-09-25",
+  "sourceData": {
+    "id": "hn-49830606",
+    "name": "Google’s Project Suncatcher to put ML infrastructure in space",
+    "fullName": "hn:google-s-project-suncatcher-to-put-ml-infrastructure-in-space",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+    "description": "Google’s Project Suncatcher to put ML infrastructure in space",
+    "language": "Various",
+    "stars": 178,
+    "starsGrowth": 178,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-09-24T13:53:29.000Z",
+    "updatedAt": "2026-09-24T13:53:29.000Z",
+    "homepage": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+    "source": "hackernews",
+    "category": "ai-ml"
+  },
+  "relatedSlugs": [
+    "luanti-removed-from-google-play-due-to-baseless-ai-copyrig-49475079",
+    "mercury-2-5-llm-hits-770-tokens-per-second-49823348",
+    "show-hn-a-competition-for-small-neural-networks-that-play-49776523",
+    "how-to-write-with-an-llm-49747070"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Learn about Google's Project Suncatcher, how we’re testing hardware survival for space, designing cooling systems for AI chips, and more.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 178 points, 357 comments, and published 2026-09-24.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Check whether model, dataset, benchmark, cost, and deployment claims link to primary documentation or reproducible results.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Google’s Project Suncatcher to put ML infrastructure in space with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 178</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 357</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-09-25. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 357\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49830606.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 178\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49830606.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> xnx\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49830606.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Discussion text:</strong> https:&amp;#x2F;&amp;#x2F;www.nytimes.com&amp;#x2F;2026&amp;#x2F;09&amp;#x2F;24&amp;#x2F;technology&amp;#x2F;google-suncatc... ( https:&amp;#x2F;&amp;#x2F;archive.ph&amp;#x2F;BGFnP )\n    — <a href=\"https://news.ycombinator.com/item?id=49830606\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 49.8M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49830606.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-09-24\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49830606.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Google’s Project Suncatcher to put ML infrastructure in space\n    — <a href=\"https://news.ycombinator.com/item?id=49830606\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Learn about Google's Project Suncatcher, how we’re testing hardware survival for space, designing cooling systems for AI chips, and more.\n    — <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-09-25 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49830606",
+    "fetchedAt": "2026-09-25T08:55:31.084Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49830606",
+      "https://hacker-news.firebaseio.com/v0/item/49830606.json",
+      "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "357",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49830606.json",
+        "observedAt": "2026-09-25T08:55:31.084Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "178",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49830606.json",
+        "observedAt": "2026-09-25T08:55:31.084Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "xnx",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49830606.json",
+        "observedAt": "2026-09-25T08:55:31.084Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Discussion text",
+        "value": "https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;09&#x2F;24&#x2F;technology&#x2F;google-suncatc... ( https:&#x2F;&#x2F;archive.ph&#x2F;BGFnP )",
+        "url": "https://news.ycombinator.com/item?id=49830606",
+        "observedAt": "2026-09-25T08:55:31.084Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49830606",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49830606.json",
+        "observedAt": "2026-09-25T08:55:31.084Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-09-24T13:53:29.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49830606.json",
+        "observedAt": "2026-09-25T08:55:31.084Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Google’s Project Suncatcher to put ML infrastructure in space",
+        "url": "https://news.ycombinator.com/item?id=49830606",
+        "observedAt": "2026-09-25T08:55:31.084Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Learn about Google's Project Suncatcher, how we’re testing hardware survival for space, designing cooling systems for AI chips, and more.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/",
+        "observedAt": "2026-09-25T08:55:31.084Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 357 (observed 2026-09-25)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49830606.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 178 (observed 2026-09-25)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49830606.json"
+        ]
+      },
+      {
+        "text": "Author: xnx (observed 2026-09-25)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49830606.json"
+        ]
+      },
+      {
+        "text": "Discussion text: https:&#x2F;&#x2F;www.nytimes.com&#x2F;2026&#x2F;09&#x2F;24&#x2F;technology&#x2F;google-suncatc... ( https:&#x2F;&#x2F;archive.ph&#x2F;BGFnP ) (observed 2026-09-25)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49830606"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49830606 (observed 2026-09-25)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49830606.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-09-24T13:53:29.000Z (observed 2026-09-25)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49830606.json"
+        ]
+      },
+      {
+        "text": "Story title: Google’s Project Suncatcher to put ML infrastructure in space (observed 2026-09-25)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49830606"
+        ]
+      },
+      {
+        "text": "Original source summary: Learn about Google's Project Suncatcher, how we’re testing hardware survival for space, designing cooling systems for AI chips, and more. (observed 2026-09-25)",
+        "evidenceUrls": [
+          "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-09-25T08:55:31.084Z"
+    },
+    "generatedAt": "2026-09-25T08:55:31.084Z"
+  },
+  "indexable": true
+}
