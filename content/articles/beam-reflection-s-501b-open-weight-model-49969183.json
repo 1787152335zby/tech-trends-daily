@@ -1,0 +1,156 @@
+{
+  "slug": "beam-reflection-s-501b-open-weight-model-49969183",
+  "title": "Beam: Reflection's 501B open-weight model: Context, Claims, and Sources",
+  "description": "Beam: Reflection's 501B open-weight model — Make intelligence open and accessible to all Read the context, source, and verification questions.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-10-06",
+  "updatedAt": "2026-10-06",
+  "sourceData": {
+    "id": "hn-49969183",
+    "name": "Beam: Reflection's 501B open-weight model",
+    "fullName": "hn:beam-reflection-s-501b-open-weight-model",
+    "url": "https://reflection.ai/blog/introducing-beam",
+    "description": "Beam: Reflection's 501B open-weight model",
+    "language": "Various",
+    "stars": 462,
+    "starsGrowth": 462,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-10-05T19:16:35.000Z",
+    "updatedAt": "2026-10-05T19:16:35.000Z",
+    "homepage": "https://reflection.ai/blog/introducing-beam",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "clef-open-weight-decision-models-and-new-rl-fine-tuning-pl-49923692",
+    "show-hn-a-working-3d-model-of-an-enigma-machine-49896757",
+    "reverse-engineered-jev-like-model-49731282",
+    "show-hn-redis-city-explore-how-redis-works-in-an-interacti-49676425"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Make intelligence open and accessible to all</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 462 points, 148 comments, and published 2026-10-05.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Beam: Reflection's 501B open-weight model with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 462</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 148</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-10-06. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 148\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49969183.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 462\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49969183.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> Philpax\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49969183.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 50.0M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49969183.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-10-05\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49969183.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Beam: Reflection's 501B open-weight model\n    — <a href=\"https://news.ycombinator.com/item?id=49969183\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Make intelligence open and accessible to all\n    — <a href=\"https://reflection.ai/blog/introducing-beam\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-10-06 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49969183",
+    "fetchedAt": "2026-10-06T10:28:17.829Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49969183",
+      "https://hacker-news.firebaseio.com/v0/item/49969183.json",
+      "https://reflection.ai/blog/introducing-beam"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "148",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49969183.json",
+        "observedAt": "2026-10-06T10:28:17.829Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "462",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49969183.json",
+        "observedAt": "2026-10-06T10:28:17.829Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "Philpax",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49969183.json",
+        "observedAt": "2026-10-06T10:28:17.829Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49969183",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49969183.json",
+        "observedAt": "2026-10-06T10:28:17.829Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-10-05T19:16:35.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49969183.json",
+        "observedAt": "2026-10-06T10:28:17.829Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Beam: Reflection's 501B open-weight model",
+        "url": "https://news.ycombinator.com/item?id=49969183",
+        "observedAt": "2026-10-06T10:28:17.829Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Make intelligence open and accessible to all",
+        "url": "https://reflection.ai/blog/introducing-beam",
+        "observedAt": "2026-10-06T10:28:17.829Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 148 (observed 2026-10-06)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49969183.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 462 (observed 2026-10-06)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49969183.json"
+        ]
+      },
+      {
+        "text": "Author: Philpax (observed 2026-10-06)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49969183.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49969183 (observed 2026-10-06)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49969183.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-10-05T19:16:35.000Z (observed 2026-10-06)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49969183.json"
+        ]
+      },
+      {
+        "text": "Story title: Beam: Reflection's 501B open-weight model (observed 2026-10-06)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49969183"
+        ]
+      },
+      {
+        "text": "Original source summary: Make intelligence open and accessible to all (observed 2026-10-06)",
+        "evidenceUrls": [
+          "https://reflection.ai/blog/introducing-beam"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-10-06T10:28:17.829Z"
+    },
+    "generatedAt": "2026-10-06T10:28:17.829Z"
+  },
+  "indexable": true
+}
