@@ -36,7 +36,7 @@
     "vue",
     "react-native",
     "svelte",
-    "cheerio"
+    "zustand"
   ],
   "tags": [
     "build-tool",

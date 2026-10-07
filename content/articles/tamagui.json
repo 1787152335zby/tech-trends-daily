@@ -5,7 +5,7 @@
   "category": "tools",
   "type": "trend",
   "publishedAt": "2026-06-27",
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-07",
   "sourceData": {
     "id": "npm-tamagui",
     "name": "tamagui",
@@ -13,14 +13,14 @@
     "url": "https://www.npmjs.com/package/tamagui",
     "description": "Style and UI for React (web and native) meet an optimizing compiler",
     "language": "JavaScript/TypeScript",
-    "stars": 14213,
-    "starsGrowth": 221370,
+    "stars": 14216,
+    "starsGrowth": 227058,
     "forks": 617,
-    "openIssues": 101,
+    "openIssues": 90,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-10-06T10:28:10.476Z",
-    "updatedAt": "2026-10-06T10:28:10.476Z",
+    "createdAt": "2026-10-07T10:22:49.976Z",
+    "updatedAt": "2026-10-07T10:22:49.976Z",
     "homepage": "https://github.com/tamagui/tamagui#readme",
     "source": "npm",
     "category": "tools"
@@ -32,10 +32,10 @@
     "remix"
   ],
   "tags": [],
-  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Tamagui: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>Style and UI for React (web and native) meet an optimizing compiler</p>\n<p>Shortlist Tamagui only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Tamagui is most relevant to developers working with JavaScript/TypeScript. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing tamagui in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 221.4K weekly downloads, version 2.7.7, and released 2026-08-15.</p>\n<p>The current package metadata lists 63 direct dependencies.</p>\n<p>The registry lists 2 maintainers.</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>Tamagui is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install tamagui</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 221.4k</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 14.2k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 617</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-10-04. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Official package summary:</strong> Style and UI for React (web and native) meet an optimizing compiler\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 2\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-10-04\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 63\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> tamagui\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-09-25 to 2026-10-01\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 221.4k\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 2.7.7\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-08-15\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>The npm registry did not report a package license.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-10-06 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Tamagui: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>Style and UI for React (web and native) meet an optimizing compiler</p>\n<p>Shortlist Tamagui only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Tamagui is most relevant to developers working with JavaScript/TypeScript. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing tamagui in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 227.1K weekly downloads, version 2.7.7, and released 2026-08-15.</p>\n<p>The current package metadata lists 63 direct dependencies.</p>\n<p>The registry lists 2 maintainers.</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>Tamagui is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install tamagui</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 227.1k</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 14.2k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 617</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-10-07. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Official package summary:</strong> Style and UI for React (web and native) meet an optimizing compiler\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 2\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-10-07\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 63\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> tamagui\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-09-28 to 2026-10-04\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 227.1k\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 2.7.7\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-08-15\n    — <a href=\"https://registry.npmjs.org/tamagui\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>The npm registry did not report a package license.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-10-07 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
   "evidence": {
     "sourceId": "npm-tamagui",
-    "fetchedAt": "2026-10-04T09:54:22.881Z",
+    "fetchedAt": "2026-10-07T10:23:10.639Z",
     "score": 100,
     "officialUrls": [
       "https://www.npmjs.com/package/tamagui",
@@ -49,63 +49,63 @@
         "label": "Official package summary",
         "value": "Style and UI for React (web and native) meet an optimizing compiler",
         "url": "https://registry.npmjs.org/tamagui",
-        "observedAt": "2026-10-04T09:54:22.881Z",
+        "observedAt": "2026-10-07T10:23:10.639Z",
         "kind": "documentation"
       },
       {
         "label": "Maintainers listed",
         "value": "2",
         "url": "https://registry.npmjs.org/tamagui",
-        "observedAt": "2026-10-04T09:54:22.881Z",
+        "observedAt": "2026-10-07T10:23:10.639Z",
         "kind": "maintenance"
       },
       {
         "label": "Registry modified",
-        "value": "2026-10-04T04:47:55.487Z",
+        "value": "2026-10-07T08:35:42.293Z",
         "url": "https://registry.npmjs.org/tamagui",
-        "observedAt": "2026-10-04T09:54:22.881Z",
+        "observedAt": "2026-10-07T10:23:10.639Z",
         "kind": "maintenance"
       },
       {
         "label": "Direct dependencies",
         "value": "63",
         "url": "https://registry.npmjs.org/tamagui",
-        "observedAt": "2026-10-04T09:54:22.881Z",
+        "observedAt": "2026-10-07T10:23:10.639Z",
         "kind": "package-metadata"
       },
       {
         "label": "Package",
         "value": "tamagui",
         "url": "https://registry.npmjs.org/tamagui",
-        "observedAt": "2026-10-04T09:54:22.881Z",
+        "observedAt": "2026-10-07T10:23:10.639Z",
         "kind": "registry"
       },
       {
         "label": "Download window",
-        "value": "2026-09-25 to 2026-10-01",
+        "value": "2026-09-28 to 2026-10-04",
         "url": "https://api.npmjs.org/downloads/point/last-week/tamagui",
-        "observedAt": "2026-10-04T09:54:22.881Z",
+        "observedAt": "2026-10-07T10:23:10.639Z",
         "kind": "registry-metric"
       },
       {
         "label": "Weekly downloads",
-        "value": "221370",
+        "value": "227058",
         "url": "https://api.npmjs.org/downloads/point/last-week/tamagui",
-        "observedAt": "2026-10-04T09:54:22.881Z",
+        "observedAt": "2026-10-07T10:23:10.639Z",
         "kind": "registry-metric"
       },
       {
         "label": "Latest version",
         "value": "2.7.7",
         "url": "https://registry.npmjs.org/tamagui",
-        "observedAt": "2026-10-04T09:54:22.881Z",
+        "observedAt": "2026-10-07T10:23:10.639Z",
         "kind": "release"
       },
       {
         "label": "Latest version published",
         "value": "2026-08-15T00:25:22.995Z",
         "url": "https://registry.npmjs.org/tamagui",
-        "observedAt": "2026-10-04T09:54:22.881Z",
+        "observedAt": "2026-10-07T10:23:10.639Z",
         "kind": "release"
       }
     ],
@@ -119,55 +119,55 @@
     "qualityScore": 92,
     "claims": [
       {
-        "text": "Official package summary: Style and UI for React (web and native) meet an optimizing compiler (observed 2026-10-04)",
+        "text": "Official package summary: Style and UI for React (web and native) meet an optimizing compiler (observed 2026-10-07)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tamagui"
         ]
       },
       {
-        "text": "Maintainers listed: 2 (observed 2026-10-04)",
+        "text": "Maintainers listed: 2 (observed 2026-10-07)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tamagui"
         ]
       },
       {
-        "text": "Registry modified: 2026-10-04T04:47:55.487Z (observed 2026-10-04)",
+        "text": "Registry modified: 2026-10-07T08:35:42.293Z (observed 2026-10-07)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tamagui"
         ]
       },
       {
-        "text": "Direct dependencies: 63 (observed 2026-10-04)",
+        "text": "Direct dependencies: 63 (observed 2026-10-07)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tamagui"
         ]
       },
       {
-        "text": "Package: tamagui (observed 2026-10-04)",
+        "text": "Package: tamagui (observed 2026-10-07)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tamagui"
         ]
       },
       {
-        "text": "Download window: 2026-09-25 to 2026-10-01 (observed 2026-10-04)",
+        "text": "Download window: 2026-09-28 to 2026-10-04 (observed 2026-10-07)",
         "evidenceUrls": [
           "https://api.npmjs.org/downloads/point/last-week/tamagui"
         ]
       },
       {
-        "text": "Weekly downloads: 221370 (observed 2026-10-04)",
+        "text": "Weekly downloads: 227058 (observed 2026-10-07)",
         "evidenceUrls": [
           "https://api.npmjs.org/downloads/point/last-week/tamagui"
         ]
       },
       {
-        "text": "Latest version: 2.7.7 (observed 2026-10-04)",
+        "text": "Latest version: 2.7.7 (observed 2026-10-07)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tamagui"
         ]
       },
       {
-        "text": "Latest version published: 2026-08-15T00:25:22.995Z (observed 2026-10-04)",
+        "text": "Latest version published: 2026-08-15T00:25:22.995Z (observed 2026-10-07)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tamagui"
         ]
@@ -176,9 +176,9 @@
     "review": {
       "status": "not-configured",
       "issues": [],
-      "reviewedAt": "2026-10-04T09:54:22.881Z"
+      "reviewedAt": "2026-10-07T10:23:10.639Z"
     },
-    "generatedAt": "2026-10-04T09:54:22.881Z"
+    "generatedAt": "2026-10-07T10:23:10.639Z"
   },
   "indexable": true
 }
