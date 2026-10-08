@@ -1,0 +1,156 @@
+{
+  "slug": "margaret-hamilton-has-died-49998895",
+  "title": "Margaret Hamilton has died: Context, Claims, and Sources",
+  "description": "Margaret Hamilton has died — Margaret H. Hamilton, a profoundly influential computer scientist best known for leading the software engineeri… Read the context, source, and verification questions.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "sourceData": {
+    "id": "hn-49998895",
+    "name": "Margaret Hamilton has died",
+    "fullName": "hn:margaret-hamilton-has-died",
+    "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+    "description": "Margaret Hamilton has died",
+    "language": "Various",
+    "stars": 1578,
+    "starsGrowth": 1578,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-10-07T21:16:18.000Z",
+    "updatedAt": "2026-10-07T21:16:18.000Z",
+    "homepage": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "livenerf-has-opus-5-5-been-nerfed-yet-49901736",
+    "microsoft-tried-to-ban-microslop-and-six-months-later-it-h-49827616",
+    "protobuf-has-lsp-support-you-re-welcome-49322573",
+    "stateless-mcp-has-recaptured-my-interest-49131438"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Margaret H. Hamilton, a profoundly influential computer scientist best known for leading the software engineering team at MIT’s Instrumentation Lab during NASA’s Apollo program, died at age 90.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 1.6K points, 166 comments, and published 2026-10-07.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Margaret Hamilton has died with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 1.6k</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 166</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-10-08. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 166\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49998895.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 1.6k\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49998895.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> muglug\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49998895.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 50.0M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49998895.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-10-07\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/49998895.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Margaret Hamilton has died\n    — <a href=\"https://news.ycombinator.com/item?id=49998895\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Margaret H. Hamilton, a profoundly influential computer scientist best known for leading the software engineering team at MIT’s Instrumentation Lab during NASA’s Apollo program, died at age 90.\n    — <a href=\"https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-10-08 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-49998895",
+    "fetchedAt": "2026-10-08T10:42:47.380Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=49998895",
+      "https://hacker-news.firebaseio.com/v0/item/49998895.json",
+      "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "166",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49998895.json",
+        "observedAt": "2026-10-08T10:42:47.380Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "1578",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49998895.json",
+        "observedAt": "2026-10-08T10:42:47.380Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "muglug",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49998895.json",
+        "observedAt": "2026-10-08T10:42:47.380Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "49998895",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49998895.json",
+        "observedAt": "2026-10-08T10:42:47.380Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-10-07T21:16:18.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/49998895.json",
+        "observedAt": "2026-10-08T10:42:47.380Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Margaret Hamilton has died",
+        "url": "https://news.ycombinator.com/item?id=49998895",
+        "observedAt": "2026-10-08T10:42:47.380Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Margaret H. Hamilton, a profoundly influential computer scientist best known for leading the software engineering team at MIT’s Instrumentation Lab during NASA’s Apollo program, died at age 90.",
+        "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+        "observedAt": "2026-10-08T10:42:47.380Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 166 (observed 2026-10-08)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49998895.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 1578 (observed 2026-10-08)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49998895.json"
+        ]
+      },
+      {
+        "text": "Author: muglug (observed 2026-10-08)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49998895.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 49998895 (observed 2026-10-08)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49998895.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-10-07T21:16:18.000Z (observed 2026-10-08)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/49998895.json"
+        ]
+      },
+      {
+        "text": "Story title: Margaret Hamilton has died (observed 2026-10-08)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=49998895"
+        ]
+      },
+      {
+        "text": "Original source summary: Margaret H. Hamilton, a profoundly influential computer scientist best known for leading the software engineering team at MIT’s Instrumentation Lab during NASA’s Apollo program, died at age 90. (observed 2026-10-08)",
+        "evidenceUrls": [
+          "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-10-08T10:42:47.380Z"
+    },
+    "generatedAt": "2026-10-08T10:42:47.380Z"
+  },
+  "indexable": true
+}
