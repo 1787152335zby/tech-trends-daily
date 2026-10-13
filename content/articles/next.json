@@ -40,7 +40,7 @@
     "vite",
     "vue",
     "storybook",
-    "react-native"
+    "svelte"
   ],
   "tags": [
     "react",
