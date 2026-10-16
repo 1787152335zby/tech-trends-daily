@@ -1,0 +1,169 @@
+{
+  "slug": "muse-spark-open-50107379",
+  "title": "Muse Spark Open: Context, Claims, and Sources",
+  "description": "Muse Spark Open — Muse Spark Open is the most capable US open-weight model to date, and brings leading agentic capabilities to yo… Read the context, source, and verification questions.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-10-16",
+  "updatedAt": "2026-10-16",
+  "sourceData": {
+    "id": "hn-50107379",
+    "name": "Muse Spark Open",
+    "fullName": "hn:muse-spark-open",
+    "url": "https://research.meta.ai/blog/muse-spark-open",
+    "description": "Muse Spark Open",
+    "language": "Various",
+    "stars": 785,
+    "starsGrowth": 785,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-10-15T17:47:39.000Z",
+    "updatedAt": "2026-10-15T17:47:39.000Z",
+    "homepage": "https://research.meta.ai/blog/muse-spark-open",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "show-hn-nixos-dgx-spark-nix-and-nixos-on-the-dgx-spark-49146267",
+    "any-window-from-your-mac-on-your-iphone-and-ipad-50112739",
+    "apple-routed-a-graphite-pipe-through-the-iphone-duo-s-hing-50068203",
+    "comparing-chromium-development-at-google-and-igalia-50112887"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Muse Spark Open is the most capable US open-weight model to date, and brings leading agentic capabilities to your desktop on Apple M5 Ultra Mac Studios.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 785 points, 393 comments, and published 2026-10-15.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Muse Spark Open with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 785</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 393</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-10-16. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 393\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50107379.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 785\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50107379.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> bigwheels\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50107379.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Discussion text:</strong> https:&amp;#x2F;&amp;#x2F;dev.meta.ai&amp;#x2F;resources&amp;#x2F;blog&amp;#x2F;build-with-muse-spark-ope... https:&amp;#x2F;&amp;#x2F;huggingface.co&amp;#x2F;meta-models&amp;#x2F;Muse-Spark-Open-816B-A42B https:&amp;#x2F;&amp;#x2F;9to5mac.com&amp;#x2F;2026&amp;#x2F;10&amp;#x2F;15&amp;#x2F;meta-launches-new-muse-spark-...\n    — <a href=\"https://news.ycombinator.com/item?id=50107379\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 50.1M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50107379.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-10-15\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50107379.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Muse Spark Open\n    — <a href=\"https://news.ycombinator.com/item?id=50107379\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Muse Spark Open is the most capable US open-weight model to date, and brings leading agentic capabilities to your desktop on Apple M5 Ultra Mac Studios.\n    — <a href=\"https://research.meta.ai/blog/muse-spark-open\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-10-16 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-50107379",
+    "fetchedAt": "2026-10-16T08:17:30.264Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=50107379",
+      "https://hacker-news.firebaseio.com/v0/item/50107379.json",
+      "https://research.meta.ai/blog/muse-spark-open"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "393",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50107379.json",
+        "observedAt": "2026-10-16T08:17:30.264Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "785",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50107379.json",
+        "observedAt": "2026-10-16T08:17:30.264Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "bigwheels",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50107379.json",
+        "observedAt": "2026-10-16T08:17:30.264Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Discussion text",
+        "value": "https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-ope... https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-...",
+        "url": "https://news.ycombinator.com/item?id=50107379",
+        "observedAt": "2026-10-16T08:17:30.264Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "50107379",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50107379.json",
+        "observedAt": "2026-10-16T08:17:30.264Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-10-15T17:47:39.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50107379.json",
+        "observedAt": "2026-10-16T08:17:30.264Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Muse Spark Open",
+        "url": "https://news.ycombinator.com/item?id=50107379",
+        "observedAt": "2026-10-16T08:17:30.264Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Muse Spark Open is the most capable US open-weight model to date, and brings leading agentic capabilities to your desktop on Apple M5 Ultra Mac Studios.",
+        "url": "https://research.meta.ai/blog/muse-spark-open",
+        "observedAt": "2026-10-16T08:17:30.264Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 393 (observed 2026-10-16)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50107379.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 785 (observed 2026-10-16)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50107379.json"
+        ]
+      },
+      {
+        "text": "Author: bigwheels (observed 2026-10-16)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50107379.json"
+        ]
+      },
+      {
+        "text": "Discussion text: https:&#x2F;&#x2F;dev.meta.ai&#x2F;resources&#x2F;blog&#x2F;build-with-muse-spark-ope... https:&#x2F;&#x2F;huggingface.co&#x2F;meta-models&#x2F;Muse-Spark-Open-816B-A42B https:&#x2F;&#x2F;9to5mac.com&#x2F;2026&#x2F;10&#x2F;15&#x2F;meta-launches-new-muse-spark-... (observed 2026-10-16)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=50107379"
+        ]
+      },
+      {
+        "text": "Hacker News item: 50107379 (observed 2026-10-16)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50107379.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-10-15T17:47:39.000Z (observed 2026-10-16)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50107379.json"
+        ]
+      },
+      {
+        "text": "Story title: Muse Spark Open (observed 2026-10-16)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=50107379"
+        ]
+      },
+      {
+        "text": "Original source summary: Muse Spark Open is the most capable US open-weight model to date, and brings leading agentic capabilities to your desktop on Apple M5 Ultra Mac Studios. (observed 2026-10-16)",
+        "evidenceUrls": [
+          "https://research.meta.ai/blog/muse-spark-open"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-10-16T08:17:30.264Z"
+    },
+    "generatedAt": "2026-10-16T08:17:30.264Z"
+  },
+  "indexable": true
+}
