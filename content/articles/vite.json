@@ -34,9 +34,9 @@
   },
   "relatedSlugs": [
     "vue",
-    "svelte",
     "react-native",
-    "zustand"
+    "svelte",
+    "lucide-react"
   ],
   "tags": [
     "build-tool",
