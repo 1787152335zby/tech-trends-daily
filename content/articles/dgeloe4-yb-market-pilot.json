@@ -35,7 +35,7 @@
     "kritt-ai-open-kritt",
     "zustand",
     "jotai",
-    "valtio"
+    "urql"
   ],
   "tags": [
     "ai-product-management",
