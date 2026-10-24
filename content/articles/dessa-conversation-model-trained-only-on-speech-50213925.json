@@ -1,0 +1,156 @@
+{
+  "slug": "dessa-conversation-model-trained-only-on-speech-50213925",
+  "title": "Dessa: Conversation Model trained only on speech: Context, Claims, and Sources",
+  "description": "Dessa: Conversation Model trained only on speech — You learned to talk by listening. So did Dessa. A research preview of a full-duplex speech model. Read the context, source, and verification questions.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "sourceData": {
+    "id": "hn-50213925",
+    "name": "Dessa: Conversation Model trained only on speech",
+    "fullName": "hn:dessa-conversation-model-trained-only-on-speech",
+    "url": "https://block.xyz/dessa",
+    "description": "Dessa: Conversation Model trained only on speech",
+    "language": "Various",
+    "stars": 369,
+    "starsGrowth": 369,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-10-23T19:09:54.000Z",
+    "updatedAt": "2026-10-23T19:09:54.000Z",
+    "homepage": "https://block.xyz/dessa",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "launch-hn-laminar-yc-s24-rl-trained-model-that-finds-error-50154029",
+    "build-your-own-decision-model-50037949",
+    "whistle-speech-to-text-in-16-9-mb-50008427",
+    "beam-reflection-s-501b-open-weight-model-49969183"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>You learned to talk by listening. So did Dessa. A research preview of a full-duplex speech model.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 369 points, 134 comments, and published 2026-10-23.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Dessa: Conversation Model trained only on speech with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 369</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 134</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-10-24. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 134\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50213925.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 369\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50213925.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> dsr12\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50213925.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 50.2M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50213925.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-10-23\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50213925.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Dessa: Conversation Model trained only on speech\n    — <a href=\"https://news.ycombinator.com/item?id=50213925\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> You learned to talk by listening. So did Dessa. A research preview of a full-duplex speech model.\n    — <a href=\"https://block.xyz/dessa\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-10-24 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-50213925",
+    "fetchedAt": "2026-10-24T08:14:31.840Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=50213925",
+      "https://hacker-news.firebaseio.com/v0/item/50213925.json",
+      "https://block.xyz/dessa"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "134",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50213925.json",
+        "observedAt": "2026-10-24T08:14:31.840Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "369",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50213925.json",
+        "observedAt": "2026-10-24T08:14:31.840Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "dsr12",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50213925.json",
+        "observedAt": "2026-10-24T08:14:31.840Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "50213925",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50213925.json",
+        "observedAt": "2026-10-24T08:14:31.840Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-10-23T19:09:54.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50213925.json",
+        "observedAt": "2026-10-24T08:14:31.840Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Dessa: Conversation Model trained only on speech",
+        "url": "https://news.ycombinator.com/item?id=50213925",
+        "observedAt": "2026-10-24T08:14:31.840Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "You learned to talk by listening. So did Dessa. A research preview of a full-duplex speech model.",
+        "url": "https://block.xyz/dessa",
+        "observedAt": "2026-10-24T08:14:31.840Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 134 (observed 2026-10-24)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50213925.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 369 (observed 2026-10-24)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50213925.json"
+        ]
+      },
+      {
+        "text": "Author: dsr12 (observed 2026-10-24)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50213925.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 50213925 (observed 2026-10-24)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50213925.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-10-23T19:09:54.000Z (observed 2026-10-24)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50213925.json"
+        ]
+      },
+      {
+        "text": "Story title: Dessa: Conversation Model trained only on speech (observed 2026-10-24)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=50213925"
+        ]
+      },
+      {
+        "text": "Original source summary: You learned to talk by listening. So did Dessa. A research preview of a full-duplex speech model. (observed 2026-10-24)",
+        "evidenceUrls": [
+          "https://block.xyz/dessa"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-10-24T08:14:31.840Z"
+    },
+    "generatedAt": "2026-10-24T08:14:31.840Z"
+  },
+  "indexable": true
+}
