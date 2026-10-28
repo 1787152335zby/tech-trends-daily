@@ -1,0 +1,156 @@
+{
+  "slug": "survival-llm-ai-assistant-and-emergency-library-that-runs-50264853",
+  "title": "Survival LLM: AI assistant and emergency library that runs on your own computer: Context, Claims, and Sources",
+  "description": "Survival LLM: AI assistant and emergency library that runs on your own computer — A free, open-source AI assistant and survival library that runs on your own computer and works with no internet. Read the context, source…",
+  "category": "ai-ml",
+  "type": "trend",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "sourceData": {
+    "id": "hn-50264853",
+    "name": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+    "fullName": "hn:survival-llm-ai-assistant-and-emergency-library-that-runs-on-your-own-computer",
+    "url": "https://www.brangus.io/survival-llm",
+    "description": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+    "language": "Various",
+    "stars": 342,
+    "starsGrowth": 342,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-10-27T19:55:06.000Z",
+    "updatedAt": "2026-10-27T19:55:06.000Z",
+    "homepage": "https://www.brangus.io/survival-llm",
+    "source": "hackernews",
+    "category": "ai-ml"
+  },
+  "relatedSlugs": [
+    "hybrid-reasoning-agents-llm-agents-that-think-in-latent-sp-50145337",
+    "show-hn-llmspeed-feel-how-fast-a-local-llm-runs-before-you-50127979",
+    "why-your-local-llm-feels-dumber-than-it-is-49402232",
+    "the-gap-in-shared-understanding-of-llm-capability-is-widen-50047422"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>A free, open-source AI assistant and survival library that runs on your own computer and works with no internet.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 342 points, 140 comments, and published 2026-10-27.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Check whether model, dataset, benchmark, cost, and deployment claims link to primary documentation or reproducible results.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Survival LLM: AI assistant and emergency library that runs on your own computer with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 342</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 140</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-10-28. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 140\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50264853.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 342\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50264853.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> Luc\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50264853.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 50.3M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50264853.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-10-27\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50264853.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Survival LLM: AI assistant and emergency library that runs on your own computer\n    — <a href=\"https://news.ycombinator.com/item?id=50264853\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> A free, open-source AI assistant and survival library that runs on your own computer and works with no internet.\n    — <a href=\"https://www.brangus.io/survival-llm\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-10-28 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-50264853",
+    "fetchedAt": "2026-10-28T09:48:30.764Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=50264853",
+      "https://hacker-news.firebaseio.com/v0/item/50264853.json",
+      "https://www.brangus.io/survival-llm"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "140",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50264853.json",
+        "observedAt": "2026-10-28T09:48:30.764Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "342",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50264853.json",
+        "observedAt": "2026-10-28T09:48:30.764Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "Luc",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50264853.json",
+        "observedAt": "2026-10-28T09:48:30.764Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "50264853",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50264853.json",
+        "observedAt": "2026-10-28T09:48:30.764Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-10-27T19:55:06.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50264853.json",
+        "observedAt": "2026-10-28T09:48:30.764Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+        "url": "https://news.ycombinator.com/item?id=50264853",
+        "observedAt": "2026-10-28T09:48:30.764Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "A free, open-source AI assistant and survival library that runs on your own computer and works with no internet.",
+        "url": "https://www.brangus.io/survival-llm",
+        "observedAt": "2026-10-28T09:48:30.764Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 140 (observed 2026-10-28)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50264853.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 342 (observed 2026-10-28)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50264853.json"
+        ]
+      },
+      {
+        "text": "Author: Luc (observed 2026-10-28)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50264853.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 50264853 (observed 2026-10-28)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50264853.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-10-27T19:55:06.000Z (observed 2026-10-28)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50264853.json"
+        ]
+      },
+      {
+        "text": "Story title: Survival LLM: AI assistant and emergency library that runs on your own computer (observed 2026-10-28)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=50264853"
+        ]
+      },
+      {
+        "text": "Original source summary: A free, open-source AI assistant and survival library that runs on your own computer and works with no internet. (observed 2026-10-28)",
+        "evidenceUrls": [
+          "https://www.brangus.io/survival-llm"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-10-28T09:48:30.764Z"
+    },
+    "generatedAt": "2026-10-28T09:48:30.764Z"
+  },
+  "indexable": true
+}
