@@ -32,7 +32,7 @@
     "dayjs",
     "turbo",
     "astro",
-    "nuxt"
+    "tamagui"
   ],
   "tags": [
     "date",
