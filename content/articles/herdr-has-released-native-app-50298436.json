@@ -1,0 +1,156 @@
+{
+  "slug": "herdr-has-released-native-app-50298436",
+  "title": "Herdr has released native app: Context, Claims, and Sources",
+  "description": "Herdr has released native app — herdr desktop app. Contribute to herdrdev/herdr-app development by creating an account on GitHub. Read the context, source, and verification questions.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "sourceData": {
+    "id": "hn-50298436",
+    "name": "Herdr has released native app",
+    "fullName": "hn:herdr-has-released-native-app",
+    "url": "https://github.com/herdrdev/herdr-app",
+    "description": "Herdr has released native app",
+    "language": "Various",
+    "stars": 206,
+    "starsGrowth": 206,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-10-30T00:42:41.000Z",
+    "updatedAt": "2026-10-30T00:42:41.000Z",
+    "homepage": "https://github.com/herdrdev/herdr-app",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "microsoft-tried-to-ban-microslop-and-six-months-later-it-h-49827616",
+    "protobuf-has-lsp-support-you-re-welcome-49322573",
+    "stateless-mcp-has-recaptured-my-interest-49131438",
+    "we-re-releasing-the-weights-of-mistral-large-4-50289418"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>herdr desktop app. Contribute to herdrdev/herdr-app development by creating an account on GitHub.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 206 points, 127 comments, and published 2026-10-30.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Herdr has released native app with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 206</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 127</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-10-30. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 127\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50298436.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 206\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50298436.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> cherioo\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50298436.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 50.3M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50298436.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-10-30\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50298436.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Herdr has released native app\n    — <a href=\"https://news.ycombinator.com/item?id=50298436\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> herdr desktop app. Contribute to herdrdev/herdr-app development by creating an account on GitHub.\n    — <a href=\"https://github.com/herdrdev/herdr-app\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-10-30 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-50298436",
+    "fetchedAt": "2026-10-30T10:09:56.347Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=50298436",
+      "https://hacker-news.firebaseio.com/v0/item/50298436.json",
+      "https://github.com/herdrdev/herdr-app"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "127",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50298436.json",
+        "observedAt": "2026-10-30T10:09:56.347Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "206",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50298436.json",
+        "observedAt": "2026-10-30T10:09:56.347Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "cherioo",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50298436.json",
+        "observedAt": "2026-10-30T10:09:56.347Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "50298436",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50298436.json",
+        "observedAt": "2026-10-30T10:09:56.347Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-10-30T00:42:41.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50298436.json",
+        "observedAt": "2026-10-30T10:09:56.347Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Herdr has released native app",
+        "url": "https://news.ycombinator.com/item?id=50298436",
+        "observedAt": "2026-10-30T10:09:56.347Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "herdr desktop app. Contribute to herdrdev/herdr-app development by creating an account on GitHub.",
+        "url": "https://github.com/herdrdev/herdr-app",
+        "observedAt": "2026-10-30T10:09:56.347Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 127 (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50298436.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 206 (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50298436.json"
+        ]
+      },
+      {
+        "text": "Author: cherioo (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50298436.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 50298436 (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50298436.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-10-30T00:42:41.000Z (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50298436.json"
+        ]
+      },
+      {
+        "text": "Story title: Herdr has released native app (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=50298436"
+        ]
+      },
+      {
+        "text": "Original source summary: herdr desktop app. Contribute to herdrdev/herdr-app development by creating an account on GitHub. (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://github.com/herdrdev/herdr-app"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-10-30T10:09:56.347Z"
+    },
+    "generatedAt": "2026-10-30T10:09:56.347Z"
+  },
+  "indexable": true
+}

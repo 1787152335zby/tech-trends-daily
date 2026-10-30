@@ -1,0 +1,156 @@
+{
+  "slug": "a-tiny-world-model-running-games-on-a-raspberry-pi-pico-2-50295450",
+  "title": "A tiny world model running games on a Raspberry Pi Pico 2 W: Context, Claims, and Sources",
+  "description": "A tiny world model running games on a Raspberry Pi Pico 2 W — Tiny world model generates games and stream ac plays them all on Pico 2W - SheepSeb/tinyworldformer Read the context, source, and verification questions.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "sourceData": {
+    "id": "hn-50295450",
+    "name": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+    "fullName": "hn:a-tiny-world-model-running-games-on-a-raspberry-pi-pico-2-w",
+    "url": "https://github.com/SheepSeb/tinyworldformer",
+    "description": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+    "language": "Various",
+    "stars": 213,
+    "starsGrowth": 213,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-10-29T20:32:28.000Z",
+    "updatedAt": "2026-10-29T20:32:28.000Z",
+    "homepage": "https://github.com/SheepSeb/tinyworldformer",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "claude-code-regularly-sends-each-background-agent-s-transc-50284255",
+    "moxnox-1-0-nt-like-posix-compatible-os-running-atop-btrfs-50267569",
+    "microsoft-decision-1-9b-qwen-model-launch-explained-50238620",
+    "canadians-are-running-out-of-time-to-oppose-bill-c-22-50202114"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Tiny world model generates games and stream ac plays them all on Pico 2W - SheepSeb/tinyworldformer</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 213 points, 15 comments, and published 2026-10-29.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing A tiny world model running games on a Raspberry Pi Pico 2 W with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 213</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 15</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-10-30. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 15\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50295450.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 213\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50295450.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> airinei\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50295450.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 50.3M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50295450.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-10-29\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50295450.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> A tiny world model running games on a Raspberry Pi Pico 2 W\n    — <a href=\"https://news.ycombinator.com/item?id=50295450\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Tiny world model generates games and stream ac plays them all on Pico 2W - SheepSeb/tinyworldformer\n    — <a href=\"https://github.com/SheepSeb/tinyworldformer\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-10-30 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-50295450",
+    "fetchedAt": "2026-10-30T10:09:55.935Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=50295450",
+      "https://hacker-news.firebaseio.com/v0/item/50295450.json",
+      "https://github.com/SheepSeb/tinyworldformer"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "15",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50295450.json",
+        "observedAt": "2026-10-30T10:09:55.935Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "213",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50295450.json",
+        "observedAt": "2026-10-30T10:09:55.935Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "airinei",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50295450.json",
+        "observedAt": "2026-10-30T10:09:55.935Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "50295450",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50295450.json",
+        "observedAt": "2026-10-30T10:09:55.935Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-10-29T20:32:28.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50295450.json",
+        "observedAt": "2026-10-30T10:09:55.935Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+        "url": "https://news.ycombinator.com/item?id=50295450",
+        "observedAt": "2026-10-30T10:09:55.935Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Tiny world model generates games and stream ac plays them all on Pico 2W - SheepSeb/tinyworldformer",
+        "url": "https://github.com/SheepSeb/tinyworldformer",
+        "observedAt": "2026-10-30T10:09:55.935Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 15 (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50295450.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 213 (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50295450.json"
+        ]
+      },
+      {
+        "text": "Author: airinei (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50295450.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 50295450 (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50295450.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-10-29T20:32:28.000Z (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50295450.json"
+        ]
+      },
+      {
+        "text": "Story title: A tiny world model running games on a Raspberry Pi Pico 2 W (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=50295450"
+        ]
+      },
+      {
+        "text": "Original source summary: Tiny world model generates games and stream ac plays them all on Pico 2W - SheepSeb/tinyworldformer (observed 2026-10-30)",
+        "evidenceUrls": [
+          "https://github.com/SheepSeb/tinyworldformer"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-10-30T10:09:55.935Z"
+    },
+    "generatedAt": "2026-10-30T10:09:55.935Z"
+  },
+  "indexable": true
+}
