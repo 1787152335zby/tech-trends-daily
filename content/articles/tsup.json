@@ -5,7 +5,7 @@
   "category": "tools",
   "type": "trend",
   "publishedAt": "2026-06-27",
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-10-31",
   "sourceData": {
     "id": "npm-tsup",
     "name": "tsup",
@@ -14,13 +14,13 @@
     "description": "Bundle your TypeScript library with no config, powered by esbuild",
     "language": "JavaScript/TypeScript",
     "stars": 11298,
-    "starsGrowth": 9496888,
+    "starsGrowth": 13024084,
     "forks": 275,
     "openIssues": 399,
     "topics": [],
     "license": "MIT",
-    "createdAt": "2026-10-30T10:09:30.438Z",
-    "updatedAt": "2026-10-30T10:09:30.438Z",
+    "createdAt": "2026-10-31T09:45:41.949Z",
+    "updatedAt": "2026-10-31T09:45:41.949Z",
     "homepage": "https://tsup.egoist.dev/",
     "source": "npm",
     "category": "tools"
@@ -32,10 +32,10 @@
     "turbo"
   ],
   "tags": [],
-  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Tsup: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>Bundle your TypeScript library with no config, powered by esbuild</p>\n<p>Shortlist Tsup only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Tsup is most relevant to developers working with JavaScript/TypeScript. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing tsup in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 9.5M weekly downloads, version 8.5.1, and released 2025-11-12.</p>\n<p>The recorded Node.js requirement is &gt;=18.</p>\n<p>The current package metadata lists 17 direct dependencies.</p>\n<p>The registry lists 2 maintainers.</p>\n<p>The source reports the MIT license.</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>Tsup is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install tsup</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 9.5M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 11.3k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 275</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-10-13. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> &gt;=18\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Official package summary:</strong> Bundle your TypeScript library with no config, powered by esbuild\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 2\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2025-11-12\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 17\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> tsup\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-10-05 to 2026-10-11\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 9.5M\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 8.5.1\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2025-11-12\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-10-30 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "bodyHtml": "<p class=\"article-dek\"><strong>A decision guide to Tsup: what it is for, when it fits, how to start, and which compatibility or maintenance details deserve a closer look.</strong></p>\n<h2>Quick verdict</h2>\n<p>Bundle your TypeScript library with no config, powered by esbuild</p>\n<p>Shortlist Tsup only if its documented purpose matches your use case; the source signals below are context, not an endorsement.</p>\n<h2>Best fit — and when to skip it</h2>\n<p>Tsup is most relevant to developers working with JavaScript/TypeScript. It belongs on a shortlist when that stated purpose matches a concrete requirement.</p>\n<p>Skip or postpone it when the documented runtime, license, dependency footprint, or maintenance model conflicts with your project. Popularity alone is not a reason to migrate.</p>\n<h2>Setup and first checks</h2>\n<p>Confirm the exact package name, current version, runtime requirement, dependencies, provenance, and release notes before installing tsup in a production project. Start in a disposable example and exercise the use case you actually need.</p>\n<h2>Maintenance and risk signals</h2>\n<p>The collected source record shows 13M weekly downloads, version 9.0.0, and released 2026-10-14.</p>\n<p>The recorded Node.js requirement is ^22.18.0 || ^24.11.0 || &gt;=26.0.0.</p>\n<p>The current package metadata lists 17 direct dependencies.</p>\n<p>The registry lists 2 maintainers.</p>\n<p>The source reports the MIT license.</p>\n<p>Registry downloads include automated requests and are not unique users, satisfaction, or proof of quality.</p>\n<h2>Bottom line</h2>\n<p>Tsup is worth a closer look when its stated purpose and ecosystem fit your project. Compare it with related tools, verify the current documentation, and test the smallest realistic use case before committing.</p>\n<h2>Try it safely</h2>\n<div class=\"code-block\"><code>npm install tsup</code></div>\n<p>Use the <a href=\"https://www.npmjs.com/package/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official npm package page</a> to confirm the current version, documentation, dependencies, provenance, and compatibility requirements before installing it in an important project.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">📦 13.0M</span><span class=\"stat-label\">Weekly NPM Downloads</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">NPM</span><span class=\"stat-label\">Package Registry</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">⭐ 11.3k</span><span class=\"stat-label\">Linked GitHub Stars (total)</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">🔀 275</span><span class=\"stat-label\">Linked GitHub Forks (total)</span></div>\n</div>\n<p>Weekly downloads measure registry requests, including automated installs. They are not GitHub star growth and do not represent unique users.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-10-31. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Node.js engine:</strong> ^22.18.0 || ^24.11.0 || &gt;=26.0.0\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Official package summary:</strong> Bundle your TypeScript library with no config, powered by esbuild\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Maintainers listed:</strong> 2\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Registry modified:</strong> 2026-10-14\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Direct dependencies:</strong> 17\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>License:</strong> MIT\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Package:</strong> tsup\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Download window:</strong> 2026-10-23 to 2026-10-29\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Weekly downloads:</strong> 13.0M\n    — <a href=\"https://api.npmjs.org/downloads/point/last-week/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version:</strong> 9.0.0\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Latest version published:</strong> 2026-10-14\n    — <a href=\"https://registry.npmjs.org/tsup\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-10-31 from public NPM package records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
   "evidence": {
     "sourceId": "npm-tsup",
-    "fetchedAt": "2026-10-13T10:44:53.848Z",
+    "fetchedAt": "2026-10-31T09:46:01.836Z",
     "score": 100,
     "officialUrls": [
       "https://www.npmjs.com/package/tsup",
@@ -47,79 +47,79 @@
     "items": [
       {
         "label": "Node.js engine",
-        "value": ">=18",
+        "value": "^22.18.0 || ^24.11.0 || >=26.0.0",
         "url": "https://registry.npmjs.org/tsup",
-        "observedAt": "2026-10-13T10:44:53.848Z",
+        "observedAt": "2026-10-31T09:46:01.836Z",
         "kind": "compatibility"
       },
       {
         "label": "Official package summary",
         "value": "Bundle your TypeScript library with no config, powered by esbuild",
         "url": "https://registry.npmjs.org/tsup",
-        "observedAt": "2026-10-13T10:44:53.848Z",
+        "observedAt": "2026-10-31T09:46:01.836Z",
         "kind": "documentation"
       },
       {
         "label": "Maintainers listed",
         "value": "2",
         "url": "https://registry.npmjs.org/tsup",
-        "observedAt": "2026-10-13T10:44:53.848Z",
+        "observedAt": "2026-10-31T09:46:01.836Z",
         "kind": "maintenance"
       },
       {
         "label": "Registry modified",
-        "value": "2025-11-12T21:21:43.186Z",
+        "value": "2026-10-14T13:47:00.685Z",
         "url": "https://registry.npmjs.org/tsup",
-        "observedAt": "2026-10-13T10:44:53.848Z",
+        "observedAt": "2026-10-31T09:46:01.836Z",
         "kind": "maintenance"
       },
       {
         "label": "Direct dependencies",
         "value": "17",
         "url": "https://registry.npmjs.org/tsup",
-        "observedAt": "2026-10-13T10:44:53.848Z",
+        "observedAt": "2026-10-31T09:46:01.836Z",
         "kind": "package-metadata"
       },
       {
         "label": "License",
         "value": "MIT",
         "url": "https://registry.npmjs.org/tsup",
-        "observedAt": "2026-10-13T10:44:53.848Z",
+        "observedAt": "2026-10-31T09:46:01.836Z",
         "kind": "package-metadata"
       },
       {
         "label": "Package",
         "value": "tsup",
         "url": "https://registry.npmjs.org/tsup",
-        "observedAt": "2026-10-13T10:44:53.848Z",
+        "observedAt": "2026-10-31T09:46:01.836Z",
         "kind": "registry"
       },
       {
         "label": "Download window",
-        "value": "2026-10-05 to 2026-10-11",
+        "value": "2026-10-23 to 2026-10-29",
         "url": "https://api.npmjs.org/downloads/point/last-week/tsup",
-        "observedAt": "2026-10-13T10:44:53.848Z",
+        "observedAt": "2026-10-31T09:46:01.836Z",
         "kind": "registry-metric"
       },
       {
         "label": "Weekly downloads",
-        "value": "9496888",
+        "value": "13024084",
         "url": "https://api.npmjs.org/downloads/point/last-week/tsup",
-        "observedAt": "2026-10-13T10:44:53.848Z",
+        "observedAt": "2026-10-31T09:46:01.836Z",
         "kind": "registry-metric"
       },
       {
         "label": "Latest version",
-        "value": "8.5.1",
+        "value": "9.0.0",
         "url": "https://registry.npmjs.org/tsup",
-        "observedAt": "2026-10-13T10:44:53.848Z",
+        "observedAt": "2026-10-31T09:46:01.836Z",
         "kind": "release"
       },
       {
         "label": "Latest version published",
-        "value": "2025-11-12T21:21:42.746Z",
+        "value": "2026-10-14T13:47:00.379Z",
         "url": "https://registry.npmjs.org/tsup",
-        "observedAt": "2026-10-13T10:44:53.848Z",
+        "observedAt": "2026-10-31T09:46:01.836Z",
         "kind": "release"
       }
     ],
@@ -132,61 +132,61 @@
     "qualityScore": 92,
     "claims": [
       {
-        "text": "Node.js engine: >=18 (observed 2026-10-13)",
+        "text": "Node.js engine: ^22.18.0 || ^24.11.0 || >=26.0.0 (observed 2026-10-31)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tsup"
         ]
       },
       {
-        "text": "Official package summary: Bundle your TypeScript library with no config, powered by esbuild (observed 2026-10-13)",
+        "text": "Official package summary: Bundle your TypeScript library with no config, powered by esbuild (observed 2026-10-31)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tsup"
         ]
       },
       {
-        "text": "Maintainers listed: 2 (observed 2026-10-13)",
+        "text": "Maintainers listed: 2 (observed 2026-10-31)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tsup"
         ]
       },
       {
-        "text": "Registry modified: 2025-11-12T21:21:43.186Z (observed 2026-10-13)",
+        "text": "Registry modified: 2026-10-14T13:47:00.685Z (observed 2026-10-31)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tsup"
         ]
       },
       {
-        "text": "Direct dependencies: 17 (observed 2026-10-13)",
+        "text": "Direct dependencies: 17 (observed 2026-10-31)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tsup"
         ]
       },
       {
-        "text": "License: MIT (observed 2026-10-13)",
+        "text": "License: MIT (observed 2026-10-31)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tsup"
         ]
       },
       {
-        "text": "Package: tsup (observed 2026-10-13)",
+        "text": "Package: tsup (observed 2026-10-31)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tsup"
         ]
       },
       {
-        "text": "Download window: 2026-10-05 to 2026-10-11 (observed 2026-10-13)",
+        "text": "Download window: 2026-10-23 to 2026-10-29 (observed 2026-10-31)",
         "evidenceUrls": [
           "https://api.npmjs.org/downloads/point/last-week/tsup"
         ]
       },
       {
-        "text": "Weekly downloads: 9496888 (observed 2026-10-13)",
+        "text": "Weekly downloads: 13024084 (observed 2026-10-31)",
         "evidenceUrls": [
           "https://api.npmjs.org/downloads/point/last-week/tsup"
         ]
       },
       {
-        "text": "Latest version: 8.5.1 (observed 2026-10-13)",
+        "text": "Latest version: 9.0.0 (observed 2026-10-31)",
         "evidenceUrls": [
           "https://registry.npmjs.org/tsup"
         ]
@@ -195,9 +195,9 @@
     "review": {
       "status": "not-configured",
       "issues": [],
-      "reviewedAt": "2026-10-13T10:44:53.848Z"
+      "reviewedAt": "2026-10-31T09:46:01.836Z"
     },
-    "generatedAt": "2026-10-13T10:44:53.848Z"
+    "generatedAt": "2026-10-31T09:46:01.836Z"
   },
   "indexable": true
 }
