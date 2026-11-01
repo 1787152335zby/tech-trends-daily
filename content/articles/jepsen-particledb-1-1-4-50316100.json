@@ -1,0 +1,156 @@
+{
+  "slug": "jepsen-particledb-1-1-4-50316100",
+  "title": "Jepsen: ParticleDB 1.1.4: Context, Claims, and Sources",
+  "description": "Jepsen: ParticleDB 1.1.4 — https:&#x2F;&#x2F;github.com&#x2F;jepsen-io&#x2F;particledb Read the context, source, and verification questions.",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-11-01",
+  "updatedAt": "2026-11-01",
+  "sourceData": {
+    "id": "hn-50316100",
+    "name": "Jepsen: ParticleDB 1.1.4",
+    "fullName": "hn:jepsen-particledb-1-1-4",
+    "url": "https://jepsen.io/analyses/particledb-1.1.4",
+    "description": "Jepsen: ParticleDB 1.1.4",
+    "language": "Various",
+    "stars": 265,
+    "starsGrowth": 265,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-10-31T13:39:52.000Z",
+    "updatedAt": "2026-10-31T13:39:52.000Z",
+    "homepage": "https://jepsen.io/analyses/particledb-1.1.4",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "anthropic-blocks-users-for-anything-touching-training-larg-50319358",
+    "do-the-math-how-we-took-over-chatgpt-accounts-50314699",
+    "it-s-the-memory-latency-stupid-50318720",
+    "breaking-the-open-web-won-t-stop-the-bad-bots-50263837"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;jepsen-io&amp;#x2F;particledb</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 265 points, 154 comments, and published 2026-10-31.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Jepsen: ParticleDB 1.1.4 with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 265</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 154</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-11-01. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 154\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50316100.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 265\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50316100.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> aphyr\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50316100.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Discussion text:</strong> https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;jepsen-io&amp;#x2F;particledb\n    — <a href=\"https://news.ycombinator.com/item?id=50316100\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 50.3M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50316100.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-10-31\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50316100.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Jepsen: ParticleDB 1.1.4\n    — <a href=\"https://news.ycombinator.com/item?id=50316100\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-11-01 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-50316100",
+    "fetchedAt": "2026-11-01T10:37:02.329Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=50316100",
+      "https://hacker-news.firebaseio.com/v0/item/50316100.json",
+      "https://jepsen.io/analyses/particledb-1.1.4"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "154",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50316100.json",
+        "observedAt": "2026-11-01T10:37:02.329Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "265",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50316100.json",
+        "observedAt": "2026-11-01T10:37:02.329Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "aphyr",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50316100.json",
+        "observedAt": "2026-11-01T10:37:02.329Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Discussion text",
+        "value": "https:&#x2F;&#x2F;github.com&#x2F;jepsen-io&#x2F;particledb",
+        "url": "https://news.ycombinator.com/item?id=50316100",
+        "observedAt": "2026-11-01T10:37:02.329Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "50316100",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50316100.json",
+        "observedAt": "2026-11-01T10:37:02.329Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-10-31T13:39:52.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50316100.json",
+        "observedAt": "2026-11-01T10:37:02.329Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Jepsen: ParticleDB 1.1.4",
+        "url": "https://news.ycombinator.com/item?id=50316100",
+        "observedAt": "2026-11-01T10:37:02.329Z",
+        "kind": "discussion"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 154 (observed 2026-11-01)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50316100.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 265 (observed 2026-11-01)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50316100.json"
+        ]
+      },
+      {
+        "text": "Author: aphyr (observed 2026-11-01)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50316100.json"
+        ]
+      },
+      {
+        "text": "Discussion text: https:&#x2F;&#x2F;github.com&#x2F;jepsen-io&#x2F;particledb (observed 2026-11-01)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=50316100"
+        ]
+      },
+      {
+        "text": "Hacker News item: 50316100 (observed 2026-11-01)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50316100.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-10-31T13:39:52.000Z (observed 2026-11-01)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50316100.json"
+        ]
+      },
+      {
+        "text": "Story title: Jepsen: ParticleDB 1.1.4 (observed 2026-11-01)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=50316100"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-11-01T10:37:02.329Z"
+    },
+    "generatedAt": "2026-11-01T10:37:02.329Z"
+  },
+  "indexable": true
+}
