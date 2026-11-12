@@ -1,0 +1,156 @@
+{
+  "slug": "93-of-paint-splatters-are-valid-perl-programs-2019-50459745",
+  "title": "93% of paint splatters are valid Perl programs (2019): Context, Claims, and Sources",
+  "description": "93% of paint splatters are valid Perl programs (2019) — TLDR: read the paper and view the gallery of pretty Perl programs. In this paper, we aim to answer a long-stand… Read the context, source, and verification questio…",
+  "category": "tools",
+  "type": "trend",
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "sourceData": {
+    "id": "hn-50459745",
+    "name": "93% of paint splatters are valid Perl programs (2019)",
+    "fullName": "hn:93-of-paint-splatters-are-valid-perl-programs-2019",
+    "url": "https://www.mcmillen.dev/sigbovik/",
+    "description": "93% of paint splatters are valid Perl programs (2019)",
+    "language": "Various",
+    "stars": 454,
+    "starsGrowth": 454,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-11-11T22:34:23.000Z",
+    "updatedAt": "2026-11-11T22:34:23.000Z",
+    "homepage": "https://www.mcmillen.dev/sigbovik/",
+    "source": "hackernews",
+    "category": "tools"
+  },
+  "relatedSlugs": [
+    "glp-1s-are-being-linked-to-fewer-serious-infections-includ-49558086",
+    "ms-paint-and-photos-inivisibly-watermark-even-locally-gene-49421158",
+    "tim-peters-has-died-50450488",
+    "greg-kurtzer-s-ginux-is-now-a-userspace-kernel-50450007"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>TLDR: read the paper and view the gallery of pretty Perl programs. In this paper, we aim to answer a long-standing open problem in the programming languages community: is it possible to smear paint on the wall without creating valid Perl?</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 454 points, 58 comments, and published 2026-11-11.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing 93% of paint splatters are valid Perl programs (2019) with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 454</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 58</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-11-12. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 58\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50459745.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 454\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50459745.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> zenincognito\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50459745.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 50.5M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50459745.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-11-11\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50459745.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> 93% of paint splatters are valid Perl programs (2019)\n    — <a href=\"https://news.ycombinator.com/item?id=50459745\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> TLDR: read the paper and view the gallery of pretty Perl programs. In this paper, we aim to answer a long-standing open problem in the programming languages community: is it possible to smear paint on the wall without creating valid Perl?\n    — <a href=\"https://www.mcmillen.dev/sigbovik/\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-11-12 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-50459745",
+    "fetchedAt": "2026-11-12T11:27:34.560Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=50459745",
+      "https://hacker-news.firebaseio.com/v0/item/50459745.json",
+      "https://www.mcmillen.dev/sigbovik/"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "58",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50459745.json",
+        "observedAt": "2026-11-12T11:27:34.560Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "454",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50459745.json",
+        "observedAt": "2026-11-12T11:27:34.560Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "zenincognito",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50459745.json",
+        "observedAt": "2026-11-12T11:27:34.560Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "50459745",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50459745.json",
+        "observedAt": "2026-11-12T11:27:34.560Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-11-11T22:34:23.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50459745.json",
+        "observedAt": "2026-11-12T11:27:34.560Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "93% of paint splatters are valid Perl programs (2019)",
+        "url": "https://news.ycombinator.com/item?id=50459745",
+        "observedAt": "2026-11-12T11:27:34.560Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "TLDR: read the paper and view the gallery of pretty Perl programs. In this paper, we aim to answer a long-standing open problem in the programming languages community: is it possible to smear paint on the wall without creating valid Perl?",
+        "url": "https://www.mcmillen.dev/sigbovik/",
+        "observedAt": "2026-11-12T11:27:34.560Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 58 (observed 2026-11-12)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50459745.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 454 (observed 2026-11-12)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50459745.json"
+        ]
+      },
+      {
+        "text": "Author: zenincognito (observed 2026-11-12)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50459745.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 50459745 (observed 2026-11-12)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50459745.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-11-11T22:34:23.000Z (observed 2026-11-12)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50459745.json"
+        ]
+      },
+      {
+        "text": "Story title: 93% of paint splatters are valid Perl programs (2019) (observed 2026-11-12)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=50459745"
+        ]
+      },
+      {
+        "text": "Original source summary: TLDR: read the paper and view the gallery of pretty Perl programs. In this paper, we aim to answer a long-standing open problem in the programming languages community: is it possible to smear paint on the wall without creating valid Perl? (observed 2026-11-12)",
+        "evidenceUrls": [
+          "https://www.mcmillen.dev/sigbovik/"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-11-12T11:27:34.560Z"
+    },
+    "generatedAt": "2026-11-12T11:27:34.560Z"
+  },
+  "indexable": true
+}
