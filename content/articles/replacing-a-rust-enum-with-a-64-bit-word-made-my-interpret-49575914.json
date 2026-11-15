@@ -26,8 +26,8 @@
     "category": "language"
   },
   "relatedSlugs": [
+    "memory-safety-bugs-in-rust-standard-library-50478701",
     "rust-1-100-50472038",
-    "ketchup-open-source-sketchup-alternative-built-with-rust-a-50418176",
     "nvidia-announces-native-gpu-programming-in-rust-49724881",
     "gpu-offload-in-rust-portable-safe-and-fast-49334991"
   ],

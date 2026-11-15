@@ -1,0 +1,156 @@
+{
+  "slug": "kiri-the-modern-container-runtime-50504077",
+  "title": "Kiri – The Modern Container Runtime: Context, Claims, and Sources",
+  "description": "Kiri – The Modern Container Runtime — Kiri is a fast, free container runtime and Docker Desktop alternative for Mac, Windows and Linux: one small Rus… Read the context, source, and verification questions.",
+  "category": "language",
+  "type": "trend",
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "sourceData": {
+    "id": "hn-50504077",
+    "name": "Kiri – The Modern Container Runtime",
+    "fullName": "hn:kiri-the-modern-container-runtime",
+    "url": "https://runkiri.com/",
+    "description": "Kiri – The Modern Container Runtime",
+    "language": "Various",
+    "stars": 58,
+    "starsGrowth": 58,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-11-15T04:40:41.000Z",
+    "updatedAt": "2026-11-15T04:40:41.000Z",
+    "homepage": "https://runkiri.com/",
+    "source": "hackernews",
+    "category": "language"
+  },
+  "relatedSlugs": [
+    "show-hn-gawain-require-type-hints-on-all-python-variables-50504072",
+    "memory-safety-bugs-in-rust-standard-library-50478701",
+    "rust-1-100-50472038",
+    "i-built-a-programming-language-that-llms-can-t-use-50135762"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>Kiri is a fast, free container runtime and Docker Desktop alternative for Mac, Windows and Linux: one small Rust daemon, docker run in 22 ms on a Mac, works with the docker CLI and Compose.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 58 points, 26 comments, and published 2026-11-15.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Identify the author's central claim, then look for primary documents, reproducible evidence, corrections, and important missing context.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Kiri – The Modern Container Runtime with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 58</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 26</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-11-15. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 26\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50504077.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 58\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50504077.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> nikolay\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50504077.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 50.5M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50504077.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-11-15\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50504077.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Kiri – The Modern Container Runtime\n    — <a href=\"https://news.ycombinator.com/item?id=50504077\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> Kiri is a fast, free container runtime and Docker Desktop alternative for Mac, Windows and Linux: one small Rust daemon, docker run in 22 ms on a Mac, works with the docker CLI and Compose.\n    — <a href=\"https://runkiri.com/\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-11-15 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-50504077",
+    "fetchedAt": "2026-11-15T11:08:15.762Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=50504077",
+      "https://hacker-news.firebaseio.com/v0/item/50504077.json",
+      "https://runkiri.com/"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "26",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50504077.json",
+        "observedAt": "2026-11-15T11:08:15.762Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "58",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50504077.json",
+        "observedAt": "2026-11-15T11:08:15.762Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "nikolay",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50504077.json",
+        "observedAt": "2026-11-15T11:08:15.762Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "50504077",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50504077.json",
+        "observedAt": "2026-11-15T11:08:15.762Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-11-15T04:40:41.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50504077.json",
+        "observedAt": "2026-11-15T11:08:15.762Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Kiri – The Modern Container Runtime",
+        "url": "https://news.ycombinator.com/item?id=50504077",
+        "observedAt": "2026-11-15T11:08:15.762Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "Kiri is a fast, free container runtime and Docker Desktop alternative for Mac, Windows and Linux: one small Rust daemon, docker run in 22 ms on a Mac, works with the docker CLI and Compose.",
+        "url": "https://runkiri.com/",
+        "observedAt": "2026-11-15T11:08:15.762Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 26 (observed 2026-11-15)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50504077.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 58 (observed 2026-11-15)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50504077.json"
+        ]
+      },
+      {
+        "text": "Author: nikolay (observed 2026-11-15)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50504077.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 50504077 (observed 2026-11-15)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50504077.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-11-15T04:40:41.000Z (observed 2026-11-15)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50504077.json"
+        ]
+      },
+      {
+        "text": "Story title: Kiri – The Modern Container Runtime (observed 2026-11-15)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=50504077"
+        ]
+      },
+      {
+        "text": "Original source summary: Kiri is a fast, free container runtime and Docker Desktop alternative for Mac, Windows and Linux: one small Rust daemon, docker run in 22 ms on a Mac, works with the docker CLI and Compose. (observed 2026-11-15)",
+        "evidenceUrls": [
+          "https://runkiri.com/"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-11-15T11:08:15.762Z"
+    },
+    "generatedAt": "2026-11-15T11:08:15.762Z"
+  },
+  "indexable": true
+}
