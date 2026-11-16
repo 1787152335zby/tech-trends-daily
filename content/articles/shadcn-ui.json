@@ -34,7 +34,7 @@
     "preact",
     "storybook",
     "solid-js",
-    "lucide-react"
+    "vue"
   ],
   "tags": [
     "components",

@@ -27,8 +27,8 @@
   },
   "relatedSlugs": [
     "show-hn-gawain-require-type-hints-on-all-python-variables-50504072",
-    "memory-safety-bugs-in-rust-standard-library-50478701",
     "kiri-the-modern-container-runtime-50504077",
+    "memory-safety-bugs-in-rust-standard-library-50478701",
     "rust-1-100-50472038"
   ],
   "tags": [],
