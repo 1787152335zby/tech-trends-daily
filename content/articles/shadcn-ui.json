@@ -31,10 +31,10 @@
     "category": "frontend"
   },
   "relatedSlugs": [
+    "solid-js",
     "preact",
     "storybook",
-    "solid-js",
-    "vue"
+    "lucide-react"
   ],
   "tags": [
     "components",
