@@ -1,0 +1,156 @@
+{
+  "slug": "weight-space-programming-builds-neural-networks-like-a-199-50538977",
+  "title": "Weight-Space Programming builds neural networks like a 1990s researcher: Context, Claims, and Sources",
+  "description": "Weight-Space Programming builds neural networks like a 1990s researcher — The writing aspect of WSP turns out to be quite a history lesson. Read the context, source, and verification questions.",
+  "category": "ai-ml",
+  "type": "trend",
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "sourceData": {
+    "id": "hn-50538977",
+    "name": "Weight-Space Programming builds neural networks like a 1990s researcher",
+    "fullName": "hn:weight-space-programming-builds-neural-networks-like-a-1990s-researcher",
+    "url": "https://notesbylex.com/weight-space-programming-1990s",
+    "description": "Weight-Space Programming builds neural networks like a 1990s researcher",
+    "language": "Various",
+    "stars": 103,
+    "starsGrowth": 103,
+    "forks": 0,
+    "openIssues": 0,
+    "topics": [],
+    "license": "N/A",
+    "createdAt": "2026-11-17T22:11:46.000Z",
+    "updatedAt": "2026-11-17T22:11:46.000Z",
+    "homepage": "https://notesbylex.com/weight-space-programming-1990s",
+    "source": "hackernews",
+    "category": "ai-ml"
+  },
+  "relatedSlugs": [
+    "show-hn-a-competition-for-small-neural-networks-that-play-49776523",
+    "neural-chip-decodes-interactions-between-brain-regions-50222525",
+    "hybrid-reasoning-agents-llm-agents-that-think-in-latent-sp-50145337",
+    "evolving-programming-languages-in-the-ai-era-49839567"
+  ],
+  "tags": [],
+  "bodyHtml": "<p class=\"article-dek\"><strong>A concise reading guide to the original source, the discussion's attention signal, and the claims that still need verification.</strong></p>\n<h2>The short version</h2>\n<p>The writing aspect of WSP turns out to be quite a history lesson.</p>\n<h2>Why it drew attention</h2>\n<p>The collected source record shows 103 points, 8 comments, and published 2026-11-17.</p>\n<p>Points and comments measure interest at one moment; they do not verify the linked article or settle the debate.</p>\n<h2>What to question</h2>\n<p>Check whether model, dataset, benchmark, cost, and deployment claims link to primary documentation or reproducible results.</p>\n<p>Distinguish statements in the original article from interpretations added in the comment thread.</p>\n<h2>Read it in this order</h2>\n<p>Open the linked source first and note its evidence. Then read the Hacker News comments for counterexamples, corrections, and additional references. Recheck any important conclusion against a primary source.</p>\n<h2>Bottom line</h2>\n<p>This discussion is useful as a map of questions and reactions, not as independent proof. The most reliable takeaway comes from comparing Weight-Space Programming builds neural networks like a 1990s researcher with the primary evidence it cites.</p>\n<h2>Read the original discussion</h2>\n<p>Open the original source, look for primary evidence, and consider corrections or later developments. Community voting provides context but does not verify a story's claims.</p>\n<h2>At a glance</h2>\n<div class=\"stats-box\">\n  <div class=\"stat\"><span class=\"stat-value\">▲ 103</span><span class=\"stat-label\">Hacker News Points</span></div>\n  <div class=\"stat\"><span class=\"stat-value\">💬 8</span><span class=\"stat-label\">Comments at collection</span></div>\n</div>\n<p>Hacker News points are a time-specific attention signal, not a software adoption metric.</p>\n<h2>Sources and methodology</h2>\n<p>This guide uses public records collected on 2026-11-20. Source completeness is <strong>High</strong>; this label is not a product rating.</p>\n<details class=\"evidence-details\">\n<summary>View the supporting source data</summary>\n<ul>\n  <li>\n    <strong>Comments at collection:</strong> 8\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50538977.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Points at collection:</strong> 103\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50538977.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Author:</strong> lexandstuff\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50538977.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Hacker News item:</strong> 50.5M\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50538977.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Published:</strong> 2026-11-17\n    — <a href=\"https://hacker-news.firebaseio.com/v0/item/50538977.json\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Story title:</strong> Weight-Space Programming builds neural networks like a 1990s researcher\n    — <a href=\"https://news.ycombinator.com/item?id=50538977\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n  <li>\n    <strong>Original source summary:</strong> The writing aspect of WSP turns out to be quite a history lesson.\n    — <a href=\"https://notesbylex.com/weight-space-programming-1990s\" rel=\"nofollow noopener\" target=\"_blank\">official record</a>\n  </li>\n</ul>\n<h3>Evidence limitations</h3>\n<ul>\n  <li>Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.</li>\n  <li>Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed.</li>\n</ul>\n</details>\n<p><em>Data note:</em> This automated workflow updated the guide on 2026-11-20 from public Hacker News story records. Metrics can change after collection. No independent product testing or endorsement is claimed.</p>",
+  "evidence": {
+    "sourceId": "hn-50538977",
+    "fetchedAt": "2026-11-20T11:51:36.231Z",
+    "score": 100,
+    "officialUrls": [
+      "https://news.ycombinator.com/item?id=50538977",
+      "https://hacker-news.firebaseio.com/v0/item/50538977.json",
+      "https://notesbylex.com/weight-space-programming-1990s"
+    ],
+    "items": [
+      {
+        "label": "Comments at collection",
+        "value": "8",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50538977.json",
+        "observedAt": "2026-11-20T11:51:36.231Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Points at collection",
+        "value": "103",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50538977.json",
+        "observedAt": "2026-11-20T11:51:36.231Z",
+        "kind": "attention-metric"
+      },
+      {
+        "label": "Author",
+        "value": "lexandstuff",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50538977.json",
+        "observedAt": "2026-11-20T11:51:36.231Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Hacker News item",
+        "value": "50538977",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50538977.json",
+        "observedAt": "2026-11-20T11:51:36.231Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Published",
+        "value": "2026-11-17T22:11:46.000Z",
+        "url": "https://hacker-news.firebaseio.com/v0/item/50538977.json",
+        "observedAt": "2026-11-20T11:51:36.231Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Story title",
+        "value": "Weight-Space Programming builds neural networks like a 1990s researcher",
+        "url": "https://news.ycombinator.com/item?id=50538977",
+        "observedAt": "2026-11-20T11:51:36.231Z",
+        "kind": "discussion"
+      },
+      {
+        "label": "Original source summary",
+        "value": "The writing aspect of WSP turns out to be quite a history lesson.",
+        "url": "https://notesbylex.com/weight-space-programming-1990s",
+        "observedAt": "2026-11-20T11:51:36.231Z",
+        "kind": "documentation"
+      }
+    ],
+    "warnings": [
+      "Hacker News points and comments are time-specific attention signals, not independent verification of the linked claims.",
+      "Official metadata was collected as source evidence; no independent installation, benchmark, security audit, or practical product evaluation is claimed."
+    ]
+  },
+  "editorial": {
+    "mode": "deterministic",
+    "qualityScore": 92,
+    "claims": [
+      {
+        "text": "Comments at collection: 8 (observed 2026-11-20)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50538977.json"
+        ]
+      },
+      {
+        "text": "Points at collection: 103 (observed 2026-11-20)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50538977.json"
+        ]
+      },
+      {
+        "text": "Author: lexandstuff (observed 2026-11-20)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50538977.json"
+        ]
+      },
+      {
+        "text": "Hacker News item: 50538977 (observed 2026-11-20)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50538977.json"
+        ]
+      },
+      {
+        "text": "Published: 2026-11-17T22:11:46.000Z (observed 2026-11-20)",
+        "evidenceUrls": [
+          "https://hacker-news.firebaseio.com/v0/item/50538977.json"
+        ]
+      },
+      {
+        "text": "Story title: Weight-Space Programming builds neural networks like a 1990s researcher (observed 2026-11-20)",
+        "evidenceUrls": [
+          "https://news.ycombinator.com/item?id=50538977"
+        ]
+      },
+      {
+        "text": "Original source summary: The writing aspect of WSP turns out to be quite a history lesson. (observed 2026-11-20)",
+        "evidenceUrls": [
+          "https://notesbylex.com/weight-space-programming-1990s"
+        ]
+      }
+    ],
+    "review": {
+      "status": "not-configured",
+      "issues": [],
+      "reviewedAt": "2026-11-20T11:51:36.231Z"
+    },
+    "generatedAt": "2026-11-20T11:51:36.231Z"
+  },
+  "indexable": true
+}
