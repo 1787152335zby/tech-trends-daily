@@ -34,7 +34,7 @@
     "solid-js",
     "preact",
     "storybook",
-    "zustand"
+    "vue"
   ],
   "tags": [
     "components",
