@@ -34,10 +34,10 @@
     "category": "backend"
   },
   "relatedSlugs": [
+    "convex-skills-send-the-user-s-app-idea-to-a-remote-server-50669765",
     "the-backend-that-ran-every-game-we-made-ten-years-and-coun-49799702",
     "tailscale-traces-database-corruption-to-16y-o-sqlite-wal-r-49272832",
-    "steelbrain-metal2vulkan",
-    "shiroryu9-community-ops-kit"
+    "steelbrain-metal2vulkan"
   ],
   "tags": [
     "bytecode-instrumentation",
